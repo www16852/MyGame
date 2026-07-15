@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>最新情報 · 我的遊戲情報站</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <div class="logo">🎮 我的遊戲情報站<span class="dot">.</span></div>
+      <nav>
+        <a href="index.html"    data-page="news">最新情報</a>
+        <a href="timeline.html" data-page="timeline">時間軸</a>
+        <a href="games.html"    data-page="games">遊戲導覽</a>
+        <a href="discover.html" data-page="discover">新品推薦</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <h1>最新情報</h1>
+      <p>我關注的遊戲最新動態，最新的排在最前面。</p>
+      <div class="updated" data-updated></div>
+    </div>
+    <div id="news"></div>
+  </main>
+
+  <footer>由 games.txt 驅動 · 想更新請讓 AI 讀取 UPDATE_PROMPT.md</footer>
+
+  <script src="data/games.js"></script>
+  <script src="assets/app.js"></script>
+  <script>markActiveNav("news"); renderNews();</script>
+</body>
+</html>
