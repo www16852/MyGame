@@ -95,8 +95,25 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 28px 20px 80px; }
 .badge.announcement { background: rgba(199,146,234,.16); color: var(--news); }
 
 /* ── Timeline ───────────────────────────────── */
-.tl-month { margin: 30px 0 12px; font-size: 1.05rem; color: var(--accent-2); font-weight: 700; }
+.tl-month { margin: 30px 0 12px; font-size: 1.05rem; color: var(--text-dim); font-weight: 700; }
 .tl-month:first-child { margin-top: 0; }
+.tl-month.current { color: var(--accent); }
+
+/* 「現在」分隔線 */
+.tl-now {
+  display: flex; align-items: center; gap: 10px;
+  margin: 14px 0 14px; padding: 2px 0;
+  color: var(--accent-2); font-weight: 800; font-size: .95rem;
+  scroll-margin-top: 80px;
+}
+.tl-now::after { content: ""; flex: 1; height: 2px; border-radius: 2px;
+  background: linear-gradient(90deg, var(--accent-2), transparent); }
+.tl-now-dot { width: 11px; height: 11px; border-radius: 50%; background: var(--accent-2);
+  box-shadow: 0 0 0 4px rgba(0,210,194,.18); flex: none; }
+
+/* 已過去的事件淡化 */
+.tl-item.past { opacity: .5; }
+.tl-item.past:hover { opacity: .85; }
 .tl-item {
   display: grid;
   grid-template-columns: 110px 1fr;

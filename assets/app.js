@@ -54,17 +54,31 @@ function renderTimeline() {
 
   if (!items.length) { root.innerHTML = `<p class="empty">目前沒有時程資料。</p>`; return; }
 
-  let html = "", lastMonth = "";
-  items.forEach(({ game, ev }) => {
+  // 今天（本機時間）
+  const now = new Date();
+  const pad = n => String(n).padStart(2, "0");
+  const todayStr   = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+  const todayMonth = todayStr.slice(0, 7);
+  const todayLabel = `${now.getFullYear()}/${pad(now.getMonth() + 1)}/${pad(now.getDate())}`;
+
+  // 「現在」標記插在第一筆「今天(含)之後」的事件之前；若全部都在過去，放最後
+  const nowIndex = items.findIndex(it => (it.ev.sort || "9999-12-31") >= todayStr);
+  const nowMarker = `<div class="tl-now" id="tl-now"><span class="tl-now-dot"></span>現在 · ${todayLabel}</div>`;
+
+  let html = "", lastMonth = "", nowPlaced = false;
+  items.forEach(({ game, ev }, i) => {
     const month = (ev.sort || "9999-12").slice(0, 7);
     const monthLabel = month === "9999-12" ? "尚未定檔 (TBA)"
       : `${month.slice(0,4)} 年 ${parseInt(month.slice(5,7),10)} 月`;
     if (month !== lastMonth) {
-      html += `<div class="tl-month">${monthLabel}</div>`;
+      const cur = month === todayMonth ? " current" : "";
+      html += `<div class="tl-month${cur}">${monthLabel}</div>`;
       lastMonth = month;
     }
+    if (!nowPlaced && i === nowIndex) { html += nowMarker; nowPlaced = true; }
+    const past = (ev.sort || "9999-12-31") < todayStr;
     html += `
-      <div class="tl-item">
+      <div class="tl-item${past ? " past" : ""}">
         <div class="tl-date">${escapeHtml(ev.date)}<br>${typeBadge(ev.type)}</div>
         <div class="tl-body">
           <div class="tl-title">${escapeHtml(game.name)}</div>
@@ -73,7 +87,17 @@ function renderTimeline() {
         </div>
       </div>`;
   });
+  if (!nowPlaced) html += nowMarker;  // 全部都在過去 → 標記放最後
   root.innerHTML = html;
+
+  // 一進頁面自動捲到「現在」位置（扣掉 sticky header 高度）
+  const target = document.getElementById("tl-now");
+  if (target) {
+    setTimeout(() => {
+      const y = target.getBoundingClientRect().top + window.pageYOffset - 80;
+      window.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
+    }, 60);
+  }
 }
 
 /* ── 遊戲導覽頁 ───────────────────────────── */

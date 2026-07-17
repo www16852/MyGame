@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-07-15",
+  lastUpdated: "2026-07-17",
 
   games: [
     {
@@ -88,7 +88,9 @@ window.GAMES_DATA = {
       events: [
         { type: "beta", date: "2026年6月5日 ~ 6月8日", sort: "2026-06-05", note: "封閉測試（Closed Beta），同步開放主機版預購" },
         { type: "demo", date: "2026年6月15日起開放", sort: "2026-06-15", note: "配合 Steam 新品節（Steam Next Fest）釋出免費 PC 試玩版，支援最多 4 人線上合作；Next Fest（6/15~6/22）結束後開發商宣布無限期持續開放；截至 7 月上旬累積逾 45 萬次下載、30 萬名玩家完成超過百萬次探索" },
-        { type: "release", date: "2026年7月15日", sort: "2026-07-15", note: "PC（Steam / Epic Games Store）/ PS5 / Xbox Series 正式上市，台灣時間 7月15日 16:00（PDT 01:00）同步解鎖，支援跨平台連線；標準版 $29.99、豪華版 $39.99（含 2 位額外可玩角色、獨家「Temple of Yig」任務及原聲帶，僅主機擁有即可讓全隊享用）；Steam 願望清單於 7月13日提前突破第三里程碑 80 萬，上市當日全員自動享 20% 折扣（標準版約 $23.99、豪華版約 $31.99）；主機版預購享 10% 折扣；裝飾武器包「Lost Explorers' Swords Pack」上市首兩週向全體玩家免費開放（需手動至 Steam 商店頁領取）" }
+        { type: "release", date: "2026年7月15日", sort: "2026-07-15", note: "PC（Steam / Epic Games Store）/ PS5 / Xbox Series 正式上市，台灣時間 7月15日 16:00（PDT 01:00）同步解鎖，支援跨平台連線；標準版 $29.99、豪華版 $39.99（含 2 位額外可玩角色、獨家「Temple of Yig」任務及原聲帶，僅主機擁有即可讓全隊享用）；Steam 願望清單於 7月13日提前突破第三里程碑 80 萬，上市當日全員自動享 20% 折扣（標準版約 $23.99、豪華版約 $31.99）；主機版預購享 10% 折扣；裝飾武器包「Lost Explorers' Swords Pack」上市首兩週向全體玩家免費開放（需手動至 Steam 商店頁領取）" },
+        { type: "announcement", date: "2026年7月15日（上市首日）", sort: "2026-07-15", note: "首日 Patch 上線：主船新增武器升級鑄造台（Weapon Upgrade Anvil）、追加即時語音推撥通話（Push-to-Talk）、移除強制任務結束計時器（玩家可自行決定何時撤離）、木筏手記旁白附加手繪插圖、新增戰鬥機制教學圖鑑頁、調整高階任務難度平衡、動暈輔助中心點與 FOV 滑桿（75~125）；已知問題：跨平台直接邀請功能異常，目前官方暫行對策為透過伺服器清單找到房主（修復日期未定）；媒體評測出爐：Metacritic 69（14 篇，褒貶不一）、OpenCritic 72（Fair 評級），多數評測肯定理智崩潰機制與合作深度，惟指出難度平衡與火槍手感仍有改善空間" },
+        { type: "announcement", date: "2026年7月（上市後）", sort: "2026-07-17", note: "開發商公布上市後更新路線圖：Q3 2026 聚焦 UE5 效能優化（減少 shader 卡頓）與理智崩潰事件擴充；秋季版本計劃推出沼澤地形、大型廢墟等新環境，及守點、追蹤超自然目標、心理攻擊生存等多樣任務類型；冬季版本引入 Sanity Anchor（穩定隊友理智）與 Vanguard Scout（機動偵察）兩個專精角色職能，以及歷史武器客製化系統；跨平台全球社群里程碑活動（達標解鎖限定外觀與世界觀故事）亦在規劃中" }
       ]
     },
     {
@@ -138,6 +140,24 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-07-16",
+      gameId: "themound",
+      title: "《The Mound》確認跨平台直接邀請異常，Push-to-Talk 與計時器移除同步上線",
+      body: "ACE Team 確認上市首日已知問題：跨平台直接邀請（Cross-play Invite）功能異常，目前官方暫行對策為由房主開房後，讓其他平台玩家透過線上伺服器清單搜尋加入，修復更新日期尚未公布。首日 Patch 另同步加入推撥語音通話（Push-to-Talk）以及移除強制任務結束計時器，隊伍現在可自行選擇撤離時機或繼續留守搜刮。"
+    },
+    {
+      date: "2026-07-17",
+      gameId: "themound",
+      title: "《The Mound》公布上市後更新路線圖：秋季新環境、冬季新角色職能",
+      body: "ACE Team 宣布《The Mound: Omen of Cthulhu》上市後的長期更新計劃：Q3 2026 聚焦 UE5 效能優化與理智崩潰事件擴充；秋季版本預計加入沼澤地形、大型廢墟等新環境及守點、心理攻擊生存等多樣任務類型；冬季版本將引入 Sanity Anchor（穩定隊友理智）與 Vanguard Scout（機動偵察）兩種專精角色職能及歷史武器客製化系統，並規劃跨平台全球社群里程碑活動。"
+    },
+    {
+      date: "2026-07-16",
+      gameId: "themound",
+      title: "《The Mound》媒體評測出爐：Metacritic 69 / OpenCritic 72，首日 Patch 已上線",
+      body: "《The Mound: Omen of Cthulhu》上市後媒體評測陸續出爐，Metacritic 約 69 分、OpenCritic 72 分（14 篇，Fair 評級），整體反應褒貶不一。多數評測肯定理智崩潰（Madness）機制與 4 人合作深度，惟指出難度平衡與火槍手感仍需打磨。開發商同日推出首日 Patch，新增武器升級鑄造台（Weapon Upgrade Anvil）、木筏手記手繪插圖及戰鬥教學圖鑑頁，並調整高階任務難度。"
+    },
     {
       date: "2026-07-15",
       gameId: "themound",
@@ -324,8 +344,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年7月22日 搶先體驗（即將）",
       sort: "2026-07-22",
-      rating: "試玩版壓倒性好評 96%（968+ 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人連線合作；試玩版壓倒性好評 96%。EA 版確定 2026 年 7 月 22 日上線，同步加入 Xbox Game Pass，主機版亦預計 2026 年內推出，開發期預計 4~12 個月。",
+      rating: "試玩版壓倒性好評 96%（972+ 則）",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人連線合作；試玩版壓倒性好評 96%（972+ 則）。EA 版確定 2026 年 7 月 22 日上線，同步加入 Xbox Game Pass，主機版亦預計 2026 年內推出，開發期預計 4~12 個月。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
@@ -339,8 +359,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
-      rating: "壓倒性好評 92%（64,000+ 則）",
-      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。搶先體驗壓倒性好評；7 月更推出多人專屬新卡牌 patch 並大幅更新平衡，持續獲媒體好評。",
+      rating: "Steam 篩除評論轟炸後整體好評 92%（6.4 萬+ 則）；全評論共 219,000+ 則、未篩選終身好評率跌至約 66%；近 30 天負評超過 65%（約 8 萬則負評累計），Steam 已標記多輪評論轟炸期間並排除計分",
+      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。7 月推出 v0.108.0 Beta Patch，新增多人專用新牌（Midnight、The Ball 等）與 Custom Run 隨機按鈕等品質改善。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議、製作顧問場外政治爭議等），負評總計接近 8 萬則，整體未篩選好評率跌至約 66%；Steam 已將評論轟炸期間排除，篩選後顯示壓倒性好評 92%——遊戲本體品質仍受媒體及真實玩家高度肯定，購前建議留意爭議背景。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
     {
@@ -354,8 +374,8 @@ window.GAMES_DATA = {
       playerCount: "單人 / 最多 4 人合作",
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
-      rating: "特別好評 91%（122,000+ 則）",
-      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量，7月8日推出「Adaptive Measures」大更新，新增 Biolab 探索、Biomod 槽位擴充及逾百項修正。可加入 Xbox Game Pass 遊玩。",
+      rating: "特別好評 93%（123,000+ 則）",
+      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；下一大更新「1.2」為合作導向版本，已確認加入近距語音聊天（Proximity Chat）、死亡復活系統、HUD 界面調整與聚落建造工具（Habitat Builder），預計 Q3 2026 發布（無精確日期）。近 30 天評價仍達 90% 好評，口碑持續穩健。可加入 Xbox Game Pass 遊玩。",
       links: { steam: "https://store.steampowered.com/app/1962700/Subnautica_2/", official: "" }
     }
   ]
