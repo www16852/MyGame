@@ -371,8 +371,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
-      rating: "Steam 整體好評 91%（64,724 則）；近 30 天好評回升至 61%（褒貶不一）；Metacritic Early Access Score 90；Steam 已標記評論轟炸期間並排除計分",
-      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。7/17 推出 v0.109.0 Beta Patch：Aeonglass Boss 傷害調降、Dominate 卡升為稀有、Pillar of Creation 效果重作；EA 期間已累積新增逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議、製作顧問場外政治爭議），Steam 已標記排除計分；近 30 天好評率已從谷底 35% 回升至 61%（褒貶不一），遊戲本體品質仍受媒體及真實玩家高度肯定，購前建議留意爭議背景。",
+      rating: "Steam 整體好評 91%（約 64,900+ 則）；近 30 天褒貶不一 60%；Metacritic Early Access Score 90；Steam 已標記評論轟炸期間並排除計分",
+      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；後續 Beta v0.109.0 進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議、製作顧問場外政治爭議），Steam 已標記排除計分；近 30 天好評率約 60%（褒貶不一），整體口碑仍受媒體及真實玩家高度肯定，購前建議留意爭議背景。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
     {
@@ -387,7 +387,7 @@ window.GAMES_DATA = {
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       rating: "特別好評 93%（130,000+ 則）；近 30 天 90%",
-      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；下一大更新「1.2」為合作導向版本，已確認加入近距語音聊天（Proximity Chat）、玩家物品交易（Player Trading）、死亡復活系統、HUD 界面調整與聚落建造工具（Habitat Builder），官方保守預計最遲 2026 年 9 月發布（無精確日期）。近 30 天評價維持 90% 好評，口碑穩健。可加入 Xbox Game Pass 遊玩。",
+      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；下一大更新「1.2」為合作導向版本，已確認加入近距語音聊天（Proximity Chat）、玩家物品交易（Player Trading）、死亡復活系統、HUD 界面調整與聚落建造工具（Habitat Builder），官方保守預計最遲 2026 年 9 月發布（無精確日期）；年底預計推出 EA2 大版本，計劃加入全新探索區域、新生物種類、新載具與故事劇情。近 30 天評價維持 90% 好評，口碑穩健。可加入 Xbox Game Pass 遊玩。",
       links: { steam: "https://store.steampowered.com/app/1962700/Subnautica_2/", official: "" }
     }
   ]
