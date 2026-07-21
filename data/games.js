@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-07-20",
+  lastUpdated: "2026-07-21",
 
   games: [
     {
@@ -90,7 +90,9 @@ window.GAMES_DATA = {
         { type: "demo", date: "2026年6月15日起開放", sort: "2026-06-15", note: "配合 Steam 新品節（Steam Next Fest）釋出免費 PC 試玩版，支援最多 4 人線上合作；Next Fest（6/15~6/22）結束後開發商宣布無限期持續開放；截至 7 月上旬累積逾 45 萬次下載、30 萬名玩家完成超過百萬次探索" },
         { type: "release", date: "2026年7月15日", sort: "2026-07-15", note: "PC（Steam / Epic Games Store）/ PS5 / Xbox Series 正式上市，台灣時間 7月15日 16:00（PDT 01:00）同步解鎖，支援跨平台連線；標準版 $29.99、豪華版 $39.99（含 2 位額外可玩角色、獨家「Temple of Yig」任務及原聲帶，僅主機擁有即可讓全隊享用）；Steam 願望清單於 7月13日提前突破第三里程碑 80 萬，上市當日全員自動享 20% 折扣（標準版約 $23.99、豪華版約 $31.99）；主機版預購享 10% 折扣；裝飾武器包「Lost Explorers' Swords Pack」上市首兩週向全體玩家免費開放（需手動至 Steam 商店頁領取）" },
         { type: "announcement", date: "2026年7月15日（上市首日）", sort: "2026-07-15", note: "首日 Patch 上線：主船新增武器升級鑄造台（Weapon Upgrade Anvil）、追加即時語音推撥通話（Push-to-Talk）、移除強制任務結束計時器（玩家可自行決定何時撤離）、木筏手記旁白附加手繪插圖、新增戰鬥機制教學圖鑑頁、調整高階任務難度平衡、動暈輔助中心點與 FOV 滑桿（75~125）；已知問題：跨平台直接邀請功能異常，目前官方暫行對策為透過伺服器清單找到房主（修復日期未定）；媒體評測出爐：Metacritic 69（14 篇，褒貶不一）、OpenCritic 72（Fair 評級），多數評測肯定理智崩潰機制與合作深度，惟指出難度平衡與火槍手感仍有改善空間" },
-        { type: "announcement", date: "2026年7月（上市後）", sort: "2026-07-17", note: "開發商公布上市後更新路線圖：Q3 2026 聚焦 UE5 效能優化（減少 shader 卡頓）與理智崩潰事件擴充；秋季版本計劃推出沼澤地形、大型廢墟等新環境，及守點、追蹤超自然目標、心理攻擊生存等多樣任務類型；冬季版本引入 Sanity Anchor（穩定隊友理智）與 Vanguard Scout（機動偵察）兩個專精角色職能，以及歷史武器客製化系統；跨平台全球社群里程碑活動（達標解鎖限定外觀與世界觀故事）亦在規劃中。Week-One Patch 同步新增密碼保護伺服器（Password-Protected Servers）功能，讓不同平台玩家可建立私人房間繞開跨平台邀請異常問題（正式修復更新日期仍未定）；Steam 累積用戶評論 1,126 則，整體好評率 65%（褒貶不一），批評集中於移動手感偏重、武器耐久消耗快及無跳躍設計，合作深度與恐怖氛圍仍廣受肯定" }
+        { type: "announcement", date: "2026年7月（上市後）", sort: "2026-07-17", note: "開發商公布上市後更新路線圖：Q3 2026 聚焦 UE5 效能優化（減少 shader 卡頓）與理智崩潰事件擴充；秋季版本計劃推出沼澤地形、大型廢墟等新環境，及守點、追蹤超自然目標、心理攻擊生存等多樣任務類型；冬季版本引入 Sanity Anchor（穩定隊友理智）與 Vanguard Scout（機動偵察）兩個專精角色職能，以及歷史武器客製化系統；跨平台全球社群里程碑活動（達標解鎖限定外觀與世界觀故事）亦在規劃中。Week-One Patch 同步新增密碼保護伺服器（Password-Protected Servers）功能，讓不同平台玩家可建立私人房間繞開跨平台邀請異常問題（正式修復更新日期仍未定）；Steam 累積用戶評論 1,126 則，整體好評率 65%（褒貶不一），批評集中於移動手感偏重、武器耐久消耗快及無跳躍設計，合作深度與恐怖氛圍仍廣受肯定" },
+        { type: "announcement", date: "2026年7月17日", sort: "2026-07-17", note: "Steam Beta Branch 推出效能優化 Patch，針對嚴重卡頓與資源串流瓶頸進行修正，受影響區域幀率最高提升約 25%；跨平台直接邀請功能異常仍在修復中" },
+        { type: "release", date: "2026年8月6日（實體版）", sort: "2026-08-06", note: "PS5 / Xbox Series X|S 盒裝光碟版正式發售（數位版已於 7月15日全平台上架）" }
       ]
     },
     {
@@ -140,6 +142,18 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-07-21",
+      gameId: "themound",
+      title: "《The Mound》實體光碟版確認 8/6 發售，Steam Beta Branch 效能優化 Patch 上線",
+      body: "Nacon 確認《The Mound: Omen of Cthulhu》PS5 / Xbox Series X|S 盒裝實體光碟版將於 2026 年 8 月 6 日正式上架（數位版已於 7/15 發售）。ACE Team 透過 Steam Beta Branch 推出效能優化 Patch，針對嚴重卡頓與資源串流瓶頸進行修正，受影響區域幀率最高可提升約 25%；跨平台直接邀請功能異常問題仍在修復中，無確切時程。"
+    },
+    {
+      date: "2026-07-17",
+      gameId: "slaythespire2",
+      title: "《殺戮尖塔 2》7 月中旬再遭評論轟炸，整體好評率跌至約 66%",
+      body: "7 月中旬，《殺戮尖塔 2》再度遭大規模評論轟炸，12 小時內湧入主要來自中國的 3,609 則負評，起因為玩家抗議移除無限連擊組合及難度調整。繼 4 月首波轟炸後，Steam 整體好評率已降至約 66%（褒貶不一）；Steam 持續以評論轟炸偵測機制標記排除，Metacritic 早期體驗評分仍維持 90。7 月電子報同時確認遊戲加入繁體中文翻譯，並引入兩款新 Neow 遺物。"
+    },
     {
       date: "2026-07-20",
       gameId: "tearsofmetal",
@@ -371,8 +385,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
-      rating: "Steam 整體好評 91%（約 64,900+ 則）；近 30 天褒貶不一 60%；Metacritic Early Access Score 90；Steam 已標記評論轟炸期間並排除計分",
-      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；後續 Beta v0.109.0 進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議、製作顧問場外政治爭議），Steam 已標記排除計分；近 30 天好評率約 60%（褒貶不一），整體口碑仍受媒體及真實玩家高度肯定，購前建議留意爭議背景。",
+      rating: "Steam 整體好評約 66%（褒貶不一，歷經多波評論轟炸）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
+      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；後續 Beta v0.109.0 進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率已跌至約 66%；Steam 已標記排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
     {
