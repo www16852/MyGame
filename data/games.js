@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-07-22",
+  lastUpdated: "2026-07-23",
 
   games: [
     {
@@ -143,6 +143,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-07-23",
+      gameId: "tearsofmetal",
+      title: "《Tears of Metal》EA 上線首日評論出爐：Steam 特別好評 95%（210 則）",
+      body: "《Tears of Metal》搶先體驗版於 2026 年 7 月 22 日正式上線後，Steam 用戶評論於首日內累積 210 則，整體好評率 95%（特別好評），開局口碑亮眼。多篇評測肯定其 musou 式割草結合 Roguelike 輪迴的流暢設計，部分玩家反映初期難度偏高與治療資源稀缺，但整體評價正面。EA 版包含 3 幕關卡、3 位可玩英雄與村莊升級系統，Xbox Game Pass（PC）同步可遊玩。"
+    },
     {
       date: "2026-07-22",
       gameId: "tearsofmetal",
@@ -389,8 +395,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
-      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版 2026-07-22 正式上線，Steam 評論累積中（上線首日）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架（開發商表示 Demo 內容已過時、存檔不繼承）。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；Steam 評論累積中。",
+      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版（2026-07-22 上線）：特別好評 95%（210 則）",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架（開發商表示 Demo 內容已過時、存檔不繼承）。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；EA 上線首日 Steam 評論累積 210 則，好評率 95%（特別好評），口碑亮眼。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
