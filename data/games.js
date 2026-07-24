@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-07-23",
+  lastUpdated: "2026-07-24",
 
   games: [
     {
@@ -92,6 +92,7 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年7月15日（上市首日）", sort: "2026-07-15", note: "首日 Patch 上線：主船新增武器升級鑄造台（Weapon Upgrade Anvil）、追加即時語音推撥通話（Push-to-Talk）、移除強制任務結束計時器（玩家可自行決定何時撤離）、木筏手記旁白附加手繪插圖、新增戰鬥機制教學圖鑑頁、調整高階任務難度平衡、動暈輔助中心點與 FOV 滑桿（75~125）；已知問題：跨平台直接邀請功能異常，目前官方暫行對策為透過伺服器清單找到房主（修復日期未定）；媒體評測出爐：Metacritic 70（15 篇，褒貶不一）、OpenCritic 72（Fair 評級），多數評測肯定理智崩潰機制與合作深度，惟指出難度平衡與火槍手感仍有改善空間" },
         { type: "announcement", date: "2026年7月（上市後）", sort: "2026-07-17", note: "開發商公布上市後更新路線圖：Q3 2026 聚焦 UE5 效能優化（減少 shader 卡頓）與理智崩潰事件擴充；秋季版本計劃推出沼澤地形、大型廢墟等新環境，及守點、追蹤超自然目標、心理攻擊生存等多樣任務類型；冬季版本引入 Sanity Anchor（穩定隊友理智）與 Vanguard Scout（機動偵察）兩個專精角色職能，以及歷史武器客製化系統；跨平台全球社群里程碑活動（達標解鎖限定外觀與世界觀故事）亦在規劃中。Week-One Patch 同步新增密碼保護伺服器（Password-Protected Servers）功能，讓不同平台玩家可建立私人房間繞開跨平台邀請異常問題（正式修復更新日期仍未定）；Steam 累積用戶評論 1,942 則，整體好評率 66%（褒貶不一），批評集中於移動手感偏重、武器耐久消耗快及無跳躍設計，合作深度與恐怖氛圍仍廣受肯定" },
         { type: "announcement", date: "2026年7月17日", sort: "2026-07-17", note: "Steam Beta Branch 推出效能優化 Patch，針對嚴重卡頓與資源串流瓶頸進行修正，受影響區域幀率最高提升約 25%；跨平台直接邀請功能異常仍在修復中" },
+        { type: "announcement", date: "2026年7月21日", sort: "2026-07-21", note: "Patch 1.01 正式推送至穩定主分支：包含後啟動熱修復（Post Launch Hotfixes）與平衡調整，新增「Crossplay Friend Finder」功能（可在伺服器清單中依好友名稱搜尋，部分緩解跨平台直接邀請異常問題）；新增進場相機模式預選畫面（Cinematic / Default）；支援在木筏互動時以滑鼠整理背包；共 17 項相容性與效能修正" },
         { type: "release", date: "2026年8月6日（實體版）", sort: "2026-08-06", note: "PS5 / Xbox Series X|S 盒裝光碟版正式發售（數位版已於 7月15日全平台上架）" }
       ]
     },
@@ -144,10 +145,16 @@ window.GAMES_DATA = {
 
   news: [
     {
+      date: "2026-07-21",
+      gameId: "themound",
+      title: "《The Mound》Patch 1.01 正式推送：Crossplay Friend Finder 與平衡調整",
+      body: "ACE Team 於 7 月 21 日將 Patch 1.01 推送至穩定主分支，涵蓋後啟動熱修復（Post Launch Hotfixes）、整體平衡調整，及全新「Crossplay Friend Finder」功能（可在伺服器清單輸入好友名稱搜尋，部分緩解跨平台直接邀請異常問題）；另新增進場相機預選畫面（Cinematic / Default）、木筏互動時可用滑鼠整理背包，共 17 項相容性與效能修正。跨平台直接邀請功能的完整修復仍無確切時程。"
+    },
+    {
       date: "2026-07-23",
       gameId: "tearsofmetal",
-      title: "《Tears of Metal》EA 上線首日評論出爐：Steam 特別好評 95%（210 則）",
-      body: "《Tears of Metal》搶先體驗版於 2026 年 7 月 22 日正式上線後，Steam 用戶評論於首日內累積 210 則，整體好評率 95%（特別好評），開局口碑亮眼。多篇評測肯定其 musou 式割草結合 Roguelike 輪迴的流暢設計，部分玩家反映初期難度偏高與治療資源稀缺，但整體評價正面。EA 版包含 3 幕關卡、3 位可玩英雄與村莊升級系統，Xbox Game Pass（PC）同步可遊玩。"
+      title: "《Tears of Metal》EA 評論持續累積：Steam 特別好評 92%（300+ 則），登上 Steam 新遊戲 Top 10",
+      body: "《Tears of Metal》搶先體驗版於 2026 年 7 月 22 日上線後，Steam 評論快速累積至 300+ 則，好評率約 92%（特別好評），並登上 Steam 新遊戲銷售 Top 10。多家媒體評測肯定其 musou 式割草結合 Roguelike 輪迴的流暢設計與手繪漫畫風美術，部分玩家反映初期難度偏高與治療資源稀缺。EA 版包含 3 幕關卡、3 位可玩英雄與村莊升級系統，Xbox Game Pass（PC）同步可遊玩。"
     },
     {
       date: "2026-07-22",
@@ -395,8 +402,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
-      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版（2026-07-22 上線）：特別好評 95%（210 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架（開發商表示 Demo 內容已過時、存檔不繼承）。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；EA 上線首日 Steam 評論累積 210 則，好評率 95%（特別好評），口碑亮眼。",
+      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版（2026-07-22 上線）：特別好評 92%（300+ 則）",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架（開發商表示 Demo 內容已過時、存檔不繼承）。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後 Steam 評論累積 300+ 則，好評率 92%（特別好評），登上 Steam 新遊戲 Top 10，媒體普遍肯定手繪漫畫風美術與合作流暢度。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
@@ -411,7 +418,7 @@ window.GAMES_DATA = {
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
       rating: "Steam 整體好評約 66%（褒貶不一，歷經多波評論轟炸）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
-      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率已跌至約 66%；Steam 已標記排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯。",
+      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率已跌至約 66%；Steam 已標記排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
     {
