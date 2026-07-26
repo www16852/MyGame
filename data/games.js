@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-07-25",
+  lastUpdated: "2026-07-26",
 
   games: [
     {
@@ -89,8 +89,8 @@ window.GAMES_DATA = {
         { type: "beta", date: "2026年6月5日 ~ 6月8日", sort: "2026-06-05", note: "封閉測試（Closed Beta），同步開放主機版預購" },
         { type: "demo", date: "2026年6月15日起開放", sort: "2026-06-15", note: "配合 Steam 新品節（Steam Next Fest）釋出免費 PC 試玩版，支援最多 4 人線上合作；Next Fest（6/15~6/22）結束後開發商宣布無限期持續開放；截至 7 月上旬累積逾 45 萬次下載、30 萬名玩家完成超過百萬次探索" },
         { type: "release", date: "2026年7月15日", sort: "2026-07-15", note: "PC（Steam / Epic Games Store）/ PS5 / Xbox Series 正式上市，台灣時間 7月15日 16:00（PDT 01:00）同步解鎖，支援跨平台連線；標準版 $29.99、豪華版 $39.99（含 2 位額外可玩角色、獨家「Temple of Yig」任務及原聲帶，僅主機擁有即可讓全隊享用）；Steam 願望清單於 7月13日提前突破第三里程碑 80 萬，上市當日全員自動享 20% 折扣（標準版約 $23.99、豪華版約 $31.99）；主機版預購享 10% 折扣；裝飾武器包「Lost Explorers' Swords Pack」上市首兩週向全體玩家免費開放（需手動至 Steam 商店頁領取）" },
-        { type: "announcement", date: "2026年7月15日（上市首日）", sort: "2026-07-15", note: "首日 Patch 上線：主船新增武器升級鑄造台（Weapon Upgrade Anvil）、追加即時語音推撥通話（Push-to-Talk）、移除強制任務結束計時器（玩家可自行決定何時撤離）、木筏手記旁白附加手繪插圖、新增戰鬥機制教學圖鑑頁、調整高階任務難度平衡、動暈輔助中心點與 FOV 滑桿（75~125）；已知問題：跨平台直接邀請功能異常，目前官方暫行對策為透過伺服器清單找到房主（修復日期未定）；媒體評測出爐：Metacritic 70（15 篇，褒貶不一）、OpenCritic 72（Fair 評級），多數評測肯定理智崩潰機制與合作深度，惟指出難度平衡與火槍手感仍有改善空間" },
-        { type: "announcement", date: "2026年7月（上市後）", sort: "2026-07-17", note: "開發商公布上市後更新路線圖：Q3 2026 聚焦 UE5 效能優化（減少 shader 卡頓）與理智崩潰事件擴充；秋季版本計劃推出沼澤地形、大型廢墟等新環境，及守點、追蹤超自然目標、心理攻擊生存等多樣任務類型；冬季版本引入 Sanity Anchor（穩定隊友理智）與 Vanguard Scout（機動偵察）兩個專精角色職能，以及歷史武器客製化系統；跨平台全球社群里程碑活動（達標解鎖限定外觀與世界觀故事）亦在規劃中。Week-One Patch 同步新增密碼保護伺服器（Password-Protected Servers）功能，讓不同平台玩家可建立私人房間繞開跨平台邀請異常問題（正式修復更新日期仍未定）；Steam 累積用戶評論 1,942 則，整體好評率 66%（褒貶不一），批評集中於移動手感偏重、武器耐久消耗快及無跳躍設計，合作深度與恐怖氛圍仍廣受肯定" },
+        { type: "announcement", date: "2026年7月15日（上市首日）", sort: "2026-07-15", note: "首日 Patch 上線：主船新增武器升級鑄造台（Weapon Upgrade Anvil）、追加即時語音推撥通話（Push-to-Talk）、移除強制任務結束計時器（玩家可自行決定何時撤離）、木筏手記旁白附加手繪插圖、新增戰鬥機制教學圖鑑頁、調整高階任務難度平衡、動暈輔助中心點與 FOV 滑桿（75~125）；已知問題：跨平台直接邀請功能異常，目前官方暫行對策為透過伺服器清單找到房主（修復日期未定）；媒體評測出爐：Metacritic 70（15 篇，褒貶不一）、OpenCritic 71（Fair 評級，34 篇），多數評測肯定理智崩潰機制與合作深度，惟指出難度平衡與火槍手感仍有改善空間" },
+        { type: "announcement", date: "2026年7月（上市後）", sort: "2026-07-17", note: "開發商公布上市後更新路線圖：Q3 2026 聚焦 UE5 效能優化（減少 shader 卡頓）與理智崩潰事件擴充；秋季版本計劃推出沼澤地形、大型廢墟等新環境，及守點、追蹤超自然目標、心理攻擊生存等多樣任務類型；冬季版本引入 Sanity Anchor（穩定隊友理智）與 Vanguard Scout（機動偵察）兩個專精角色職能，以及歷史武器客製化系統；跨平台全球社群里程碑活動（達標解鎖限定外觀與世界觀故事）亦在規劃中。Week-One Patch 同步新增密碼保護伺服器（Password-Protected Servers）功能，讓不同平台玩家可建立私人房間繞開跨平台邀請異常問題（正式修復更新日期仍未定）；Steam 累積用戶評論 2,490 則，整體好評率 68%（褒貶不一），批評集中於移動手感偏重、武器耐久消耗快及無跳躍設計，合作深度與恐怖氛圍仍廣受肯定" },
         { type: "announcement", date: "2026年7月17日", sort: "2026-07-17", note: "Steam Beta Branch 推出效能優化 Patch，針對嚴重卡頓與資源串流瓶頸進行修正，受影響區域幀率最高提升約 25%；跨平台直接邀請功能異常仍在修復中" },
         { type: "announcement", date: "2026年7月21日", sort: "2026-07-21", note: "Patch 1.01 正式推送至穩定主分支：包含後啟動熱修復（Post Launch Hotfixes）與平衡調整，新增「Crossplay Friend Finder」功能（可在伺服器清單中依好友名稱搜尋，部分緩解跨平台直接邀請異常問題）；新增進場相機模式預選畫面（Cinematic / Default）；支援在木筏互動時以滑鼠整理背包；共 17 項相容性與效能修正" },
         { type: "release", date: "2026年8月6日（實體版）", sort: "2026-08-06", note: "PS5 / Xbox Series X|S 盒裝光碟版正式發售（數位版已於 7月15日全平台上架）" }
@@ -135,7 +135,7 @@ window.GAMES_DATA = {
       },
       playerCount: "單人（隊伍最多 4 人作戰）",
       events: [
-        { type: "demo", date: "2026年5月24日起開放", sort: "2026-05-24", note: "Steam 免費試玩版上架，Steam 新品節期間獲媒體廣泛報導，目前好評率 94%（324 則）" },
+        { type: "demo", date: "2026年5月24日起開放", sort: "2026-05-24", note: "Steam 免費試玩版上架，Steam 新品節期間獲媒體廣泛報導，目前好評率 93%（336 則）" },
         { type: "announcement", date: "2026年6月（EA 前公告）", sort: "2026-06-01", note: "宣布 EA 上市時將加入新可玩種族「Lycan（狼族）」（白天偏弱、夜晚增強，擅長靈活物理輸出，適配弓與長槍）以及新武器「長槍（Spear）」，開放新的戰鬥配置組合" },
         { type: "beta", date: "2026年7月23日 ~ 7月29日", sort: "2026-07-23", note: "第 3 次 Supporters Program 封測，開放 Region 1~2、新種族 Lycan（狼族）、新武器長槍（Spear）、新特性 / 道具 / 效果及難度平衡調整；Steam 頁申請資格、限量隨機抽選；封測存檔不保證相容於 9/10 EA 版" },
         { type: "early_access", date: "2026年9月10日", sort: "2026-09-10", note: "以搶先體驗（Early Access）形式上市，初期開放區域 1~2 與「深淵」挑戰內容；完整版預計共 6 個區域" }
@@ -144,6 +144,18 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-07-26",
+      gameId: "tearsofmetal",
+      title: "《Tears of Metal》Patch 0.8.57278：新增中途存檔、修復多人去同步，跨平台暫時停用",
+      body: "Paper Cult 於 7 月 26 日推出 Patch 0.8.57278：修復多人連線去同步（Desync）問題、新增中途存檔（Mid-run Saves）功能、新增 Banshee 解鎖路徑（Ruadh 角色）、調整 Wallace 武器費用（Flamberge 9→3 Dragonstones，Celtic Longsword 改 500 Triskelle 購買）、Boss 破格攻擊現可格擋；同時暫時停用預設分支上的跨平台功能（Crossplay）待修復後恢復。Steam 評論累積至 919+ 則，好評率 85%。"
+    },
+    {
+      date: "2026-07-14",
+      gameId: "subnautica2",
+      title: "《深海迷航 2》1.1 Hotfix 4 修復 Angel Combs 進度阻擋問題",
+      body: "Unknown Worlds 於 7 月 14 日推出 1.1 Hotfix 4：修復部分玩家 Angel Combs 無法開啟的進度阻擋問題、修正玩家基地內出現水流的視覺 bug，並修復 Xbox 平台 FOV 滑桿不顯示及接受邀請崩潰等問題。Update 1.2（合作導向，含近距語音聊天、玩家物品交易、死亡復活系統等）仍在開發中，尚無確切發布日期。"
+    },
     {
       date: "2026-07-21",
       gameId: "themound",
@@ -402,8 +414,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
-      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版（2026-07-22 上線）：好評 87%（735+ 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架（開發商表示 Demo 內容已過時、存檔不繼承）。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後累積 735+ 則 Steam 評論，好評率 87%，首週登上 Steam 新遊戲 Top 10、峰值約 4,000 名同時在線；媒體普遍肯定手繪漫畫風美術與合作流暢度，部分玩家反映初期難度較高。",
+      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：好評 85%（919+ 則）",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架（開發商表示 Demo 內容已過時、存檔不繼承）。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後累積 919+ 則 Steam 評論，好評率 85%，首週登上 Steam 新遊戲 Top 10、峰值逾 4,500 名同時在線；媒體普遍肯定手繪漫畫風美術與合作流暢度，部分玩家反映初期難度較高。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔（Mid-run Saves），跨平台功能暫時停用待修復後恢復。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
@@ -417,7 +429,7 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
-      rating: "Steam 整體好評約 66%（褒貶不一，歷經多波評論轟炸）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
+      rating: "英文版特別好評 91%（65,502 則）；所有語言整體 Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
       reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率已跌至約 66%；Steam 已標記排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
@@ -432,8 +444,8 @@ window.GAMES_DATA = {
       playerCount: "單人 / 最多 4 人合作",
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
-      rating: "特別好評 93%（130,000+ 則）；近 30 天 90%",
-      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；下一大更新「1.2」為合作導向版本，已確認加入近距語音聊天（Proximity Chat）、玩家物品交易（Player Trading）、死亡復活系統、HUD 界面調整與聚落建造工具（Habitat Builder），官方保守預計最遲 2026 年 9 月發布（無精確日期）；年底預計推出 EA2 大版本，計劃加入全新探索區域、新生物種類、新載具與故事劇情。近 30 天評價維持 90% 好評，口碑穩健。可加入 Xbox Game Pass 遊玩。",
+      rating: "特別好評 93%（英語 70,019 則）；近 30 天 90%",
+      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；7月14日推出 1.1 Hotfix 4，修復 Angel Combs 進度阻擋問題及多項 Xbox 崩潰問題；下一大更新「1.2」為合作導向版本，已確認加入近距語音聊天（Proximity Chat）、玩家物品交易（Player Trading）、死亡復活系統、HUD 界面調整與聚落建造工具（Habitat Builder），官方保守預計最遲 2026 年 9 月發布（無精確日期）；年底預計推出 EA2 大版本，計劃加入全新探索區域、新生物種類、新載具與故事劇情。近 30 天評價維持 90% 好評，口碑穩健。可加入 Xbox Game Pass 遊玩。",
       links: { steam: "https://store.steampowered.com/app/1962700/Subnautica_2/", official: "" }
     }
   ]
