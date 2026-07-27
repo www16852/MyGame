@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-07-26",
+  lastUpdated: "2026-07-27",
 
   games: [
     {
@@ -144,6 +144,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-07-25",
+      gameId: "slaythespire2",
+      title: "《殺戮尖塔 2》Beta 熱修復 v0.109.1：修正繁體中文複數判斷錯誤",
+      body: "Mega Crit 於 7 月 25 日推出 Beta 熱修復 v0.109.1，專門修正繁體中文翻譯的複數評估邏輯錯誤（broken plural evaluation in Traditional Chinese），為小型針對性修補，無其他內容或平衡變動。此前 v0.109.0（7/17）已大幅調整 Aeonglass 傷害並新增兩個 Neow 開局遺物。"
+    },
     {
       date: "2026-07-26",
       gameId: "tearsofmetal",
@@ -414,8 +420,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
-      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：好評 85%（919+ 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架（開發商表示 Demo 內容已過時、存檔不繼承）。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後累積 919+ 則 Steam 評論，好評率 85%，首週登上 Steam 新遊戲 Top 10、峰值逾 4,500 名同時在線；媒體普遍肯定手繪漫畫風美術與合作流暢度，部分玩家反映初期難度較高。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔（Mid-run Saves），跨平台功能暫時停用待修復後恢復。",
+      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 84%（1,103+ 則）",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架（開發商表示 Demo 內容已過時、存檔不繼承）。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後累積 1,103+ 則 Steam 評論，好評率 84%，首週登上 Steam 新遊戲 Top 10、峰值逾 4,500 名同時在線；媒體普遍肯定手繪漫畫風美術與合作流暢度，部分玩家反映初期難度較高。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔（Mid-run Saves），跨平台功能暫時停用待修復後恢復。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
@@ -430,7 +436,7 @@ window.GAMES_DATA = {
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
       rating: "英文版特別好評 91%（65,502 則）；所有語言整體 Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
-      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率已跌至約 66%；Steam 已標記排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯。",
+      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率已跌至約 66%；Steam 已標記排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯；7/25 Beta 熱修復 v0.109.1 修正繁體中文複數判斷邏輯（plural evaluation）。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
     {
