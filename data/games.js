@@ -140,10 +140,36 @@ window.GAMES_DATA = {
         { type: "beta", date: "2026年7月23日 ~ 7月29日", sort: "2026-07-23", note: "第 3 次 Supporters Program 封測，開放 Region 1~2、新種族 Lycan（狼族）、新武器長槍（Spear）、新特性 / 道具 / 效果及難度平衡調整；Steam 頁申請資格、限量隨機抽選；封測存檔不保證相容於 9/10 EA 版" },
         { type: "early_access", date: "2026年9月10日", sort: "2026-09-10", note: "以搶先體驗（Early Access）形式上市，初期開放區域 1~2 與「深淵」挑戰內容；完整版預計共 6 個區域" }
       ]
+    },
+    {
+      id: "guildrun",
+      name: "Guildrun",
+      nameEn: "Guildrun",
+      genre: "Roguelike 自動戰鬥 (Autobattler)",
+      platforms: ["PC", "Mac"],
+      developer: "Leyline",
+      summary: "PvE 自動戰鬥 roguelike。組建各具特色的英雄隊伍、深入致命裂隙，透過特性、道具與遺物在一次次遊玩中不斷進化 build，粉碎成群的怪物浪潮；可突破職業限制、發掘無數組合與協同效果。主創團隊具《爐石戰記》與《The Bazaar》資歷。",
+      tags: ["Roguelike", "自動戰鬥", "策略", "單人"],
+      status: "等待中",
+      links: {
+        steam: "https://store.steampowered.com/app/3669200/",
+        official: ""
+      },
+      playerCount: "單人（含全球排行榜無盡模式）",
+      events: [
+        { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架，特別好評 92%（1,000+ 則）；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
+        { type: "release", date: "2026 年稍晚（預計，官方未定檔）", sort: "2026-10-01", note: "媒體報導預計 2026 年下半推出，Steam 商店頁標示確切日期未公布 (To be announced)" }
+      ]
     }
   ],
 
   news: [
+    {
+      date: "2026-07-27",
+      gameId: "guildrun",
+      title: "新增追蹤：《Guildrun》PvE 自動戰鬥 roguelike，試玩版特別好評",
+      body: "由 Leyline 開發的 roguelike 自動戰鬥新作《Guildrun》加入追蹤清單。7/16 上架的 Steam 免費試玩版獲特別好評 92%（1,000+ 則）；玩法主打組建英雄隊伍、闖裂隙、以特性與遺物強化 build。主創具《爐石戰記》《The Bazaar》資歷，正式版預計 2026 年稍晚推出、官方尚未定檔。"
+    },
     {
       date: "2026-07-25",
       gameId: "slaythespire2",
