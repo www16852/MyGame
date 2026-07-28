@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-07-27",
+  lastUpdated: "2026-07-28",
 
   games: [
     {
@@ -158,12 +158,18 @@ window.GAMES_DATA = {
       playerCount: "單人（含全球排行榜無盡模式）",
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架，特別好評 92%（1,000+ 則）；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
-        { type: "release", date: "2026 年稍晚（預計，官方未定檔）", sort: "2026-10-01", note: "媒體報導預計 2026 年下半推出，Steam 商店頁標示確切日期未公布 (To be announced)" }
+        { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；早期媒體報導提及「2026 年下半」為舊資訊，Steam 頁仍標示確切日期 TBA" }
       ]
     }
   ],
 
   news: [
+    {
+      date: "2026-07-28",
+      gameId: "guildrun",
+      title: "《Guildrun》官方 FAQ 確認正式版目標年份為 2027，並非 2026",
+      body: "Leyline 官方 Steam FAQ 說明，《Guildrun》完整版（1.0）目標上市年份為 2027，尚無精確月份或日期；部分早期媒體報導提及「2026 年下半」為舊資訊。試玩版（免費，7/16 上架，已獲特別好評 92%）持續開放，並保持每週更新節奏。"
+    },
     {
       date: "2026-07-27",
       gameId: "guildrun",
