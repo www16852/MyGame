@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-07-28",
+  lastUpdated: "2026-07-29",
 
   games: [
     {
@@ -158,12 +158,38 @@ window.GAMES_DATA = {
       playerCount: "單人（含全球排行榜無盡模式）",
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架，特別好評 92%（1,000+ 則）；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
+        { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
+        { type: "announcement", date: "2026年7月28日（約）", sort: "2026-07-28", note: "試玩版第二次平衡更新 Patch 0.5.2：Boss 代幣每場由 1 個增至 2 個（加快遺物獲取節奏）、新增事件圖片與視覺更新、多項英雄專精調整（Aria、Sal、Irini、Kai、Gustav 等）及物品縮放與急救回退 Bug 修復；同步重置排行榜（全球分數清零）" },
         { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；早期媒體報導提及「2026 年下半」為舊資訊，Steam 頁仍標示確切日期 TBA" }
       ]
     }
   ],
 
   news: [
+    {
+      date: "2026-07-29",
+      gameId: "tearsofmetal",
+      title: "《Tears of Metal》Patch 0.9.57408 上線：城堡記錄優化、沼澤與白樺樹關卡更新",
+      body: "Paper Cult 推出 Patch 0.9.57408，涵蓋城堡記錄（Castle Records）介面優化、存檔復原系統改善，以及沼澤生物群落（Swamp biome）與白樺樹地區（Birchtrees area）關卡內容更新；跨平台（Crossplay）功能仍暫時停用，可切換「Crossplay」Beta 分支維持舊版跨平台連線能力。"
+    },
+    {
+      date: "2026-07-28",
+      gameId: "guildrun",
+      title: "《Guildrun》Demo 第二次平衡更新 Patch 0.5.2：Boss 代幣加倍、排行榜重置",
+      body: "Leyline 推出試玩版第二次平衡更新 Patch 0.5.2：Boss 代幣每場由 1 個增至 2 個（加快遺物獲取節奏）、新增事件圖片與視覺優化、多項英雄專精調整（Aria、Sal、Irini、Kai、Gustav 等），以及物品縮放與急救回退（Emergency Rewind）等 Bug 修復；同步重置排行榜（全球分數清零）。"
+    },
+    {
+      date: "2026-07-27",
+      gameId: "tearsofmetal",
+      title: "《Tears of Metal》EA 上線五日銷量突破 10 萬份",
+      body: "Paper Cult 宣布《Tears of Metal》搶先體驗版發售約五天內累積銷量突破 10 萬份，感謝社群熱情支持。開發商說明目前優先事項為持續修復多人去同步（Desync）問題與完善中途存檔；大量同人創作與實況主內容持續湧入，社群活躍度高。Steam 評價已升至約 87%（特別好評）。"
+    },
+    {
+      date: "2026-07-23",
+      gameId: "guildrun",
+      title: "《Guildrun》Demo 首次平衡更新 Patch 0.5.1.718：擴充可行策略，試玩人數破 20 萬",
+      body: "Leyline 推出試玩版首次平衡更新 Patch 0.5.1.718，針對社群回饋大幅擴充可行策略並加入多項 QoL 操作優化；截至上線一週（7/23）試玩人數已突破 20 萬。傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25，為遊戲體驗重大改善。"
+    },
     {
       date: "2026-07-28",
       gameId: "guildrun",
@@ -452,8 +478,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
-      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 84%（1,103+ 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架（開發商表示 Demo 內容已過時、存檔不繼承）。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後累積 1,103+ 則 Steam 評論，好評率 84%，首週登上 Steam 新遊戲 Top 10、峰值逾 4,500 名同時在線；媒體普遍肯定手繪漫畫風美術與合作流暢度，部分玩家反映初期難度較高。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔（Mid-run Saves），跨平台功能暫時停用待修復後恢復。",
+      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 87%（1,100+ 則）",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價已升至約 87%（特別好評，1,100+ 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面與存檔復原系統，並更新沼澤與白樺樹關卡內容。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
