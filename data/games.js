@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-07-29",
+  lastUpdated: "2026-07-30",
 
   games: [
     {
@@ -166,6 +166,18 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-07-30",
+      gameId: "dungeonsettlers",
+      title: "《地城拓荒》第 3 次 Supporters Program 封測落幕，參與者收到回饋問卷",
+      body: "CanOpener 第 3 次 Supporters Program 封測（7/23~7/29）已正式結束。開發商向所有測試參與者致謝，並發出問卷蒐集回饋意見；問卷填答者可選擇將自己的名字列入遊戲片尾字幕「3rd Supporter」。開發商提醒：封測存檔與 9/10 搶先體驗版不相容。EA 上市日期維持 2026 年 9 月 10 日。"
+    },
+    {
+      date: "2026-07-30",
+      gameId: "neverwither",
+      title: "《不朽之樹》生物命名投票截止，結果預計今日起至 8/1 公布",
+      body: "Geo Seed Games「Name Me」生物命名活動投票階段已於 7 月 29 日結束，玩家完成了對鑽地礦工型與羽翼劍客型兩種新生物最終名稱的投票。開發商預告結果將於 7/30~8/1 公布，獲選命名的玩家名字將永久記錄於遊戲圖鑑，實際公告尚待開發商官方發布。"
+    },
     {
       date: "2026-07-29",
       gameId: "tearsofmetal",
