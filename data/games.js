@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-07-30",
+  lastUpdated: "2026-07-31",
 
   games: [
     {
@@ -157,15 +157,28 @@ window.GAMES_DATA = {
       },
       playerCount: "單人（含全球排行榜無盡模式）",
       events: [
-        { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架，特別好評 92%（1,000+ 則）；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
+        { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 7 月底升至 特別好評 95%（1,200+ 則）；峰值同時上線約 12,000 人，兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
         { type: "announcement", date: "2026年7月28日（約）", sort: "2026-07-28", note: "試玩版第二次平衡更新 Patch 0.5.2：Boss 代幣每場由 1 個增至 2 個（加快遺物獲取節奏）、新增事件圖片與視覺更新、多項英雄專精調整（Aria、Sal、Irini、Kai、Gustav 等）及物品縮放與急救回退 Bug 修復；同步重置排行榜（全球分數清零）" },
-        { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；早期媒體報導提及「2026 年下半」為舊資訊，Steam 頁仍標示確切日期 TBA" }
+        { type: "announcement", date: "2026年7月底", sort: "2026-07-31", note: "Demo 好評率升至 95%（特別好評，1,200+ 則）；開發商官方確認完整版將加入雙人合作（Two-Player Co-op）模式，目前試玩版仍為單人；Demo 進度預計可移轉至正式版（官方 FAQ 確認）" },
+        { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；早期媒體報導提及「2026 年下半」為舊資訊，Steam 頁仍標示確切日期 TBA；完整版含雙人合作、更多英雄與地圖等大幅擴充內容" }
       ]
     }
   ],
 
   news: [
+    {
+      date: "2026-07-31",
+      gameId: "guildrun",
+      title: "《Guildrun》Demo 好評率升至 95%，完整版確認加入雙人合作",
+      body: "《Guildrun》Steam 試玩版評分從上架時的 92% 穩步升至 95%（特別好評，1,200+ 則），峰值同時上線達約 12,000 人，兩週累積逾 20 萬玩家完成約 200 萬次通關。開發商官方確認完整版（2027 年）將加入雙人合作（Two-Player Co-op）模式，試玩版進度亦預計可移轉至正式版（官方 FAQ 確認）。"
+    },
+    {
+      date: "2026-07-31",
+      gameId: "slaythespire2",
+      title: "《殺戮尖塔 2》v0.109.0 與 v0.109.1 正式推送至穩定主分支",
+      body: "Mega Crit 確認將 v0.109.0（調降 Aeonglass 傷害、重作 Pillar of Creation、新增兩個 Neow 開局遺物）與 v0.109.1（修復繁體中文複數判斷邏輯）從 Beta 分支正式推送至穩定主分支；未切換 Beta 的玩家現已自動收到此兩版更新。Steam 整體評論（含中文評論轟炸）好評率目前約 56~60%，但近 30 天評論已回升至 62% 並持續改善中；Metacritic 媒體評分仍維持 90。"
+    },
     {
       date: "2026-07-30",
       gameId: "dungeonsettlers",
@@ -490,8 +503,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
-      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 87%（1,100+ 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價已升至約 87%（特別好評，1,100+ 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面與存檔復原系統，並更新沼澤與白樺樹關卡內容。",
+      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 約 87%（1,500+ 則）",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 87%（特別好評，1,500+ 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面與存檔復原系統，並更新沼澤與白樺樹關卡內容。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
@@ -505,8 +518,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
-      rating: "英文版特別好評 91%（65,502 則）；所有語言整體 Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
-      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率已跌至約 66%；Steam 已標記排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯；7/25 Beta 熱修復 v0.109.1 修正繁體中文複數判斷邏輯（plural evaluation）。",
+      rating: "英文版特別好評 91%（65,502 則）；所有語言整體 Mixed（多波評論轟炸，中文負評為主，整體約 56~60%）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
+      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；v0.109.0 與 v0.109.1 已於 7 月底正式推送至穩定主分支（非 Beta 玩家現已同步收到）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率（不含排除計分）已降至約 56~60%；近 30 天評論已回升至 62%，Steam 已標記轟炸排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯；v0.109.1（7/25）修正繁體中文複數判斷邏輯（plural evaluation）。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
     {
