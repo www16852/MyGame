@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-07-31",
+  lastUpdated: "2026-08-01",
 
   games: [
     {
@@ -167,6 +167,18 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-07-31",
+      gameId: "slaythespire2",
+      title: "《殺戮尖塔 2》Beta v0.110.0 推送：Mirage/Pillar 效果回滾，新增鍵盤純操作模式",
+      body: "Mega Crit 於 7 月 31 日推送 Beta v0.110.0：將 Mirage 恢復為毒素倍增機制（不再棄置）、將 Pillar of Creation 恢復至無限觸發效果（格擋由 3 降至 2）；新增鍵盤純操作模式（Keyboard-Only Mode）、角色專屬形態 VFX 動畫、地圖截圖分享功能；Haze 改版為費 2 技能對全敵施加毒素與弱化，Outbreak 升格為稀有技能；Well-Laid Plans 費用由 1 升至 2；共修復 20+ 個 Bug，含多人遊戲軟鎖問題。"
+    },
+    {
+      date: "2026-07-31",
+      gameId: "tearsofmetal",
+      title: "《Tears of Metal》Patch 0.10.57598：材質解析度優化，Act 1 & 2 效能與穩定性改善",
+      body: "Paper Cult 於 7 月 31 日推出 Patch 0.10.57598：針對材質解析度（texture resolution）進行優化，並改善第一幕（Act 1）與第二幕（Act 2）的運行效能與穩定性；跨平台（Crossplay）功能仍暫停於預設分支，可切換「Crossplay」Beta 分支維持舊版相容性。"
+    },
     {
       date: "2026-07-31",
       gameId: "guildrun",
@@ -504,7 +516,7 @@ window.GAMES_DATA = {
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
       rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 約 87%（1,500+ 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 87%（特別好評，1,500+ 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面與存檔復原系統，並更新沼澤與白樺樹關卡內容。",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 87%（特別好評，1,500+ 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面與存檔復原系統，並更新沼澤與白樺樹關卡內容；7/31 Patch 0.10.57598 優化材質解析度、改善 Act 1 & 2 效能與穩定性。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
@@ -519,7 +531,7 @@ window.GAMES_DATA = {
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
       rating: "英文版特別好評 91%（65,502 則）；所有語言整體 Mixed（多波評論轟炸，中文負評為主，整體約 56~60%）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
-      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；v0.109.0 與 v0.109.1 已於 7 月底正式推送至穩定主分支（非 Beta 玩家現已同步收到）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率（不含排除計分）已降至約 56~60%；近 30 天評論已回升至 62%，Steam 已標記轟炸排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯；v0.109.1（7/25）修正繁體中文複數判斷邏輯（plural evaluation）。",
+      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；v0.109.0 與 v0.109.1 已於 7 月底正式推送至穩定主分支（非 Beta 玩家現已同步收到）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率（不含排除計分）已降至約 56~60%；近 30 天評論已回升至 62%，Steam 已標記轟炸排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯；v0.109.1（7/25）修正繁體中文複數判斷邏輯（plural evaluation）；v0.110.0 Beta（7/31）將 Mirage 與 Pillar of Creation 恢復至 0.109.0 前版本並微調（Pillar 格擋 3→2），新增鍵盤純操作模式與角色形態 VFX 動畫。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
     {
