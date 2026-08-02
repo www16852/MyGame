@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-01",
+  lastUpdated: "2026-08-02",
 
   games: [
     {
@@ -116,6 +116,7 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
         { type: "announcement", date: "2026年7月9日", sort: "2026-07-09", note: "開發日誌 #4 公開第二區域「狂風高地（Windhowl Plateau）」：峭壁與荒原交錯的惡劣地帶，介紹三種全新戰鬥型生物——鋼臂養蜂人（Steel-arm Beekeepers）、迴旋鼬（Boomerang Weasels）與岩石騎士（Rock Knights）" },
         { type: "announcement", date: "2026年7月23日~7月29日（投票期）", sort: "2026-07-23", note: "生物命名活動「Name Me」進入社群投票階段（7/23~7/29）：玩家票選鑽地礦工型（挖掘突襲特性）與羽翼劍客型（結合飛行與劍術）兩種新生物的最終名稱，結果預計 7/30~8/1 公布；入選命名玩家的名字將永久載入遊戲圖鑑" },
+        { type: "announcement", date: "2026年8月1日（公示期截止）", sort: "2026-08-01", note: "「Name Me」生物命名活動公示期（7/30~8/1）正式結束：鑽地礦工型生物最終命名為「岩脊地龍（Stone Ridge Earth Dragon）」、羽翼劍客型生物最終命名為「青翎劍梟（Green Feather Sword Owl）」；入選命名玩家的名字將永久載入遊戲圖鑑" },
         { type: "release", date: "未定 (TBA)", sort: "9999-12-31", note: "預計 2026 年內推出，尚未公布正式上市日期，目前為 Coming Soon；下一個里程碑（測試）時程待開發商公告" }
       ]
     },
@@ -167,6 +168,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-08-01",
+      gameId: "neverwither",
+      title: "《不朽之樹》生物命名結果揭曉：「岩脊地龍」與「青翎劍梟」正式定名",
+      body: "Geo Seed Games「Name Me」生物命名活動公示期（7/30~8/1）已結束：鑽地礦工型生物最終命名為「岩脊地龍（Stone Ridge Earth Dragon）」，羽翼劍客型生物最終命名為「青翎劍梟（Green Feather Sword Owl）」。入選命名玩家的名字將永久載入遊戲圖鑑，遊戲正式上市日期仍為待定（TBA），開發商尚未公布次輪測試時程。"
+    },
     {
       date: "2026-07-31",
       gameId: "slaythespire2",
