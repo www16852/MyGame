@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-02",
+  lastUpdated: "2026-08-03",
 
   games: [
     {
@@ -93,6 +93,7 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年7月（上市後）", sort: "2026-07-17", note: "開發商公布上市後更新路線圖：Q3 2026 聚焦 UE5 效能優化（減少 shader 卡頓）與理智崩潰事件擴充；秋季版本計劃推出沼澤地形、大型廢墟等新環境，及守點、追蹤超自然目標、心理攻擊生存等多樣任務類型；冬季版本引入 Sanity Anchor（穩定隊友理智）與 Vanguard Scout（機動偵察）兩個專精角色職能，以及歷史武器客製化系統；跨平台全球社群里程碑活動（達標解鎖限定外觀與世界觀故事）亦在規劃中。Week-One Patch 同步新增密碼保護伺服器（Password-Protected Servers）功能，讓不同平台玩家可建立私人房間繞開跨平台邀請異常問題（正式修復更新日期仍未定）；Steam 累積用戶評論 2,490 則，整體好評率 68%（褒貶不一），批評集中於移動手感偏重、武器耐久消耗快及無跳躍設計，合作深度與恐怖氛圍仍廣受肯定" },
         { type: "announcement", date: "2026年7月17日", sort: "2026-07-17", note: "Steam Beta Branch 推出效能優化 Patch，針對嚴重卡頓與資源串流瓶頸進行修正，受影響區域幀率最高提升約 25%；跨平台直接邀請功能異常仍在修復中" },
         { type: "announcement", date: "2026年7月21日", sort: "2026-07-21", note: "Patch 1.01 正式推送至穩定主分支：包含後啟動熱修復（Post Launch Hotfixes）與平衡調整，新增「Crossplay Friend Finder」功能（可在伺服器清單中依好友名稱搜尋，部分緩解跨平台直接邀請異常問題）；新增進場相機模式預選畫面（Cinematic / Default）；支援在木筏互動時以滑鼠整理背包；共 17 項相容性與效能修正" },
+        { type: "announcement", date: "2026年7月29日", sort: "2026-07-29", note: "Patch 1.02「Block Ability & Hotfixes」正式推送至全平台：為全角色新增格擋 / 擋反機制（預設鍵盤 Q、手把 RB/R1，持續按壓消耗耐力），大幅改變近戰戰鬥節奏；同步包含多項熱修復；「Lost Explorers' Swords Pack」免費領取期限亦已於 7/29 到期（售價回復 $4.99）；跨平台直接邀請異常問題仍未修復，密碼保護伺服器搜尋仍為官方暫行對策" },
         { type: "release", date: "2026年8月6日（實體版）", sort: "2026-08-06", note: "PS5 / Xbox Series X|S 盒裝光碟版正式發售（數位版已於 7月15日全平台上架）" }
       ]
     },
@@ -116,6 +117,7 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
         { type: "announcement", date: "2026年7月9日", sort: "2026-07-09", note: "開發日誌 #4 公開第二區域「狂風高地（Windhowl Plateau）」：峭壁與荒原交錯的惡劣地帶，介紹三種全新戰鬥型生物——鋼臂養蜂人（Steel-arm Beekeepers）、迴旋鼬（Boomerang Weasels）與岩石騎士（Rock Knights）" },
         { type: "announcement", date: "2026年7月23日~7月29日（投票期）", sort: "2026-07-23", note: "生物命名活動「Name Me」進入社群投票階段（7/23~7/29）：玩家票選鑽地礦工型（挖掘突襲特性）與羽翼劍客型（結合飛行與劍術）兩種新生物的最終名稱，結果預計 7/30~8/1 公布；入選命名玩家的名字將永久載入遊戲圖鑑" },
+        { type: "announcement", date: "2026年7月30日", sort: "2026-07-30", note: "參加 ChinaJoy 2026 Steam 展示（7/31~8/3）：開發商於 7/30 在 Steam 社群發布公告邀請玩家加入願望清單，遊戲 Steam 頁同步標記為 ChinaJoy 2026 展出作品；正式上市與次輪測試日期仍未公布" },
         { type: "announcement", date: "2026年8月1日（公示期截止）", sort: "2026-08-01", note: "「Name Me」生物命名活動公示期（7/30~8/1）正式結束：鑽地礦工型生物最終命名為「岩脊地龍（Stone Ridge Earth Dragon）」、羽翼劍客型生物最終命名為「青翎劍梟（Green Feather Sword Owl）」；入選命名玩家的名字將永久載入遊戲圖鑑" },
         { type: "release", date: "未定 (TBA)", sort: "9999-12-31", note: "預計 2026 年內推出，尚未公布正式上市日期，目前為 Coming Soon；下一個里程碑（測試）時程待開發商公告" }
       ]
@@ -158,7 +160,7 @@ window.GAMES_DATA = {
       },
       playerCount: "單人（含全球排行榜無盡模式）",
       events: [
-        { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 7 月底升至 特別好評 95%（1,200+ 則）；峰值同時上線約 12,000 人，兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
+        { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 8 月初評論數已逾 1,400 則、好評率約 90%（特別好評）；峰值同時上線約 12,000 人，兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
         { type: "announcement", date: "2026年7月28日（約）", sort: "2026-07-28", note: "試玩版第二次平衡更新 Patch 0.5.2：Boss 代幣每場由 1 個增至 2 個（加快遺物獲取節奏）、新增事件圖片與視覺更新、多項英雄專精調整（Aria、Sal、Irini、Kai、Gustav 等）及物品縮放與急救回退 Bug 修復；同步重置排行榜（全球分數清零）" },
         { type: "announcement", date: "2026年7月底", sort: "2026-07-31", note: "Demo 好評率升至 95%（特別好評，1,200+ 則）；開發商官方確認完整版將加入雙人合作（Two-Player Co-op）模式，目前試玩版仍為單人；Demo 進度預計可移轉至正式版（官方 FAQ 確認）" },
@@ -168,6 +170,24 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-08-01",
+      gameId: "tearsofmetal",
+      title: "《Tears of Metal》Patch 0.11.57863：大幅平衡調整與經濟系統重塑",
+      body: "Paper Cult 於 8 月 1 日推出 Patch 0.11.57863（同步發布「Last Week-end of 10% Launch Discount, Big Balancing Patch & What's to Come!」公告）：進行大幅平衡調整、經濟系統重塑與魅力（Charm）重新分類，並修復多項 Bug；同時公布後續優先開發方向，包含同伴復活機制修訂、中途存檔完善、效能優化與連線改善。跨平台（Crossplay）功能仍停用於主分支，可切換 Steam「Crossplay」Beta 分支維持跨平台連線。Steam 整體好評率目前約 85%（特別好評，1,786 則）。"
+    },
+    {
+      date: "2026-07-30",
+      gameId: "neverwither",
+      title: "《不朽之樹》加入 ChinaJoy 2026 Steam 展示",
+      body: "Geo Seed Games 於 7 月 30 日在 Steam 社群發布公告，宣布《不朽之樹》參加 ChinaJoy 2026 Steam 展示（7/31~8/3），邀請玩家加入願望清單；遊戲 Steam 頁同步標記為展出作品。遊戲正式上市日期與次輪測試時程仍未公布。"
+    },
+    {
+      date: "2026-07-29",
+      gameId: "themound",
+      title: "《The Mound》Patch 1.02 上線：新增格擋機制，「Lost Explorers' Swords Pack」免費期結束",
+      body: "ACE Team 推出 Patch 1.02「Block Ability & Hotfixes」：為全角色新增格擋 / 擋反機制（預設鍵盤 Q、手把 RB/R1，持續按壓消耗耐力），大幅調整近戰戰鬥節奏；同步修復多項問題。「Lost Explorers' Swords Pack」免費領取期限亦已於 7/29 到期（售價回復 $4.99）。跨平台直接邀請功能仍未正式修復，密碼保護伺服器搜尋仍為官方暫行對策。"
+    },
     {
       date: "2026-08-01",
       gameId: "neverwither",
@@ -522,8 +542,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
-      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 約 87%（1,500+ 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 87%（特別好評，1,500+ 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面與存檔復原系統，並更新沼澤與白樺樹關卡內容；7/31 Patch 0.10.57598 優化材質解析度、改善 Act 1 & 2 效能與穩定性。",
+      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 約 85%（1,786 則）",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 85%（特別好評，1,786 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面與存檔復原系統，並更新沼澤與白樺樹關卡內容；7/31 Patch 0.10.57598 優化材質解析度、改善 Act 1 & 2 效能與穩定性；8/1 Patch 0.11.57863 大幅平衡調整（含經濟系統重塑、魅力重新分類）並公布後續開發優先項（同伴復活機制、中途存檔、效能優化、連線改善）；跨平台（Crossplay）功能仍停用於主分支，可切換 Steam「Crossplay」Beta 分支維持跨平台連線。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
@@ -537,7 +557,7 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
-      rating: "英文版特別好評 91%（65,502 則）；所有語言整體 Mixed（多波評論轟炸，中文負評為主，整體約 56~60%）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
+      rating: "英文版特別好評 91%（66,197 則）；所有語言近 30 天 64% Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
       reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；v0.109.0 與 v0.109.1 已於 7 月底正式推送至穩定主分支（非 Beta 玩家現已同步收到）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率（不含排除計分）已降至約 56~60%；近 30 天評論已回升至 62%，Steam 已標記轟炸排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯；v0.109.1（7/25）修正繁體中文複數判斷邏輯（plural evaluation）；v0.110.0 Beta（7/31）將 Mirage 與 Pillar of Creation 恢復至 0.109.0 前版本並微調（Pillar 格擋 3→2），新增鍵盤純操作模式與角色形態 VFX 動畫。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
@@ -552,8 +572,8 @@ window.GAMES_DATA = {
       playerCount: "單人 / 最多 4 人合作",
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
-      rating: "特別好評 93%（英語 70,019 則）；近 30 天 90%",
-      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；7月14日推出 1.1 Hotfix 4，修復 Angel Combs 進度阻擋問題及多項 Xbox 崩潰問題；下一大更新「1.2」為合作導向版本，已確認加入近距語音聊天（Proximity Chat）、玩家物品交易（Player Trading）、死亡復活系統、HUD 界面調整與聚落建造工具（Habitat Builder），官方保守預計最遲 2026 年 9 月發布（無精確日期）；年底預計推出 EA2 大版本，計劃加入全新探索區域、新生物種類、新載具與故事劇情。近 30 天評價維持 90% 好評，口碑穩健。可加入 Xbox Game Pass 遊玩。",
+      rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
+      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；7月14日推出 1.1 Hotfix 4，修復 Angel Combs 進度阻擋問題及多項 Xbox 崩潰問題；下一大更新「1.2」為合作導向版本，已確認將加入近距語音聊天（Proximity Chat）、玩家物品交易（Player Trading）、死亡復活系統、HUD 界面調整與聚落建造工具（Habitat Builder）等功能；官方尚未公布確切發布日期（路線圖標示在 1.1 之後，部分媒體推測 9 月前後，非官方確認）；年底預計推出 EA2 大版本，計劃加入全新探索區域、新生物種類、新載具與故事劇情。近 30 天評價維持 90% 好評，口碑穩健。可加入 Xbox Game Pass 遊玩。",
       links: { steam: "https://store.steampowered.com/app/1962700/Subnautica_2/", official: "" }
     }
   ]
