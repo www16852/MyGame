@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-03",
+  lastUpdated: "2026-08-05",
 
   games: [
     {
@@ -94,7 +94,8 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年7月17日", sort: "2026-07-17", note: "Steam Beta Branch 推出效能優化 Patch，針對嚴重卡頓與資源串流瓶頸進行修正，受影響區域幀率最高提升約 25%；跨平台直接邀請功能異常仍在修復中" },
         { type: "announcement", date: "2026年7月21日", sort: "2026-07-21", note: "Patch 1.01 正式推送至穩定主分支：包含後啟動熱修復（Post Launch Hotfixes）與平衡調整，新增「Crossplay Friend Finder」功能（可在伺服器清單中依好友名稱搜尋，部分緩解跨平台直接邀請異常問題）；新增進場相機模式預選畫面（Cinematic / Default）；支援在木筏互動時以滑鼠整理背包；共 17 項相容性與效能修正" },
         { type: "announcement", date: "2026年7月29日", sort: "2026-07-29", note: "Patch 1.02「Block Ability & Hotfixes」正式推送至全平台：為全角色新增格擋 / 擋反機制（預設鍵盤 Q、手把 RB/R1，持續按壓消耗耐力），大幅改變近戰戰鬥節奏；同步包含多項熱修復；「Lost Explorers' Swords Pack」免費領取期限亦已於 7/29 到期（售價回復 $4.99）；跨平台直接邀請異常問題仍未修復，密碼保護伺服器搜尋仍為官方暫行對策" },
-        { type: "release", date: "2026年8月6日（實體版）", sort: "2026-08-06", note: "PS5 / Xbox Series X|S 盒裝光碟版正式發售（數位版已於 7月15日全平台上架）" }
+        { type: "release", date: "2026年8月6日（實體版）", sort: "2026-08-06", note: "PS5 / Xbox Series X|S 盒裝光碟版正式發售（數位版已於 7月15日全平台上架）" },
+        { type: "announcement", date: "2026年8月上旬", sort: "2026-08-04", note: "上市三週後評論持續累積：Steam 3,328 則、好評率 69%（褒貶不一），Metacritic 66（17 篇評測），OpenCritic 69（45 篇，33% 媒體推薦）；正面評論肯定恐怖氛圍與合作深度，負面評論集中於森林區域微卡頓、移動手感偏重及單人模式薄弱；跨平台直接邀請功能修復時程仍未公布" }
       ]
     },
     {
@@ -119,7 +120,8 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年7月23日~7月29日（投票期）", sort: "2026-07-23", note: "生物命名活動「Name Me」進入社群投票階段（7/23~7/29）：玩家票選鑽地礦工型（挖掘突襲特性）與羽翼劍客型（結合飛行與劍術）兩種新生物的最終名稱，結果預計 7/30~8/1 公布；入選命名玩家的名字將永久載入遊戲圖鑑" },
         { type: "announcement", date: "2026年7月30日", sort: "2026-07-30", note: "參加 ChinaJoy 2026 Steam 展示（7/31~8/3）：開發商於 7/30 在 Steam 社群發布公告邀請玩家加入願望清單，遊戲 Steam 頁同步標記為 ChinaJoy 2026 展出作品；正式上市與次輪測試日期仍未公布" },
         { type: "announcement", date: "2026年8月1日（公示期截止）", sort: "2026-08-01", note: "「Name Me」生物命名活動公示期（7/30~8/1）正式結束：鑽地礦工型生物最終命名為「岩脊地龍（Stone Ridge Earth Dragon）」、羽翼劍客型生物最終命名為「青翎劍梟（Green Feather Sword Owl）」；入選命名玩家的名字將永久載入遊戲圖鑑" },
-        { type: "release", date: "未定 (TBA)", sort: "9999-12-31", note: "預計 2026 年內推出，尚未公布正式上市日期，目前為 Coming Soon；下一個里程碑（測試）時程待開發商公告" }
+        { type: "beta", date: "2026年8月（週末試玩，開放申請中）", sort: "2026-08-03", note: "配合亮相 ChinaJoy 2026 Steam 展示，開發商透過 Steam 發布公告「現可申請測試！亮相2026東方遊戲文化週」，宣布開放新一輪週末試玩（Weekend Playtest）報名；距首輪技術測試（5/30~6/2）約兩個月，開發商表示仍在積極開發新內容並準備下一個試玩版本；具體測試時程待官方後續公告" },
+        { type: "release", date: "未定 (TBA)", sort: "9999-12-31", note: "正式上市日期仍未定，目前為 Coming Soon" }
       ]
     },
     {
@@ -160,16 +162,29 @@ window.GAMES_DATA = {
       },
       playerCount: "單人（含全球排行榜無盡模式）",
       events: [
-        { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 8 月初評論數已逾 1,400 則、好評率約 90%（特別好評）；峰值同時上線約 12,000 人，兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
+        { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 8 月上旬評論數達 1,445 則、好評率 95%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
         { type: "announcement", date: "2026年7月28日（約）", sort: "2026-07-28", note: "試玩版第二次平衡更新 Patch 0.5.2：Boss 代幣每場由 1 個增至 2 個（加快遺物獲取節奏）、新增事件圖片與視覺更新、多項英雄專精調整（Aria、Sal、Irini、Kai、Gustav 等）及物品縮放與急救回退 Bug 修復；同步重置排行榜（全球分數清零）" },
         { type: "announcement", date: "2026年7月底", sort: "2026-07-31", note: "Demo 好評率升至 95%（特別好評，1,200+ 則）；開發商官方確認完整版將加入雙人合作（Two-Player Co-op）模式，目前試玩版仍為單人；Demo 進度預計可移轉至正式版（官方 FAQ 確認）" },
+        { type: "announcement", date: "2026年8月4日", sort: "2026-08-04", note: "美國遊戲媒體 Kotaku 發布特集報導「Guildrun's Free Demo Is Good Enough To Take On Slay The Spire」，高度評價試玩版品質堪比成熟商業作品，並直接與《殺戮尖塔》相比較；截至同日 Steam 試玩版評論達 1,445 則，好評率 95%（特別好評）；GameDiscover.co 統計 10 天內吸引逾 30 萬試玩玩家" },
         { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；早期媒體報導提及「2026 年下半」為舊資訊，Steam 頁仍標示確切日期 TBA；完整版含雙人合作、更多英雄與地圖等大幅擴充內容" }
       ]
     }
   ],
 
   news: [
+    {
+      date: "2026-08-04",
+      gameId: "guildrun",
+      title: "《Guildrun》獲 Kotaku 特集報導，試玩版突破 1,445 則評論",
+      body: "美國遊戲媒體 Kotaku 於 8 月 4 日刊載特集報導「Guildrun's Free Demo Is Good Enough To Take On Slay The Spire」，盛讚試玩版品質可媲美正式商業作品，並與同類型標竿《殺戮尖塔》相提並論。截至發稿日 Steam 試玩版評論達 1,445 則，好評率 95%（特別好評）；GameDiscover.co 統計自 7/16 上架起 10 天內已吸引逾 30 萬名試玩玩家。完整版仍目標 2027 年推出，試玩版持續免費開放。"
+    },
+    {
+      date: "2026-08-03",
+      gameId: "neverwither",
+      title: "《不朽之樹》ChinaJoy 2026 期間開放新一輪週末試玩申請",
+      body: "Geo Seed Games 於 ChinaJoy 2026 Steam 展示（7/31~8/3）期間透過 Steam 發布公告「現可申請測試！亮相2026東方遊戲文化週」，宣布開放新一輪週末試玩（Weekend Playtest）申請。開發商同步表示距首輪技術測試（5/30~6/2）已約兩個月，團隊持續開發新內容並準備下一個試玩版本，具體測試時程待後續公告。"
+    },
     {
       date: "2026-08-01",
       gameId: "tearsofmetal",
