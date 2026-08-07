@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-05",
+  lastUpdated: "2026-08-07",
 
   games: [
     {
@@ -162,11 +162,12 @@ window.GAMES_DATA = {
       },
       playerCount: "單人（含全球排行榜無盡模式）",
       events: [
-        { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 8 月上旬評論數達 1,445 則、好評率 95%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
+        { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 8 月 7 日評論數已逾 1,500 則、好評率 95%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
         { type: "announcement", date: "2026年7月28日（約）", sort: "2026-07-28", note: "試玩版第二次平衡更新 Patch 0.5.2：Boss 代幣每場由 1 個增至 2 個（加快遺物獲取節奏）、新增事件圖片與視覺更新、多項英雄專精調整（Aria、Sal、Irini、Kai、Gustav 等）及物品縮放與急救回退 Bug 修復；同步重置排行榜（全球分數清零）" },
         { type: "announcement", date: "2026年7月底", sort: "2026-07-31", note: "Demo 好評率升至 95%（特別好評，1,200+ 則）；開發商官方確認完整版將加入雙人合作（Two-Player Co-op）模式，目前試玩版仍為單人；Demo 進度預計可移轉至正式版（官方 FAQ 確認）" },
         { type: "announcement", date: "2026年8月4日", sort: "2026-08-04", note: "美國遊戲媒體 Kotaku 發布特集報導「Guildrun's Free Demo Is Good Enough To Take On Slay The Spire」，高度評價試玩版品質堪比成熟商業作品，並直接與《殺戮尖塔》相比較；截至同日 Steam 試玩版評論達 1,445 則，好評率 95%（特別好評）；GameDiscover.co 統計 10 天內吸引逾 30 萬試玩玩家" },
+        { type: "announcement", date: "2026年8月4日", sort: "2026-08-04", note: "Demo Patch 0.5.3 推送：英雄平衡大幅調整——Hoyoung、Fiona 魔力消耗下調，Karsu 魔力與攻擊力上調，Sal 攻速下調；技能調整包含 Killshot 傷害係數 2.5→3.0、Petrification 每層毒素傷害翻倍（1→2）；遺物重平衡（Shard Resonator 護盾 1000→600、多件典藏遺物 legacy stack 增量提升）；Rogue's Cowl 完整改版（新增全新機制）、Squire 套裝血量與攻擊力增強；為持續 Demo 週更節奏的第三次正式 patch" },
         { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；早期媒體報導提及「2026 年下半」為舊資訊，Steam 頁仍標示確切日期 TBA；完整版含雙人合作、更多英雄與地圖等大幅擴充內容" }
       ]
     }
@@ -176,8 +177,8 @@ window.GAMES_DATA = {
     {
       date: "2026-08-04",
       gameId: "guildrun",
-      title: "《Guildrun》獲 Kotaku 特集報導，試玩版突破 1,445 則評論",
-      body: "美國遊戲媒體 Kotaku 於 8 月 4 日刊載特集報導「Guildrun's Free Demo Is Good Enough To Take On Slay The Spire」，盛讚試玩版品質可媲美正式商業作品，並與同類型標竿《殺戮尖塔》相提並論。截至發稿日 Steam 試玩版評論達 1,445 則，好評率 95%（特別好評）；GameDiscover.co 統計自 7/16 上架起 10 天內已吸引逾 30 萬名試玩玩家。完整版仍目標 2027 年推出，試玩版持續免費開放。"
+      title: "《Guildrun》Demo Patch 0.5.3 推送：英雄平衡調整，試玩版評論達 1,500+ 則",
+      body: "Leyline 於 8 月 4 日推出試玩版第三次平衡更新 Patch 0.5.3：英雄大幅調整（Hoyoung/Fiona 魔力消耗下調、Karsu 攻擊力增強、Sal 攻速降低）；Killshot 傷害係數 2.5→3.0、Petrification 每層毒素傷害翻倍；Rogue's Cowl 完整改版；截至此時 Steam 試玩版評論已突破 1,500 則，好評率維持 95%（特別好評）。同日 Kotaku 刊載特集報導「Guildrun's Free Demo Is Good Enough To Take On Slay The Spire」，GameDiscover.co 統計 10 天內逾 30 萬名試玩玩家。"
     },
     {
       date: "2026-08-03",
@@ -557,8 +558,8 @@ window.GAMES_DATA = {
       playerCount: "1~4 人線上合作",
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
-      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 約 85%（1,786 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣至 8/5 止，同步登陸 Steam 與 Microsoft Store），包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 85%（特別好評，1,786 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面與存檔復原系統，並更新沼澤與白樺樹關卡內容；7/31 Patch 0.10.57598 優化材質解析度、改善 Act 1 & 2 效能與穩定性；8/1 Patch 0.11.57863 大幅平衡調整（含經濟系統重塑、魅力重新分類）並公布後續開發優先項（同伴復活機制、中途存檔、效能優化、連線改善）；跨平台（Crossplay）功能仍停用於主分支，可切換 Steam「Crossplay」Beta 分支維持跨平台連線。",
+      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 約 85%（1,928 則）",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣已於 8/5 截止），同步登陸 Steam 與 Microsoft Store，包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 85%（特別好評，1,928 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面；7/31 Patch 0.10.57598 優化材質解析度；8/1 Patch 0.11.57863 大幅平衡調整（含經濟系統重塑、魅力重新分類）並公布後續開發優先項（同伴復活機制、中途存檔、效能優化、連線改善）；跨平台（Crossplay）功能仍停用於主分支，可切換 Steam「Crossplay」Beta 分支維持跨平台連線。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
@@ -588,7 +589,7 @@ window.GAMES_DATA = {
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
-      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；7月14日推出 1.1 Hotfix 4，修復 Angel Combs 進度阻擋問題及多項 Xbox 崩潰問題；下一大更新「1.2」為合作導向版本，已確認將加入近距語音聊天（Proximity Chat）、玩家物品交易（Player Trading）、死亡復活系統、HUD 界面調整與聚落建造工具（Habitat Builder）等功能；官方尚未公布確切發布日期（路線圖標示在 1.1 之後，部分媒體推測 9 月前後，非官方確認）；年底預計推出 EA2 大版本，計劃加入全新探索區域、新生物種類、新載具與故事劇情。近 30 天評價維持 90% 好評，口碑穩健。可加入 Xbox Game Pass 遊玩。",
+      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；7月14日推出 1.1 Hotfix 4，修復 Angel Combs 進度阻擋問題及多項 Xbox 崩潰問題。下一大更新「1.2（合作導向版本）」開發中，已確認將加入近距語音聊天（Proximity Chat）、玩家物品交易（Player Trading）、死亡復活系統、HUD 界面調整與聚落建造工具（Habitat Builder）；目前尚無確切發布日期，部分媒體依開發影片推測 9 月前後（非官方確認）。年底預計推出 EA2 大版本，計劃加入全新探索區域、新生物種類、新載具與故事劇情。近 30 天評價維持 90% 好評，口碑穩健。可加入 Xbox Game Pass 遊玩。",
       links: { steam: "https://store.steampowered.com/app/1962700/Subnautica_2/", official: "" }
     }
   ]
