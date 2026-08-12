@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-10",
+  lastUpdated: "2026-08-12",
 
   games: [
     {
@@ -142,8 +142,9 @@ window.GAMES_DATA = {
       events: [
         { type: "demo", date: "2026年5月24日起開放", sort: "2026-05-24", note: "Steam 免費試玩版上架，Steam 新品節期間獲媒體廣泛報導，目前好評率 93%（349 則）" },
         { type: "announcement", date: "2026年6月（EA 前公告）", sort: "2026-06-01", note: "宣布 EA 上市時將加入新可玩種族「Lycan（狼族）」（白天偏弱、夜晚增強，擅長靈活物理輸出，適配弓與長槍）以及新武器「長槍（Spear）」，開放新的戰鬥配置組合" },
-        { type: "beta", date: "2026年7月23日 ~ 7月29日", sort: "2026-07-23", note: "第 3 次 Supporters Program 封測，開放 Region 1~2、新種族 Lycan（狼族）、新武器長槍（Spear）、新特性 / 道具 / 效果及難度平衡調整；Steam 頁申請資格、限量隨機抽選；封測存檔不保證相容於 9/10 EA 版" },
-        { type: "early_access", date: "2026年9月10日", sort: "2026-09-10", note: "以搶先體驗（Early Access）形式上市，初期開放區域 1~2 與「深淵」挑戰內容；完整版預計共 6 個區域" }
+        { type: "beta", date: "2026年7月23日 ~ 7月29日", sort: "2026-07-23", note: "第 3 次 Supporters Program 封測，開放 Region 1~2、新種族 Lycan（狼族）、新武器長槍（Spear）、新特性 / 道具 / 效果及難度平衡調整；Steam 頁申請資格、限量隨機抽選；封測存檔不保證相容於 9/4 EA 版" },
+        { type: "announcement", date: "2026年8月7日", sort: "2026-08-07", note: "官方宣布 EA 上市日期由 9 月 10 日提前至 9 月 4 日（UTC 08:00）；開發商表示進度超前預期、對提前一週與玩家見面感到雀躍；EA 版仍包含區域 1~2 與「深淵」挑戰內容，同步新增巴西葡萄牙語支援" },
+        { type: "early_access", date: "2026年9月4日（UTC 08:00）", sort: "2026-09-04", note: "以搶先體驗（Early Access）形式上市（比原訂 9/10 提前一週）；初期開放區域 1~2 與「深淵」挑戰內容；完整版預計共 6 個區域；同步新增巴西葡萄牙語支援" }
       ]
     },
     {
@@ -168,12 +169,31 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年7月底", sort: "2026-07-31", note: "Demo 好評率升至 95%（特別好評，1,200+ 則）；開發商官方確認完整版將加入雙人合作（Two-Player Co-op）模式，目前試玩版仍為單人；Demo 進度預計可移轉至正式版（官方 FAQ 確認）" },
         { type: "announcement", date: "2026年8月4日", sort: "2026-08-04", note: "美國遊戲媒體 Kotaku 發布特集報導「Guildrun's Free Demo Is Good Enough To Take On Slay The Spire」，高度評價試玩版品質堪比成熟商業作品，並直接與《殺戮尖塔》相比較；截至同日 Steam 試玩版評論達 1,445 則，好評率 95%（特別好評）；GameDiscover.co 統計 10 天內吸引逾 30 萬試玩玩家" },
         { type: "announcement", date: "2026年8月4日", sort: "2026-08-04", note: "Demo Patch 0.5.3 推送：英雄平衡大幅調整——Hoyoung、Fiona 魔力消耗下調，Karsu 魔力與攻擊力上調，Sal 攻速下調；技能調整包含 Killshot 傷害係數 2.5→3.0、Petrification 每層毒素傷害翻倍（1→2）；遺物重平衡（Shard Resonator 護盾 1000→600、多件典藏遺物 legacy stack 增量提升）；Rogue's Cowl 完整改版（新增全新機制）、Squire 套裝血量與攻擊力增強；為持續 Demo 週更節奏的第三次正式 patch" },
+        { type: "announcement", date: "2026年8月11日", sort: "2026-08-11", note: "Demo Patch 0.5.4 推送：英雄數值調整（Rowan 最大魔力升至 115、Skorn 最大血量升至 950、Kai 防禦升至 41）；多項技能重平衡（護盾倍率、傷害輸出與狀態效果調整）；道具大幅強化（Toxic Ring 暴擊 7→15、Freezing Ring 魔力 12→25 等戒指類全面提升）；遺物更新（Shield Investment Filigree 移除觸發間隔限制）；為第四次週更節奏的 Demo 平衡 Patch" },
         { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；早期媒體報導提及「2026 年下半」為舊資訊，Steam 頁仍標示確切日期 TBA；完整版含雙人合作、更多英雄與地圖等大幅擴充內容" }
       ]
     }
   ],
 
   news: [
+    {
+      date: "2026-08-11",
+      gameId: "guildrun",
+      title: "《Guildrun》Demo Patch 0.5.4 推送：英雄數值加強、戒指類道具全面提升",
+      body: "Leyline 於 8 月 11 日推出試玩版第四次平衡更新 Patch 0.5.4：英雄數值調整（Rowan 最大魔力升至 115、Skorn 最大血量升至 950、Kai 防禦升至 41）；多項技能護盾倍率、傷害輸出與狀態效果重平衡；道具大幅強化（Toxic Ring 暴擊 7→15、Freezing Ring 魔力 12→25，戒指類全面提升）；遺物更新含 Shield Investment Filigree 移除觸發間隔限制。Steam 試玩版持續維持每週更新節奏，好評率仍在特別好評水準。"
+    },
+    {
+      date: "2026-08-07",
+      gameId: "dungeonsettlers",
+      title: "《地城拓荒》EA 上市日期由 9/10 提前至 9/4，比原計劃提早一週",
+      body: "CanOpener 於 8 月 7 日宣布《地城拓荒（Dungeon Settlers）》搶先體驗版上市日期由原訂 9 月 10 日提前至 9 月 4 日（UTC 08:00）；開發商表示進度超前預期、對提前與玩家見面感到雀躍。EA 版仍將包含區域 1~2 與「深淵」挑戰內容，同步新增巴西葡萄牙語支援。"
+    },
+    {
+      date: "2026-08-07",
+      gameId: "tearsofmetal",
+      title: "《Tears of Metal》預告下一位同伴「Aodh, The Vigil」，測試修改合作復活耗費",
+      body: "Paper Cult 於 8 月 7 日釋出開發預告：下一位即將加入的同伴（Companion）名為「Aodh, The Vigil」；同時宣布正在測試將合作復活的費用由消耗 Coin 改為消耗 HP，以調整多人合作平衡；另提及大廳改善功能正在開發中。上述功能均尚未確認上線版本號與時程，目前最新版本仍為 8/9 熱修復（v0.11.57874.1）。"
+    },
     {
       date: "2026-08-09",
       gameId: "tearsofmetal",
@@ -565,7 +585,7 @@ window.GAMES_DATA = {
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
       rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 約 85%（1,928 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣已於 8/5 截止），同步登陸 Steam 與 Microsoft Store，包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 85%（特別好評，1,928 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面；7/31 Patch 0.10.57598 優化材質解析度；8/1 Patch 0.11.57863 大幅平衡調整（含經濟系統重塑、魅力重新分類）並公布後續開發優先項（同伴復活機制、中途存檔、效能優化、連線改善）；跨平台（Crossplay）功能仍停用於主分支，可切換 Steam「Crossplay」Beta 分支維持跨平台連線；8/9 熱修復推出，修復部分玩家遭遇的滑鼠卡頓（Mouse Stutter）問題（Windows Store / Xbox Game Pass 版因需通過認證程序，補丁可能延遲一天到達）；開發商同步預告下一次較大版本更新將加入全新同伴（Companion）、同伴死亡後可復活機制（Revive with HP）等新功能，目前仍在開發打磨中。",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣已於 8/5 截止），同步登陸 Steam 與 Microsoft Store，包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 85%（特別好評，1,928 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面；7/31 Patch 0.10.57598 優化材質解析度；8/1 Patch 0.11.57863 大幅平衡調整（含經濟系統重塑、魅力重新分類）並公布後續開發優先項（同伴復活機制、中途存檔、效能優化、連線改善）；跨平台（Crossplay）功能仍停用於主分支，可切換 Steam「Crossplay」Beta 分支維持跨平台連線；8/9 熱修復推出，修復部分玩家遭遇的滑鼠卡頓（Mouse Stutter）問題（Windows Store / Xbox Game Pass 版因需通過認證程序，補丁可能延遲一天到達）；8/7 開發預告確認下一位同伴名為「Aodh, The Vigil」，並測試將合作復活費用由 Coin 改為消耗 HP（Revive with HP）；大廳改善功能亦在開發中；上述功能均尚未確認上線版本號與時程。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
