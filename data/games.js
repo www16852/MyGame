@@ -178,6 +178,12 @@ window.GAMES_DATA = {
 
   news: [
     {
+      date: "2026-08-13",
+      gameId: "",
+      title: "「新品推薦」新增 3 款好評多人新作",
+      body: "新品推薦頁擴充：多人生存新增《Scrap Mechanic》（7/25 推出 1.0，特別好評）與《Funnel Runners》（7/16 上線，最多 8 人合作、87% 特別好評）；多人 RogueLike 新增《Abyssus》（1~4 人合作 roguelite FPS，特別好評，2026 夏季 v1.3 加入跨平台）。"
+    },
+    {
       date: "2026-08-11",
       gameId: "guildrun",
       title: "《Guildrun》Demo Patch 0.5.4 推送：英雄數值加強、戒指類道具全面提升",
@@ -624,6 +630,51 @@ window.GAMES_DATA = {
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
       reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；7月14日推出 1.1 Hotfix 4，修復 Angel Combs 進度阻擋問題及多項 Xbox 崩潰問題。下一大更新「1.2（合作導向版本）」開發中，已確認將加入近距語音聊天（Proximity Chat）、玩家物品交易（Player Trading）、死亡復活系統、HUD 界面調整與聚落建造工具（Habitat Builder）；目前尚無確切發布日期，部分媒體依開發影片推測 9 月前後（非官方確認）。年底預計推出 EA2 大版本，計劃加入全新探索區域、新生物種類、新載具與故事劇情。近 30 天評價維持 90% 好評，口碑穩健。可加入 Xbox Game Pass 遊玩。",
       links: { steam: "https://store.steampowered.com/app/1962700/Subnautica_2/", official: "" }
+    },
+    {
+      id: "scrapmechanic",
+      name: "Scrap Mechanic",
+      nameEn: "Scrap Mechanic",
+      interest: "多人生存",
+      genre: "沙盒生存建造",
+      developer: "Axolot Games",
+      platforms: ["PC"],
+      playerCount: "單人 / 多人合作",
+      released: "2026年7月25日（1.0 正式版）",
+      sort: "2026-07-25",
+      rating: "特別好評（Very Positive）",
+      reason: "動態生成開放世界的沙盒生存建造：打造載具與基地、採集資源、對抗危險機器人。歷經長期搶先體驗後於 2026/7/25 推出 1.0，上線即獲特別好評、同時在線人數可觀。",
+      links: { steam: "https://store.steampowered.com/app/387990/Scrap_Mechanic/", official: "" }
+    },
+    {
+      id: "funnelrunners",
+      name: "Funnel Runners",
+      nameEn: "Funnel Runners",
+      interest: "多人生存",
+      genre: "合作生存 / 逃脫",
+      developer: "",
+      platforms: ["PC"],
+      playerCount: "1~8 人合作",
+      released: "2026年7月16日",
+      sort: "2026-07-16",
+      rating: "特別好評 87%",
+      reason: "最多 8 人合作的限時生存：在龍捲風夷平小鎮前約 20 分鐘內搜刮物資、修好廂型車逃出生天。2026/7/16 上線即獲 87% 特別好評，主打歡樂的多人混亂體驗。",
+      links: { steam: "", official: "" }
+    },
+    {
+      id: "abyssus",
+      name: "Abyssus",
+      nameEn: "Abyssus",
+      interest: "多人RogueLike",
+      genre: "Roguelite FPS（brinepunk）",
+      developer: "",
+      platforms: ["PC"],
+      playerCount: "1~4 人合作",
+      released: "2025年8月（2026 夏季 v1.3 加入跨平台與主機版）",
+      sort: "2026-06-01",
+      rating: "特別好評（Very Positive，5,500+ 則）",
+      reason: "沉沒世界的「brinepunk」合作 Roguelite FPS，1~4 人連線；俐落的射擊手感與多樣 build 構築廣受好評。2026 夏季 v1.3 更新加入跨平台連線並登陸主機。",
+      links: { steam: "https://store.steampowered.com/app/1721110/Abyssus/", official: "" }
     }
   ]
 };
