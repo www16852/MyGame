@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-13",
+  lastUpdated: "2026-08-14",
 
   games: [
     {
@@ -177,6 +177,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-08-14",
+      gameId: "",
+      title: "「新品推薦」輪替：以《Grain Rot》取代《Abyssus》，多人RogueLike類補入新上市好評之作",
+      body: "多人RogueLike 推薦輪替：《Abyssus》（2025 年 8 月上市，已逾 12 個月）移出；補入 2026 年 8 月 7 日正式上線的《Grain Rot》（最多 4 人合作取材恐怖 Roguelite，首週即獲 89% 特別好評、994 則評論；試玩版曾在 Steam Next Fest 衝進前 15 名並累積逾 35 萬次下載）。另：《深海迷航 2》Update 1.2（合作導向）持續開發中，預計 9 月前後推出，將帶來近距語音聊天、玩家物品交易與死亡復活機制。"
+    },
     {
       date: "2026-08-13",
       gameId: "",
@@ -662,19 +668,19 @@ window.GAMES_DATA = {
       links: { steam: "", official: "" }
     },
     {
-      id: "abyssus",
-      name: "Abyssus",
-      nameEn: "Abyssus",
+      id: "grainrot",
+      name: "Grain Rot",
+      nameEn: "GRAIN ROT",
       interest: "多人RogueLike",
-      genre: "Roguelite FPS（brinepunk）",
-      developer: "",
+      genre: "合作取材恐怖 Roguelite",
+      developer: "Beck & Branch Games（發行：Neem）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      released: "2025年8月（2026 夏季 v1.3 加入跨平台與主機版）",
-      sort: "2026-06-01",
-      rating: "特別好評（Very Positive，5,500+ 則）",
-      reason: "沉沒世界的「brinepunk」合作 Roguelite FPS，1~4 人連線；俐落的射擊手感與多樣 build 構築廣受好評。2026 夏季 v1.3 更新加入跨平台連線並登陸主機。",
-      links: { steam: "https://store.steampowered.com/app/1721110/Abyssus/", official: "" }
+      released: "2026年8月7日",
+      sort: "2026-08-07",
+      rating: "特別好評 89%（994 則）",
+      reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載、近 20 萬人加入願望清單。",
+      links: { steam: "https://store.steampowered.com/app/4450620/GRAIN_ROT/", official: "" }
     }
   ]
 };
