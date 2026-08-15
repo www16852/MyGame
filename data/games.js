@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-14",
+  lastUpdated: "2026-08-15",
 
   games: [
     {
@@ -95,7 +95,8 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年7月21日", sort: "2026-07-21", note: "Patch 1.01 正式推送至穩定主分支：包含後啟動熱修復（Post Launch Hotfixes）與平衡調整，新增「Crossplay Friend Finder」功能（可在伺服器清單中依好友名稱搜尋，部分緩解跨平台直接邀請異常問題）；新增進場相機模式預選畫面（Cinematic / Default）；支援在木筏互動時以滑鼠整理背包；共 17 項相容性與效能修正" },
         { type: "announcement", date: "2026年7月29日", sort: "2026-07-29", note: "Patch 1.02「Block Ability & Hotfixes」正式推送至全平台：為全角色新增格擋 / 擋反機制（預設鍵盤 Q、手把 RB/R1，持續按壓消耗耐力），大幅改變近戰戰鬥節奏；同步包含多項熱修復；「Lost Explorers' Swords Pack」免費領取期限亦已於 7/29 到期（售價回復 $4.99）；跨平台直接邀請異常問題仍未修復，密碼保護伺服器搜尋仍為官方暫行對策" },
         { type: "release", date: "2026年8月6日（實體版）", sort: "2026-08-06", note: "PS5 / Xbox Series X|S 盒裝光碟版正式發售（數位版已於 7月15日全平台上架）" },
-        { type: "announcement", date: "2026年8月上旬", sort: "2026-08-04", note: "上市三週後評論持續累積：Steam 3,328 則、好評率 69%（褒貶不一），Metacritic 66（17 篇評測），OpenCritic 69（45 篇，33% 媒體推薦）；正面評論肯定恐怖氛圍與合作深度，負面評論集中於森林區域微卡頓、移動手感偏重及單人模式薄弱；跨平台直接邀請功能修復時程仍未公布" }
+        { type: "announcement", date: "2026年8月上旬", sort: "2026-08-04", note: "上市三週後評論持續累積：Steam 3,328 則、好評率 69%（褒貶不一），Metacritic 66（17 篇評測），OpenCritic 69（45 篇，33% 媒體推薦）；正面評論肯定恐怖氛圍與合作深度，負面評論集中於森林區域微卡頓、移動手感偏重及單人模式薄弱；跨平台直接邀請功能修復時程仍未公布" },
+        { type: "announcement", date: "2026年8月7日", sort: "2026-08-07", note: "Patch 1.03「Quality of Life Hotfixes」正式推送至全平台：新增 Quickmatch 快速媒合功能（一鍵加入對局，無需手動瀏覽伺服器清單）、伺服器媒合篩選器（可依地區與語言過濾對局）、遊戲內語音聊天品質改善、效能優化，以及卡入地形時可自行傳送脫困的功能；跨平台直接邀請功能修復時程仍未公布，密碼保護伺服器搜尋仍為官方暫行對策" }
       ]
     },
     {
@@ -177,6 +178,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-08-07",
+      gameId: "themound",
+      title: "《The Mound》Patch 1.03 上線：Quickmatch 快速媒合、地區篩選器與傳送脫困功能",
+      body: "ACE Team 於 8 月 7 日推出 Patch 1.03「Quality of Life Hotfixes」，為全平台推送以下改善：新增 Quickmatch 快速媒合功能（一鍵加入對局，無需手動瀏覽伺服器清單）、伺服器地區與語言篩選器、遊戲內語音聊天品質改善、效能優化，以及卡入地形時可自行傳送脫困的功能。跨平台直接邀請功能修復時程仍未公布，密碼保護伺服器搜尋仍為官方暫行對策。"
+    },
     {
       date: "2026-08-14",
       gameId: "",
@@ -648,8 +655,8 @@ window.GAMES_DATA = {
       playerCount: "單人 / 多人合作",
       released: "2026年7月25日（1.0 正式版）",
       sort: "2026-07-25",
-      rating: "特別好評（Very Positive）",
-      reason: "動態生成開放世界的沙盒生存建造：打造載具與基地、採集資源、對抗危險機器人。歷經長期搶先體驗後於 2026/7/25 推出 1.0，上線即獲特別好評、同時在線人數可觀。",
+      rating: "特別好評 90%（47,500+ 則）",
+      reason: "動態生成開放世界的沙盒生存建造：打造載具與基地、採集資源、對抗危險機器人。歷經 10 年搶先體驗後於 2026/7/25 推出 1.0（完整故事線＋「Drilling Thunder」第二章劇情），Steam 整體評價 90%（特別好評，47,500+ 則）；新增重製世界、新敵人、建造零件與外觀，為系列最完整版本。",
       links: { steam: "https://store.steampowered.com/app/387990/Scrap_Mechanic/", official: "" }
     },
     {
