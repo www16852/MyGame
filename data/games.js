@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-16",
+  lastUpdated: "2026-08-17",
 
   games: [
     {
@@ -178,6 +178,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-08-17",
+      gameId: "",
+      title: "「新品推薦」新增《Windrose》，多人生存類迎來海盜合作生存建造新秀",
+      body: "多人生存推薦新增《Windrose》：由《Palworld》發行商 Pocketpair 發行，2026 年 4 月 14 日登陸 Steam 搶先體驗。最多 8 人合作出海（官方建議 4 人以內效能最佳），一人掌舵、一人操炮、一人接舷突擊，陸地可建造基地與採集資源；嚴格線上合作、無 PvP。EA 首日同時在線突破 69,000 人、銷量逾 50 萬份，Steam 好評率 88%（特別好評，27,000+ 則），持續更新擴充內容。"
+    },
     {
       date: "2026-08-13",
       gameId: "slaythespire2",
@@ -694,6 +700,21 @@ window.GAMES_DATA = {
       rating: "特別好評 89%（994 則）",
       reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載、近 20 萬人加入願望清單。",
       links: { steam: "https://store.steampowered.com/app/4450620/GRAIN_ROT/", official: "" }
+    },
+    {
+      id: "windrose",
+      name: "Windrose",
+      nameEn: "Windrose",
+      interest: "多人生存",
+      genre: "海盜生存建造 / 海洋合作",
+      developer: "Windrose Crew（發行：Pocketpair）",
+      platforms: ["PC"],
+      playerCount: "1~8 人合作（建議最多 4 人）",
+      released: "2026年4月14日 搶先體驗",
+      sort: "2026-04-14",
+      rating: "特別好評 88%（27,000+ 則）",
+      reason: "由《Palworld》發行商 Pocketpair 發行的海盜主題合作生存建造新作。最多 8 人共乘一艘船出海：一人掌舵、一人操炮、一人接舷突擊，陸地可建造基地與採集資源。EA 上線首日即突破 69,000 人同時在線、上市首週銷量逾 50 萬份，Steam 維持 88% 特別好評（27,000+ 則）。嚴格線上合作、無 PvP，主打海戰與基地建造的協作體驗；開發組持續更新修復多人效能與擴充艦船、武器等內容。",
+      links: { steam: "https://store.steampowered.com/app/3041230/Windrose/", official: "" }
     }
   ]
 };
