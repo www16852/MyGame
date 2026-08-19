@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-17",
+  lastUpdated: "2026-08-19",
 
   games: [
     {
@@ -146,6 +146,7 @@ window.GAMES_DATA = {
         { type: "beta", date: "2026年7月23日 ~ 7月29日", sort: "2026-07-23", note: "第 3 次 Supporters Program 封測，開放 Region 1~2、新種族 Lycan（狼族）、新武器長槍（Spear）、新特性 / 道具 / 效果及難度平衡調整；Steam 頁申請資格、限量隨機抽選；封測存檔不保證相容於 9/4 EA 版" },
         { type: "announcement", date: "2026年8月7日", sort: "2026-08-07", note: "官方宣布 EA 上市日期由 9 月 10 日提前至 9 月 4 日（UTC 08:00）；開發商表示進度超前預期、對提前一週與玩家見面感到雀躍；EA 版仍包含區域 1~2 與「深淵」挑戰內容，同步新增巴西葡萄牙語支援" },
         { type: "announcement", date: "2026年8月8日", sort: "2026-08-08", note: "Steam 願望清單正式突破 20 萬人里程碑；開發商 CanOpener 向社群表達感謝，表示「20 萬不只是一個數字，它代表著你們每一個人的支持與期待，讓這款遊戲得以實現」" },
+        { type: "announcement", date: "2026年8月14日", sort: "2026-08-14", note: "亮相 BIC Festival 2026（韓國 BIC Incubator 獨立遊戲展，線上展覽 8/7~8/28，實體展覽 8/14~8/16 於釜山 BEXCO）：InvenGlobal 於 8/14 發布試玩預覽「Dungeon Settlers: A game that smells like a hardcore deep dive from the very first impression」，高度肯定硬核策略深度；官方 Gameplay Trailer 同期釋出於 YouTube，進一步展示殖民地建造與地城探索玩法；EA 正式上市（9/4 UTC 08:00）進入最後倒數兩週" },
         { type: "early_access", date: "2026年9月4日（UTC 08:00）", sort: "2026-09-04", note: "以搶先體驗（Early Access）形式上市（比原訂 9/10 提前一週）；初期開放區域 1~2 與「深淵」挑戰內容；完整版預計共 6 個區域；同步新增巴西葡萄牙語支援" }
       ]
     },
@@ -165,7 +166,7 @@ window.GAMES_DATA = {
       },
       playerCount: "單人（含全球排行榜無盡模式）",
       events: [
-        { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 8 月 10 日評論數約 1,590 則、好評率約 90%（極度好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
+        { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 8 月 19 日評論數約 1,783 則、好評率約 90%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
         { type: "announcement", date: "2026年7月28日（約）", sort: "2026-07-28", note: "試玩版第二次平衡更新 Patch 0.5.2：Boss 代幣每場由 1 個增至 2 個（加快遺物獲取節奏）、新增事件圖片與視覺更新、多項英雄專精調整（Aria、Sal、Irini、Kai、Gustav 等）及物品縮放與急救回退 Bug 修復；同步重置排行榜（全球分數清零）" },
         { type: "announcement", date: "2026年7月底", sort: "2026-07-31", note: "Demo 好評率升至 95%（特別好評，1,200+ 則）；開發商官方確認完整版將加入雙人合作（Two-Player Co-op）模式，目前試玩版仍為單人；Demo 進度預計可移轉至正式版（官方 FAQ 確認）" },
@@ -178,6 +179,18 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-08-19",
+      gameId: "",
+      title: "「新品推薦」新增《Far Far West》與《StarRupture》兩款好評新作",
+      body: "多人RogueLike 推薦新增《Far Far West》：由 Evil Raptor 開發、Fireshine Games 發行的西部奇幻合作 Roguelite FPS，2026 年 4 月 28 日搶先體驗，1~4 人隊伍深入程序生成荒野接取賞金任務，玩法融合《深岩銀河》風格，上線即獲壓倒性好評 96%（35,000+ 則），銷量突破 50 萬份。多人生存推薦新增《StarRupture》：開放世界科幻生存兼工廠建造，2026 年 1 月 6 日搶先體驗，最多 4 人合作探索行星並建立自動化產線，上線首日峰值 28,000 同時在線，Steam 特別好評 81%（13,000+ 則）。"
+    },
+    {
+      date: "2026-08-14",
+      gameId: "dungeonsettlers",
+      title: "《地城拓荒》亮相 BIC Festival 2026，官方 Gameplay Trailer 同期釋出",
+      body: "《地城拓荒（Dungeon Settlers）》參加韓國 BIC Festival 2026（線上展覽 8/7~8/28，實體展覽 8/14~8/16 於釜山 BEXCO）；InvenGlobal 於 8/14 發布試玩預覽文章，高度肯定其硬核策略深度，形容「從第一印象就散發出硬核深潛的氣息」。官方 Gameplay Trailer 同期釋出於 YouTube，進一步展示殖民地建造與地城探索玩法。EA 正式上市（9 月 4 日 UTC 08:00）進入最後倒數兩週。"
+    },
     {
       date: "2026-08-17",
       gameId: "",
@@ -682,9 +695,9 @@ window.GAMES_DATA = {
       playerCount: "1~8 人合作",
       released: "2026年7月16日",
       sort: "2026-07-16",
-      rating: "特別好評 87%",
+      rating: "特別好評 83%（1,933 則）",
       reason: "最多 8 人合作的限時生存：在龍捲風夷平小鎮前約 20 分鐘內搜刮物資、修好廂型車逃出生天。2026/7/16 上線即獲 87% 特別好評，主打歡樂的多人混亂體驗。",
-      links: { steam: "", official: "" }
+      links: { steam: "https://store.steampowered.com/app/3712080/Funnel_Runners/", official: "" }
     },
     {
       id: "grainrot",
@@ -697,7 +710,7 @@ window.GAMES_DATA = {
       playerCount: "1~4 人合作",
       released: "2026年8月7日",
       sort: "2026-08-07",
-      rating: "特別好評 89%（994 則）",
+      rating: "特別好評 88%（1,252 則）",
       reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載、近 20 萬人加入願望清單。",
       links: { steam: "https://store.steampowered.com/app/4450620/GRAIN_ROT/", official: "" }
     },
@@ -715,6 +728,36 @@ window.GAMES_DATA = {
       rating: "特別好評 88%（27,000+ 則）",
       reason: "由《Palworld》發行商 Pocketpair 發行的海盜主題合作生存建造新作。最多 8 人共乘一艘船出海：一人掌舵、一人操炮、一人接舷突擊，陸地可建造基地與採集資源。EA 上線首日即突破 69,000 人同時在線、上市首週銷量逾 50 萬份，Steam 維持 88% 特別好評（27,000+ 則）。嚴格線上合作、無 PvP，主打海戰與基地建造的協作體驗；開發組持續更新修復多人效能與擴充艦船、武器等內容。",
       links: { steam: "https://store.steampowered.com/app/3041230/Windrose/", official: "" }
+    },
+    {
+      id: "farfarwest",
+      name: "Far Far West",
+      nameEn: "Far Far West",
+      interest: "多人RogueLike",
+      genre: "合作 Roguelite FPS / 西部奇幻",
+      developer: "Evil Raptor（發行：Fireshine Games）",
+      platforms: ["PC"],
+      playerCount: "1~4 人合作",
+      released: "2026年4月28日 搶先體驗",
+      sort: "2026-04-28",
+      rating: "壓倒性好評 96%（35,000+ 則）",
+      reason: "西部奇幻風合作 Roguelite FPS：1~4 人隊伍在程序生成荒野中接取賞金獵人任務，融合《深岩銀河》式的任務框架與 Roguelite 輪迴進度。2026 年 4 月 28 日搶先體驗上線即獲壓倒性好評 96%（35,000+ 則），銷量突破 50 萬份，多家媒體譽為「2026 年最令人驚喜的合作 Roguelite」。",
+      links: { steam: "https://store.steampowered.com/app/3124540/Far_Far_West/", official: "" }
+    },
+    {
+      id: "starrupture",
+      name: "StarRupture",
+      nameEn: "StarRupture",
+      interest: "多人生存",
+      genre: "開放世界科幻生存 / 工廠建造",
+      developer: "",
+      platforms: ["PC"],
+      playerCount: "最多 4 人合作",
+      released: "2026年1月6日 搶先體驗",
+      sort: "2026-01-06",
+      rating: "特別好評 81%（13,000+ 則）",
+      reason: "開放世界科幻生存兼工廠建造遊戲，融合行星探索與《Satisfactory》式自動化產線的玩法組合。最多 4 人合作從零建立採礦基地並擴展為全自動資源帝國，同時應對外星威脅與環境挑戰。2026 年 1 月 6 日搶先體驗上線首日峰值達 28,000 人同時在線，Steam 累積 13,000+ 則評論維持特別好評 81%。",
+      links: { steam: "https://store.steampowered.com/app/1631270/StarRupture/", official: "" }
     }
   ]
 };
