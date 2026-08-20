@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-19",
+  lastUpdated: "2026-08-20",
 
   games: [
     {
@@ -173,12 +173,25 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年8月4日", sort: "2026-08-04", note: "美國遊戲媒體 Kotaku 發布特集報導「Guildrun's Free Demo Is Good Enough To Take On Slay The Spire」，高度評價試玩版品質堪比成熟商業作品，並直接與《殺戮尖塔》相比較；截至同日 Steam 試玩版評論達 1,445 則，好評率 95%（特別好評）；GameDiscover.co 統計 10 天內吸引逾 30 萬試玩玩家" },
         { type: "announcement", date: "2026年8月4日", sort: "2026-08-04", note: "Demo Patch 0.5.3 推送：英雄平衡大幅調整——Hoyoung、Fiona 魔力消耗下調，Karsu 魔力與攻擊力上調，Sal 攻速下調；技能調整包含 Killshot 傷害係數 2.5→3.0、Petrification 每層毒素傷害翻倍（1→2）；遺物重平衡（Shard Resonator 護盾 1000→600、多件典藏遺物 legacy stack 增量提升）；Rogue's Cowl 完整改版（新增全新機制）、Squire 套裝血量與攻擊力增強；為持續 Demo 週更節奏的第三次正式 patch" },
         { type: "announcement", date: "2026年8月11日", sort: "2026-08-11", note: "Demo Patch 0.5.4 推送：英雄數值調整（Rowan 最大魔力升至 115、Skorn 最大血量升至 950、Kai 防禦升至 41）；多項技能重平衡（護盾倍率、傷害輸出與狀態效果調整）；道具大幅強化（Toxic Ring 暴擊 7→15、Freezing Ring 魔力 12→25 等戒指類全面提升）；遺物更新（Shield Investment Filigree 移除觸發間隔限制）；為第四次週更節奏的 Demo 平衡 Patch" },
+        { type: "announcement", date: "2026年8月18日", sort: "2026-08-18", note: "Demo Patch 0.5.5 推送（第五次週更平衡 Patch）：延續每週更新節奏，進行英雄數值、技能、道具與遺物等平衡調整；Steam 試玩版好評率持續維持特別好評水準（詳細更新內容見 Steam 官方公告）" },
         { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；早期媒體報導提及「2026 年下半」為舊資訊，Steam 頁仍標示確切日期 TBA；完整版含雙人合作、更多英雄與地圖等大幅擴充內容" }
       ]
     }
   ],
 
   news: [
+    {
+      date: "2026-08-20",
+      gameId: "",
+      title: "「新品推薦」新增《Shape of Dreams》，多人RogueLike 類再添韓國頂評合作 Roguelite",
+      body: "多人RogueLike 推薦新增《Shape of Dreams》：由韓國獨立工作室 Lizard Smoothie 開發、NEOWIZ 發行的動作 Roguelite，2025 年 9 月 11 日正式上市。融合 MOBA 概念與割草 Roguelite 玩法，8 位個性鮮明的「旅行者」各有截然不同的戰鬥風格，150+ 個「記憶」組合讓每次通關 Build 幾乎不重複；最多 4 人線上合作共闖夢境異界。上線即吸引逾 45,000 名玩家、首週累積 4,000+ 好評，Steam 長期維持 94% 特別好評（17,000+ 則），是 2025~2026 年合作 Roguelite 類中評分最穩定的作品之一。"
+    },
+    {
+      date: "2026-08-18",
+      gameId: "guildrun",
+      title: "《Guildrun》Demo Patch 0.5.5 推送：第五次週更平衡更新",
+      body: "Leyline 依循每週更新節奏，於 8 月 18 日推出試玩版第五次平衡更新 Patch 0.5.5，進行英雄數值、技能、道具與遺物等調整；詳細內容見 Steam 官方公告。自 7/16 Demo 上線以來，開發商已連續五週不間斷推送週更 Patch，Steam 試玩版持續維持特別好評水準。"
+    },
     {
       date: "2026-08-19",
       gameId: "",
@@ -653,6 +666,21 @@ window.GAMES_DATA = {
       rating: "英文版特別好評 91%（66,197 則）；所有語言近 30 天 64% Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
       reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；v0.109.0 與 v0.109.1 已於 7 月底正式推送至穩定主分支（非 Beta 玩家現已同步收到）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率（不含排除計分）已降至約 56~60%；近 30 天評論已回升至 62%，Steam 已標記轟炸排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯；v0.109.1（7/25）修正繁體中文複數判斷邏輯（plural evaluation）；v0.110.0 Beta（7/31）將 Mirage 與 Pillar of Creation 恢復至 0.109.0 前版本並微調（Pillar 格擋 3→2），新增鍵盤純操作模式與角色形態 VFX 動畫；v0.111.0 Beta（8/13）：改版 Expect a Fight（費 3 技能，格擋加成與 Strength 掛鉤）與 Hyperbeam（全體傷害 24/30，Focus 損失僅當回合有效）、大量平衡調整、正式加入印尼語本地化、新卡牌圖稿與角色低血量待機動畫；開發組公告 8/27 無更新（休假），後續更新節奏放緩，工作重心轉向大型新內容（具體未透露）。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
+    },
+    {
+      id: "shapeofdreams",
+      name: "Shape of Dreams",
+      nameEn: "Shape of Dreams",
+      interest: "多人RogueLike",
+      genre: "動作 Roguelite / 合作割草",
+      developer: "Lizard Smoothie（發行：NEOWIZ）",
+      platforms: ["PC"],
+      playerCount: "1~4 人合作",
+      released: "2025年9月11日",
+      sort: "2025-09-11",
+      rating: "特別好評 94%（17,000+ 則）",
+      reason: "MOBA 概念融入動作 Roguelite 的合作佳作，由韓國獨立工作室 Lizard Smoothie 開發、NEOWIZ 發行。8 位個性鮮明的「旅行者」各有截然不同的戰鬥風格，150+ 個「記憶」組合讓每次通關 Build 幾乎不重複；最多 4 人線上合作共闖夢境異界。2025 年 9 月上線即吸引逾 45,000 名玩家、首週累積 4,000+ 好評，Steam 長期維持 94% 特別好評（17,000+ 則），是近兩年合作 Roguelite 中評分最穩定的作品之一。",
+      links: { steam: "https://store.steampowered.com/app/2444750/Shape_of_Dreams/", official: "" }
     },
     {
       id: "subnautica2",
