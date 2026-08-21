@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-20",
+  lastUpdated: "2026-08-21",
 
   games: [
     {
@@ -180,6 +180,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-08-21",
+      gameId: "",
+      title: "「新品推薦」輪替：以《Sephiria》取代《Shape of Dreams》，多人RogueLike 類補入壓倒性好評動作 Roguelite",
+      body: "多人RogueLike 推薦輪替：《Shape of Dreams》（2025 年 9 月 11 日上市，已逾 11 個月）移出；補入 2026 年 7 月 31 日 1.0 正式上線的《Sephiria》（TEAM HORAY 開發，即《Dungreed》主創；俯視角動作 Roguelite，1~4 人線上合作，6 種武器各有 50+ 升級路線、60+ 種敵人與 10+ 個 Boss，上線峰值逾 24,000 人同時在線；壓倒性好評 97%（英語 2,149 則）/ 整體特別好評（全語言約 5,900+ 則））。"
+    },
     {
       date: "2026-08-20",
       gameId: "",
@@ -668,19 +674,19 @@ window.GAMES_DATA = {
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
     {
-      id: "shapeofdreams",
-      name: "Shape of Dreams",
-      nameEn: "Shape of Dreams",
+      id: "sephiria",
+      name: "Sephiria",
+      nameEn: "Sephiria",
       interest: "多人RogueLike",
-      genre: "動作 Roguelite / 合作割草",
-      developer: "Lizard Smoothie（發行：NEOWIZ）",
-      platforms: ["PC"],
-      playerCount: "1~4 人合作",
-      released: "2025年9月11日",
-      sort: "2025-09-11",
-      rating: "特別好評 94%（17,000+ 則）",
-      reason: "MOBA 概念融入動作 Roguelite 的合作佳作，由韓國獨立工作室 Lizard Smoothie 開發、NEOWIZ 發行。8 位個性鮮明的「旅行者」各有截然不同的戰鬥風格，150+ 個「記憶」組合讓每次通關 Build 幾乎不重複；最多 4 人線上合作共闖夢境異界。2025 年 9 月上線即吸引逾 45,000 名玩家、首週累積 4,000+ 好評，Steam 長期維持 94% 特別好評（17,000+ 則），是近兩年合作 Roguelite 中評分最穩定的作品之一。",
-      links: { steam: "https://store.steampowered.com/app/2444750/Shape_of_Dreams/", official: "" }
+      genre: "動作 Roguelite / 俯視角合作",
+      developer: "TEAM HORAY",
+      platforms: ["PC", "Mac"],
+      playerCount: "單人 / 1~4 人線上合作",
+      released: "2026年7月31日（1.0 正式版）",
+      sort: "2026-07-31",
+      rating: "壓倒性好評 97%（英語 2,149 則）；整體特別好評（全語言約 5,900+ 則）",
+      reason: "《Dungreed》主創 TEAM HORAY 的最新力作。俯視角動作 Roguelite，6 種武器各有 50+ 升級路線，搭配神器與石板打造千變萬化的 Build；最多 4 人線上合作，隊友間可交易道具並互相復活。2026 年 7 月 31 日 1.0 正式上線後峰值逾 24,000 人同時在線，英語評論壓倒性好評 97%（2,149 則），是 2026 年合作 Roguelite 中口碑最突出的作品之一。",
+      links: { steam: "https://store.steampowered.com/app/2436940/Sephiria/", official: "" }
     },
     {
       id: "subnautica2",
