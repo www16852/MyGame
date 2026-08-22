@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-21",
+  lastUpdated: "2026-08-22",
 
   games: [
     {
@@ -180,6 +180,24 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-08-22",
+      gameId: "subnautica2",
+      title: "《深海迷航 2》Update 1.2「Buddy System」8/19 正式上線：近距語音聊天、道具交易、復活機制全上",
+      body: "Unknown Worlds 於 8 月 19 日推出 1.2「Buddy System」合作大更新：新增近距語音聊天（Proximity Chat，遠距自動切換為無線電並逐漸斷訊）、玩家物品交易（Inventory Sharing）、死亡後可復活機制（含倒數計時）、角色表情動作（Emotes）；新增追蹤標籤（Tracking Tag，可作信標或延長死亡後黑盒訊號）；新增 2 位可玩角色及更多潛水衣配色；HUD 圖示動態縮放（靠近目標放大）與食譜鎖定介面優化；基地建造工具新增無法施工提示。開發商同步預告 Update 2.0 將帶來全新載具、新探索區域與「收藏者利維坦」遭遇事件。"
+    },
+    {
+      date: "2026-08-22",
+      gameId: "farfarwest",
+      title: "《Far Far West》EA 首個重大更新「Frostburn」將於 8/27 上線",
+      body: "Evil Raptor 宣布《Far Far West》首個重大更新「Frostburn」將於 2026 年 8 月 27 日正式上線，為 4 月 28 日搶先體驗上市以來規模最大的一次更新。「Frostburn（冰霜燃燒）」更名預示新環境或新機制的加入，詳細內容開發商尚未完整公開，更新後 Steam 評價與玩家迴響值得關注。"
+    },
+    {
+      date: "2026-08-15",
+      gameId: "slaythespire2",
+      title: "《殺戮尖塔 2》宣布下一大目標：第六位角色與 Act 2 替代生態區",
+      body: "Mega Crit 於 8 月 14 日電子報公告：在連續五個月的雙週 Beta Patch 節奏後，開發重心正式轉向兩大「玩家期待已久的大型內容」——第六位可玩角色（Sixth Character）與 Act 2 替代生態區（Alternate Act 2 Biome）。更新間隔將明顯拉長，8 月 27 日不推送更新（Mega Crit 年度團隊假期），下一次更新預計至少需等候一個月以上。"
+    },
     {
       date: "2026-08-21",
       gameId: "",
@@ -670,7 +688,7 @@ window.GAMES_DATA = {
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
       rating: "英文版特別好評 91%（66,197 則）；所有語言近 30 天 64% Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
-      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；v0.109.0 與 v0.109.1 已於 7 月底正式推送至穩定主分支（非 Beta 玩家現已同步收到）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率（不含排除計分）已降至約 56~60%；近 30 天評論已回升至 62%，Steam 已標記轟炸排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯；v0.109.1（7/25）修正繁體中文複數判斷邏輯（plural evaluation）；v0.110.0 Beta（7/31）將 Mirage 與 Pillar of Creation 恢復至 0.109.0 前版本並微調（Pillar 格擋 3→2），新增鍵盤純操作模式與角色形態 VFX 動畫；v0.111.0 Beta（8/13）：改版 Expect a Fight（費 3 技能，格擋加成與 Strength 掛鉤）與 Hyperbeam（全體傷害 24/30，Focus 損失僅當回合有效）、大量平衡調整、正式加入印尼語本地化、新卡牌圖稿與角色低血量待機動畫；開發組公告 8/27 無更新（休假），後續更新節奏放緩，工作重心轉向大型新內容（具體未透露）。",
+      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；v0.109.0 與 v0.109.1 已於 7 月底正式推送至穩定主分支（非 Beta 玩家現已同步收到）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率（不含排除計分）已降至約 56~60%；近 30 天評論已回升至 62%，Steam 已標記轟炸排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯；v0.109.1（7/25）修正繁體中文複數判斷邏輯（plural evaluation）；v0.110.0 Beta（7/31）將 Mirage 與 Pillar of Creation 恢復至 0.109.0 前版本並微調（Pillar 格擋 3→2），新增鍵盤純操作模式與角色形態 VFX 動畫；v0.111.0 Beta（8/13）：改版 Expect a Fight（費 3 技能，格擋加成與 Strength 掛鉤）與 Hyperbeam（全體傷害 24/30，Focus 損失僅當回合有效）、大量平衡調整、正式加入印尼語本地化、新卡牌圖稿與角色低血量待機動畫；開發組於 8/14 電子報公告更新重心正式轉向兩大「玩家期待已久的大型內容」：第六位可玩角色（Sixth Character）與 Act 2 替代生態區（Alternate Act 2 Biome）；8/27 無更新（Mega Crit 年度假期），後續更新間隔預計至少拉長一個月以上。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
     {
@@ -700,7 +718,7 @@ window.GAMES_DATA = {
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
-      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；7月14日推出 1.1 Hotfix 4，修復 Angel Combs 進度阻擋問題及多項 Xbox 崩潰問題。下一大更新「1.2（合作導向版本）」開發中，已確認將加入近距語音聊天（Proximity Chat）、玩家物品交易（Player Trading）、死亡復活系統、HUD 界面調整與聚落建造工具（Habitat Builder）；目前尚無確切發布日期，部分媒體依開發影片推測 9 月前後（非官方確認）。年底預計推出 EA2 大版本，計劃加入全新探索區域、新生物種類、新載具與故事劇情。近 30 天評價維持 90% 好評，口碑穩健。可加入 Xbox Game Pass 遊玩。",
+      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日大更新「Adaptive Measures（1.1）」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；7月14日推出 1.1 Hotfix 4，修復 Angel Combs 進度阻擋問題及多項 Xbox 崩潰問題。8 月 19 日「1.2 Buddy System」合作大更新正式上線：近距語音聊天（Proximity Chat，遠距切換為無線電）、玩家物品交易（Inventory Sharing）、死亡復活機制、角色表情（Emotes）、追蹤標籤（Tracking Tag）、2 位新角色及更多潛水衣配色、HUD 動態縮放與食譜鎖定優化；同步預告 Update 2.0 將帶來全新載具、新探索區域與「收藏者利維坦」遭遇事件。年底預計推出 EA2 大版本，計劃加入全新探索區域、新生物種類、新載具與故事劇情。近 30 天評價維持 90% 好評，口碑穩健。可加入 Xbox Game Pass 遊玩。",
       links: { steam: "https://store.steampowered.com/app/1962700/Subnautica_2/", official: "" }
     },
     {
@@ -744,7 +762,7 @@ window.GAMES_DATA = {
       playerCount: "1~4 人合作",
       released: "2026年8月7日",
       sort: "2026-08-07",
-      rating: "特別好評 88%（1,252 則）",
+      rating: "特別好評 88%（1,389 則）",
       reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載、近 20 萬人加入願望清單。",
       links: { steam: "https://store.steampowered.com/app/4450620/GRAIN_ROT/", official: "" }
     },
@@ -775,7 +793,7 @@ window.GAMES_DATA = {
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       rating: "壓倒性好評 96%（35,000+ 則）",
-      reason: "西部奇幻風合作 Roguelite FPS：1~4 人隊伍在程序生成荒野中接取賞金獵人任務，融合《深岩銀河》式的任務框架與 Roguelite 輪迴進度。2026 年 4 月 28 日搶先體驗上線即獲壓倒性好評 96%（35,000+ 則），銷量突破 50 萬份，多家媒體譽為「2026 年最令人驚喜的合作 Roguelite」。",
+      reason: "西部奇幻風合作 Roguelite FPS：1~4 人隊伍在程序生成荒野中接取賞金獵人任務，融合《深岩銀河》式的任務框架與 Roguelite 輪迴進度。2026 年 4 月 28 日搶先體驗上線即獲壓倒性好評 96%（35,000+ 則），銷量突破 50 萬份，多家媒體譽為「2026 年最令人驚喜的合作 Roguelite」。EA 首個重大更新「Frostburn」將於 8 月 27 日上線，為上市以來最大規模更新。",
       links: { steam: "https://store.steampowered.com/app/3124540/Far_Far_West/", official: "" }
     },
     {
