@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-22",
+  lastUpdated: "2026-08-23",
 
   games: [
     {
@@ -147,6 +147,7 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年8月7日", sort: "2026-08-07", note: "官方宣布 EA 上市日期由 9 月 10 日提前至 9 月 4 日（UTC 08:00）；開發商表示進度超前預期、對提前一週與玩家見面感到雀躍；EA 版仍包含區域 1~2 與「深淵」挑戰內容，同步新增巴西葡萄牙語支援" },
         { type: "announcement", date: "2026年8月8日", sort: "2026-08-08", note: "Steam 願望清單正式突破 20 萬人里程碑；開發商 CanOpener 向社群表達感謝，表示「20 萬不只是一個數字，它代表著你們每一個人的支持與期待，讓這款遊戲得以實現」" },
         { type: "announcement", date: "2026年8月14日", sort: "2026-08-14", note: "亮相 BIC Festival 2026（韓國 BIC Incubator 獨立遊戲展，線上展覽 8/7~8/28，實體展覽 8/14~8/16 於釜山 BEXCO）：InvenGlobal 於 8/14 發布試玩預覽「Dungeon Settlers: A game that smells like a hardcore deep dive from the very first impression」，高度肯定硬核策略深度；官方 Gameplay Trailer 同期釋出於 YouTube，進一步展示殖民地建造與地城探索玩法；EA 正式上市（9/4 UTC 08:00）進入最後倒數兩週" },
+        { type: "announcement", date: "2026年8月27日（Demo 下架日）", sort: "2026-08-27", note: "Steam 免費試玩版（App 4663910）於 8 月 27 日正式停止遊玩，為 9 月 4 日搶先體驗上線做最後準備；開發商說明現有試玩版與 EA 版在品質優化與整體遊玩體驗上差異顯著，決定於 EA 正式上線前下架試玩版；有意體驗的玩家請把握 8/27 前的最後機會" },
         { type: "early_access", date: "2026年9月4日（UTC 08:00）", sort: "2026-09-04", note: "以搶先體驗（Early Access）形式上市（比原訂 9/10 提前一週）；初期開放區域 1~2 與「深淵」挑戰內容；完整版預計共 6 個區域；同步新增巴西葡萄牙語支援" }
       ]
     },
@@ -180,6 +181,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-08-23",
+      gameId: "dungeonsettlers",
+      title: "《地城拓荒》Demo 試玩版將於 8/27 正式下架，EA 上市（9/4）進入最後倒數",
+      body: "CanOpener 宣布《地城拓荒（Dungeon Settlers）》Steam 免費試玩版（App 4663910）將於 8 月 27 日正式停止遊玩，為 9 月 4 日（UTC 08:00）搶先體驗上線做最後準備。開發商表示現有試玩版與即將推出的 EA 版在品質優化與整體遊玩體驗上已有顯著差異，故決定在 EA 上市前下架試玩版。有意在正式 EA 前搶先體驗的玩家請把握 8/27 截止前的最後機會，或等待 9/4 搶先體驗正式版上線。"
+    },
     {
       date: "2026-08-22",
       gameId: "subnautica2",
