@@ -67,7 +67,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-23",
+  lastUpdated: "2026-08-24",
 
   games: [
     {
@@ -181,6 +181,18 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-08-24",
+      gameId: "farfarwest",
+      title: "《Far Far West》「Frostburn」重大更新確認 8/27 正式上線，Gamescom 現場可搶先 8/26 遊玩",
+      body: "Evil Raptor 確認《Far Far West》EA 上市以來首個重大更新「Frostburn（冰霜燃燒）」將於 2026 年 8 月 27 日正式推送給所有玩家。前往科隆 Gamescom（Hall 10.2，Booth 131）的玩家可於 8 月 26 日 13:00（CET）搶先 24 小時體驗更新內容。開發商表示本次更新前已針對內部結構進行大幅重組，並擴充了團隊人員，預期 Frostburn 將帶來全新環境或機制，詳細內容將於上線當日公開。"
+    },
+    {
+      date: "2026-08-24",
+      gameId: "",
+      title: "「新品推薦」輪替：以《Stonewards》取代《StarRupture》，多人RogueLike 類補入壓倒性好評矮人防守 Roguelite",
+      body: "多人生存推薦移出《StarRupture》（2026 年 1 月 6 日搶先體驗，已逾 7 個月、評價 81% 為全列表最低）；多人RogueLike 補入 2026 年 8 月 11 日正式登陸 Steam EA 的《Stonewards》（Banana Tiger Studio 開發，1~4 人線上合作第一人稱 Roguelite 防守遊戲：礦坑採礦→鍛造升級→抵禦怪物波次的緊湊輪迴循環，上線即獲壓倒性好評 95%（527+ 則））。"
+    },
     {
       date: "2026-08-23",
       gameId: "dungeonsettlers",
@@ -800,23 +812,23 @@ window.GAMES_DATA = {
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       rating: "壓倒性好評 96%（35,000+ 則）",
-      reason: "西部奇幻風合作 Roguelite FPS：1~4 人隊伍在程序生成荒野中接取賞金獵人任務，融合《深岩銀河》式的任務框架與 Roguelite 輪迴進度。2026 年 4 月 28 日搶先體驗上線即獲壓倒性好評 96%（35,000+ 則），銷量突破 50 萬份，多家媒體譽為「2026 年最令人驚喜的合作 Roguelite」。EA 首個重大更新「Frostburn」將於 8 月 27 日上線，為上市以來最大規模更新。",
+      reason: "西部奇幻風合作 Roguelite FPS：1~4 人隊伍在程序生成荒野中接取賞金獵人任務，融合《深岩銀河》式的任務框架與 Roguelite 輪迴進度。2026 年 4 月 28 日搶先體驗上線即獲壓倒性好評 96%（35,000+ 則），銷量突破 50 萬份，多家媒體譽為「2026 年最令人驚喜的合作 Roguelite」。EA 首個重大更新「Frostburn（冰霜燃燒）」即將於 8 月 27 日正式推送（Gamescom 現場玩家可搶先於 8/26 13:00 CET 體驗），為上市以來最大規模更新；內容細節將於上線當日公開。",
       links: { steam: "https://store.steampowered.com/app/3124540/Far_Far_West/", official: "" }
     },
     {
-      id: "starrupture",
-      name: "StarRupture",
-      nameEn: "StarRupture",
-      interest: "多人生存",
-      genre: "開放世界科幻生存 / 工廠建造",
-      developer: "",
+      id: "stonewards",
+      name: "Stonewards",
+      nameEn: "Stonewards",
+      interest: "多人RogueLike",
+      genre: "合作 Roguelite / 第一人稱矮人防守",
+      developer: "Banana Tiger Studio",
       platforms: ["PC"],
-      playerCount: "最多 4 人合作",
-      released: "2026年1月6日 搶先體驗",
-      sort: "2026-01-06",
-      rating: "特別好評 81%（13,000+ 則）",
-      reason: "開放世界科幻生存兼工廠建造遊戲，融合行星探索與《Satisfactory》式自動化產線的玩法組合。最多 4 人合作從零建立採礦基地並擴展為全自動資源帝國，同時應對外星威脅與環境挑戰。2026 年 1 月 6 日搶先體驗上線首日峰值達 28,000 人同時在線，Steam 累積 13,000+ 則評論維持特別好評 81%。",
-      links: { steam: "https://store.steampowered.com/app/1631270/StarRupture/", official: "" }
+      playerCount: "單人 / 1~4 人線上合作",
+      released: "2026年8月11日 搶先體驗",
+      sort: "2026-08-11",
+      rating: "壓倒性好評 95%（527+ 則）",
+      reason: "1~4 人合作的第一人稱 Roguelite 防守新作：程序生成礦坑採礦→鍛造升級→抵禦怪物波次的緊湊輪迴循環，每次遊玩路線皆不相同。2026 年 8 月 11 日 EA 上線（$9.99），首發即獲壓倒性好評 95%（527+ 則），媒體盛讚其合作設計讓玩家「真正必須協同作戰」，是 2026 年夏季合作 Roguelite 中最具潛力的黑馬新作之一。",
+      links: { steam: "https://store.steampowered.com/app/4502710/Stonewards/", official: "" }
     }
   ]
 };
