@@ -42,6 +42,22 @@
      - 大型多人線上 → `大型多人線上 (MMO)`，若也能單人玩 → `單人 / 大型多人線上 (MMO)`
    - 查不到就填空字串 `""`，不要捏造。
 
+3.6. **查 Steam 價格與特價（`price` 欄位；`games[]` 與 `discover[]` 每款都要）**
+   - 對每款「有 Steam app id」的遊戲，用 Bash + curl 查台幣價格（比爬網頁可靠）：
+     ```
+     curl -s "https://store.steampowered.com/api/appdetails?appids=<APPID>&cc=tw&l=tchinese&filters=price_overview"
+     ```
+     回傳 JSON 的 `price_overview`：`final_formatted`＝現價、`initial_formatted`＝原價、`discount_percent`＝折扣%。
+   - 依此填 `price` 物件：
+     - 有售價：`current` = `final_formatted`；若 `discount_percent > 0`，另填 `original` = `initial_formatted`、`discount` = `-XX%`（否則兩者留空字串）。
+     - 未上市／無價格（API 的 `data` 為空陣列或 `success` 為 false）：`current` 留空，`note` 填「尚未定價（Coming Soon）」之類；免費遊戲 `note` 填「免費」。
+     - `asOf` 一律填今天日期。
+   - **每次更新都要重查已上市遊戲的價格**（特價會變動）；真的查不到就保留上次的值，不要亂填。
+   - **歷史低價（`low` / `lowCut` / `lowDate`）** ——來源 IsThereAnyDeal (ITAD)，API key 由排程以環境變數 `$ITAD_KEY` 提供（**切勿把 key 寫進 games.js 或任何 commit**）。步驟：
+     1. Steam appid 換 ITAD game id：`curl -s "https://api.isthereanydeal.com/games/lookup/v1?key=$ITAD_KEY&appid=<APPID>"` → 取 `.game.id`。
+     2. 查台灣區 Steam 歷史低價：`curl -s -X POST "https://api.isthereanydeal.com/games/storelow/v2?key=$ITAD_KEY&country=TW&shops=61" -H "Content-Type: application/json" -d '["<GAMEID>"]"'` → 取 `[0].lows[0]`：`price.amount`＝史低金額（幣別 TWD）、`cut`＝當時折扣%、`timestamp`＝日期。
+     3. 填 `low`＝`NT$ <amount>`、`lowCut`＝`-<cut>%`（cut 為 0 就留空）、`lowDate`＝`timestamp` 前 10 碼。未上市／查無資料就三個都留空字串。
+
 3.7. **新品推薦（`interests` 與 `discover` 欄位）**
    - 讀取 `games.txt` 裡所有 `類型:` 行，整理成 `interests` 陣列（例如 `["多人RogueLike", "多人生存"]`）。
    - **每次更新都要「主動發掘」新候選，不能只更新既有那幾款。** 針對每個關注類型，實際用網路搜尋查最近 3~6 個月「已上市或搶先體驗、且評價不錯」的新作（例如搜 `best new co-op <類型> 2026 steam very positive`、Steam 熱門新品 / 新品節榜、遊戲媒體年度榜單），**每次至少嘗試找出 1~2 款目前清單上還沒有的新遊戲**加入。

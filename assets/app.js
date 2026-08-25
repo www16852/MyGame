@@ -26,6 +26,36 @@ function playersHtml(pc) {
   return `<div class="player-stat">👥 <span>${escapeHtml(pc)}</span></div>`;
 }
 
+/* Steam 價格／特價顯示文字（第一行：現價；第二行：歷史低價） */
+function priceHtml(p) {
+  if (!p) return "";
+  const asof = p.asOf ? `<span class="price-asof">（${escapeHtml(p.asOf)} 價）</span>` : "";
+
+  // 第一行：目前售價 / 特價 / 或未定價說明
+  let line1 = "";
+  if (p.current) {
+    let inner = `<span class="price-now">${escapeHtml(p.current)}</span>`;
+    if (p.discount && p.original) {
+      inner = `<span class="price-disc">${escapeHtml(p.discount)}</span>` +
+              `<span class="price-orig">${escapeHtml(p.original)}</span>` + inner;
+    }
+    line1 = `<div class="price-stat">💲 ${inner}${asof}</div>`;
+  } else if (p.note) {
+    line1 = `<div class="price-stat note">💲 <span>${escapeHtml(p.note)}</span>${asof}</div>`;
+  }
+
+  // 第二行：Steam 台灣區歷史低價
+  let line2 = "";
+  if (p.low) {
+    const detail = p.lowCut
+      ? `${escapeHtml(p.lowCut)}${p.lowDate ? " · " + escapeHtml(p.lowDate) : ""}`
+      : (p.lowDate ? "尚未特價過 · " + escapeHtml(p.lowDate) : "尚未特價過");
+    line2 = `<div class="price-low">📉 史低 <span class="pl-amt">${escapeHtml(p.low)}</span>` +
+            `<span class="pl-detail">（${detail}）</span></div>`;
+  }
+  return line1 + line2;
+}
+
 function escapeHtml(s) {
   return String(s == null ? "" : s)
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -125,6 +155,7 @@ function renderGames() {
           <div class="summary">${escapeHtml(g.summary || "")}</div>
           <div class="meta-row">${chips}</div>
           ${playersHtml(g.playerCount)}
+          ${priceHtml(g.price)}
           ${events ? `<div class="card-events">${events}</div>` : ""}
           ${links.length ? `<div class="card-links">${links.join("")}</div>` : ""}
         </div>
@@ -192,6 +223,7 @@ function renderDiscover() {
           ${d.reason ? `<div class="summary">${escapeHtml(d.reason)}</div>` : ""}
           <div class="meta-row">${chips}</div>
           ${playersHtml(d.playerCount)}
+          ${priceHtml(d.price)}
           ${d.released ? `<div class="card-events"><div class="ev">${typeBadge("early_access")}<span class="when">${escapeHtml(d.released)}</span></div></div>` : ""}
           ${links.length ? `<div class="card-links">${links.join("")}</div>` : ""}
         </div>

@@ -167,6 +167,21 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 28px 20px 80px; }
   display: flex; align-items: baseline; gap: 6px;
 }
 .player-stat .ps-asof { color: var(--text-dim); font-weight: 400; font-size: .78rem; }
+.price-stat {
+  margin-top: 8px; font-size: .92rem; font-weight: 700; color: var(--text);
+  display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px;
+}
+.price-stat.note { color: var(--text-dim); font-weight: 500; }
+.price-now { color: var(--accent-2); }
+.price-orig { color: var(--text-dim); font-weight: 400; text-decoration: line-through; }
+.price-disc {
+  background: rgba(77,212,172,.16); color: var(--demo); font-weight: 800;
+  font-size: .8rem; padding: 1px 8px; border-radius: 6px;
+}
+.price-asof { color: var(--text-dim); font-weight: 400; font-size: .76rem; }
+.price-low { margin-top: 3px; font-size: .82rem; color: var(--text-dim); display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
+.price-low .pl-amt { color: var(--ea); font-weight: 700; }
+.price-low .pl-detail { color: var(--text-dim); }
 .card-events { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 10px; display: flex; flex-direction: column; gap: 6px; }
 .card-events .ev { display: flex; align-items: center; gap: 8px; font-size: .85rem; }
 .card-events .ev .when { color: var(--text); font-weight: 600; }
