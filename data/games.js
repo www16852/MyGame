@@ -80,7 +80,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-08-28",
+  lastUpdated: "2026-08-29",
 
   games: [
     {
@@ -98,7 +98,7 @@ window.GAMES_DATA = {
         official: "https://store.epicgames.com/p/the-mound-c7a7dc"
       },
       playerCount: "單人 / 1~4 人合作（線上）",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-08-28" , low: "NT$ 559", lowCut: "-20%", lowDate: "2026-07-15" },
+      price: { current: "NT$ 559", original: "NT$ 699", discount: "-20%", note: "", asOf: "2026-08-29" , low: "NT$ 559", lowCut: "-20%", lowDate: "2026-07-15" },
       events: [
         { type: "beta", date: "2026年6月5日 ~ 6月8日", sort: "2026-06-05", note: "封閉測試（Closed Beta），同步開放主機版預購" },
         { type: "demo", date: "2026年6月15日起開放", sort: "2026-06-15", note: "配合 Steam 新品節（Steam Next Fest）釋出免費 PC 試玩版，支援最多 4 人線上合作；Next Fest（6/15~6/22）結束後開發商宣布無限期持續開放；截至 7 月上旬累積逾 45 萬次下載、30 萬名玩家完成超過百萬次探索" },
@@ -128,7 +128,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-08-28" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-08-29" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -155,7 +155,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（隊伍最多 4 人作戰）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費，9/4 搶先體驗上市", asOf: "2026-08-28" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費，9/4 搶先體驗上市", asOf: "2026-08-29" },
       events: [
         { type: "demo", date: "2026年5月24日起開放", sort: "2026-05-24", note: "Steam 免費試玩版上架，Steam 新品節期間獲媒體廣泛報導，目前好評率 93%（349 則）" },
         { type: "announcement", date: "2026年6月（EA 前公告）", sort: "2026-06-01", note: "宣布 EA 上市時將加入新可玩種族「Lycan（狼族）」（白天偏弱、夜晚增強，擅長靈活物理輸出，適配弓與長槍）以及新武器「長槍（Spear）」，開放新的戰鬥配置組合" },
@@ -182,7 +182,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-08-28" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-08-29" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 8 月 19 日評論數約 1,783 則、好評率約 90%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -199,6 +199,24 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-08-29",
+      gameId: "themound",
+      title: "《The Mound》Steam 限時特賣 -20%（NT$ 559），價格等同上市首日優惠水準",
+      body: "《The Mound: Omen of Cthulhu》於 2026 年 8 月 29 日起在 Steam 展開 -20% 限時特賣（現價 NT$ 559，原價 NT$ 699），折扣幅度與 7 月 15 日上市首日優惠相同，亦為台灣區歷史低價水準；特賣確切截止日期尚未公布，有意購入的玩家請把握機會。"
+    },
+    {
+      date: "2026-08-21",
+      gameId: "tearsofmetal",
+      title: "《Tears of Metal》公布後續開發路線：大型穩定性更新、Build 製作深度、印記協同與 Meta 進度重塑",
+      body: "Paper Cult 於 8 月 21 日發布開發路線圖，後續優先推進「大型穩定性更新（Large Stability Push）」，接著重塑 Build 製作代理機制（Build-Crafting Agency）、印記（Emblem）協同效果與 Meta 進度（Metaprogression），旨在讓每次通關的裝備選擇更具意義；以上更新均尚未上線，仍在積極開發中。截至 8 月 27 日，v0.14.58630 仍為最新穩定版本，跨平台（Crossplay）功能繼續停用於主分支。"
+    },
+    {
+      date: "2026-08-14",
+      gameId: "tearsofmetal",
+      title: "《Tears of Metal》Patch v0.14 推送：修復多人 Elite/Boss HP 去同步及多項連線問題",
+      body: "Paper Cult 於 8 月 14 日推出 Patch v0.14.58630，修復多人連線去同步問題：精英敵人與 Boss 血量不再在客戶端間去同步、威脅等級（Threat Levels）與戰役地圖（Campaign Map）同步異常修正、「飛天符石（Triskeles flying away）」與 Boss 在空中生成等連線異常行為修正；跨平台（Crossplay）功能仍停用於主分支。"
+    },
     {
       date: "2026-08-28",
       gameId: "farfarwest",
@@ -316,8 +334,8 @@ window.GAMES_DATA = {
     {
       date: "2026-08-13",
       gameId: "tearsofmetal",
-      title: "《Tears of Metal》8/13 熱修復：修正計時 Buff 永不過期及弓矢阻擋敵人問題",
-      body: "Paper Cult 推出小型熱修復，修正計時效果（Timed Buffs）永不過期的 Bug（確保臨時增益效果在時限結束後正常消失），以及弓箭手箭矢（及其他傷害來源）在攻擊動作中意外阻擋敵人移動的問題。此為繼 8/9 滑鼠卡頓修復後的第二次小型熱修復；跨平台（Crossplay）功能仍停用於主分支。"
+      title: "《Tears of Metal》Patch v0.12 正式上線：新同伴「Aodh, The Vigil」加入、合作復活改為消耗 50% HP",
+      body: "Paper Cult 推出 Patch v0.12：正式加入第四位可解鎖同伴「Aodh, The Vigil」（老學者型後方支援角色，透過特定遊玩條件解鎖）；合作模式復活機制正式改版，由消耗金幣（Coin）改為消耗復活者當前 50% HP，並縮短每次復活計時 5 秒；同步包含網路傳輸優化、計時效果（Timed Buffs）永不過期 Bug 修復，及弓箭手箭矢意外阻擋敵人移動問題修正；跨平台（Crossplay）功能仍停用於主分支，可切換「Crossplay」Beta 分支維持跨平台連線。"
     },
     {
       date: "2026-08-07",
@@ -749,11 +767,11 @@ window.GAMES_DATA = {
       developer: "Paper Cult",
       platforms: ["PC"],
       playerCount: "1~4 人線上合作",
-      price: { current: "NT$ 469", original: "", discount: "", note: "", asOf: "2026-08-28" , low: "NT$ 422", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 469", original: "", discount: "", note: "", asOf: "2026-08-29" , low: "NT$ 422", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
       rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 約 85%（1,928 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣已於 8/5 截止），同步登陸 Steam 與 Microsoft Store，包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 85%（特別好評，1,928 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面；7/31 Patch 0.10.57598 優化材質解析度；8/1 Patch 0.11.57863 大幅平衡調整（含經濟系統重塑、魅力重新分類）並公布後續開發優先項（同伴復活機制、中途存檔、效能優化、連線改善）；跨平台（Crossplay）功能仍停用於主分支，可切換 Steam「Crossplay」Beta 分支維持跨平台連線；8/9 熱修復推出，修復部分玩家遭遇的滑鼠卡頓（Mouse Stutter）問題（Windows Store / Xbox Game Pass 版因需通過認證程序，補丁可能延遲一天到達）；8/7 開發預告確認下一位同伴名為「Aodh, The Vigil」，並測試將合作復活費用由 Coin 改為消耗 HP（Revive with HP）；8/13 熱修復：修正計時 Buff 永不過期及弓矢阻擋敵人移動的 Bug；大廳改善功能亦在開發中；上述功能均尚未確認上線版本號與時程。",
+      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣已於 8/5 截止），同步登陸 Steam 與 Microsoft Store，包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 85%（特別好評，1,928 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面；7/31 Patch 0.10.57598 優化材質解析度；8/1 Patch 0.11.57863 大幅平衡調整（含經濟系統重塑、魅力重新分類）並公布後續開發優先項（同伴復活機制、中途存檔、效能優化、連線改善）；跨平台（Crossplay）功能仍停用於主分支，可切換 Steam「Crossplay」Beta 分支維持跨平台連線；8/9 熱修復推出，修復部分玩家遭遇的滑鼠卡頓（Mouse Stutter）問題（Windows Store / Xbox Game Pass 版因需通過認證程序，補丁可能延遲一天到達）；8/7 開發預告確認下一位同伴名為「Aodh, The Vigil」；8/13 v0.12 正式推出「Aodh, The Vigil」同伴（可解鎖，老學者型後方支援）、合作復活改為消耗復活者 50% HP（計時縮短 5 秒）、網路優化及計時 Buff 修復；8/14 v0.14.58630 修復多人 Elite/Boss HP 去同步、威脅等級與戰役地圖同步異常、Triskeles 飛天等連線問題；8/21 公布後續開發路線圖：穩定性大更新→Build 製作深度→印記協同→Meta 進度重塑；截至 8/27 v0.14.58630 為最新穩定版，跨平台（Crossplay）仍停用於主分支。",
       links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
     {
@@ -765,7 +783,7 @@ window.GAMES_DATA = {
       developer: "Mega Crit",
       platforms: ["PC"],
       playerCount: "1~4 人線上合作",
-      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-08-28" , low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
+      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-08-29" , low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
       rating: "英文版特別好評 91%（66,197 則）；所有語言近 30 天 64% Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
@@ -781,7 +799,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 268", original: "", discount: "", note: "", asOf: "2026-08-28" , low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 268", original: "", discount: "", note: "", asOf: "2026-08-29" , low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       rating: "壓倒性好評 97%（英語 2,149 則）；整體特別好評（全語言約 5,900+ 則）",
@@ -797,7 +815,7 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-08-28" , low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-08-29" , low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
@@ -813,7 +831,7 @@ window.GAMES_DATA = {
       developer: "Axolot Games",
       platforms: ["PC"],
       playerCount: "單人 / 多人合作",
-      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-08-28" , low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
+      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-08-29" , low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
       released: "2026年7月25日（1.0 正式版）",
       sort: "2026-07-25",
       rating: "特別好評 90%（47,500+ 則）",
@@ -829,7 +847,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "1~8 人合作",
-      price: { current: "NT$ 210", original: "", discount: "", note: "", asOf: "2026-08-28" , low: "NT$ 189", lowCut: "-10%", lowDate: "2026-07-16" },
+      price: { current: "NT$ 210", original: "", discount: "", note: "", asOf: "2026-08-29" , low: "NT$ 189", lowCut: "-10%", lowDate: "2026-07-16" },
       released: "2026年7月16日",
       sort: "2026-07-16",
       rating: "特別好評 83%（1,993 則）",
@@ -845,7 +863,7 @@ window.GAMES_DATA = {
       developer: "Beck & Branch Games（發行：Neem）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-08-28" , low: "NT$ 136", lowCut: "-11%", lowDate: "2026-08-07" },
+      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-08-29" , low: "NT$ 136", lowCut: "-11%", lowDate: "2026-08-07" },
       released: "2026年8月7日",
       sort: "2026-08-07",
       rating: "特別好評 88%（1,562 則）",
@@ -861,7 +879,7 @@ window.GAMES_DATA = {
       developer: "Windrose Crew（發行：Pocketpair）",
       platforms: ["PC"],
       playerCount: "1~8 人合作（建議最多 4 人）",
-      price: { current: "NT$ 439", original: "NT$ 488", discount: "-10%", note: "", asOf: "2026-08-28" , low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
+      price: { current: "NT$ 439", original: "NT$ 488", discount: "-10%", note: "", asOf: "2026-08-29" , low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
       released: "2026年4月14日 搶先體驗",
       sort: "2026-04-14",
       rating: "特別好評 87%（48,000+ 則）",
@@ -877,7 +895,7 @@ window.GAMES_DATA = {
       developer: "Evil Raptor（發行：Fireshine Games）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-08-28" , low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
+      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-08-29" , low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       rating: "壓倒性好評 96%（35,000+ 則）",
@@ -893,7 +911,7 @@ window.GAMES_DATA = {
       developer: "Banana Tiger Studio",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-08-28" , low: "NT$ 194", lowCut: "-10%", lowDate: "2026-08-11" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-08-29" , low: "NT$ 194", lowCut: "-10%", lowDate: "2026-08-11" },
       released: "2026年8月11日 搶先體驗",
       sort: "2026-08-11",
       rating: "壓倒性好評 95%（527+ 則）",
