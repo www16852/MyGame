@@ -80,7 +80,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-09-06",
+  lastUpdated: "2026-09-07",
 
   games: [
     {
@@ -98,7 +98,7 @@ window.GAMES_DATA = {
         official: "https://store.epicgames.com/p/the-mound-c7a7dc"
       },
       playerCount: "單人 / 1~4 人合作（線上）",
-      price: { current: "NT$ 559", original: "NT$ 699", discount: "-20%", note: "", asOf: "2026-09-06" , low: "NT$ 559", lowCut: "-20%", lowDate: "2026-07-15" },
+      price: { current: "NT$ 559", original: "NT$ 699", discount: "-20%", note: "", asOf: "2026-09-07" , low: "NT$ 559", lowCut: "-20%", lowDate: "2026-07-15" },
       events: [
         { type: "beta", date: "2026年6月5日 ~ 6月8日", sort: "2026-06-05", note: "封閉測試（Closed Beta），同步開放主機版預購" },
         { type: "demo", date: "2026年6月15日起開放", sort: "2026-06-15", note: "配合 Steam 新品節（Steam Next Fest）釋出免費 PC 試玩版，支援最多 4 人線上合作；Next Fest（6/15~6/22）結束後開發商宣布無限期持續開放；截至 7 月上旬累積逾 45 萬次下載、30 萬名玩家完成超過百萬次探索" },
@@ -129,7 +129,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-09-06" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-09-07" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -157,7 +157,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（隊伍最多 4 人作戰）",
-      price: { current: "NT$ 312", original: "NT$ 368", discount: "-15%", note: "", asOf: "2026-09-06", low: "", lowCut: "", lowDate: "" },
+      price: { current: "NT$ 312", original: "NT$ 368", discount: "-15%", note: "", asOf: "2026-09-07", low: "", lowCut: "", lowDate: "" },
       events: [
         { type: "demo", date: "2026年5月24日起開放", sort: "2026-05-24", note: "Steam 免費試玩版上架，Steam 新品節期間獲媒體廣泛報導，目前好評率 93%（349 則）" },
         { type: "announcement", date: "2026年6月（EA 前公告）", sort: "2026-06-01", note: "宣布 EA 上市時將加入新可玩種族「Lycan（狼族）」（白天偏弱、夜晚增強，擅長靈活物理輸出，適配弓與長槍）以及新武器「長槍（Spear）」，開放新的戰鬥配置組合" },
@@ -170,8 +170,9 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年8月27日（Demo 下架日）", sort: "2026-08-27", note: "Steam 免費試玩版（App 4663910）於 8 月 27 日正式停止遊玩，為 9 月 4 日搶先體驗上線做最後準備；開發商說明現有試玩版與 EA 版在品質優化與整體遊玩體驗上差異顯著，決定於 EA 正式上線前下架試玩版；有意體驗的玩家請把握 8/27 前的最後機會" },
         { type: "announcement", date: "2026年9月2日", sort: "2026-09-02", note: "Steam 願望清單突破 30 萬里程碑；開發商表示既興奮又緊張地等待玩家試玩，承諾 EA 期間積極聆聽社群回饋持續改善；官方確認 EA 解鎖時程為 9 月 4 日 UTC 08:00（台灣時間 9/4 16:00），並預告上市當日同步發布 EA 開發路線圖" },
         { type: "early_access", date: "2026年9月4日（UTC 08:00）", sort: "2026-09-04", note: "以搶先體驗（Early Access）形式正式上市（比原訂 9/10 提前一週）；初期開放區域 1~2 與「深淵」挑戰內容；完整版預計共 6 個區域；同步新增巴西葡萄牙語支援；Steam Deck 獲「Playable」評級；上市當日同步發布 EA 開發路線圖；台灣區定價確認為 NT$ 368（原價），首發 -15% 特價售 NT$ 312" },
-        { type: "announcement", date: "2026年9月5日（上市次日）", sort: "2026-09-05", note: "EA 上市次日 Steam 已累積 72 則初期評論，好評率約 86%（極早期，評論量體仍小）；尚無 post-launch patch 公告；開發商表示 EA 期間預計維持約兩年，並將積極依社群回饋調整改善" },
-        { type: "announcement", date: "2026年9月6日（上市第三天）", sort: "2026-09-06", note: "Steam 用戶評論快速成長至約 306 則，整體好評率 82%（很正面好評）；-15% 首發限時特價（NT$ 312，原價 NT$ 368）預計 2026 年 9 月 18 日到期，有意購入的玩家請把握機會" }
+        { type: "announcement", date: "2026年9月5日（上市次日）", sort: "2026-09-05", note: "EA 上市次日 Steam 已累積 72 則初期評論，好評率約 86%（極早期，評論量體仍小）；首個 EA Patch v0.4.12 同日推出：調整地獄（Devastation）難度初始 Cog Wheels 數量、強化深淵寶箱（Abyss Chests），移除 UI 中的願望清單按鈕；開發商表示 EA 期間預計維持約兩年，並將積極依社群回饋調整改善" },
+        { type: "announcement", date: "2026年9月6日（上市第三天）", sort: "2026-09-06", note: "Steam 用戶評論快速成長至約 306 則，整體好評率 82%（很正面好評）；第二次更新 v0.4.17 推出：新增人物肖像鎖定（Portrait Lock，再次招募時可保留外觀不重新隨機）、背景靜音選項（預設開啟）；重製 Explosion 技能（施法時間 2.88→1.88 秒、命中施加 5 層 Burning 取代舊版倍率傷害機制）；開發商說明正積極改善社群反映的能力數值鎖定、敵人視野、耐力頻率等問題；-15% 首發限時特價（NT$ 312，原價 NT$ 368）預計 2026 年 9 月 18 日到期" },
+        { type: "announcement", date: "2026年9月7日（上市第四天）", sort: "2026-09-07", note: "Steam 評論累積至 506 則，整體好評率 81%（很正面好評）；EA 路線圖詳細內容確認：Update 4（Q4 2026）含動物捕捉馴化（Gloth）、訓練建築（Training Buildings）、戰鬥日誌（Combat Log）、遠征報告（Expedition Report）、新隨機事件及深淵獎勵戰利品建築；Update 5（時程未定）含 Modding Beta、第三區域「懺悔礦坑（Penance Mine）」及矮人（Dwarf）新種族與斧頭技能樹；Update 6（時程未定）含第四區域「腐敗禮拜堂（Corrupted Chapel）」、匕首技能樹、劇情戰役場景與成就系統；V1.0 目標 Q3 2028（含 Region 5~6、終局 Boss、弩與新魔法武器、等級上限 12、Linux 支援）" }
       ]
     },
     {
@@ -189,7 +190,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-09-06" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-09-07" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -206,6 +207,18 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-09-07",
+      gameId: "dungeonsettlers",
+      title: "《地城拓荒》EA 第四天：評論達 506 則 81%，v0.4.17 已推出，路線圖確認 V1.0 目標 Q3 2028",
+      body: "CanOpener《地城拓荒（Dungeon Settlers）》EA 上市第四天，Steam 評論成長至 506 則（81% 很正面好評）。EA 前三天已連續推出兩次更新：v0.4.12（9/5）調整地獄難度初始 Cog Wheels 與深淵寶箱；v0.4.17（9/6）新增人物肖像鎖定（Portrait Lock）、背景靜音選項，並重製 Explosion 技能（施法時間縮短至 1.88 秒、命中施加 5 層 Burning）。EA 路線圖詳細確認：Update 4（Q4 2026）含動物馴化、訓練建築、戰鬥日誌；Update 5（時程未定）含第三區域懺悔礦坑與矮人新種族；Update 6（時程未定）含第四區域腐敗禮拜堂與劇情戰役；V1.0 目標 Q3 2028。首發 -15% 特價（NT$ 312）截止 9/18。"
+    },
+    {
+      date: "2026-09-07",
+      gameId: "",
+      title: "「新品推薦」輪替：補入《Rotwood》（多人RogueLike）與《Shift at Midnight》（多人生存）",
+      body: "本次輪替移出《Tears of Metal》（割草 Roguelike EA，好評率趨穩於 85%，由更高評分新作取代）與《Funnel Runners》（多人生存逃脫，好評率降至 83% 接近門檻）；補入《Rotwood》（Klei Entertainment，4 人合作近戰 Roguelike，2026 年 3 月 3 日正式版，特別好評 90%、2,213 則，台灣 NT$ 421）及《Shift at Midnight》（深夜加油站合作恐怖推理生存，1~3 人線上合作，2026 年 7 月 22 日上線，特別好評 94%、4,359 則，現售 NT$ 194）。"
+    },
     {
       date: "2026-09-06",
       gameId: "dungeonsettlers",
@@ -844,22 +857,6 @@ window.GAMES_DATA = {
   // 新品推薦：關注類型中「已上市／搶先體驗、且評價不錯」的新作（由 AI 依 UPDATE_PROMPT.md 維護）
   discover: [
     {
-      id: "tearsofmetal",
-      name: "Tears of Metal",
-      nameEn: "Tears of Metal",
-      interest: "多人RogueLike",
-      genre: "割草 / Roguelike",
-      developer: "Paper Cult",
-      platforms: ["PC"],
-      playerCount: "1~4 人線上合作",
-      price: { current: "NT$ 469", original: "", discount: "", note: "", asOf: "2026-09-06" , low: "NT$ 422", lowCut: "-10%", lowDate: "2026-07-22" },
-      released: "2026年7月22日 搶先體驗",
-      sort: "2026-07-22",
-      rating: "試玩版（已下架）壓倒性好評 96%（977+ 則，逾 25 萬人遊玩）；EA 版：特別好評 約 85%（1,928 則）",
-      reason: "musou 式割草結合 Roguelike 輪迴，最多 4 人線上合作；試玩版曾獲壓倒性好評 96%（977+ 則，逾 25 萬人遊玩），已於 7/6 正式下架。EA 版已於 7/22 正式上線（$24.99，首兩週 9 折，折扣已於 8/5 截止），同步登陸 Steam 與 Microsoft Store，包含 3 幕關卡、3 位可玩英雄與村莊升級系統；同步加入 Xbox Game Pass（PC），Xbox 主機版預計 2026 年內推出；上線後五日銷量突破 10 萬份，首週登上 Steam 新遊戲 Top 10；Steam 評價約 85%（特別好評，1,928 則）。7/26 Patch 0.8.57278 修復多人去同步問題、新增中途存檔，跨平台暫時停用；7/29 Patch 0.9.57408 進一步優化城堡記錄介面；7/31 Patch 0.10.57598 優化材質解析度；8/1 Patch 0.11.57863 大幅平衡調整（含經濟系統重塑、魅力重新分類）並公布後續開發優先項（同伴復活機制、中途存檔、效能優化、連線改善）；跨平台（Crossplay）功能仍停用於主分支，可切換 Steam「Crossplay」Beta 分支維持跨平台連線；8/9 熱修復推出，修復部分玩家遭遇的滑鼠卡頓（Mouse Stutter）問題（Windows Store / Xbox Game Pass 版因需通過認證程序，補丁可能延遲一天到達）；8/7 開發預告確認下一位同伴名為「Aodh, The Vigil」；8/13 v0.12 正式推出「Aodh, The Vigil」同伴（可解鎖，老學者型後方支援）、合作復活改為消耗復活者 50% HP（計時縮短 5 秒）、網路優化及計時 Buff 修復；8/14 v0.14.58630 修復多人 Elite/Boss HP 去同步、威脅等級與戰役地圖同步異常、Triskeles 飛天等連線問題；8/21 公布後續開發路線圖：穩定性大更新→Build 製作深度→印記協同→Meta 進度重塑；截至 8/27 v0.14.58630 為最新穩定版，跨平台（Crossplay）仍停用於主分支。",
-      links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
-    },
-    {
       id: "slaythespire2",
       name: "殺戮尖塔 2",
       nameEn: "Slay the Spire 2",
@@ -868,7 +865,7 @@ window.GAMES_DATA = {
       developer: "Mega Crit",
       platforms: ["PC"],
       playerCount: "1~4 人線上合作",
-      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-09-06" , low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
+      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-09-07" , low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
       rating: "英文版特別好評 91%（66,197 則）；所有語言近 30 天 64% Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
@@ -884,7 +881,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 268", original: "", discount: "", note: "", asOf: "2026-09-06" , low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 268", original: "", discount: "", note: "", asOf: "2026-09-07" , low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       rating: "壓倒性好評 97%（英語 2,149 則）；整體特別好評（全語言約 5,900+ 則）",
@@ -900,7 +897,7 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-09-06" , low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-09-07" , low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
@@ -916,28 +913,12 @@ window.GAMES_DATA = {
       developer: "Axolot Games",
       platforms: ["PC"],
       playerCount: "單人 / 多人合作",
-      price: { current: "NT$ 376", original: "NT$ 561", discount: "-33%", note: "", asOf: "2026-09-06" , low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
+      price: { current: "NT$ 376", original: "NT$ 561", discount: "-33%", note: "", asOf: "2026-09-07" , low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
       released: "2026年7月25日（1.0 正式版）",
       sort: "2026-07-25",
       rating: "特別好評 90%（47,500+ 則）",
       reason: "動態生成開放世界的沙盒生存建造：打造載具與基地、採集資源、對抗危險機器人。歷經 10 年搶先體驗後於 2026/7/25 推出 1.0（完整故事線＋「Drilling Thunder」第二章劇情），Steam 整體評價 90%（特別好評，47,500+ 則）；新增重製世界、新敵人、建造零件與外觀，為系列最完整版本。",
       links: { steam: "https://store.steampowered.com/app/387990/Scrap_Mechanic/", official: "" }
-    },
-    {
-      id: "funnelrunners",
-      name: "Funnel Runners",
-      nameEn: "Funnel Runners",
-      interest: "多人生存",
-      genre: "合作生存 / 逃脫",
-      developer: "",
-      platforms: ["PC"],
-      playerCount: "1~8 人合作",
-      price: { current: "NT$ 210", original: "", discount: "", note: "", asOf: "2026-09-06" , low: "NT$ 189", lowCut: "-10%", lowDate: "2026-07-16" },
-      released: "2026年7月16日",
-      sort: "2026-07-16",
-      rating: "特別好評 83%（1,993 則）",
-      reason: "最多 8 人合作的限時生存：在龍捲風夷平小鎮前約 20 分鐘內搜刮物資、修好廂型車逃出生天。2026/7/16 上線即獲 87% 特別好評，主打歡樂的多人混亂體驗。",
-      links: { steam: "https://store.steampowered.com/app/3712080/Funnel_Runners/", official: "" }
     },
     {
       id: "grainrot",
@@ -948,11 +929,11 @@ window.GAMES_DATA = {
       developer: "Beck & Branch Games（發行：Neem）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-09-06" , low: "NT$ 136", lowCut: "-11%", lowDate: "2026-08-07" },
+      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-09-07" , low: "NT$ 136", lowCut: "-11%", lowDate: "2026-08-07" },
       released: "2026年8月7日",
       sort: "2026-08-07",
-      rating: "特別好評 88%（1,719 則）",
-      reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載、近 20 萬人加入願望清單；上線後開發商已推出 Patch 1.01~1.09，修正多人遊戲加入好友大廳異常及客戶端物品消失等問題；首個重大內容更新「Deep Layers Update」預計 9 月推出，將新增全新生態系與數種新敵人；評價持續穩定在 88% 特別好評（1,719 則）。",
+      rating: "特別好評 88%（1,756 則）",
+      reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載、近 20 萬人加入願望清單；上線後開發商已推出 Patch 1.01~1.09，修正多人遊戲加入好友大廳異常及客戶端物品消失等問題；首個重大內容更新「Deep Layers Update」截至 9/7 尚未上線（Patch 1.09 為最新版本，8/28 推出），預計帶來全新深層生態系與數種新敵人，開發商（兩人小組）持續確認「即將推出」；萬聖節更新（Halloween Update）計劃 10 月推出，預計開放 Outpost 第三層與新任務線；截至 9/7 評論數已達 1,756 則（88% 特別好評）。",
       links: { steam: "https://store.steampowered.com/app/4450620/GRAIN_ROT/", official: "" }
     },
     {
@@ -964,7 +945,7 @@ window.GAMES_DATA = {
       developer: "Windrose Crew（發行：Pocketpair）",
       platforms: ["PC"],
       playerCount: "1~8 人合作（建議最多 4 人）",
-      price: { current: "NT$ 439", original: "NT$ 488", discount: "-10%", note: "", asOf: "2026-09-06" , low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
+      price: { current: "NT$ 439", original: "NT$ 488", discount: "-10%", note: "", asOf: "2026-09-07" , low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
       released: "2026年4月14日 搶先體驗",
       sort: "2026-04-14",
       rating: "特別好評 88%（48,587 則）",
@@ -980,7 +961,7 @@ window.GAMES_DATA = {
       developer: "Evil Raptor（發行：Fireshine Games）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-09-06" , low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
+      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-09-07" , low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       rating: "壓倒性好評 96%（36,035 則）；近 30 天特別好評 89%",
@@ -996,12 +977,44 @@ window.GAMES_DATA = {
       developer: "Banana Tiger Studio",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-09-06" , low: "NT$ 194", lowCut: "-10%", lowDate: "2026-08-11" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-09-07" , low: "NT$ 194", lowCut: "-10%", lowDate: "2026-08-11" },
       released: "2026年8月11日 搶先體驗",
       sort: "2026-08-11",
       rating: "壓倒性好評 95%（624 則）",
       reason: "1~4 人合作的第一人稱 Roguelite 防守新作：程序生成礦坑採礦→鍛造升級→抵禦怪物波次的緊湊輪迴循環，每次遊玩路線皆不相同。2026 年 8 月 11 日 EA 上線（$9.99），首發即獲壓倒性好評 95%（527+ 則），媒體盛讚其合作設計讓玩家「真正必須協同作戰」，是 2026 年夏季合作 Roguelite 中最具潛力的黑馬新作之一；EA 上線後開發團隊持續每日推出修復 Patch，8/18 Hotfix 0.1.6 新增角色螢幕顯示解鎖條件；開發團隊已宣布正在積極開發「重大 9 月更新」，除已公告的主要新功能外，亦積極評估廣泛的社群要求改善，包含玩法、平衡、系統調整及整體打磨；計劃 9~12 個月搶先體驗期間持續擴充內容。",
       links: { steam: "https://store.steampowered.com/app/4502710/Stonewards/", official: "" }
+    },
+    {
+      id: "rotwood",
+      name: "Rotwood",
+      nameEn: "Rotwood",
+      interest: "多人RogueLike",
+      genre: "合作 Roguelike 近戰闖關",
+      developer: "Klei Entertainment",
+      platforms: ["PC"],
+      playerCount: "單人 / 1~4 人本地或線上合作",
+      price: { current: "NT$ 421", original: "", discount: "", note: "", asOf: "2026-09-07", low: "", lowCut: "", lowDate: "" },
+      released: "2026年3月3日（1.0 正式版）",
+      sort: "2026-03-03",
+      rating: "特別好評 90%（2,213 則）",
+      reason: "《飢荒》系列大廠 Klei Entertainment 的四人合作 Roguelike 近戰闖關新作。在腐化的森林中與最多 3 名隊友並肩砍倒野獸、以戰利品材料建立聚落再深入更危險的區域，武器組合多樣、隊伍協作深度高。歷經搶先體驗後於 2026 年 3 月 3 日推出 1.0 正式版，Steam 好評率 90%（2,213 則），是 2026 年上半年合作 Roguelike 中口碑最穩定的作品之一。",
+      links: { steam: "https://store.steampowered.com/app/2015270/Rotwood/", official: "" }
+    },
+    {
+      id: "shiftatmidnight",
+      name: "Shift at Midnight",
+      nameEn: "Shift at Midnight",
+      interest: "多人生存",
+      genre: "合作恐怖推理生存",
+      developer: "",
+      platforms: ["PC"],
+      playerCount: "單人 / 1~3 人線上合作",
+      price: { current: "NT$ 194", original: "NT$ 216", discount: "-10%", note: "", asOf: "2026-09-07", low: "", lowCut: "", lowDate: "" },
+      released: "2026年7月22日",
+      sort: "2026-07-22",
+      rating: "特別好評 94%（4,359 則）",
+      reason: "在深夜加油站分工合作：一邊達成業績配額、一邊揪出混入顧客群中的異形怪物，是否出手攻擊需即時判斷。高壓驚悚氛圍結合社交推理機制，遊玩節奏緊湊且充滿不確定性，2026 年 7 月 22 日上線即獲特別好評 94%（4,359 則），社群持續高度活躍。",
+      links: { steam: "https://store.steampowered.com/app/3722330/Shift_At_Midnight/", official: "" }
     }
   ]
 };
