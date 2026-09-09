@@ -80,7 +80,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-09-08",
+  lastUpdated: "2026-09-09",
 
   games: [
     {
@@ -98,7 +98,7 @@ window.GAMES_DATA = {
         official: "https://store.epicgames.com/p/the-mound-c7a7dc"
       },
       playerCount: "單人 / 1~4 人合作（線上）",
-      price: { current: "NT$ 559", original: "NT$ 699", discount: "-20%", note: "", asOf: "2026-09-08" , low: "NT$ 559", lowCut: "-20%", lowDate: "2026-07-15" },
+      price: { current: "NT$ 559", original: "NT$ 699", discount: "-20%", note: "", asOf: "2026-09-09" , low: "NT$ 559", lowCut: "-20%", lowDate: "2026-07-15" },
       events: [
         { type: "beta", date: "2026年6月5日 ~ 6月8日", sort: "2026-06-05", note: "封閉測試（Closed Beta），同步開放主機版預購" },
         { type: "demo", date: "2026年6月15日起開放", sort: "2026-06-15", note: "配合 Steam 新品節（Steam Next Fest）釋出免費 PC 試玩版，支援最多 4 人線上合作；Next Fest（6/15~6/22）結束後開發商宣布無限期持續開放；截至 7 月上旬累積逾 45 萬次下載、30 萬名玩家完成超過百萬次探索" },
@@ -129,7 +129,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-09-08" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-09-09" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -157,7 +157,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（隊伍最多 4 人作戰）",
-      price: { current: "NT$ 312", original: "NT$ 368", discount: "-15%", note: "", asOf: "2026-09-08", low: "", lowCut: "", lowDate: "" },
+      price: { current: "NT$ 312", original: "NT$ 368", discount: "-15%", note: "", asOf: "2026-09-09", low: "", lowCut: "", lowDate: "" },
       events: [
         { type: "demo", date: "2026年5月24日起開放", sort: "2026-05-24", note: "Steam 免費試玩版上架，Steam 新品節期間獲媒體廣泛報導，目前好評率 93%（349 則）" },
         { type: "announcement", date: "2026年6月（EA 前公告）", sort: "2026-06-01", note: "宣布 EA 上市時將加入新可玩種族「Lycan（狼族）」（白天偏弱、夜晚增強，擅長靈活物理輸出，適配弓與長槍）以及新武器「長槍（Spear）」，開放新的戰鬥配置組合" },
@@ -191,7 +191,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-09-08" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-09-09" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -202,12 +202,26 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年8月11日", sort: "2026-08-11", note: "Demo Patch 0.5.4 推送：英雄數值調整（Rowan 最大魔力升至 115、Skorn 最大血量升至 950、Kai 防禦升至 41）；多項技能重平衡（護盾倍率、傷害輸出與狀態效果調整）；道具大幅強化（Toxic Ring 暴擊 7→15、Freezing Ring 魔力 12→25 等戒指類全面提升）；遺物更新（Shield Investment Filigree 移除觸發間隔限制）；為第四次週更節奏的 Demo 平衡 Patch" },
         { type: "announcement", date: "2026年8月18日", sort: "2026-08-18", note: "Demo Patch 0.5.5 推送（第五次週更平衡 Patch）：延續每週更新節奏，進行英雄數值、技能、道具與遺物等平衡調整；Steam 試玩版好評率持續維持特別好評水準（詳細更新內容見 Steam 官方公告）" },
         { type: "announcement", date: "2026年8月25日", sort: "2026-08-25", note: "Demo Patch 0.5.6 推送（第六次週更平衡 Patch，本次規模略小，部分團隊成員已開始休假）：新增「戰鬥結果面板（Battle Results Panel）」功能，非立即獲得的遺物/道具將顯示名稱與觸發事件來源；商店重擲（Reroll）時不再重複完全相同的陣容；含多項 Bug 修復；Steam 試玩版持續維持特別好評水準" },
-        { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；早期媒體報導提及「2026 年下半」為舊資訊，Steam 頁仍標示確切日期 TBA；完整版含雙人合作、更多英雄與地圖等大幅擴充內容" }
+        { type: "announcement", date: "2026年9月1日", sort: "2026-09-01", note: "Demo Patch 0.5.7 推送：新增戰鬥結束後於 Red Rift 畫面顯示歷史最高連勝數（Highest Win Streak）與累計總勝場數；修正 Shard Maximizer 計算邏輯、傷害免疫角色互動異常與多項效能問題；開發團隊同步表示正「緩步進入一個新階段」，Demo 內容將維持現狀，開發重心轉移至完整版本（1.0）；Demo 後續將以 Bug 修復與平衡維護為主，並規劃正式版上市前的封閉 Beta 測試機會" },
+        { type: "announcement", date: "2026年9月初", sort: "2026-09-05", note: "Demo Patch 0.5.8 推送：修復社群回報問題，包含 Acceleration Prism 機制計算錯誤、對已死亡單位施加狀態效果的 Bug、視覺特效異常，以及任務進度上限問題；開發重心已明確轉向完整版（1.0）開發，Demo 進入維護模式" },
+        { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；早期媒體報導提及「2026 年下半」為舊資訊，Steam 頁仍標示確切日期 TBA；完整版含雙人合作、更多英雄與地圖等大幅擴充內容；開發團隊已自 9 月起將重心轉向完整版開發，Demo 進入維護模式，正式版上市前規劃封閉 Beta 測試" }
       ]
     }
   ],
 
   news: [
+    {
+      date: "2026-09-09",
+      gameId: "guildrun",
+      title: "《Guildrun》Patch 0.5.7 & 0.5.8 推送，開發重心正式轉向完整版（1.0）開發",
+      body: "Leyline 相繼推出試玩版 Patch 0.5.7（9/1）與 0.5.8：0.5.7 新增戰鬥結束後於 Red Rift 畫面顯示歷史最高連勝數與總勝場數，修正 Shard Maximizer 計算邏輯及多項效能問題；0.5.8 修復 Acceleration Prism 機制、對已死亡單位施加狀態效果的 Bug、視覺特效異常與任務進度上限問題。開發團隊同步宣告正「緩步進入一個新階段，Demo 內容將維持現狀，開發重心轉移至完整版本（1.0）」；Demo 後續僅提供維護性更新，正式版上市前規劃封閉 Beta 測試。"
+    },
+    {
+      date: "2026-09-09",
+      gameId: "windrose",
+      title: "《Windrose》Steam 首發 -10% 折扣結束，回復原價 NT$ 488",
+      body: "《Windrose》在 Steam 的 -10% 首發折扣（NT$ 439）已告結束，遊戲回復原價 NT$ 488。首個重大更新「Ashlands」計劃最早 10 月底前後推出，帶來新生態區與玩法進化，屆時或有機會搭配折扣活動。"
+    },
     {
       date: "2026-09-08",
       gameId: "dungeonsettlers",
@@ -878,7 +892,7 @@ window.GAMES_DATA = {
       developer: "Mega Crit",
       platforms: ["PC"],
       playerCount: "1~4 人線上合作",
-      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-09-08" , low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
+      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-09-09" , low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
       rating: "英文版特別好評 91%（66,197 則）；所有語言近 30 天 64% Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
@@ -894,7 +908,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 268", original: "", discount: "", note: "", asOf: "2026-09-08" , low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 268", original: "", discount: "", note: "", asOf: "2026-09-09" , low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       rating: "壓倒性好評 97%（英語 2,149 則）；整體特別好評（全語言約 5,900+ 則）",
@@ -910,7 +924,7 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-09-08" , low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-09-09" , low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
@@ -926,7 +940,7 @@ window.GAMES_DATA = {
       developer: "Axolot Games",
       platforms: ["PC"],
       playerCount: "單人 / 多人合作",
-      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-09-08", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
+      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-09-09", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
       released: "2026年7月25日（1.0 正式版）",
       sort: "2026-07-25",
       rating: "特別好評 90%（47,500+ 則）",
@@ -942,7 +956,7 @@ window.GAMES_DATA = {
       developer: "Beck & Branch Games（發行：Neem）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-09-08" , low: "NT$ 136", lowCut: "-11%", lowDate: "2026-08-07" },
+      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-09-09" , low: "NT$ 136", lowCut: "-11%", lowDate: "2026-08-07" },
       released: "2026年8月7日",
       sort: "2026-08-07",
       rating: "特別好評 88%（1,764 則）",
@@ -958,7 +972,7 @@ window.GAMES_DATA = {
       developer: "Windrose Crew（發行：Pocketpair）",
       platforms: ["PC"],
       playerCount: "1~8 人合作（建議最多 4 人）",
-      price: { current: "NT$ 439", original: "NT$ 488", discount: "-10%", note: "", asOf: "2026-09-08" , low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
+      price: { current: "NT$ 488", original: "", discount: "", note: "", asOf: "2026-09-09" , low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
       released: "2026年4月14日 搶先體驗",
       sort: "2026-04-14",
       rating: "特別好評 88%（48,587 則）",
@@ -974,7 +988,7 @@ window.GAMES_DATA = {
       developer: "Evil Raptor（發行：Fireshine Games）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-09-08" , low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
+      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-09-09" , low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       rating: "壓倒性好評 96%（36,035 則）；近 30 天特別好評 89%",
@@ -990,7 +1004,7 @@ window.GAMES_DATA = {
       developer: "Banana Tiger Studio",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-09-08" , low: "NT$ 194", lowCut: "-10%", lowDate: "2026-08-11" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-09-09" , low: "NT$ 194", lowCut: "-10%", lowDate: "2026-08-11" },
       released: "2026年8月11日 搶先體驗",
       sort: "2026-08-11",
       rating: "壓倒性好評 95%（624 則）",
@@ -1006,7 +1020,7 @@ window.GAMES_DATA = {
       developer: "Klei Entertainment",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人本地或線上合作",
-      price: { current: "NT$ 421", original: "", discount: "", note: "", asOf: "2026-09-08", low: "", lowCut: "", lowDate: "" },
+      price: { current: "NT$ 421", original: "", discount: "", note: "", asOf: "2026-09-09", low: "", lowCut: "", lowDate: "" },
       released: "2026年3月3日（1.0 正式版）",
       sort: "2026-03-03",
       rating: "特別好評 90%（2,213 則）",
@@ -1022,7 +1036,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 194", original: "NT$ 216", discount: "-10%", note: "", asOf: "2026-09-08", low: "", lowCut: "", lowDate: "" },
+      price: { current: "NT$ 194", original: "NT$ 216", discount: "-10%", note: "", asOf: "2026-09-09", low: "", lowCut: "", lowDate: "" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       rating: "特別好評 94%（4,359 則）",
