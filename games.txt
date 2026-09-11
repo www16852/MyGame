@@ -15,8 +15,6 @@
 
 # 範例（請替換成你自己感興趣的遊戲）：
 不朽之樹 https://store.steampowered.com/app/3809080/_/
-The Mound: Omen of Cthulhu https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/
-地城拓荒 https://store.steampowered.com/app/2798330
 Guildrun https://store.steampowered.com/app/3669200
 
 # ───────────────────────────────────────────────
