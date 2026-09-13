@@ -80,7 +80,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-09-12",
+  lastUpdated: "2026-09-13",
 
   games: [
     {
@@ -98,7 +98,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-09-12" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-09-13" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -127,7 +127,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-09-12" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-09-13" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -558,7 +558,7 @@ window.GAMES_DATA = {
       developer: "Mega Crit",
       platforms: ["PC"],
       playerCount: "1~4 人線上合作",
-      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-09-12" , low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
+      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-09-13" , low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
       rating: "英文版特別好評 91%（66,197 則）；所有語言近 30 天 64% Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
@@ -574,7 +574,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 268", original: "", discount: "", note: "", asOf: "2026-09-12" , low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 268", original: "", discount: "", note: "", asOf: "2026-09-13" , low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       rating: "壓倒性好評 97%（英語 2,149 則）；整體特別好評（全語言約 5,900+ 則）",
@@ -590,7 +590,7 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-09-12" , low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-09-13" , low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
@@ -606,7 +606,7 @@ window.GAMES_DATA = {
       developer: "Axolot Games",
       platforms: ["PC"],
       playerCount: "單人 / 多人合作",
-      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-09-12", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
+      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-09-13", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
       released: "2026年7月25日（1.0 正式版）",
       sort: "2026-07-25",
       rating: "特別好評 90%（47,500+ 則）",
@@ -622,11 +622,11 @@ window.GAMES_DATA = {
       developer: "Beck & Branch Games（發行：Neem）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-09-12" , low: "NT$ 136", lowCut: "-11%", lowDate: "2026-08-07" },
+      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-09-13" , low: "NT$ 136", lowCut: "-11%", lowDate: "2026-08-07" },
       released: "2026年8月7日",
       sort: "2026-08-07",
       rating: "特別好評 88%（1,764 則）",
-      reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載、近 20 萬人加入願望清單；上線後開發商已推出 Patch 1.01~1.09，修正多人遊戲加入好友大廳異常及客戶端物品消失等問題；首個重大內容更新「Deep Layers Update」截至 9/7 尚未上線（Patch 1.09 為最新版本，8/28 推出），預計帶來全新深層生態系與數種新敵人，開發商（兩人小組）持續確認「即將推出」；萬聖節更新（Halloween Update）計劃 10 月推出，預計開放 Outpost 第三層與新任務線；截至 9/8 評論數已達 1,764 則（88% 特別好評）；「Deep Layers Update」截至 9/11 仍未上線，預計帶來全新深層生態系與數種新敵人（開發商持續確認「即將推出」）；萬聖節更新（Halloween Update）計劃 10 月推出，預計開放 Outpost 第三層與新任務線。",
+      reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載、近 20 萬人加入願望清單；上線後開發商已推出 Patch 1.01~1.09，修正多人遊戲加入好友大廳異常及客戶端物品消失等問題；首個重大內容更新「Deep Layers Update」截至 9/13 仍未上線（Patch 1.09 為最新版本，8/28 推出），預計帶來全新深層生態系與數種新敵人，開發商（兩人小組）持續確認「即將推出」；萬聖節更新（Halloween Update）計劃 10 月推出，預計開放 Outpost 第三層與新任務線；截至 9/13 評論數達 1,764 則（88% 特別好評）。",
       links: { steam: "https://store.steampowered.com/app/4450620/GRAIN_ROT/", official: "" }
     },
     {
@@ -638,7 +638,7 @@ window.GAMES_DATA = {
       developer: "Windrose Crew（發行：Pocketpair）",
       platforms: ["PC"],
       playerCount: "1~8 人合作（建議最多 4 人）",
-      price: { current: "NT$ 488", original: "", discount: "", note: "", asOf: "2026-09-12" , low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
+      price: { current: "NT$ 488", original: "", discount: "", note: "", asOf: "2026-09-13" , low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
       released: "2026年4月14日 搶先體驗",
       sort: "2026-04-14",
       rating: "特別好評 88%（48,587 則）",
@@ -654,7 +654,7 @@ window.GAMES_DATA = {
       developer: "Evil Raptor（發行：Fireshine Games）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 358", original: "", discount: "", note: "", asOf: "2026-09-12" , low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
+      price: { current: "NT$ 358", original: "", discount: "", note: "", asOf: "2026-09-13" , low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       rating: "壓倒性好評 96%（36,035 則）；近 30 天特別好評 89%",
@@ -670,11 +670,11 @@ window.GAMES_DATA = {
       developer: "Banana Tiger Studio",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-09-12" , low: "NT$ 194", lowCut: "-10%", lowDate: "2026-08-11" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-09-13" , low: "NT$ 194", lowCut: "-10%", lowDate: "2026-08-11" },
       released: "2026年8月11日 搶先體驗",
       sort: "2026-08-11",
       rating: "壓倒性好評 95%（624 則）",
-      reason: "1~4 人合作的第一人稱 Roguelite 防守新作：程序生成礦坑採礦→鍛造升級→抵禦怪物波次的緊湊輪迴循環，每次遊玩路線皆不相同。2026 年 8 月 11 日 EA 上線（$9.99），首發即獲壓倒性好評 95%（527+ 則），媒體盛讚其合作設計讓玩家「真正必須協同作戰」，是 2026 年夏季合作 Roguelite 中最具潛力的黑馬新作之一；EA 上線後開發團隊持續每日推出修復 Patch，8/18 Hotfix 0.1.6 新增角色螢幕顯示解鎖條件；8/21 Hotfix 0.1.7 加入可玩十字弓（Crossbow）武器、多人升級選擇新增 60 秒計時器、平衡黃金採礦收益與戒指升級費用、強化獵人同伴（Hunter's Companion）；8/26 Hotfix 0.1.8 新增多人波次暫停機制（全員選完升級後等待任一玩家按繼續才開始下波）、敵人卡關時自動脫離追擊、進度自動備份最多 20 份本地存檔（防止雲端同步異常）、修復 Bed 復活 Bee 卡住與玩家傳送問題；開發團隊宣布正在積極開發「重大 9 月更新」（截至 9/11 尚未上線），除已公告的主要新功能外，亦積極評估廣泛的社群要求改善，包含玩法、平衡、系統調整及整體打磨；計劃 9~12 個月搶先體驗期間持續擴充內容。",
+      reason: "1~4 人合作的第一人稱 Roguelite 防守新作：程序生成礦坑採礦→鍛造升級→抵禦怪物波次的緊湊輪迴循環，每次遊玩路線皆不相同。2026 年 8 月 11 日 EA 上線（$9.99），首發即獲壓倒性好評 95%（527+ 則），媒體盛讚其合作設計讓玩家「真正必須協同作戰」，是 2026 年夏季合作 Roguelite 中最具潛力的黑馬新作之一；EA 上線後開發團隊持續每日推出修復 Patch，8/18 Hotfix 0.1.6 新增角色螢幕顯示解鎖條件；8/21 Hotfix 0.1.7 加入可玩十字弓（Crossbow）武器、多人升級選擇新增 60 秒計時器、平衡黃金採礦收益與戒指升級費用、強化獵人同伴（Hunter's Companion）；8/26 Hotfix 0.1.8 新增多人波次暫停機制（全員選完升級後等待任一玩家按繼續才開始下波）、敵人卡關時自動脫離追擊、進度自動備份最多 20 份本地存檔（防止雲端同步異常）、修復 Bed 復活 Bee 卡住與玩家傳送問題；開發團隊宣布正在積極開發「重大 9 月更新」（截至 9/13 尚未上線），除已公告的主要新功能外，亦積極評估廣泛的社群要求改善，包含玩法、平衡、系統調整及整體打磨；計劃 9~12 個月搶先體驗期間持續擴充內容。",
       links: { steam: "https://store.steampowered.com/app/4502710/Stonewards/", official: "" }
     },
     {
@@ -686,7 +686,7 @@ window.GAMES_DATA = {
       developer: "Klei Entertainment",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人本地或線上合作",
-      price: { current: "NT$ 421", original: "", discount: "", note: "", asOf: "2026-09-12", low: "", lowCut: "", lowDate: "" },
+      price: { current: "NT$ 421", original: "", discount: "", note: "", asOf: "2026-09-13", low: "", lowCut: "", lowDate: "" },
       released: "2026年3月3日（1.0 正式版）",
       sort: "2026-03-03",
       rating: "特別好評 90%（2,215 則）",
@@ -702,7 +702,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-09-12", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-09-13", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       rating: "特別好評 94%（4,359 則）",
