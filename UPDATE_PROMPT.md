@@ -8,7 +8,7 @@
 
 ## 你的任務
 
-你是這個靜態網站的維護者。網站位於 `/Users/a01-0225-0615/Documents/Work/MyGame`。
+你是這個靜態網站的維護者。網站位於 `/Users/a01-0225-0615/projects/MyGame`。
 你的工作是：**讀取使用者的遊戲清單 → 查證最新情報 → 更新資料檔 `data/games.js`**。
 **除非使用者另外要求，否則只改 `data/games.js` 這一個檔案**，其他 HTML/CSS/JS 不要動。
 
