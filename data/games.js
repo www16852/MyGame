@@ -80,7 +80,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-10-02",
+  lastUpdated: "2026-10-03",
 
   games: [
     {
@@ -98,7 +98,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-02" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-03" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -128,7 +128,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-02" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-03" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -150,6 +150,18 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-10-03",
+      gameId: "forsworn",
+      title: "《Forsworn》v1.0.20（9/29）：Artifact 自動記憶上次選擇、無盡排行榜可在暫停選單查閱",
+      body: "Resummon Studios 於 9 月 29 日推出 v1.0.20，帶來兩項實用 QoL 改善：Artifact（神器）選擇現可自動記憶玩家上次配置，建立新隊伍時自動帶入，省去重複選擇時間；無盡模式（Endless Mode）排行榜現可直接從暫停選單中查閱，無需離開當前遊玩。另含圖像優化與多項 Bug 修正。Steam 評論好評率持續維持特別好評水準，2026 年 11~12 月預計推出首位免費新英雄。"
+    },
+    {
+      date: "2026-10-03",
+      gameId: "",
+      title: "「新品推薦」輪替：新增《The Spell Brigade》（多人RogueLike），移出《Windrose》",
+      body: "多人RogueLike 新增《The Spell Brigade》（Righteous Hammer Games 開發，2026 年 4 月 29 日 1.0 正式版）：最多 4 人線上合作彈幕生存 Roguelite（Bullet Heaven），EA 期間銷量突破百萬份，1.0 上市後 Steam 整體評論達 5,038 則（特別好評 86%）；Steam 秋季特賣（截至 10/8）現以 -33% 折扣促銷中（NT$ 157，原價 NT$ 235）。多人生存類移出《Windrose》（EA 中、首個重大更新「Ashlands」目標秋季 2026 但仍無確切日期），待 Ashlands 更新上線、評價穩定後重新評估是否回列。"
+    },
     {
       date: "2026-10-02",
       gameId: "",
@@ -736,7 +748,7 @@ window.GAMES_DATA = {
       developer: "Mega Crit",
       platforms: ["PC"],
       playerCount: "1~4 人線上合作",
-      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-10-02", low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
+      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-10-03", low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
       rating: "英文版特別好評 91%（66,197 則）；所有語言近 30 天 64% Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
@@ -752,7 +764,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-02", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-03", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       rating: "壓倒性好評 96%（英語 2,731 則）；近 30 天 95%",
@@ -768,7 +780,7 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-02", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-03", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
@@ -784,7 +796,7 @@ window.GAMES_DATA = {
       developer: "Axolot Games",
       platforms: ["PC"],
       playerCount: "單人 / 多人合作",
-      price: { current: "NT$ 376", original: "NT$ 561", discount: "-33%", note: "", asOf: "2026-10-02", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
+      price: { current: "NT$ 376", original: "NT$ 561", discount: "-33%", note: "", asOf: "2026-10-03", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
       released: "2026年7月25日（1.0 正式版）",
       sort: "2026-07-25",
       rating: "特別好評 90%（47,500+ 則）",
@@ -800,28 +812,12 @@ window.GAMES_DATA = {
       developer: "Beck & Branch Games（發行：Neem）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 129", original: "NT$ 152", discount: "-15%", note: "", asOf: "2026-10-02", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
+      price: { current: "NT$ 129", original: "NT$ 152", discount: "-15%", note: "", asOf: "2026-10-03", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
       released: "2026年8月7日",
       sort: "2026-08-07",
       rating: "特別好評 88%（1,900+ 則）",
       reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載；上線後開發商已推出 Patch 1.01~1.09，修正多人遊戲加入好友大廳異常及客戶端物品消失等問題；首個重大內容更新「Deep Layers Update」預計帶來全新深層生態系與數種新敵人，「即將推出」；萬聖節更新（Halloween Update）計劃 10 月推出，預計開放 Outpost 第三層與新任務線；首次 -15% 特賣（NT$ 129，2026/9/21~9/26）已結束，目前回復原價 NT$ 152。",
       links: { steam: "https://store.steampowered.com/app/4450620/GRAIN_ROT/", official: "" }
-    },
-    {
-      id: "windrose",
-      name: "Windrose",
-      nameEn: "Windrose",
-      interest: "多人生存",
-      genre: "海盜生存建造 / 海洋合作",
-      developer: "Windrose Crew（發行：Pocketpair）",
-      platforms: ["PC"],
-      playerCount: "1~8 人合作（建議最多 4 人）",
-      price: { current: "NT$ 439", original: "NT$ 488", discount: "-10%", note: "", asOf: "2026-10-02", low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
-      released: "2026年4月14日 搶先體驗",
-      sort: "2026-04-14",
-      rating: "特別好評 88%（48,587 則）",
-      reason: "由《Palworld》發行商 Pocketpair 發行的海盜主題合作生存建造新作。最多 8 人共乘一艘船出海：一人掌舵、一人操炮、一人接舷突擊，陸地可建造基地與採集資源。EA 上線首日即突破 69,000 人同時在線、上市首週銷量逾 50 萬份，Steam 評論已成長至逾 48,000 則（87% 特別好評）。嚴格線上合作、無 PvP；開發商已公布 2026 年路線圖，首個重大更新命名「Ashlands」，預計帶來新生態區及主要玩法進化（最早 10 月底前後）。8 月 28 日開發者提前曝光 Ashlands 細節：全新火山島生態區（Volcanic Islands）、三艘全新艦種（Brigantine、Fluyt、Galleon）正式加入航行系統、全新故事章節，以及 40+ 個新建造零件與 50+ 項 QoL 改善。",
-      links: { steam: "https://store.steampowered.com/app/3041230/Windrose/", official: "" }
     },
     {
       id: "farfarwest",
@@ -832,7 +828,7 @@ window.GAMES_DATA = {
       developer: "Evil Raptor（發行：Fireshine Games）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-10-02", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
+      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-10-03", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       rating: "壓倒性好評 96%（36,035 則）；近 30 天特別好評 89%",
@@ -848,7 +844,7 @@ window.GAMES_DATA = {
       developer: "Banana Tiger Studio",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 183", original: "NT$ 216", discount: "-15%", note: "", asOf: "2026-10-02", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 183", original: "NT$ 216", discount: "-15%", note: "", asOf: "2026-10-03", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
       released: "2026年8月11日 搶先體驗",
       sort: "2026-08-11",
       rating: "特別好評 94%（800 則）",
@@ -864,11 +860,11 @@ window.GAMES_DATA = {
       developer: "Resummon Studios",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-02", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
+      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-03", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
       released: "2026年9月10日",
       sort: "2026-09-10",
       rating: "特別好評 90%（350 則）",
-      reason: "2026 年 9 月 10 日正式上市的回合制戰術 Roguelite RPG。玩家指揮一支被復活的勇士隊伍征戰神祇戰爭撕裂的世界：6 位英雄各有 3 個子職業（Subclass）、150+ 種道具與 200+ 種技能可搭配；每次通關死亡後以更強大的狀態重返，循環進化 Build。最多 4 人線上合作，評論已成長至 350 則（90% 特別好評），為 2026 年秋季合作 Roguelite 中最值得關注的新秀。開發商積極響應回饋：v1.0.12~v1.0.15（9/11~9/14）含 Gamepad 支援、永久血條、多人回合指示器與 Simmon 嚴重 Bug 修正；v1.0.16（9/15「Map Drawing Patch」）新增世界地圖手繪、無盡模式剩餘波次顯示；v1.0.17（9/18）新增「2 Hero Party」功能（可選 2 人或 3 人小隊起跑）；v1.0.18（9/21 QoL Patch）新增「更快玩家速度」選項，可在設定中開啟英雄與 UI 動畫加速。開發路線圖（9/24 公布）：2026 年 11~12 月推出首位免費新英雄並強化四人合作；2027 年 1 月加入第二位免費新英雄；2027 年 4~5 月推出付費資料片（全新地圖、敵人、Boss、道具、更高難度等）。上市首發 -20% 折扣已於 9/24 截止，目前回復原價 NT$ 320。",
+      reason: "2026 年 9 月 10 日正式上市的回合制戰術 Roguelite RPG。玩家指揮一支被復活的勇士隊伍征戰神祇戰爭撕裂的世界：6 位英雄各有 3 個子職業（Subclass）、150+ 種道具與 200+ 種技能可搭配；每次通關死亡後以更強大的狀態重返，循環進化 Build。最多 4 人線上合作，評論已成長至 350 則（90% 特別好評），為 2026 年秋季合作 Roguelite 中最值得關注的新秀。開發商積極響應回饋：v1.0.12~v1.0.15（9/11~9/14）含 Gamepad 支援、永久血條、多人回合指示器與 Simmon 嚴重 Bug 修正；v1.0.16（9/15「Map Drawing Patch」）新增世界地圖手繪、無盡模式剩餘波次顯示；v1.0.17（9/18）新增「2 Hero Party」功能（可選 2 人或 3 人小隊起跑）；v1.0.18（9/21 QoL Patch）新增「更快玩家速度」選項；v1.0.20（9/29）新增 Artifact 自動記憶上次選擇（建立新隊伍時自動帶入配置）、無盡模式排行榜可於暫停選單中查閱，另含圖像優化與多項 Bug 修正。開發路線圖（9/24 公布）：2026 年 11~12 月推出首位免費新英雄並強化四人合作；2027 年 1 月加入第二位免費新英雄；2027 年 4~5 月推出付費資料片（全新地圖、敵人、Boss、道具、更高難度等）。上市首發 -20% 折扣已於 9/24 截止，目前回復原價 NT$ 320。",
       links: { steam: "https://store.steampowered.com/app/3560360/Forsworn/", official: "" }
     },
     {
@@ -880,7 +876,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 194", original: "NT$ 216", discount: "-10%", note: "", asOf: "2026-10-02", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 194", original: "NT$ 216", discount: "-10%", note: "", asOf: "2026-10-03", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       rating: "特別好評 94%（4,359 則）",
@@ -896,7 +892,7 @@ window.GAMES_DATA = {
       developer: "Iron Gate（發行：Coffee Stain Publishing）",
       platforms: ["PC", "Xbox Series", "Xbox One", "PS5", "Switch 2"],
       playerCount: "單人 / 最多 10 人合作",
-      price: { current: "NT$ 583", original: "NT$ 648", discount: "-10%", note: "", asOf: "2026-10-02", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
+      price: { current: "NT$ 583", original: "NT$ 648", discount: "-10%", note: "", asOf: "2026-10-03", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
       released: "2026年9月9日（1.0 正式版）",
       sort: "2026-09-09",
       rating: "壓倒性好評 94%（261,000+ 則）；Metacritic 90；近 30 天 85%",
@@ -912,12 +908,28 @@ window.GAMES_DATA = {
       developer: "Keen Games",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 16 人合作",
-      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-10-02", low: "", lowCut: "", lowDate: "" },
+      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-10-03", low: "", lowCut: "", lowDate: "" },
       released: "2024年1月24日 搶先體驗（1.0 正式版 2026年10月15日）",
       sort: "2026-10-15",
       rating: "特別好評 86%（49,200+ 則）",
       reason: "廣受好評的合作生存動作 RPG：玩家在被迷霧侵蝕的奇幻世界中採集資源、建造要塞、深入地牢並挑戰強大 Boss，技能樹提供豐富的職業與 Build 彈性。最多 16 人合作共建一個世界，無 PvP；自 2024 年 1 月搶先體驗以來累積 49,200+ 則評論（特別好評 86%），EA 期間超過 500 萬玩家遊玩。**2026 年 10 月 15 日推出 1.0 正式版（PC + PS5/PS5 Pro 同步登陸）**：新增 9 款全新咒術（暴風雪、球狀閃電、三屬性圖騰＋虛空骷髏召喚型）、Fell Dragon Youngling 降至地面（近戰不需震暈即可攻擊）、釣魚系統全面重做（魚餌以生態區為主要來源）、新生態區與敵人種類、新裝甲套裝，及中低階電腦效能優化；Xbox Series X|S 版因品質需求另行打磨，目標 2027 年春季推出。1.0 為 EA 的完整收尾但開發不止，是 2026 年秋季多人生存類最受矚目的里程碑。",
       links: { steam: "https://store.steampowered.com/app/1203620/Enshrouded/", official: "" }
+    },
+    {
+      id: "spellbrigade",
+      name: "The Spell Brigade",
+      nameEn: "The Spell Brigade",
+      interest: "多人RogueLike",
+      genre: "合作彈幕生存 Roguelite（Bullet Heaven）",
+      developer: "Righteous Hammer Games",
+      platforms: ["PC", "PS5"],
+      playerCount: "單人 / 1~4 人線上合作",
+      released: "2026年4月29日（1.0 正式版）",
+      sort: "2026-04-29",
+      rating: "特別好評 86%（5,038 則）",
+      reason: "EA 期間銷量突破百萬份的合作彈幕生存 Roguelite。玩家選擇施法師職業，組隊在程序生成的戰場上釋放彈幕、擊殺怪物潮並透過每次遊玩強化 Build；友軍傷害機制讓合作既刺激又需要協調。2026 年 4 月 29 日推出 1.0 正式版（PC + PS5），Steam 整體評論 5,038 則（特別好評 86%）；Steam 秋季特賣（截至 10/8）現以 -33% 折扣促銷（NT$ 157，原價 NT$ 235），為 2026 年 EA 期間歷史低價（NT$ 122，-35%，2026/3/19）。推薦給喜歡《Vampire Survivors》系列但想要更深度 Build 與合作互動的玩家。",
+      price: { current: "NT$ 157", original: "NT$ 235", discount: "-33%", note: "", asOf: "2026-10-03", low: "NT$ 122", lowCut: "-35%", lowDate: "2026-03-19" },
+      links: { steam: "https://store.steampowered.com/app/2904000/The_Spell_Brigade/", official: "" }
     }
   ]
 };
