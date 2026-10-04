@@ -80,7 +80,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-10-03",
+  lastUpdated: "2026-10-04",
 
   games: [
     {
@@ -98,7 +98,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-03" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-04" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -128,7 +128,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-03" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-04" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -150,6 +150,18 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-10-04",
+      gameId: "grainrot",
+      title: "《Grain Rot》Deep Layers Update（Patch 1.1，9/24）正式上線：Expedition Mode 與 Rainbow Ward 全新生態區",
+      body: "Beck & Branch Games 於 9 月 24 日正式推出《GRAIN ROT》首個重大內容更新（Patch 1.1）：新增「Expedition Mode（遠征模式）」與全新「Rainbow Ward 生態區」，為 EA 上市（8/7）以來最大規模的內容擴充。隨後 Patch 1.11（9/28）加入新敵人「Corrupted Builder（腐化建造者）」並帶來 19 項穩定性修正（電梯機制優化、戰利品箱調整）；Patch 1.12（9/29）新增地下城跑分時間戳記、修正感染系統崩潰問題；Patch 1.13（9/30）修正手把操作導航、存檔刪除與小船顏色顯示問題。下一個計畫更新為萬聖節更新（Halloween Update），預計 10 月推出，將開放 Outpost 第三層與全新任務線；Steam 秋季特賣（10/1~10/8）同步 -15% 促銷中（NT$ 129）。整體評論達 2,000+ 則，好評率維持 88%（特別好評）。"
+    },
+    {
+      date: "2026-10-04",
+      gameId: "slaythespire2",
+      title: "《殺戮尖塔 2》9 月電子報：大型新內容積極內測中，含實驗性模式、Act 2 替代生態區與新角色",
+      body: "Mega Crit 於 9 月 25 日發布《殺戮尖塔 2》電子報，確認團隊已從歐洲假期返回並全速投入開發：目前正在積極內部測試多項「大型期待新內容」，包含實驗性遊戲模式（Experimental Game Modes）、Act 2 替代生態區（Alternate Act 2 Biome）及新角色（New Characters），但截至 10 月初仍無具體更新時間表。開發組表示「進度比外界預期的更快，目前不少功能已進入內測階段」。截至 10 月初，最新正式 Beta 版本仍為 v0.111.0（8/13），整體英語評論好評率維持 91%（66,000+ 則），Metacritic 媒體評分維持 90。"
+    },
     {
       date: "2026-10-03",
       gameId: "forsworn",
@@ -748,11 +760,11 @@ window.GAMES_DATA = {
       developer: "Mega Crit",
       platforms: ["PC"],
       playerCount: "1~4 人線上合作",
-      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-10-03", low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
+      price: { current: "NT$ 499", original: "", discount: "", note: "", asOf: "2026-10-04", low: "NT$ 499", lowCut: "", lowDate: "2026-03-05" },
       released: "2026年3月5日 搶先體驗",
       sort: "2026-03-05",
       rating: "英文版特別好評 91%（66,197 則）；所有語言近 30 天 64% Mixed（多波評論轟炸，中文負評為主）；Metacritic Early Access Score 90（Steam 已標記轟炸排除計分）",
-      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；v0.109.0 與 v0.109.1 已於 7 月底正式推送至穩定主分支（非 Beta 玩家現已同步收到）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率（不含排除計分）已降至約 56~60%；近 30 天評論已回升至 62%，Steam 已標記轟炸排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯；v0.109.1（7/25）修正繁體中文複數判斷邏輯（plural evaluation）；v0.110.0 Beta（7/31）將 Mirage 與 Pillar of Creation 恢復至 0.109.0 前版本並微調（Pillar 格擋 3→2），新增鍵盤純操作模式與角色形態 VFX 動畫；v0.111.0 Beta（8/13）：改版 Expect a Fight（費 3 技能，格擋加成與 Strength 掛鉤）與 Hyperbeam（全體傷害 24/30，Focus 損失僅當回合有效）、大量平衡調整、正式加入印尼語本地化、新卡牌圖稿與角色低血量待機動畫；開發組於 8/14 電子報公告更新重心正式轉向兩大「玩家期待已久的大型內容」：第六位可玩角色（Sixth Character）與 Act 2 替代生態區（Alternate Act 2 Biome）；8/27 無更新（Mega Crit 年度假期），後續更新間隔預計至少拉長一個月以上。",
+      reason: "經典卡牌 Roguelike 續作，首度加入最多 4 人合作模式（含多人專屬卡牌與隊伍協同）。Major Update 2（v0.107.1）已發布至正式分支：完全移除爭議 Act 3 Boss Doormaker、以全新 Boss Aeonglass 取代，並正式加入 Steam Workshop 模組支援（可直接透過 Steam 客戶端下載模組）；Beta v0.108.0（7/3）新增自訂局隨機按鈕（Custom Run Randomize）、多人每日挑戰 Event RNG 種子統一、補充 Aeonglass 動畫及新多人合作牌；v0.109.0（7/17）進一步調降 Aeonglass 傷害、重作 Pillar of Creation 效果，並新增兩個 Neow 開局遺物：Neow's Sacrifice（加入詛咒牌換取強力藥水）與 Dowsing Rod（進入 5 間事件室後化為 Abundance 強力技能）；v0.109.0 與 v0.109.1 已於 7 月底正式推送至穩定主分支（非 Beta 玩家現已同步收到）；EA 期間已累積逾 15 張多人合作專用新牌。注意：自 4 月起歷經多波評論轟炸（平衡改動爭議），7 月中旬再遭中國玩家集中轟炸（12 小時湧入 3,609 則負評），Steam 整體好評率（不含排除計分）已降至約 56~60%；近 30 天評論已回升至 62%，Steam 已標記轟炸排除計分，Metacritic 媒體評分仍維持 90；遊戲本身玩法口碑仍高，購前建議留意爭議背景。7 月電子報確認加入繁體中文翻譯；v0.109.1（7/25）修正繁體中文複數判斷邏輯（plural evaluation）；v0.110.0 Beta（7/31）將 Mirage 與 Pillar of Creation 恢復至 0.109.0 前版本並微調（Pillar 格擋 3→2），新增鍵盤純操作模式與角色形態 VFX 動畫；v0.111.0 Beta（8/13）：改版 Expect a Fight（費 3 技能，格擋加成與 Strength 掛鉤）與 Hyperbeam（全體傷害 24/30，Focus 損失僅當回合有效）、大量平衡調整、正式加入印尼語本地化、新卡牌圖稿與角色低血量待機動畫；開發組於 8/14 電子報公告更新重心正式轉向兩大「玩家期待已久的大型內容」：第六位可玩角色（Sixth Character）與 Act 2 替代生態區（Alternate Act 2 Biome）；8/27 無更新（Mega Crit 年度假期），後續更新間隔預計至少拉長一個月以上。**9 月電子報（9/25）**：Mega Crit 確認從歐洲假期返回後已重新全速開發，正在積極內部測試「大型新內容」，包含實驗性遊戲模式（Experimental Game Modes）、Act 2 替代生態區（Alternate Act 2 Biome）和新角色（New Characters）；截至 10 月初仍無具體更新時間表，但開發組強調進度比外界想象的快。",
       links: { steam: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/", official: "" }
     },
     {
@@ -764,7 +776,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-03", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-04", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       rating: "壓倒性好評 96%（英語 2,731 則）；近 30 天 95%",
@@ -780,7 +792,7 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-03", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-04", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
@@ -796,7 +808,7 @@ window.GAMES_DATA = {
       developer: "Axolot Games",
       platforms: ["PC"],
       playerCount: "單人 / 多人合作",
-      price: { current: "NT$ 376", original: "NT$ 561", discount: "-33%", note: "", asOf: "2026-10-03", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
+      price: { current: "NT$ 376", original: "NT$ 561", discount: "-33%", note: "", asOf: "2026-10-04", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
       released: "2026年7月25日（1.0 正式版）",
       sort: "2026-07-25",
       rating: "特別好評 90%（47,500+ 則）",
@@ -812,11 +824,11 @@ window.GAMES_DATA = {
       developer: "Beck & Branch Games（發行：Neem）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 129", original: "NT$ 152", discount: "-15%", note: "", asOf: "2026-10-03", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
+      price: { current: "NT$ 129", original: "NT$ 152", discount: "-15%", note: "", asOf: "2026-10-04", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
       released: "2026年8月7日",
       sort: "2026-08-07",
-      rating: "特別好評 88%（1,900+ 則）",
-      reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載；上線後開發商已推出 Patch 1.01~1.09，修正多人遊戲加入好友大廳異常及客戶端物品消失等問題；首個重大內容更新「Deep Layers Update」預計帶來全新深層生態系與數種新敵人，「即將推出」；萬聖節更新（Halloween Update）計劃 10 月推出，預計開放 Outpost 第三層與新任務線；首次 -15% 特賣（NT$ 129，2026/9/21~9/26）已結束，目前回復原價 NT$ 152。",
+      rating: "特別好評 88%（2,000+ 則）",
+      reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載。**首個重大內容更新「Deep Layers Update」已於 2026 年 9 月 24 日正式上線**（Patch 1.1）：新增「Expedition Mode（遠征模式）」與全新「Rainbow Ward 生態區」，為 EA 以來最大規模內容更新；Patch 1.11（9/28）加入新敵人「Corrupted Builder（腐化建造者）」、19 項穩定性修正（電梯機制優化、戰利品箱調整）；Patch 1.12（9/29）新增地下城跑分時間戳記與修正感染系統崩潰；Patch 1.13（9/30）修正手把操作、存檔刪除與船隻顏色顯示問題。萬聖節更新（Halloween Update）預計 10 月推出，將開放 Outpost 第三層與新任務線；Steam 秋季特賣（10/1~10/8）-15% 促銷中（NT$ 129）。",
       links: { steam: "https://store.steampowered.com/app/4450620/GRAIN_ROT/", official: "" }
     },
     {
@@ -828,7 +840,7 @@ window.GAMES_DATA = {
       developer: "Evil Raptor（發行：Fireshine Games）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-10-03", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
+      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-10-04", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       rating: "壓倒性好評 96%（36,035 則）；近 30 天特別好評 89%",
@@ -844,7 +856,7 @@ window.GAMES_DATA = {
       developer: "Banana Tiger Studio",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 183", original: "NT$ 216", discount: "-15%", note: "", asOf: "2026-10-03", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 183", original: "NT$ 216", discount: "-15%", note: "", asOf: "2026-10-04", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
       released: "2026年8月11日 搶先體驗",
       sort: "2026-08-11",
       rating: "特別好評 94%（800 則）",
@@ -860,10 +872,10 @@ window.GAMES_DATA = {
       developer: "Resummon Studios",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-03", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
+      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-04", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
       released: "2026年9月10日",
       sort: "2026-09-10",
-      rating: "特別好評 90%（350 則）",
+      rating: "特別好評 90%（378 則）",
       reason: "2026 年 9 月 10 日正式上市的回合制戰術 Roguelite RPG。玩家指揮一支被復活的勇士隊伍征戰神祇戰爭撕裂的世界：6 位英雄各有 3 個子職業（Subclass）、150+ 種道具與 200+ 種技能可搭配；每次通關死亡後以更強大的狀態重返，循環進化 Build。最多 4 人線上合作，評論已成長至 350 則（90% 特別好評），為 2026 年秋季合作 Roguelite 中最值得關注的新秀。開發商積極響應回饋：v1.0.12~v1.0.15（9/11~9/14）含 Gamepad 支援、永久血條、多人回合指示器與 Simmon 嚴重 Bug 修正；v1.0.16（9/15「Map Drawing Patch」）新增世界地圖手繪、無盡模式剩餘波次顯示；v1.0.17（9/18）新增「2 Hero Party」功能（可選 2 人或 3 人小隊起跑）；v1.0.18（9/21 QoL Patch）新增「更快玩家速度」選項；v1.0.20（9/29）新增 Artifact 自動記憶上次選擇（建立新隊伍時自動帶入配置）、無盡模式排行榜可於暫停選單中查閱，另含圖像優化與多項 Bug 修正。開發路線圖（9/24 公布）：2026 年 11~12 月推出首位免費新英雄並強化四人合作；2027 年 1 月加入第二位免費新英雄；2027 年 4~5 月推出付費資料片（全新地圖、敵人、Boss、道具、更高難度等）。上市首發 -20% 折扣已於 9/24 截止，目前回復原價 NT$ 320。",
       links: { steam: "https://store.steampowered.com/app/3560360/Forsworn/", official: "" }
     },
@@ -876,7 +888,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 194", original: "NT$ 216", discount: "-10%", note: "", asOf: "2026-10-03", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 194", original: "NT$ 216", discount: "-10%", note: "", asOf: "2026-10-04", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       rating: "特別好評 94%（4,359 則）",
@@ -892,7 +904,7 @@ window.GAMES_DATA = {
       developer: "Iron Gate（發行：Coffee Stain Publishing）",
       platforms: ["PC", "Xbox Series", "Xbox One", "PS5", "Switch 2"],
       playerCount: "單人 / 最多 10 人合作",
-      price: { current: "NT$ 583", original: "NT$ 648", discount: "-10%", note: "", asOf: "2026-10-03", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
+      price: { current: "NT$ 583", original: "NT$ 648", discount: "-10%", note: "", asOf: "2026-10-04", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
       released: "2026年9月9日（1.0 正式版）",
       sort: "2026-09-09",
       rating: "壓倒性好評 94%（261,000+ 則）；Metacritic 90；近 30 天 85%",
@@ -908,7 +920,7 @@ window.GAMES_DATA = {
       developer: "Keen Games",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 16 人合作",
-      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-10-03", low: "", lowCut: "", lowDate: "" },
+      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-10-04", low: "", lowCut: "", lowDate: "" },
       released: "2024年1月24日 搶先體驗（1.0 正式版 2026年10月15日）",
       sort: "2026-10-15",
       rating: "特別好評 86%（49,200+ 則）",
@@ -928,7 +940,7 @@ window.GAMES_DATA = {
       sort: "2026-04-29",
       rating: "特別好評 86%（5,038 則）",
       reason: "EA 期間銷量突破百萬份的合作彈幕生存 Roguelite。玩家選擇施法師職業，組隊在程序生成的戰場上釋放彈幕、擊殺怪物潮並透過每次遊玩強化 Build；友軍傷害機制讓合作既刺激又需要協調。2026 年 4 月 29 日推出 1.0 正式版（PC + PS5），Steam 整體評論 5,038 則（特別好評 86%）；Steam 秋季特賣（截至 10/8）現以 -33% 折扣促銷（NT$ 157，原價 NT$ 235），為 2026 年 EA 期間歷史低價（NT$ 122，-35%，2026/3/19）。推薦給喜歡《Vampire Survivors》系列但想要更深度 Build 與合作互動的玩家。",
-      price: { current: "NT$ 157", original: "NT$ 235", discount: "-33%", note: "", asOf: "2026-10-03", low: "NT$ 122", lowCut: "-35%", lowDate: "2026-03-19" },
+      price: { current: "NT$ 157", original: "NT$ 235", discount: "-33%", note: "", asOf: "2026-10-04", low: "NT$ 122", lowCut: "-35%", lowDate: "2026-03-19" },
       links: { steam: "https://store.steampowered.com/app/2904000/The_Spell_Brigade/", official: "" }
     }
   ]
