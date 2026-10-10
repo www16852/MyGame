@@ -198,7 +198,8 @@ function renderDiscover() {
   }
 
   const list = (DATA.discover || []).slice()
-    .sort((a, b) => (b.sort || "").localeCompare(a.sort || ""));  // 新的在前
+    .sort((a, b) => (b.added || "").localeCompare(a.added || "")   // 最近加入清單的在前
+                 || (b.sort || "").localeCompare(a.sort || ""));  // 同天加入再依上市日期
   if (!list.length) {
     root.innerHTML = `<p class="empty">關注的類型目前還沒有符合的好評新品，AI 會持續留意。</p>`;
     return;
