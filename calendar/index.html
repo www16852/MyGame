@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📅</text></svg>">
+<title>我的行事曆</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --cell: #11161d;
+    --cell-out: #0b0f14;
+    --line: #262d36;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --dim: #4b535d;
+    --today: #4c8dff;
+    --win: #3fb950;
+    --loss: #f85149;
+    --mlb: #4c8dff;         /* 道奇例行賽 */
+    --post: #d4a72c;        /* 道奇季後賽 */
+    --spring: #8b949e;      /* 春訓 */
+    --lol: #a371f7;         /* 英雄聯盟世界賽 */
+    --fav: #ff4d6d;         /* 世界賽：T1、CFO 的比賽 */
+    --cpbl: #f0883e;        /* 中華職棒台灣大賽 */
+    --tft: #2fc6b4;         /* TFT Regional Finals */
+    --radius: 10px;
+  }
+  * { box-sizing: border-box; }
+  html { color-scheme: dark; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 14px/1.45 -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Segoe UI", sans-serif;
+  }
+  button { font: inherit; color: inherit; }
+
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 20px 16px 40px; }
+  header { display: flex; align-items: center; gap: 8px 12px; flex-wrap: wrap; margin-bottom: 16px; }
+  h1 { font-size: 20px; margin: 0 auto 0 0; letter-spacing: .5px; }
+  h1 small { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 8px; }
+
+  .filters { display: flex; gap: 6px; flex-wrap: wrap; }
+  .nav { display: flex; align-items: center; gap: 6px; }
+  .nav button, .chip {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+    padding: 6px 12px; cursor: pointer;
+  }
+  .nav button:hover, .chip:hover { border-color: var(--dim); }
+  .month-label { font-size: 18px; font-weight: 600; min-width: 130px; text-align: center; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; }
+  .chip i { width: 9px; height: 9px; border-radius: 50%; background: var(--c); }
+  .chip[aria-pressed="false"] { color: var(--dim); }
+  .chip[aria-pressed="false"] i { background: transparent; box-shadow: inset 0 0 0 1.5px var(--dim); }
+
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 16px; align-items: start; }
+
+  /* 月曆 */
+  .cal { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+  .dow, .grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
+  .dow div { padding: 8px; text-align: center; color: var(--muted); font-size: 12px; border-bottom: 1px solid var(--line); }
+  .dow div:nth-child(n+6) { color: #c9727a; }
+  .day {
+    min-height: 108px; padding: 6px; background: var(--cell);
+    border-right: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    display: flex; flex-direction: column; gap: 4px; min-width: 0;
+  }
+  .day:nth-child(7n) { border-right: 0; }
+  .day.out { background: var(--cell-out); }
+  .day.out .num { color: var(--dim); }
+  .num { font-size: 12px; color: var(--muted); }
+  .day.today .num {
+    background: var(--today); color: #fff; border-radius: 999px;
+    width: 22px; height: 22px; display: grid; place-items: center; font-weight: 600;
+  }
+
+  .ev {
+    --c: var(--mlb);
+    display: block; width: 100%; text-align: left; cursor: pointer;
+    border: 0; border-left: 3px solid var(--c); border-radius: 5px;
+    background: color-mix(in srgb, var(--c) 13%, transparent);
+    padding: 4px 6px; font-size: 12px; line-height: 1.3; overflow: hidden;
+  }
+  .ev:hover { background: color-mix(in srgb, var(--c) 24%, transparent); }
+  .ev.post { --c: var(--post); }
+  .ev.spring { --c: var(--spring); }
+  .ev.lol { --c: var(--lol); }
+  .ev.fav { --c: var(--fav); }
+  .ev.cpbl { --c: var(--cpbl); }
+  .ev.tft { --c: var(--tft); }
+  .ev .t { font-variant-numeric: tabular-nums; color: var(--muted); }
+  .ev .ttl { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
+  .ev .res { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .res.W { color: var(--win); } .res.L { color: var(--loss); }
+  .ev.cancel { opacity: .5; text-decoration: line-through; }
+  .ev.maybe { border-left-style: dashed; }
+
+  /* 側欄 */
+  aside { display: flex; flex-direction: column; gap: 16px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; }
+  .card h2 { font-size: 13px; color: var(--muted); font-weight: 500; margin: 0 0 10px; letter-spacing: .5px; }
+  .next + .next { border-top: 1px solid var(--line); margin-top: 12px; padding-top: 12px; }
+  .next .src { font-size: 12px; color: var(--c); font-weight: 600; }
+  .next-ttl { font-size: 18px; font-weight: 700; margin-top: 2px; }
+  .next-when { color: var(--muted); margin-top: 2px; }
+  .countdown { font-size: 22px; font-weight: 700; color: var(--c); font-variant-numeric: tabular-nums; margin-top: 6px; }
+  .tag { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); margin-top: 6px; }
+  .tag.post { color: var(--post); border-color: color-mix(in srgb, var(--post) 50%, transparent); }
+  .list { list-style: none; margin: 0; padding: 0; }
+  .list li { padding: 7px 0; border-top: 1px solid var(--line); display: flex; gap: 8px; align-items: baseline; cursor: pointer; }
+  .list li:first-child { border-top: 0; }
+  .list .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; transform: translateY(-1px); }
+  .list .d { color: var(--muted); font-variant-numeric: tabular-nums; min-width: 92px; flex: none; }
+  .list .x { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .record { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .legend { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); font-size: 12px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+  footer { color: var(--dim); font-size: 12px; margin-top: 14px; }
+
+  /* 詳細 */
+  dialog {
+    background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 14px;
+    padding: 20px; width: min(440px, calc(100vw - 32px));
+  }
+  dialog::backdrop { background: rgba(0,0,0,.6); }
+  dialog h3 { margin: 0 0 4px; font-size: 18px; }
+  .sub { color: var(--muted); }
+  .score { display: grid; grid-template-columns: 1fr auto; gap: 6px 16px; margin: 14px 0; font-size: 16px; }
+  .score .s { font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
+  .score .winner { font-weight: 700; color: var(--win); }
+  .score .rg { display: block; font-size: 12px; font-weight: 400; color: var(--muted); }
+  dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; margin: 14px 0 0; }
+  dt { color: var(--muted); } dd { margin: 0; }
+  dialog .close { float: right; background: none; border: 0; color: var(--muted); font-size: 20px; cursor: pointer; line-height: 1; }
+  .daylist { display: flex; flex-direction: column; gap: 6px; margin-top: 14px; max-height: 60vh; overflow: auto; }
+  .daylist .ev { padding: 8px 10px; font-size: 13px; display: flex; justify-content: space-between; gap: 10px; }
+
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: minmax(0, 1fr); }
+    .day { min-height: 74px; padding: 4px; }
+    .grid .ev { padding: 2px 4px; font-size: 11px; }
+    .grid .ev .t { display: none; }
+  }
+  @media (max-width: 520px) {
+    h1 small { display: none; }
+    .month-label { min-width: 100px; font-size: 16px; }
+    .grid .ev .ttl { font-size: 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>📅 我的行事曆 <small>時間皆為台灣時間 (UTC+8)</small></h1>
+    <div class="filters">
+      <button class="chip" data-layer="mlb" style="--c:var(--mlb)"><i></i>道奇</button>
+      <button class="chip" data-layer="lol" style="--c:var(--lol)"><i></i>英雄聯盟世界賽</button>
+      <button class="chip" data-layer="cpbl" style="--c:var(--cpbl)"><i></i>台灣大賽</button>
+      <button class="chip" data-layer="tft" style="--c:var(--tft)"><i></i>TFT Regional Finals</button>
+      <button class="chip" data-layer="spring" style="--c:var(--spring)"><i></i>道奇春訓</button>
+    </div>
+    <div class="nav">
+      <button id="prev" aria-label="上個月">‹</button>
+      <div class="month-label" id="monthLabel"></div>
+      <button id="next" aria-label="下個月">›</button>
+      <button id="todayBtn">今天</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <section class="cal">
+      <div class="dow"><div>一</div><div>二</div><div>三</div><div>四</div><div>五</div><div>六</div><div>日</div></div>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <aside>
+      <div class="card" id="nextCard"></div>
+      <div class="card">
+        <h2>接下來的比賽</h2>
+        <ul class="list" id="upcoming"></ul>
+      </div>
+      <div class="card" id="recordCard">
+        <h2>道奇 例行賽戰績</h2>
+        <div class="record" id="record"></div>
+      </div>
+      <div class="legend">
+        <span><i style="background:var(--mlb)"></i>道奇例行賽</span>
+        <span><i style="background:var(--post)"></i>道奇季後賽</span>
+        <span><i style="background:var(--lol)"></i>世界賽</span>
+        <span><i style="background:var(--fav)"></i>T1／CFO</span>
+        <span><i style="background:var(--cpbl)"></i>台灣大賽</span>
+        <span><i style="background:var(--tft)"></i>TFT</span>
+        <span>虛線＝必要時才打</span>
+      </div>
+    </aside>
+  </div>
+  <footer id="foot"></footer>
+</div>
+
+<dialog id="detail"></dialog>
+
+<script src="data/dodgers.js"></script>
+<script src="data/worlds.js"></script>
+<script src="data/manual.js"></script>
+<script>
+// ───────── 共用工具 ─────────
+const WEEK = "日一二三四五六";
+const pad = n => String(n).padStart(2, "0");
+// 台灣固定 UTC+8、無夏令時間 → 直接位移 8 小時後用 UTC getter 取值
+const tw = iso => new Date(new Date(iso).getTime() + 8 * 3600e3);
+const dayKey = d => `${d.getUTCFullYear()}-${pad(d.getUTCMonth() + 1)}-${pad(d.getUTCDate())}`;
+const fmtTime = ev => ev.tbd ? "時間未定" : `${pad(tw(ev.utc).getUTCHours())}:${pad(tw(ev.utc).getUTCMinutes())}`;
+const fmtDate = ev => { const d = tw(ev.utc); return `${d.getUTCMonth() + 1}/${d.getUTCDate()}（${WEEK[d.getUTCDay()]}）`; };
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+// ───────── 道奇 ─────────
+const DODGERS = "Los Angeles Dodgers";
+const MLB_ZH = {
+  "Arizona Diamondbacks":"響尾蛇","Atlanta Braves":"勇士","Baltimore Orioles":"金鶯","Boston Red Sox":"紅襪",
+  "Chicago Cubs":"小熊","Chicago White Sox":"白襪","Cincinnati Reds":"紅人","Cleveland Guardians":"守護者",
+  "Colorado Rockies":"洛磯","Detroit Tigers":"老虎","Houston Astros":"太空人","Kansas City Royals":"皇家",
+  "Los Angeles Angels":"天使","Los Angeles Dodgers":"道奇","Miami Marlins":"馬林魚","Milwaukee Brewers":"釀酒人",
+  "Minnesota Twins":"雙城","New York Mets":"大都會","New York Yankees":"洋基","Athletics":"運動家",
+  "Philadelphia Phillies":"費城人","Pittsburgh Pirates":"海盜","San Diego Padres":"教士","San Francisco Giants":"巨人",
+  "Seattle Mariners":"水手","St. Louis Cardinals":"紅雀","Tampa Bay Rays":"光芒","Texas Rangers":"遊騎兵",
+  "Toronto Blue Jays":"藍鳥","Washington Nationals":"國民",
+};
+const SERIES_ZH = {
+  "Regular Season":"例行賽","Spring Training":"春訓熱身賽","Wild Card":"外卡系列賽",
+  "NL Wild Card":"國聯外卡系列賽","NL Division Series":"國聯分區系列賽",
+  "NL Championship Series":"國聯冠軍賽","World Series":"世界大賽",
+};
+const MLB_STATE = { "Final":"已結束","Completed Early":"提前結束","Scheduled":"尚未開打","Postponed":"延賽","Cancelled":"取消","Pre-Game":"賽前","In Progress":"進行中" };
+const mlbZh = n => MLB_ZH[n] || n;
+
+const mlbEvents = (window.DODGERS_GAMES || []).map(g => {
+  const homeGame = g.home.name === DODGERS;
+  const us = homeGame ? g.home : g.away, them = homeGame ? g.away : g.home;
+  const done = ["Final", "Game Over", "Completed Early"].includes(g.state);
+  const post = ["F", "D", "L", "W"].includes(g.type);
+  const result = done && us.score != null ? (us.score > them.score ? "W" : us.score < them.score ? "L" : "T") : null;
+  const series = SERIES_ZH[g.series] || g.series;
+  return {
+    id: "mlb-" + g.id, raw: g, utc: g.utc, tbd: g.tbd,
+    layer: g.type === "S" ? "spring" : "mlb",
+    src: "道奇", color: post ? "var(--post)" : g.type === "S" ? "var(--spring)" : "var(--mlb)",
+    cls: post ? "post" : g.type === "S" ? "spring" : "",
+    // 一律「客隊 vs 主隊」，主隊放後面
+    title: `${mlbZh(g.away.name)} vs ${mlbZh(g.home.name)}`,
+    tag: `${series}${post && g.seriesGame ? ` G${g.seriesGame}` : ""}${g.ifNec ? "（必要時）" : ""}`,
+    tagCls: post ? "post" : "",
+    done, result, maybe: g.ifNec && !done, cancel: /Postponed|Cancelled/.test(g.state),
+    resultHTML: result ? `<span class="res ${result}">${result} ${us.score}:${them.score}</span>` : null,
+    detail() {
+      const a = g.away, h = g.home;
+      return `<h3>${mlbZh(a.name)} vs ${mlbZh(h.name)}</h3>
+        <div class="sub">${series}${post && g.seriesGame ? ` 第 ${g.seriesGame} 戰` : ""}${g.ifNec ? "（必要時才打）" : ""}</div>
+        ${done ? `<div class="score">
+          <span class="${a.win ? "winner" : ""}">${mlbZh(a.name)}（客）</span><span class="s">${a.score}</span>
+          <span class="${h.win ? "winner" : ""}">${mlbZh(h.name)}（主）</span><span class="s">${h.score}</span></div>` : ""}
+        <dl><dt>台灣時間</dt><dd>${fmtDate(this)} ${fmtTime(this)}</dd>
+          <dt>球場</dt><dd>${esc(g.venue)}</dd>
+          <dt>狀態</dt><dd>${MLB_STATE[g.state] || g.state}${result ? `（道奇${{ W: "勝", L: "敗", T: "和" }[result]}）` : ""}</dd></dl>`;
+    },
+  };
+});
+
+// ───────── 英雄聯盟世界賽 ─────────
+// 對戰組合還沒出來時，格子裡用簡短的階段名稱
+const STAGE_SHORT = { "瑞士制循環賽": "瑞士制", "準決賽": "四強", "八強賽": "八強" };
+const FAV_TEAMS = ["T1", "CFO"];
+const LOL_STATE = { unstarted: "尚未開打", inProgress: "進行中", completed: "已結束" };
+const lolEvents = (window.WORLDS_MATCHES || []).map(m => {
+  const [a, b] = m.teams;
+  const known = a.code !== "TBD" || b.code !== "TBD";
+  const done = m.state === "completed";
+  const score = done ? `${a.wins}:${b.wins}` : "";
+  const winner = m.teams.find(t => t.outcome === "win");
+  const fav = m.teams.some(t => FAV_TEAMS.includes(t.code));
+  const region = t => t.league ? `${esc(t.league)} · ${esc(t.region)}` : t.code === "TBD" ? "待定" : "賽區不明";
+  return {
+    id: "lol-" + m.id, raw: m, utc: m.utc, tbd: false, fav,
+    layer: "lol", src: "英雄聯盟世界賽", color: fav ? "var(--fav)" : "var(--lol)", cls: fav ? "lol fav" : "lol",
+    title: known ? `${a.code} vs ${b.code}` : `${STAGE_SHORT[m.stage] || m.stage} BO${m.bo}`,
+    tag: `${m.stage} · BO${m.bo}`, tagCls: "",
+    done, maybe: false, cancel: false,
+    resultHTML: done ? `<span class="res">${esc(winner?.code || "")} 勝 ${score}</span>` : null,
+    detail() {
+      return `<h3>${known ? `${esc(a.name)} vs ${esc(b.name)}` : "對戰組合待定"}</h3>
+        <div class="sub">英雄聯盟世界賽 · ${esc(m.stage)} · BO${m.bo}</div>
+        <div class="score">${m.teams.map(t => `
+          <span class="${t.outcome === "win" ? "winner" : ""}">${esc(t.code === "TBD" ? "待定" : t.name)}<span class="rg">${region(t)}</span></span>
+          <span class="s">${done ? t.wins : ""}</span>`).join("")}</div>
+        <dl><dt>台灣時間</dt><dd>${fmtDate(this)} ${fmtTime(this)}</dd>
+          <dt>狀態</dt><dd>${LOL_STATE[m.state] || m.state}</dd></dl>`;
+    },
+  };
+});
+
+// ───────── 手動維護的賽程（台灣大賽、TFT）─────────
+const MANUAL_SRC = { cpbl: "台灣大賽", tft: "TFT 亞太區 Regional Finals" };
+// data/manual.js 寫的是台灣時間；只有日期的視為當天 00:00
+const twToUtc = s => new Date((s.length === 10 ? s + "T00:00" : s) + ":00+08:00").toISOString();
+const manualEvents = (window.MANUAL_EVENTS || []).map(m => {
+  const done = Array.isArray(m.score);
+  const [as, hs] = m.score || [];
+  const winner = done ? (as > hs ? m.away : hs > as ? m.home : null) : null;
+  return {
+    id: m.id, raw: m, utc: twToUtc(m.tw), tbd: !!m.tbd,
+    layer: m.layer, src: MANUAL_SRC[m.layer] || m.layer, color: `var(--${m.layer})`, cls: m.layer,
+    title: m.title || `${m.away} vs ${m.home}`,
+    tag: `${m.tag}${m.ifNec ? "（必要時）" : ""}`, tagCls: "",
+    done, maybe: m.ifNec && !done, cancel: false,
+    resultHTML: done ? `<span class="res">${esc(winner || "和")}${winner ? " 勝" : ""} ${as}:${hs}</span>` : null,
+    detail() {
+      const rows = m.home ? `<div class="score">
+          <span class="${winner === m.away ? "winner" : ""}">${esc(m.away)}（客）</span><span class="s">${done ? as : ""}</span>
+          <span class="${winner === m.home ? "winner" : ""}">${esc(m.home)}（主）</span><span class="s">${done ? hs : ""}</span></div>` : "";
+      return `<h3>${esc(m.home ? `${m.away} vs ${m.home}` : m.tag)}</h3>
+        <div class="sub">${esc(m.home ? m.tag : this.src)}${m.ifNec ? "（必要時才打）" : ""}</div>
+        ${rows}
+        <dl><dt>台灣時間</dt><dd>${fmtDate(this)} ${fmtTime(this)}</dd>
+          ${m.venue ? `<dt>地點</dt><dd>${esc(m.venue)}</dd>` : ""}
+          ${m.note ? `<dt>賽制</dt><dd>${esc(m.note)}</dd>` : ""}
+          ${m.stream ? `<dt>轉播</dt><dd>${esc(m.stream)}</dd>` : ""}
+          <dt>狀態</dt><dd>${done ? "已結束" : "尚未開打"}</dd></dl>`;
+    },
+  };
+});
+
+const all = [...mlbEvents, ...lolEvents, ...manualEvents]
+  .map(e => ({ ...e, key: dayKey(tw(e.utc)) }))
+  .sort((x, y) => x.utc.localeCompare(y.utc));
+const byId = Object.fromEntries(all.map(e => [e.id, e]));
+
+// ───────── 圖層開關（記在瀏覽器裡） ─────────
+const layers = { mlb: true, lol: true, cpbl: true, tft: true, spring: false };
+try { Object.assign(layers, JSON.parse(localStorage.getItem("cal-layers") || "{}")); } catch {}
+const visible = () => all.filter(e => layers[e.layer]);
+
+const nowTw = tw(new Date().toISOString());
+let viewY = nowTw.getUTCFullYear(), viewM = nowTw.getUTCMonth();
+
+// ───────── 月曆 ─────────
+const evClass = e => ["ev", e.cls, e.cancel && "cancel", e.maybe && "maybe"].filter(Boolean).join(" ");
+const evHTML = e => `<button class="${evClass(e)}" data-id="${e.id}">
+  <span class="ttl">${esc(e.title)}</span>${e.resultHTML || `<span class="t">${fmtTime(e)}</span>`}</button>`;
+
+// 世界賽瑞士制一天七、八場，超過 2 場就收成一格，點開看當天清單
+function cellHTML(list, k) {
+  const lol = list.filter(e => e.layer === "lol");
+  if (lol.length <= 2) return list.map(evHTML).join("");
+  const shown = list.filter(e => e.layer !== "lol" || e.fav).map(evHTML).join("");
+  const others = lol.filter(e => !e.fav);
+  if (!others.length) return shown;
+  const done = others.every(e => e.done);
+  return shown + `<button class="ev lol" data-day="${k}">
+    <span class="ttl">${others.length < lol.length ? "其他" : "世界賽"} ${others.length} 場</span>
+    <span class="t">${done ? "已結束" : fmtTime(others[0]) + " 起"}</span></button>`;
+}
+
+function renderMonth() {
+  document.getElementById("monthLabel").textContent = `${viewY} 年 ${viewM + 1} 月`;
+  const byDay = {};
+  for (const e of visible()) (byDay[e.key] ||= []).push(e);
+
+  const first = new Date(Date.UTC(viewY, viewM, 1));
+  // 週一開頭：週日 (0) 要往回推 6 天
+  const start = new Date(first.getTime() - ((first.getUTCDay() + 6) % 7) * 864e5);
+  const todayKey = dayKey(nowTw);
+  let html = "";
+  for (let i = 0; i < 42; i++) {
+    const d = new Date(start.getTime() + i * 864e5);
+    if (i === 35 && d.getUTCMonth() !== viewM) break;  // 用不到第 6 列就不畫
+    const k = dayKey(d);
+    const cls = ["day", d.getUTCMonth() !== viewM && "out", k === todayKey && "today"].filter(Boolean).join(" ");
+    html += `<div class="${cls}"><div class="num">${d.getUTCDate()}</div>${cellHTML(byDay[k] || [], k)}</div>`;
+  }
+  document.getElementById("grid").innerHTML = html;
+}
+
+// ───────── 側欄 ─────────
+const timers = [];
+function renderSide() {
+  timers.splice(0).forEach(clearInterval);
+  const now = Date.now();
+  const upcoming = visible().filter(e => !e.done && !e.cancel && new Date(e.utc).getTime() > now - (e.tbd ? 24 : 4) * 3600e3);
+
+  // 每個開啟中的行事曆各列一個「下一場」
+  const nexts = ["mlb", "lol", "cpbl", "tft"].filter(l => layers[l])
+    .map(l => upcoming.find(e => e.layer === l || (l === "mlb" && e.layer === "spring")))
+    .filter(Boolean);
+  const card = document.getElementById("nextCard");
+  card.innerHTML = `<h2>下一場</h2>` + (nexts.map((e, i) => `
+    <div class="next" style="--c:${e.color}" data-id="${e.id}">
+      <div class="src">${e.src}</div>
+      <div class="next-ttl">${esc(e.title)}</div>
+      <div class="next-when">${fmtDate(e)} ${fmtTime(e)}</div>
+      <span class="tag ${e.tagCls}">${esc(e.tag)}</span>
+      <div class="countdown" id="cd${i}"></div>
+    </div>`).join("") || `<div class="next-when">目前沒有排定的比賽</div>`);
+  nexts.forEach((e, i) => countdown(e, document.getElementById("cd" + i)));
+
+  document.getElementById("upcoming").innerHTML = upcoming.slice(0, 8).map(e =>
+    `<li data-id="${e.id}" style="--c:${e.color}"><span class="dot"></span><span class="d">${fmtDate(e)} ${fmtTime(e)}</span><span class="x">${esc(e.title)}${e.maybe ? " *" : ""}</span></li>`
+  ).join("") || `<li>—</li>`;
+
+  const reg = mlbEvents.filter(e => e.raw.type === "R");
+  const w = reg.filter(e => e.result === "W").length, l = reg.filter(e => e.result === "L").length;
+  document.getElementById("record").textContent = `${w} 勝 ${l} 敗`;
+  document.getElementById("recordCard").hidden = !layers.mlb;
+  document.getElementById("foot").textContent =
+    `賽程資料：MLB Stats API、LoL Esports；台灣大賽與 TFT 為手動整理（data/manual.js）　最後更新：${window.UPDATED || "—"}　（執行 python3 update.py 可重新抓取）`;
+}
+
+function countdown(e, el) {
+  const run = () => {
+    const ms = new Date(e.utc).getTime() - Date.now();
+    // 只知道日期的賽事倒數到「還有幾天」就好
+    if (e.tbd) { el.textContent = ms > 0 ? `還有 ${Math.ceil(ms / 864e5)} 天` : "今天"; return; }
+    if (ms <= 0) { el.textContent = "比賽進行中"; return; }
+    const d = Math.floor(ms / 864e5), h = Math.floor(ms / 3600e3) % 24, m = Math.floor(ms / 6e4) % 60, s = Math.floor(ms / 1e3) % 60;
+    el.textContent = `${d ? d + " 天 " : ""}${pad(h)}:${pad(m)}:${pad(s)}`;
+  };
+  run(); timers.push(setInterval(run, 1000));
+}
+
+// ───────── 對話框 ─────────
+const dlg = document.getElementById("detail");
+function show(html) {
+  dlg.innerHTML = `<button class="close" aria-label="關閉">×</button>` + html;
+  dlg.querySelector(".close").onclick = () => dlg.close();
+  if (!dlg.open) dlg.showModal();
+}
+function openDay(k) {
+  const list = visible().filter(e => e.key === k);
+  const [, mo, d] = k.split("-").map(Number);
+  show(`<h3>${mo}/${d}（${WEEK[new Date(k + "T00:00:00Z").getUTCDay()]}）</h3>
+    <div class="sub">共 ${list.length} 場，點一場看詳細</div>
+    <div class="daylist">${list.map(e => `<button class="${evClass(e)}" data-id="${e.id}">
+      <span class="ttl">${esc(e.title)}</span>${e.resultHTML || `<span class="t">${fmtTime(e)}</span>`}</button>`).join("")}</div>`);
+}
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-id],[data-day]");
+  if (t?.dataset.id) { const ev = byId[t.dataset.id]; if (ev) show(ev.detail()); }
+  else if (t?.dataset.day) openDay(t.dataset.day);
+  if (e.target === dlg) dlg.close();  // 點背景關閉
+});
+
+// ───────── 導覽 ─────────
+const shift = n => { viewM += n; if (viewM < 0) { viewM = 11; viewY--; } if (viewM > 11) { viewM = 0; viewY++; } renderMonth(); };
+document.getElementById("prev").onclick = () => shift(-1);
+document.getElementById("next").onclick = () => shift(1);
+document.getElementById("todayBtn").onclick = () => { viewY = nowTw.getUTCFullYear(); viewM = nowTw.getUTCMonth(); renderMonth(); };
+document.addEventListener("keydown", e => {
+  if (dlg.open) return;
+  if (e.key === "ArrowLeft") shift(-1);
+  if (e.key === "ArrowRight") shift(1);
+});
+document.querySelectorAll("[data-layer]").forEach(btn => {
+  const sync = () => btn.setAttribute("aria-pressed", layers[btn.dataset.layer]);
+  sync();
+  btn.onclick = () => {
+    layers[btn.dataset.layer] = !layers[btn.dataset.layer];
+    try { localStorage.setItem("cal-layers", JSON.stringify(layers)); } catch {}
+    sync(); renderMonth(); renderSide();
+  };
+});
+
+renderMonth();
+renderSide();
+</script>
+</body>
+</html>
