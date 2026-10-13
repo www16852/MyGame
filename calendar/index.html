@@ -201,6 +201,7 @@
 
 <script src="data/dodgers.js"></script>
 <script src="data/worlds.js"></script>
+<script src="data/cpbl.js"></script>
 <script src="data/manual.js"></script>
 <script>
 // ───────── 共用工具 ─────────
@@ -297,11 +298,23 @@ const lolEvents = (window.WORLDS_MATCHES || []).map(m => {
   };
 });
 
-// ───────── 手動維護的賽程（台灣大賽、TFT）─────────
+// ───────── 台灣大賽（update.py 從中職官網抓）→ 轉成和手動賽程相同的格式 ─────────
+const CPBL_STATE = { postponed: "延賽", cancelled: "取消" };
+const cpblAsManual = (window.CPBL_GAMES || []).map(g => ({
+  id: "cpbl-" + g.id, layer: "cpbl", tw: g.tw,
+  away: g.away.name, home: g.home.name,
+  tag: `台灣大賽 G${g.game}`,
+  ifNec: g.game >= 5 && g.state === "scheduled",
+  venue: g.venue,
+  score: g.state === "final" ? [g.away.score, g.home.score] : null,
+  cancel: CPBL_STATE[g.state] || null,
+}));
+
+// ───────── 手動維護的賽程（TFT）與台灣大賽 ─────────
 const MANUAL_SRC = { cpbl: "台灣大賽", tft: "TFT 亞太區 Regional Finals" };
 // data/manual.js 寫的是台灣時間；只有日期的視為當天 00:00
 const twToUtc = s => new Date((s.length === 10 ? s + "T00:00" : s) + ":00+08:00").toISOString();
-const manualEvents = (window.MANUAL_EVENTS || []).map(m => {
+const manualEvents = [...cpblAsManual, ...(window.MANUAL_EVENTS || [])].map(m => {
   const done = Array.isArray(m.score);
   const [as, hs] = m.score || [];
   const winner = done ? (as > hs ? m.away : hs > as ? m.home : null) : null;
@@ -310,7 +323,7 @@ const manualEvents = (window.MANUAL_EVENTS || []).map(m => {
     layer: m.layer, src: MANUAL_SRC[m.layer] || m.layer, color: `var(--${m.layer})`, cls: m.layer,
     title: m.title || `${m.away} vs ${m.home}`,
     tag: `${m.tag}${m.ifNec ? "（必要時）" : ""}`, tagCls: "",
-    done, maybe: m.ifNec && !done, cancel: false,
+    done, maybe: m.ifNec && !done, cancel: !!m.cancel,
     resultHTML: done ? `<span class="res">${esc(winner || "和")}${winner ? " 勝" : ""} ${as}:${hs}</span>` : null,
     detail() {
       const rows = m.home ? `<div class="score">
@@ -323,7 +336,7 @@ const manualEvents = (window.MANUAL_EVENTS || []).map(m => {
           ${m.venue ? `<dt>地點</dt><dd>${esc(m.venue)}</dd>` : ""}
           ${m.note ? `<dt>賽制</dt><dd>${esc(m.note)}</dd>` : ""}
           ${m.stream ? `<dt>轉播</dt><dd>${esc(m.stream)}</dd>` : ""}
-          <dt>狀態</dt><dd>${done ? "已結束" : "尚未開打"}</dd></dl>`;
+          <dt>狀態</dt><dd>${m.cancel || (done ? "已結束" : "尚未開打")}</dd></dl>`;
     },
   };
 });
@@ -410,7 +423,7 @@ function renderSide() {
   document.getElementById("record").textContent = `${w} 勝 ${l} 敗`;
   document.getElementById("recordCard").hidden = !layers.mlb;
   document.getElementById("foot").textContent =
-    `賽程資料：MLB Stats API、LoL Esports；台灣大賽與 TFT 為手動整理（data/manual.js）　最後更新：${window.UPDATED || "—"}　（執行 python3 update.py 可重新抓取）`;
+    `賽程資料：MLB Stats API、LoL Esports、中職官網；TFT 為手動整理（data/manual.js）　最後更新：${window.UPDATED || "—"}　（執行 python3 update.py 可重新抓取）`;
 }
 
 function countdown(e, el) {

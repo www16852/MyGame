@@ -3,6 +3,7 @@
 
   data/dodgers.js  道奇整季賽程（MLB Stats API）
   data/worlds.js   英雄聯盟世界賽（LoL Esports API）
+  data/cpbl.js     中華職棒台灣大賽（中職官網的賽程 API）
 
 用法：python3 update.py [年份]（預設今年）
 用 curl 抓檔，避開本機 Python 的 SSL 憑證問題。
@@ -10,7 +11,7 @@
 資料沒變就不重寫檔案（避免排程每次都產生 commit）。
 原本未定的對戰組合確定時，印出以 NOTIFY:: 開頭的行，給排程腳本發通知。
 """
-import json, subprocess, sys, datetime, pathlib, urllib.parse
+import json, re, subprocess, sys, datetime, pathlib, tempfile, urllib.parse
 
 season = sys.argv[1] if len(sys.argv) > 1 else str(datetime.date.today().year)
 DATA = pathlib.Path(__file__).parent / "data"
@@ -155,5 +156,70 @@ def worlds():
     print(f"世界賽 {season}：{len(matches)} 場{'（有更新）' if changed else '（沒有變化）'}")
 
 
+# ── 中華職棒台灣大賽 ────────────────────────────────────────
+CPBL_TEAMS = {
+    "AAA011": "味全龍", "ACN011": "中信兄弟", "ADD011": "統一獅",
+    "AEO011": "富邦悍將", "AJL011": "樂天桃猿", "AKP011": "台鋼雄鷹",
+}
+
+
+def cpbl():
+    # 官網要先 GET 頁面拿 cookie 與 RequestVerificationToken，再帶 X-Requested-With 去 POST
+    url = "https://www.cpbl.com.tw/schedule"
+    ua = "Mozilla/5.0"
+    with tempfile.NamedTemporaryFile(suffix=".txt") as jar:
+        page = subprocess.run(["curl", "-sfL", "-c", jar.name, "-b", jar.name, "-A", ua, url],
+                              capture_output=True, check=True, text=True).stdout
+        m = re.search(r"url: '/schedule/getgamedatas'.*?RequestVerificationToken: '([^']+)'", page, re.S)
+        if not m:
+            raise RuntimeError("中職官網頁面找不到 RequestVerificationToken，網站可能改版了")
+        raw = subprocess.run(
+            ["curl", "-sfL", "-c", jar.name, "-b", jar.name, "-A", ua,
+             "-H", "X-Requested-With: XMLHttpRequest", "-H", f"RequestVerificationToken: {m.group(1)}",
+             "--data", f"calendar={season}/01/01&location=&kindCode=C", f"{url}/getgamedatas"],
+            capture_output=True, check=True, text=True).stdout
+    res = json.loads(raw)
+    if not res.get("Success"):
+        raise RuntimeError(f"中職官網回傳失敗：{raw[:200]}")
+
+    def state(g):
+        # GameResult：0 已打完、1 延賽（會另有一筆補賽）、2 取消／保留；空字串為尚未開打
+        if g["GameResult"] == "1":
+            return "postponed"
+        if g["GameResult"] == "2":
+            return "cancelled"
+        if g["GameResult"] == "0" and g["GameDateTimeE"]:
+            return "final"
+        return "scheduled"
+
+    games = []
+    for g in json.loads(res["GameDatas"]):
+        tw = g["GameDateTimeS"] or g["PreExeDate"]
+        done = state(g) == "final"
+        games.append({
+            "id": f"{g['KindCode']}{g['GameSno']}-{tw[:10]}",
+            "tw": tw[:16],                     # 官網本來就是台灣時間
+            "game": g["GameSno"],
+            "state": state(g),
+            "venue": g["FieldAbbe"],
+            "away": {"name": CPBL_TEAMS.get(g["VisitingTeamCode"], g["VisitingTeamCode"]),
+                     "score": g["VisitingScore"] if done else None},
+            "home": {"name": CPBL_TEAMS.get(g["HomeTeamCode"], g["HomeTeamCode"]),
+                     "score": g["HomeScore"] if done else None},
+        })
+    games.sort(key=lambda g: g["tw"])
+
+    old = load("cpbl.js", "CPBL_GAMES")
+    if old is not None:
+        old_ids = {g["id"] for g in old}
+        for g in games:
+            if g["id"] not in old_ids:
+                notify(f"⚾ 台灣大賽賽程新增：G{g['game']} {g['away']['name']} vs {g['home']['name']}，"
+                       f"台灣時間 {g['tw'][5:10].replace('-', '/')} {g['tw'][11:]}")
+    changed = write("cpbl.js", "CPBL_GAMES", games)
+    print(f"台灣大賽 {season}：{len(games)} 場{'（有更新）' if changed else '（沒有變化）'}")
+
+
 dodgers()
 worlds()
+cpbl()

@@ -1,29 +1,8 @@
 // 手動維護的賽程（沒有公開 API 可抓，update.py 不會動這個檔）
 // 時間一律寫台灣時間 "YYYY-MM-DDTHH:MM"；還沒公布開賽時間就只寫日期並加 tbd: true
 // 比賽打完可以補 score: [客隊分, 主隊分]
+// （台灣大賽已改由 update.py 從中職官網自動抓，見 data/cpbl.js）
 window.MANUAL_EVENTS = [
-  // ── 中華職棒 台灣大賽（七戰四勝，全部在臺北大巨蛋）──
-  // 來源：Yahoo 運動、yam 蕃新聞（2026-10-13）
-  ...[
-    ["G1", "2026-10-17T17:05", "dragons", false],
-    ["G2", "2026-10-18T17:05", "dragons", false],
-    ["G3", "2026-10-20T18:35", "brothers", false],
-    ["G4", "2026-10-21T18:35", "brothers", false],
-    ["G5", "2026-10-23T18:35", "dragons", true],
-    ["G6", "2026-10-24T17:05", "dragons", true],
-    ["G7", "2026-10-25T17:05", "dragons", true],
-  ].map(([g, tw, home, ifNec]) => ({
-    id: "cpbl-ts-" + g,
-    layer: "cpbl",
-    tw,
-    home: home === "dragons" ? "味全龍" : "中信兄弟",
-    away: home === "dragons" ? "中信兄弟" : "味全龍",
-    tag: `台灣大賽 ${g}`,
-    ifNec,
-    venue: "臺北大巨蛋",
-    score: null,
-  })),
-
   // ── TFT 亞太區 Regional Finals（Set 18 Enchanted Wilds）──
   // 來源：官方規則書 10.2.6、Liquipedia；開賽時間尚未公布
   ...[
