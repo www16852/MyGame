@@ -6,6 +6,9 @@
 
 用法：python3 update.py [年份]（預設今年）
 用 curl 抓檔，避開本機 Python 的 SSL 憑證問題。
+
+資料沒變就不重寫檔案（避免排程每次都產生 commit）。
+原本未定的對戰組合確定時，印出以 NOTIFY:: 開頭的行，給排程腳本發通知。
 """
 import json, subprocess, sys, datetime, pathlib, urllib.parse
 
@@ -21,12 +24,28 @@ def get(url, *headers):
     return json.loads(subprocess.run(args, capture_output=True, check=True).stdout)
 
 
+def load(name, var):
+    """讀回上一次產生的資料；沒有檔案就回傳 None。"""
+    try:
+        text = (DATA / name).read_text(encoding="utf-8")
+        return json.loads(text.split(f"window.{var} = ", 1)[1].rstrip().rstrip(";"))
+    except (FileNotFoundError, IndexError, ValueError):
+        return None
+
+
+def notify(msg):
+    print(f"NOTIFY::{msg}")
+
+
 def write(name, var, items):
+    if load(name, var) == items:
+        return False
     (DATA / name).write_text(
         f"// 自動產生（update.py），請勿手改。更新時間：{STAMP}\n"
         f"window.UPDATED = {json.dumps(STAMP)};\n"
         f"window.{var} = {json.dumps(items, ensure_ascii=False, indent=1)};\n",
         encoding="utf-8")
+    return True
 
 
 # ── 道奇 ────────────────────────────────────────────────────
@@ -53,8 +72,21 @@ def dodgers():
                 "away": side(g["teams"]["away"]),
                 "home": side(g["teams"]["home"]),
             })
-    write("dodgers.js", "DODGERS_GAMES", games)
-    print(f"道奇 {season} 球季：{len(games)} 場")
+    # 季後賽下一輪的對手確定後，MLB 才會把那幾場排進賽程 → 新出現的季後賽就是「對戰確定」
+    old = load("dodgers.js", "DODGERS_GAMES")
+    if old is not None:
+        old_ids = {g["id"] for g in old}
+        new_series = {}
+        for g in games:
+            if g["id"] not in old_ids and g["type"] in ("F", "D", "L", "W"):
+                new_series.setdefault(g["series"], []).append(g)
+        for series, gs in new_series.items():
+            first = gs[0]
+            tw = datetime.datetime.fromisoformat(first["utc"].replace("Z", "+00:00")) + datetime.timedelta(hours=8)
+            notify(f"⚾ 道奇{series}對戰確定：{first['away']['name']} vs {first['home']['name']}，"
+                   f"共 {len(gs)} 場，首戰台灣時間 {tw:%m/%d %H:%M}")
+    changed = write("dodgers.js", "DODGERS_GAMES", games)
+    print(f"道奇 {season} 球季：{len(games)} 場{'（有更新）' if changed else '（沒有變化）'}")
 
 
 # ── 英雄聯盟世界賽 ──────────────────────────────────────────
@@ -109,8 +141,18 @@ def worlds():
         "bo": e["match"]["strategy"]["count"],
         "teams": [team(t) for t in e["match"]["teams"]],
     } for e in sorted(events, key=lambda e: e["startTime"])]
-    write("worlds.js", "WORLDS_MATCHES", matches)
-    print(f"世界賽 {season}：{len(matches)} 場")
+    # 原本有 TBD 的場次，兩隊都確定了就通知
+    old = {m["id"]: m for m in load("worlds.js", "WORLDS_MATCHES") or []}
+    for m in matches:
+        before = old.get(m["id"])
+        codes = [t["code"] for t in m["teams"]]
+        if before and "TBD" in [t["code"] for t in before["teams"]] and "TBD" not in codes:
+            tw = datetime.datetime.fromisoformat(m["utc"].replace("Z", "+00:00")) + datetime.timedelta(hours=8)
+            star = "⭐ " if {"T1", "CFO"} & set(codes) else ""
+            notify(f"{star}🎮 世界賽{m['stage']}對戰確定：{codes[0]} vs {codes[1]}（BO{m['bo']}），"
+                   f"台灣時間 {tw:%m/%d %H:%M}")
+    changed = write("worlds.js", "WORLDS_MATCHES", matches)
+    print(f"世界賽 {season}：{len(matches)} 場{'（有更新）' if changed else '（沒有變化）'}")
 
 
 dodgers()
