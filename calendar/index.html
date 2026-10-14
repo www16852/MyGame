@@ -351,7 +351,7 @@ const layers = { mlb: true, lol: true, cpbl: true, tft: true, spring: false };
 try { Object.assign(layers, JSON.parse(localStorage.getItem("cal-layers") || "{}")); } catch {}
 const visible = () => all.filter(e => layers[e.layer]);
 
-const nowTw = tw(new Date().toISOString());
+let nowTw = tw(new Date().toISOString());
 let viewY = nowTw.getUTCFullYear(), viewM = nowTw.getUTCMonth();
 
 // ───────── 月曆 ─────────
@@ -483,6 +483,23 @@ document.querySelectorAll("[data-layer]").forEach(btn => {
 
 renderMonth();
 renderSide();
+
+// 頁面開著跨日時，自動把「今天」標記移到新的一天；側欄也定時重排，打完的比賽會換成下一場
+function tick() {
+  const prev = nowTw;
+  nowTw = tw(new Date().toISOString());
+  if (dayKey(prev) !== dayKey(nowTw)) {
+    // 原本停在「今天」那個月就跟著換月；使用者自己翻到別的月份就不動
+    if (viewY === prev.getUTCFullYear() && viewM === prev.getUTCMonth()) {
+      viewY = nowTw.getUTCFullYear(); viewM = nowTw.getUTCMonth();
+    }
+    renderMonth();
+  }
+  renderSide();
+}
+setInterval(tick, 60e3);
+// 電腦睡眠或分頁在背景時計時器會被暫停，切回來馬上補一次
+document.addEventListener("visibilitychange", () => { if (!document.hidden) tick(); });
 </script>
 </body>
 </html>
