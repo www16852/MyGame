@@ -81,7 +81,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-10-14",
+  lastUpdated: "2026-10-15",
 
   games: [
     {
@@ -99,7 +99,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-14" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-15" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -129,7 +129,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-14" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-15" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -152,6 +152,18 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-10-15",
+      gameId: "enshrouded",
+      title: "《迷霧封境》1.0 正式版今日（10/15）上線：PC + PS5 同步發售，Steam 整體好評率 87%",
+      body: "Keen Games《Enshrouded》1.0 正式版已於 2026 年 10 月 15 日正式推出，同步登陸 Steam（PC）與 PlayStation 5/PS5 Pro，完成搶先體驗轉正。1.0 帶來新咒術系統（暴風雪、球狀閃電、三屬性圖騰＋虛空骷髏召喚型）、釣魚全面重做、Fell Dragon 降至地面（近戰無需震暈即可攻擊）、新生態區與新裝甲套裝，並對中低階電腦進行效能優化；Xbox Series X|S 版目標 2027 年春季推出。Steam 整體評論好評率 87%（49,500+ 英語則），近 30 天 84%（特別好評）；現售 NT$ 779，EA 期間累計 500 萬玩家遊玩，是 2026 年秋季多人生存類最受矚目的里程碑。"
+    },
+    {
+      date: "2026-10-15",
+      gameId: "",
+      title: "《Chained Beasts》今日多平台正式上市，首日登陸 Xbox Game Pass；全遊戲評分待確認",
+      body: "Featherweight Games 的 1~4 人合作角鬥士 Roguelike《Chained Beasts》今日（2026 年 10 月 15 日）在 Steam（PC）、Xbox Series X|S、PS5 與 Nintendo Switch 多平台同步正式上市，並於首日登陸 Xbox Game Pass（PC/主機）。Steam 試玩版累計 747 則評論、壓倒性好評 97%，近 30 天仍維持 96%，被多位知名實況主盛讚為「史上最佳試玩版之一」。由於全遊戲剛上市，正式版評分尚待累積，新品推薦將於口碑確認後評估是否列入。"
+    },
     {
       date: "2026-10-14",
       gameId: "stonewards",
@@ -816,7 +828,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-14", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-15", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       added: "2026-08-21",
@@ -833,7 +845,7 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-14", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-15", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       added: "2026-07-15",
@@ -850,7 +862,7 @@ window.GAMES_DATA = {
       developer: "Axolot Games",
       platforms: ["PC"],
       playerCount: "單人 / 多人合作",
-      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-10-14", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
+      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-10-15", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
       released: "2026年7月25日（1.0 正式版）",
       sort: "2026-07-25",
       added: "2026-08-13",
@@ -867,7 +879,7 @@ window.GAMES_DATA = {
       developer: "Beck & Branch Games（發行：Neem）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-10-14", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
+      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-10-15", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
       released: "2026年8月7日",
       sort: "2026-08-07",
       added: "2026-08-14",
@@ -884,7 +896,7 @@ window.GAMES_DATA = {
       developer: "Evil Raptor（發行：Fireshine Games）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 358", original: "", discount: "", note: "", asOf: "2026-10-14", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
+      price: { current: "NT$ 358", original: "", discount: "", note: "", asOf: "2026-10-15", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       added: "2026-08-19",
@@ -901,7 +913,7 @@ window.GAMES_DATA = {
       developer: "Banana Tiger Studio",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 183", original: "NT$ 216", discount: "-15%", note: "", asOf: "2026-10-14", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 183", original: "NT$ 216", discount: "-15%", note: "", asOf: "2026-10-15", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
       released: "2026年8月11日 搶先體驗",
       sort: "2026-08-11",
       added: "2026-08-24",
@@ -918,7 +930,7 @@ window.GAMES_DATA = {
       developer: "Resummon Studios",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-14", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
+      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-15", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
       released: "2026年9月10日",
       sort: "2026-09-10",
       added: "2026-09-14",
@@ -935,7 +947,7 @@ window.GAMES_DATA = {
       developer: "Feeble Minds（Coffee Stain Studios 老將首作）",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 308", original: "", discount: "", note: "", asOf: "2026-10-14", low: "NT$ 231", lowCut: "-25%", lowDate: "2026-09-17" },
+      price: { current: "NT$ 308", original: "", discount: "", note: "", asOf: "2026-10-15", low: "NT$ 231", lowCut: "-25%", lowDate: "2026-09-17" },
       released: "2026年5月25日 搶先體驗",
       sort: "2026-05-25",
       added: "2026-10-06",
@@ -952,7 +964,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-14", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-15", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       added: "2026-09-07",
@@ -969,7 +981,7 @@ window.GAMES_DATA = {
       developer: "Iron Gate（發行：Coffee Stain Publishing）",
       platforms: ["PC", "Xbox Series", "Xbox One", "PS5", "Switch 2"],
       playerCount: "單人 / 最多 10 人合作",
-      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-10-14", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
+      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-10-15", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
       released: "2026年9月9日（1.0 正式版）",
       sort: "2026-09-09",
       added: "2026-09-14",
@@ -986,13 +998,30 @@ window.GAMES_DATA = {
       developer: "Keen Games",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 16 人合作",
-      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-10-14", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
-      released: "2024年1月24日 搶先體驗（1.0 正式版 2026年10月15日）",
+      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-10-15", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
+      released: "2024年1月24日 搶先體驗；2026年10月15日 1.0 正式版",
       sort: "2026-10-15",
       added: "2026-09-28",
-      rating: "特別好評 86%（90,000+ 則）",
-      reason: "廣受好評的合作生存動作 RPG：玩家在被迷霧侵蝕的奇幻世界中採集資源、建造要塞、深入地牢並挑戰強大 Boss，技能樹提供豐富的職業與 Build 彈性。最多 16 人合作共建一個世界，無 PvP；自 2024 年 1 月搶先體驗以來累積 49,200+ 則評論（特別好評 86%），EA 期間超過 500 萬玩家遊玩。**2026 年 10 月 15 日推出 1.0 正式版（PC + PS5/PS5 Pro 同步登陸）**：新增 9 款全新咒術（暴風雪、球狀閃電、三屬性圖騰＋虛空骷髏召喚型）、Fell Dragon Youngling 降至地面（近戰不需震暈即可攻擊）、釣魚系統全面重做（魚餌以生態區為主要來源）、新生態區與敵人種類、新裝甲套裝，及中低階電腦效能優化；Xbox Series X|S 版因品質需求另行打磨，目標 2027 年春季推出。1.0 為 EA 的完整收尾但開發不止，是 2026 年秋季多人生存類最受矚目的里程碑。",
+      rating: "特別好評 87%（49,500+ 英語則）；近 30 天 84%",
+      reason: "廣受好評的合作生存動作 RPG：玩家在被迷霧侵蝕的奇幻世界中採集資源、建造要塞、深入地牢並挑戰強大 Boss，技能樹提供豐富的職業與 Build 彈性。最多 16 人合作共建一個世界，無 PvP；自 2024 年 1 月搶先體驗以來 EA 期間超過 500 萬玩家遊玩。**1.0 正式版已於 2026 年 10 月 15 日正式上線（PC + PS5/PS5 Pro 同步登陸）**：新增 9 款全新咒術（暴風雪、球狀閃電、三屬性圖騰＋虛空骷髏召喚型）、Fell Dragon Youngling 降至地面（近戰不需震暈即可攻擊）、釣魚系統全面重做（魚餌以生態區為主要來源）、新生態區與敵人種類、新裝甲套裝，及中低階電腦效能優化；Xbox Series X|S 版目標 2027 年春季推出。Steam 整體好評率 87%（49,500+ 英語則），近 30 天 84%（特別好評）；現售 NT$ 779，是 2026 年秋季多人生存類最受矚目的里程碑。",
       links: { steam: "https://store.steampowered.com/app/1203620/Enshrouded/", official: "" }
+    },
+    {
+      id: "swapmeat",
+      name: "SWAPMEAT",
+      nameEn: "SWAPMEAT",
+      interest: "多人RogueLike",
+      genre: "動作 Roguelite / 第三人稱射擊",
+      developer: "One More Game",
+      platforms: ["PC"],
+      playerCount: "1~4 人線上合作",
+      price: { current: "NT$ 299", original: "", discount: "", note: "", asOf: "2026-10-15", low: "", lowCut: "", lowDate: "" },
+      released: "2026年6月17日（1.0）",
+      sort: "2026-06-17",
+      added: "2026-10-11",
+      rating: "特別好評 86%（308 則）",
+      reason: "One More Game 開發的第三人稱動作 Roguelite 射擊遊戲，玩法核心是在戰鬥中切割擊倒的外星生物並將其肢體裝備到自身以即時改造 Build——越多隊友、割下越多部位，組合就越混亂瘋狂。2026 年 6 月 17 日 1.0 正式上線，支援 1~4 人線上合作、動態難度調整讓不同人數的遊玩體驗均衡，定價 NT$ 299 為同類型中最親民的選項之一；Steam 整體評論 86%（308 則）特別好評。",
+      links: { steam: "https://store.steampowered.com/app/2790700/SWAPMEAT/", official: "" }
     },
   ]
 };
