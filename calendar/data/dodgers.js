@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-15 12:20
-window.UPDATED = "2026-10-15 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-16 12:20
+window.UPDATED = "2026-10-16 12:20";
 window.DODGERS_GAMES = [
  {
   "id": 832063,
@@ -4227,83 +4227,20 @@ window.DODGERS_GAMES = [
   "utc": "2026-10-16T00:00:00Z",
   "tbd": false,
   "type": "L",
-  "state": "Scheduled",
+  "state": "Final",
   "series": "NL Championship Series",
   "seriesGame": 4,
   "ifNec": false,
   "venue": "UNIQLO Field at Dodger Stadium",
   "away": {
    "name": "Milwaukee Brewers",
-   "score": null,
-   "win": null
+   "score": 6,
+   "win": true
   },
   "home": {
    "name": "Los Angeles Dodgers",
-   "score": null,
-   "win": null
-  }
- },
- {
-  "id": 849808,
-  "utc": "2026-10-17T01:00:00Z",
-  "tbd": false,
-  "type": "L",
-  "state": "Scheduled",
-  "series": "NL Championship Series",
-  "seriesGame": 5,
-  "ifNec": true,
-  "venue": "UNIQLO Field at Dodger Stadium",
-  "away": {
-   "name": "Milwaukee Brewers",
-   "score": null,
-   "win": null
-  },
-  "home": {
-   "name": "Los Angeles Dodgers",
-   "score": null,
-   "win": null
-  }
- },
- {
-  "id": 849806,
-  "utc": "2026-10-19T00:00:00Z",
-  "tbd": false,
-  "type": "L",
-  "state": "Scheduled",
-  "series": "NL Championship Series",
-  "seriesGame": 6,
-  "ifNec": true,
-  "venue": "American Family Field",
-  "away": {
-   "name": "Los Angeles Dodgers",
-   "score": null,
-   "win": null
-  },
-  "home": {
-   "name": "Milwaukee Brewers",
-   "score": null,
-   "win": null
-  }
- },
- {
-  "id": 849807,
-  "utc": "2026-10-20T00:00:00Z",
-  "tbd": false,
-  "type": "L",
-  "state": "Scheduled",
-  "series": "NL Championship Series",
-  "seriesGame": 7,
-  "ifNec": true,
-  "venue": "American Family Field",
-  "away": {
-   "name": "Los Angeles Dodgers",
-   "score": null,
-   "win": null
-  },
-  "home": {
-   "name": "Milwaukee Brewers",
-   "score": null,
-   "win": null
+   "score": 4,
+   "win": false
   }
  }
 ];

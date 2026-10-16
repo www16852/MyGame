@@ -1,9 +1,84 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-13 15:30
-window.UPDATED = "2026-10-13 15:30";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-16 12:20
+window.UPDATED = "2026-10-16 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
   "utc": "2026-10-15T18:00:00Z",
+  "state": "completed",
+  "stage": "入圍賽",
+  "bo": 5,
+  "teams": [
+   {
+    "name": "Karmine Corp",
+    "code": "KC",
+    "wins": 3,
+    "outcome": "win",
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
+   },
+   {
+    "name": "Cloud9 Kia",
+    "code": "C9",
+    "wins": 2,
+    "outcome": "loss",
+    "league": "LCS",
+    "region": "北美洲"
+   }
+  ]
+ },
+ {
+  "id": "115660588583040710",
+  "utc": "2026-10-15T23:00:00Z",
+  "state": "completed",
+  "stage": "入圍賽",
+  "bo": 5,
+  "teams": [
+   {
+    "name": "MVK Esports",
+    "code": "MVK",
+    "wins": 3,
+    "outcome": "win",
+    "league": "LCP",
+    "region": "太平洋"
+   },
+   {
+    "name": "FURIA",
+    "code": "FUR",
+    "wins": 0,
+    "outcome": "loss",
+    "league": "CBLOL",
+    "region": "巴西"
+   }
+  ]
+ },
+ {
+  "id": "115660588583171790",
+  "utc": "2026-10-16T18:00:00Z",
+  "state": "unstarted",
+  "stage": "入圍賽",
+  "bo": 5,
+  "teams": [
+   {
+    "name": "Karmine Corp",
+    "code": "KC",
+    "wins": 0,
+    "outcome": null,
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
+   },
+   {
+    "name": "MVK Esports",
+    "code": "MVK",
+    "wins": 0,
+    "outcome": null,
+    "league": "LCP",
+    "region": "太平洋"
+   }
+  ]
+ },
+ {
+  "id": "115660588583171794",
+  "utc": "2026-10-16T23:00:00Z",
   "state": "unstarted",
   "stage": "入圍賽",
   "bo": 5,
@@ -17,87 +92,12 @@ window.WORLDS_MATCHES = [
     "region": "北美洲"
    },
    {
-    "name": "Karmine Corp",
-    "code": "KC",
-    "wins": 0,
-    "outcome": null,
-    "league": "LEC",
-    "region": "歐洲、中東與非洲"
-   }
-  ]
- },
- {
-  "id": "115660588583040710",
-  "utc": "2026-10-15T23:00:00Z",
-  "state": "unstarted",
-  "stage": "入圍賽",
-  "bo": 5,
-  "teams": [
-   {
     "name": "FURIA",
     "code": "FUR",
     "wins": 0,
     "outcome": null,
     "league": "CBLOL",
     "region": "巴西"
-   },
-   {
-    "name": "MVK Esports",
-    "code": "MVK",
-    "wins": 0,
-    "outcome": null,
-    "league": "LCP",
-    "region": "太平洋"
-   }
-  ]
- },
- {
-  "id": "115660588583171790",
-  "utc": "2026-10-16T18:00:00Z",
-  "state": "unstarted",
-  "stage": "入圍賽",
-  "bo": 5,
-  "teams": [
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   }
-  ]
- },
- {
-  "id": "115660588583171794",
-  "utc": "2026-10-16T23:00:00Z",
-  "state": "unstarted",
-  "stage": "入圍賽",
-  "bo": 5,
-  "teams": [
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
    }
   ]
  },
