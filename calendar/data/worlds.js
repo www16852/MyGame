@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-16 12:20
-window.UPDATED = "2026-10-16 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-17 12:20
+window.UPDATED = "2026-10-17 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -54,15 +54,15 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660588583171790",
   "utc": "2026-10-16T18:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "入圍賽",
   "bo": 5,
   "teams": [
    {
     "name": "Karmine Corp",
     "code": "KC",
-    "wins": 0,
-    "outcome": null,
+    "wins": 3,
+    "outcome": "win",
     "league": "LEC",
     "region": "歐洲、中東與非洲"
    },
@@ -70,7 +70,7 @@ window.WORLDS_MATCHES = [
     "name": "MVK Esports",
     "code": "MVK",
     "wins": 0,
-    "outcome": null,
+    "outcome": "loss",
     "league": "LCP",
     "region": "太平洋"
    }
@@ -79,25 +79,25 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660588583171794",
   "utc": "2026-10-16T23:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "入圍賽",
   "bo": 5,
   "teams": [
    {
-    "name": "Cloud9 Kia",
-    "code": "C9",
-    "wins": 0,
-    "outcome": null,
-    "league": "LCS",
-    "region": "北美洲"
-   },
-   {
     "name": "FURIA",
     "code": "FUR",
-    "wins": 0,
-    "outcome": null,
+    "wins": 3,
+    "outcome": "win",
     "league": "CBLOL",
     "region": "巴西"
+   },
+   {
+    "name": "Cloud9 Kia",
+    "code": "C9",
+    "wins": 1,
+    "outcome": "loss",
+    "league": "LCS",
+    "region": "北美洲"
    }
   ]
  },
@@ -109,20 +109,20 @@ window.WORLDS_MATCHES = [
   "bo": 5,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "MVK Esports",
+    "code": "MVK",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCP",
+    "region": "太平洋"
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "FURIA",
+    "code": "FUR",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "CBLOL",
+    "region": "巴西"
    }
   ]
  },
@@ -142,12 +142,12 @@ window.WORLDS_MATCHES = [
     "region": null
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Karmine Corp",
+    "code": "KC",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
    }
   ]
  },
