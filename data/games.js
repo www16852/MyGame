@@ -81,7 +81,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-10-16",
+  lastUpdated: "2026-10-17",
 
   games: [
     {
@@ -99,7 +99,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-16" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-17" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -129,7 +129,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-16" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-17" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -152,6 +152,24 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-10-17",
+      gameId: "",
+      title: "Steam Next Fest 10月展（10/19~10/26）明日登場；《不朽之樹》多人 Demo 後天（10/20）起免費開放",
+      body: "Steam Next Fest October 2026（10/19~10/26 PDT；台灣時間 10/20 凌晨起）明日正式開幕，預計數百款未上市遊戲同步推出免費試玩。本站重點關注：《不朽之樹》（Never Wither）Demo 定於台灣時間 10/20 起免費開放，首次支援多人連線合作（Online Multiplayer Co-op），可體驗第一區域「翠綠谷（Verdant Valley）」；另《Stonewards》Week Long Deal（-15%，NT$ 183）亦在 10/19 當日截止，有意購入的玩家請把握最後機會。"
+    },
+    {
+      date: "2026-10-17",
+      gameId: "chainedbeasts",
+      title: "《Chained Beasts》Steam 正式版評論成長至 233 則，好評率 88%（Very Positive）",
+      body: "《Chained Beasts》正式版（2026/10/15 多平台上市）截至 10/17，Steam 評論已從上市首日 83 則（96%）成長至 233 則，好評率穩定於 88%（Very Positive，206/233）；試玩版評論同步成長至 633+ 則（壓倒性好評）。正式版售價 NT$ 245（首發 -35%，截止 10/29），Day 1 登陸 Xbox Game Pass（PC/主機）。整體口碑仍維持 Very Positive 水準，首發折扣在 10/29 截止前仍是入手良機。"
+    },
+    {
+      date: "2026-10-06",
+      gameId: "valheim",
+      title: "《Valheim》Patch 1.0.17（10/6）：修正存檔分割刪除物件罕見 Bug、恢復製作名單顯示",
+      body: "Iron Gate 於 10 月 6 日推出 Patch 1.0.17：修正一個罕見但嚴重的 Bug——當大型世界存檔 Chunk 被分割為較小檔案時，可能導致部分世界區域中所有物件（建築、掉落物等）消失；物品無效外觀樣式（含 1.0.15 PS5 版 Root Shield 問題）現改為自動回退至預設樣式正常運作；恢復 1.0.16 中意外隱藏的製作名單（Credits）並更新部分佔位符文字。全平台同步推送（各平台因認證程序到達時間可能有數日差距，跨平台連線在推送期間仍維持正常）。"
+    },
     {
       date: "2026-10-16",
       gameId: "",
@@ -840,12 +858,12 @@ window.GAMES_DATA = {
       developer: "Featherweight Games",
       platforms: ["PC", "PS5", "Xbox Series", "Switch"],
       playerCount: "1~4 人線上合作（支援跨平台、分割螢幕與遠端遊玩）",
-      price: { current: "NT$ 245", original: "NT$ 377", discount: "-35%", note: "", asOf: "2026-10-16", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
+      price: { current: "NT$ 245", original: "NT$ 377", discount: "-35%", note: "", asOf: "2026-10-17", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
       released: "2026年10月15日（1.0 正式版）",
       sort: "2026-10-15",
       added: "2026-10-16",
-      rating: "好評（96%，83 則，上市首日）；試玩版壓倒性好評 97%（747 則）",
-      reason: "澳洲獨立工作室 Featherweight Games 的首個大作。1~4 人合作格鬥士 Roguelite：玩家與隊友以實體鎖鏈相連，在競技場中對抗怪物與 Boss，鎖鏈既是武器也是制約，考驗隊伍協調力；含三章關卡（迦太基、日耳曼尼亞、羅馬）、多樣化 Build 系統與 Roguelite 輪迴元素。試玩版曾獲壓倒性好評 97%（747 則），被知名實況主 IronPineapple、VaatiVidya 盛讚為「史上最佳試玩版之一」；2026 年 10 月 15 日多平台正式上市（PC/PS5/Xbox Series/Switch），Day 1 登陸 Xbox Game Pass（PC/主機）。正式版上市首日 Steam 好評率 96%（83 則，評論持續累積中）。首發 -35% 折扣（NT$ 245，原價 NT$ 377）截止 10/29，是 2026 年秋季多人 Roguelite 中最受矚目的新作。",
+      rating: "特別好評 88%（233 則）；試玩版壓倒性好評 97%（747 則）",
+      reason: "澳洲獨立工作室 Featherweight Games 的首個大作。1~4 人合作格鬥士 Roguelite：玩家與隊友以實體鎖鏈相連，在競技場中對抗怪物與 Boss，鎖鏈既是武器也是制約，考驗隊伍協調力；含三章關卡（迦太基、日耳曼尼亞、羅馬）、多樣化 Build 系統與 Roguelite 輪迴元素。試玩版曾獲壓倒性好評 97%（747 則），被知名實況主 IronPineapple、VaatiVidya 盛讚為「史上最佳試玩版之一」；2026 年 10 月 15 日多平台正式上市（PC/PS5/Xbox Series/Switch），Day 1 登陸 Xbox Game Pass（PC/主機）。截至 10/17 Steam 評論累積至 233 則，好評率 88%（Very Positive）。首發 -35% 折扣（NT$ 245，原價 NT$ 377）截止 10/29，是 2026 年秋季多人 Roguelite 中最受矚目的新作。",
       links: { steam: "https://store.steampowered.com/app/3569420/Chained_Beasts/", official: "" }
     },
     {
@@ -857,7 +875,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-16", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-17", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       added: "2026-08-21",
@@ -874,7 +892,7 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-16", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-17", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       added: "2026-07-15",
@@ -891,7 +909,7 @@ window.GAMES_DATA = {
       developer: "Axolot Games",
       platforms: ["PC"],
       playerCount: "單人 / 多人合作",
-      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-10-16", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
+      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-10-17", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
       released: "2026年7月25日（1.0 正式版）",
       sort: "2026-07-25",
       added: "2026-08-13",
@@ -908,7 +926,7 @@ window.GAMES_DATA = {
       developer: "Beck & Branch Games（發行：Neem）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-10-16", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
+      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-10-17", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
       released: "2026年8月7日",
       sort: "2026-08-07",
       added: "2026-08-14",
@@ -925,7 +943,7 @@ window.GAMES_DATA = {
       developer: "Evil Raptor（發行：Fireshine Games）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 358", original: "", discount: "", note: "", asOf: "2026-10-16", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
+      price: { current: "NT$ 358", original: "", discount: "", note: "", asOf: "2026-10-17", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       added: "2026-08-19",
@@ -942,7 +960,7 @@ window.GAMES_DATA = {
       developer: "Banana Tiger Studio",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 183", original: "NT$ 216", discount: "-15%", note: "", asOf: "2026-10-16", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 183", original: "NT$ 216", discount: "-15%", note: "", asOf: "2026-10-17", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
       released: "2026年8月11日 搶先體驗",
       sort: "2026-08-11",
       added: "2026-08-24",
@@ -959,7 +977,7 @@ window.GAMES_DATA = {
       developer: "Resummon Studios",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-16", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
+      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-17", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
       released: "2026年9月10日",
       sort: "2026-09-10",
       added: "2026-09-14",
@@ -976,7 +994,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-16", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-17", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       added: "2026-09-07",
@@ -993,12 +1011,12 @@ window.GAMES_DATA = {
       developer: "Iron Gate（發行：Coffee Stain Publishing）",
       platforms: ["PC", "Xbox Series", "Xbox One", "PS5", "Switch 2"],
       playerCount: "單人 / 最多 10 人合作",
-      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-10-16", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
+      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-10-17", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
       released: "2026年9月9日（1.0 正式版）",
       sort: "2026-09-09",
       added: "2026-09-14",
       rating: "壓倒性好評 94%（261,000+ 則）；Metacritic 90；近 30 天 85%",
-      reason: "歷經五年以上搶先體驗後，傳奇維京生存建造《Valheim》終於於 2026 年 9 月 9 日推出 1.0 正式版。最終章全新生態區「Deep North（冰封北境）」帶來 40+ 種武器、10+ 種新生物、80+ 種可建造組件，以及完整的故事終章。1.0 首日峰值達 160,000 人同時在線；支援全平台跨平台連線（PC/Xbox/PS5/Switch 2），最多 10 人合作。Metacritic 90，壓倒性好評 94%（261,000+ 則），是 2026 年最受矚目的生存遊戲里程碑事件。上市後 Iron Gate 持續快速修補：Hotfix 1.0.10 & 1.0.12（9/11）修正重甲維修、Boss 生成、伺服器黑白名單及崩潰；Patch 1.0.14（9/17）新增按鍵音樂設定調整；Patch 1.0.15（9/18）修復地形重疊（duplicated terrains）導致部分玩家效能下降的問題；Patch 1.0.16（9/25）修正 Deep North 地形修改卸載後回滾的問題、修正過多突襲敵人生成、修正成就無法解鎖（含移除 Gourmet 成就中無法取得的 Blue Mushroom），以及修正物品展示架上道具變體顯示錯誤。",
+      reason: "歷經五年以上搶先體驗後，傳奇維京生存建造《Valheim》終於於 2026 年 9 月 9 日推出 1.0 正式版。最終章全新生態區「Deep North（冰封北境）」帶來 40+ 種武器、10+ 種新生物、80+ 種可建造組件，以及完整的故事終章。1.0 首日峰值達 160,000 人同時在線；支援全平台跨平台連線（PC/Xbox/PS5/Switch 2），最多 10 人合作。Metacritic 90，壓倒性好評 94%（261,000+ 則），是 2026 年最受矚目的生存遊戲里程碑事件。上市後 Iron Gate 持續快速修補：Hotfix 1.0.10 & 1.0.12（9/11）修正重甲維修、Boss 生成、伺服器黑白名單及崩潰；Patch 1.0.14（9/17）新增按鍵音樂設定調整；Patch 1.0.15（9/18）修復地形重疊（duplicated terrains）導致部分玩家效能下降的問題；Patch 1.0.16（9/25）修正 Deep North 地形修改卸載後回滾的問題、修正過多突襲敵人生成、修正成就無法解鎖（含移除 Gourmet 成就中無法取得的 Blue Mushroom），以及修正物品展示架上道具變體顯示錯誤；Patch 1.0.17（10/6）：修正世界存檔大型 Chunk 分割時可能導致部分區域物件消失的罕見 Bug、物品無效樣式自動回退至預設、恢復 1.0.16 意外隱藏的製作名單（Credits）。",
       links: { steam: "https://store.steampowered.com/app/892970/Valheim/", official: "" }
     },
     {
@@ -1010,7 +1028,7 @@ window.GAMES_DATA = {
       developer: "Keen Games",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 16 人合作",
-      price: { current: "NT$ 701", original: "NT$ 779", discount: "-10%", note: "", asOf: "2026-10-16", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
+      price: { current: "NT$ 701", original: "NT$ 779", discount: "-10%", note: "", asOf: "2026-10-17", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
       released: "2024年1月24日 搶先體驗；2026年10月15日 1.0 正式版",
       sort: "2026-10-15",
       added: "2026-09-28",
