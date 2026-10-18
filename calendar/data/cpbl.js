@@ -1,19 +1,19 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-13 16:42
-window.UPDATED = "2026-10-13 16:42";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-18 12:20
+window.UPDATED = "2026-10-18 12:20";
 window.CPBL_GAMES = [
  {
   "id": "C1-2026-10-17",
-  "tw": "2026-10-17T17:05",
+  "tw": "2026-10-17T17:06",
   "game": 1,
-  "state": "scheduled",
+  "state": "final",
   "venue": "大巨蛋",
   "away": {
    "name": "中信兄弟",
-   "score": null
+   "score": 0
   },
   "home": {
    "name": "味全龍",
-   "score": null
+   "score": 3
   }
  },
  {

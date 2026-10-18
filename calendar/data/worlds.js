@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-17 12:20
-window.UPDATED = "2026-10-17 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-18 12:20
+window.UPDATED = "2026-10-18 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -104,23 +104,23 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660588583171798",
   "utc": "2026-10-17T18:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "入圍賽",
   "bo": 5,
   "teams": [
    {
     "name": "MVK Esports",
     "code": "MVK",
-    "wins": 0,
-    "outcome": null,
+    "wins": 3,
+    "outcome": "win",
     "league": "LCP",
     "region": "太平洋"
    },
    {
     "name": "FURIA",
     "code": "FUR",
-    "wins": 0,
-    "outcome": null,
+    "wins": 1,
+    "outcome": "loss",
     "league": "CBLOL",
     "region": "巴西"
    }
@@ -134,20 +134,20 @@ window.WORLDS_MATCHES = [
   "bo": 5,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
     "name": "Karmine Corp",
     "code": "KC",
     "wins": 0,
     "outcome": null,
     "league": "LEC",
     "region": "歐洲、中東與非洲"
+   },
+   {
+    "name": "MVK Esports",
+    "code": "MVK",
+    "wins": 0,
+    "outcome": null,
+    "league": "LCP",
+    "region": "太平洋"
    }
   ]
  },
