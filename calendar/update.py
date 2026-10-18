@@ -3,6 +3,7 @@
 
   data/dodgers.js  道奇整季賽程（MLB Stats API）
   data/worlds.js   英雄聯盟世界賽（LoL Esports API）
+  data/mlbpost.js  MLB 其他隊的聯盟冠軍賽、世界大賽（道奇自己的場次已在 dodgers.js）
   data/cpbl.js     中華職棒台灣大賽（中職官網的賽程 API）
 
 用法：python3 update.py [年份]（預設今年）
@@ -50,6 +51,9 @@ def write(name, var, items):
 
 
 # ── 道奇 ────────────────────────────────────────────────────
+DODGERS_NAME = "Los Angeles Dodgers"
+
+
 def dodgers():
     url = ("https://statsapi.mlb.com/api/v1/schedule?sportId=1&teamId=119"
            f"&season={season}&gameType=S,R,F,D,L,W&hydrate=venue")
@@ -88,6 +92,54 @@ def dodgers():
                    f"共 {len(gs)} 場，首戰台灣時間 {tw:%m/%d %H:%M}")
     changed = write("dodgers.js", "DODGERS_GAMES", games)
     print(f"道奇 {season} 球季：{len(games)} 場{'（有更新）' if changed else '（沒有變化）'}")
+
+
+# ── MLB 聯盟冠軍賽、世界大賽（不含道奇） ─────────────────────
+def mlbpost():
+    url = ("https://statsapi.mlb.com/api/v1/schedule?sportId=1"
+           f"&season={season}&gameType=L,W&hydrate=venue")
+
+    def side(t):
+        return {"name": t["team"]["name"], "score": t.get("score"), "win": t.get("isWinner")}
+
+    # 延賽的場次會在原日期留一筆 Postponed、新日期再出現一次（同一個 gamePk）→ 只留後面那筆
+    by_id = {}
+    for day in get(url)["dates"]:
+        for g in day["games"]:
+            if DODGERS_NAME in (g["teams"]["away"]["team"]["name"], g["teams"]["home"]["team"]["name"]):
+                continue
+            by_id[g["gamePk"]] = {
+                "id": g["gamePk"],
+                "utc": g["gameDate"],
+                "tbd": g["status"].get("startTimeTBD", False),
+                "type": g["gameType"],
+                "state": g["status"]["detailedState"],
+                "series": g.get("seriesDescription", ""),
+                "seriesGame": g.get("seriesGameNumber"),
+                "ifNec": g.get("ifNecessary") == "Y",
+                "venue": g.get("venue", {}).get("name", ""),
+                "away": side(g["teams"]["away"]),
+                "home": side(g["teams"]["home"]),
+            }
+    games = sorted(by_id.values(), key=lambda g: g["utc"])
+
+    # 對手未定時隊名是「TB/CLE」這種，變成正式隊名就是對戰確定；整個系列第一次出現也算
+    old = load("mlbpost.js", "MLB_POST_GAMES")
+    if old is not None:
+        undecided = lambda g: "/" in g["away"]["name"] + g["home"]["name"]
+        was = {g["id"]: g for g in old}
+        hits = {}
+        for g in games:
+            o = was.get(g["id"])
+            if not undecided(g) and (o is None or undecided(o)):
+                hits.setdefault(g["series"], []).append(g)
+        for series, gs in hits.items():
+            first = gs[0]
+            tw = datetime.datetime.fromisoformat(first["utc"].replace("Z", "+00:00")) + datetime.timedelta(hours=8)
+            notify(f"⚾ MLB {series} 對戰確定：{first['away']['name']} vs {first['home']['name']}，"
+                   f"首戰（G{first['seriesGame']}）台灣時間 {tw:%m/%d %H:%M}")
+    changed = write("mlbpost.js", "MLB_POST_GAMES", games)
+    print(f"MLB 聯盟冠軍賽／世界大賽 {season}（不含道奇）：{len(games)} 場{'（有更新）' if changed else '（沒有變化）'}")
 
 
 # ── 英雄聯盟世界賽 ──────────────────────────────────────────
@@ -221,5 +273,6 @@ def cpbl():
 
 
 dodgers()
+mlbpost()
 worlds()
 cpbl()
