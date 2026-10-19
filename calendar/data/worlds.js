@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-18 12:20
-window.UPDATED = "2026-10-18 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-19 12:13
+window.UPDATED = "2026-10-19 12:13";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -129,15 +129,15 @@ window.WORLDS_MATCHES = [
  {
   "id": "116299649498303884",
   "utc": "2026-10-18T18:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "入圍賽",
   "bo": 5,
   "teams": [
    {
     "name": "Karmine Corp",
     "code": "KC",
-    "wins": 0,
-    "outcome": null,
+    "wins": 3,
+    "outcome": "win",
     "league": "LEC",
     "region": "歐洲、中東與非洲"
    },
@@ -145,7 +145,7 @@ window.WORLDS_MATCHES = [
     "name": "MVK Esports",
     "code": "MVK",
     "wins": 0,
-    "outcome": null,
+    "outcome": "loss",
     "league": "LCP",
     "region": "太平洋"
    }
@@ -159,20 +159,20 @@ window.WORLDS_MATCHES = [
   "bo": 1,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Gen.G Esports",
+    "code": "GEN",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCK",
+    "region": "韓國"
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Invictus Gaming",
+    "code": "IG",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LPL",
+    "region": "中國"
    }
   ]
  },
@@ -184,20 +184,20 @@ window.WORLDS_MATCHES = [
   "bo": 1,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Team Liquid Alienware",
+    "code": "TLAW",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCS",
+    "region": "北美洲"
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "CTBC Flying Oyster",
+    "code": "CFO",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCP",
+    "region": "太平洋"
    }
   ]
  },
@@ -209,20 +209,20 @@ window.WORLDS_MATCHES = [
   "bo": 1,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Anyone's Legend",
+    "code": "AL",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LPL",
+    "region": "中國"
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Karmine Corp",
+    "code": "KC",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
    }
   ]
  },
@@ -234,20 +234,20 @@ window.WORLDS_MATCHES = [
   "bo": 1,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "G2 Esports",
+    "code": "G2",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Dplus KIA",
+    "code": "DK",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCK",
+    "region": "韓國"
    }
   ]
  },
@@ -259,20 +259,20 @@ window.WORLDS_MATCHES = [
   "bo": 1,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Hanwha Life Esports",
+    "code": "HLE",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCK",
+    "region": "韓國"
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "TOP ESPORTS",
+    "code": "TES",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LPL",
+    "region": "中國"
    }
   ]
  },
@@ -284,20 +284,20 @@ window.WORLDS_MATCHES = [
   "bo": 1,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "LOS",
+    "code": "LOS",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "CBLOL",
+    "region": "巴西"
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "T1",
+    "code": "T1",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCK",
+    "region": "韓國"
    }
   ]
  },
@@ -309,20 +309,20 @@ window.WORLDS_MATCHES = [
   "bo": 1,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Team Secret Whales",
+    "code": "TSW",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCP",
+    "region": "太平洋"
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "LYON",
+    "code": "LYON",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCS",
+    "region": "北美洲"
    }
   ]
  },
@@ -334,20 +334,20 @@ window.WORLDS_MATCHES = [
   "bo": 1,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "BILIBILI GAMING",
+    "code": "BLG",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LPL",
+    "region": "中國"
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Movistar KOI",
+    "code": "MKOI",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
    }
   ]
  },

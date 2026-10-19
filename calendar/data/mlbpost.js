@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-18 18:34
-window.UPDATED = "2026-10-18 18:34";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-19 12:13
+window.UPDATED = "2026-10-19 12:13";
 window.MLB_POST_GAMES = [
  {
   "id": 849820,
@@ -90,20 +90,20 @@ window.MLB_POST_GAMES = [
   "utc": "2026-10-18T21:08:00Z",
   "tbd": false,
   "type": "L",
-  "state": "Scheduled",
+  "state": "Final",
   "series": "AL Championship Series",
   "seriesGame": 5,
   "ifNec": false,
   "venue": "Progressive Field",
   "away": {
    "name": "Tampa Bay Rays",
-   "score": null,
-   "win": null
+   "score": 3,
+   "win": true
   },
   "home": {
    "name": "Cleveland Guardians",
-   "score": null,
-   "win": null
+   "score": 1,
+   "win": false
   }
  },
  {
