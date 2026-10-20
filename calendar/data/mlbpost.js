@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-19 12:13
-window.UPDATED = "2026-10-19 12:13";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-20 12:20
+window.UPDATED = "2026-10-20 12:20";
 window.MLB_POST_GAMES = [
  {
   "id": 849820,
@@ -111,41 +111,20 @@ window.MLB_POST_GAMES = [
   "utc": "2026-10-20T00:08:00Z",
   "tbd": false,
   "type": "L",
-  "state": "Scheduled",
+  "state": "Final",
   "series": "AL Championship Series",
   "seriesGame": 6,
   "ifNec": false,
   "venue": "Tropicana Field",
   "away": {
    "name": "Cleveland Guardians",
-   "score": null,
-   "win": null
+   "score": 3,
+   "win": false
   },
   "home": {
    "name": "Tampa Bay Rays",
-   "score": null,
-   "win": null
-  }
- },
- {
-  "id": 849814,
-  "utc": "2026-10-21T00:08:00Z",
-  "tbd": false,
-  "type": "L",
-  "state": "Scheduled",
-  "series": "AL Championship Series",
-  "seriesGame": 7,
-  "ifNec": true,
-  "venue": "Tropicana Field",
-  "away": {
-   "name": "Cleveland Guardians",
-   "score": null,
-   "win": null
-  },
-  "home": {
-   "name": "Tampa Bay Rays",
-   "score": null,
-   "win": null
+   "score": 7,
+   "win": true
   }
  },
  {
@@ -159,7 +138,7 @@ window.MLB_POST_GAMES = [
   "ifNec": false,
   "venue": "American Family Field",
   "away": {
-   "name": "TB/CLE",
+   "name": "Tampa Bay Rays",
    "score": null,
    "win": null
   },
@@ -180,7 +159,7 @@ window.MLB_POST_GAMES = [
   "ifNec": false,
   "venue": "American Family Field",
   "away": {
-   "name": "TB/CLE",
+   "name": "Tampa Bay Rays",
    "score": null,
    "win": null
   },
@@ -199,14 +178,14 @@ window.MLB_POST_GAMES = [
   "series": "World Series",
   "seriesGame": 3,
   "ifNec": false,
-  "venue": "TBD",
+  "venue": "Tropicana Field",
   "away": {
    "name": "Milwaukee Brewers",
    "score": null,
    "win": null
   },
   "home": {
-   "name": "TB/CLE",
+   "name": "Tampa Bay Rays",
    "score": null,
    "win": null
   }
@@ -220,14 +199,14 @@ window.MLB_POST_GAMES = [
   "series": "World Series",
   "seriesGame": 4,
   "ifNec": false,
-  "venue": "TBD",
+  "venue": "Tropicana Field",
   "away": {
    "name": "Milwaukee Brewers",
    "score": null,
    "win": null
   },
   "home": {
-   "name": "TB/CLE",
+   "name": "Tampa Bay Rays",
    "score": null,
    "win": null
   }
@@ -241,14 +220,14 @@ window.MLB_POST_GAMES = [
   "series": "World Series",
   "seriesGame": 5,
   "ifNec": true,
-  "venue": "TBD",
+  "venue": "Tropicana Field",
   "away": {
    "name": "Milwaukee Brewers",
    "score": null,
    "win": null
   },
   "home": {
-   "name": "TB/CLE",
+   "name": "Tampa Bay Rays",
    "score": null,
    "win": null
   }
@@ -264,7 +243,7 @@ window.MLB_POST_GAMES = [
   "ifNec": true,
   "venue": "American Family Field",
   "away": {
-   "name": "TB/CLE",
+   "name": "Tampa Bay Rays",
    "score": null,
    "win": null
   },
@@ -285,7 +264,7 @@ window.MLB_POST_GAMES = [
   "ifNec": true,
   "venue": "American Family Field",
   "away": {
-   "name": "TB/CLE",
+   "name": "Tampa Bay Rays",
    "score": null,
    "win": null
   },

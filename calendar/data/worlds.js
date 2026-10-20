@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-19 12:13
-window.UPDATED = "2026-10-19 12:13";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-20 12:20
+window.UPDATED = "2026-10-20 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -177,33 +177,58 @@ window.WORLDS_MATCHES = [
   ]
  },
  {
-  "id": "115660540726095007",
+  "id": "115660540726095013",
   "utc": "2026-10-23T18:00:00Z",
   "state": "unstarted",
   "stage": "瑞士制循環賽",
   "bo": 1,
   "teams": [
    {
-    "name": "Team Liquid Alienware",
-    "code": "TLAW",
+    "name": "Hanwha Life Esports",
+    "code": "HLE",
     "wins": 0,
     "outcome": null,
-    "league": "LCS",
-    "region": "北美洲"
+    "league": "LCK",
+    "region": "韓國"
    },
    {
-    "name": "CTBC Flying Oyster",
-    "code": "CFO",
+    "name": "TOP ESPORTS",
+    "code": "TES",
     "wins": 0,
     "outcome": null,
-    "league": "LCP",
-    "region": "太平洋"
+    "league": "LPL",
+    "region": "中國"
+   }
+  ]
+ },
+ {
+  "id": "115660540726095019",
+  "utc": "2026-10-23T19:00:00Z",
+  "state": "unstarted",
+  "stage": "瑞士制循環賽",
+  "bo": 1,
+  "teams": [
+   {
+    "name": "BILIBILI GAMING",
+    "code": "BLG",
+    "wins": 0,
+    "outcome": null,
+    "league": "LPL",
+    "region": "中國"
+   },
+   {
+    "name": "Movistar KOI",
+    "code": "MKOI",
+    "wins": 0,
+    "outcome": null,
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
    }
   ]
  },
  {
   "id": "115660540726095009",
-  "utc": "2026-10-23T19:00:00Z",
+  "utc": "2026-10-23T20:00:00Z",
   "state": "unstarted",
   "stage": "瑞士制循環賽",
   "bo": 1,
@@ -228,7 +253,7 @@ window.WORLDS_MATCHES = [
  },
  {
   "id": "115660540726095011",
-  "utc": "2026-10-23T20:00:00Z",
+  "utc": "2026-10-23T21:00:00Z",
   "state": "unstarted",
   "stage": "瑞士制循環賽",
   "bo": 1,
@@ -252,33 +277,33 @@ window.WORLDS_MATCHES = [
   ]
  },
  {
-  "id": "115660540726095013",
-  "utc": "2026-10-23T21:00:00Z",
+  "id": "115660540726095007",
+  "utc": "2026-10-23T22:00:00Z",
   "state": "unstarted",
   "stage": "瑞士制循環賽",
   "bo": 1,
   "teams": [
    {
-    "name": "Hanwha Life Esports",
-    "code": "HLE",
+    "name": "Team Liquid Alienware",
+    "code": "TLAW",
     "wins": 0,
     "outcome": null,
-    "league": "LCK",
-    "region": "韓國"
+    "league": "LCS",
+    "region": "北美洲"
    },
    {
-    "name": "TOP ESPORTS",
-    "code": "TES",
+    "name": "CTBC Flying Oyster",
+    "code": "CFO",
     "wins": 0,
     "outcome": null,
-    "league": "LPL",
-    "region": "中國"
+    "league": "LCP",
+    "region": "太平洋"
    }
   ]
  },
  {
   "id": "115660540726095015",
-  "utc": "2026-10-23T22:00:00Z",
+  "utc": "2026-10-23T23:00:00Z",
   "state": "unstarted",
   "stage": "瑞士制循環賽",
   "bo": 1,
@@ -303,7 +328,7 @@ window.WORLDS_MATCHES = [
  },
  {
   "id": "115660540726095017",
-  "utc": "2026-10-23T23:00:00Z",
+  "utc": "2026-10-24T00:00:00Z",
   "state": "unstarted",
   "stage": "瑞士制循環賽",
   "bo": 1,
@@ -323,31 +348,6 @@ window.WORLDS_MATCHES = [
     "outcome": null,
     "league": "LCS",
     "region": "北美洲"
-   }
-  ]
- },
- {
-  "id": "115660540726095019",
-  "utc": "2026-10-24T00:00:00Z",
-  "state": "unstarted",
-  "stage": "瑞士制循環賽",
-  "bo": 1,
-  "teams": [
-   {
-    "name": "BILIBILI GAMING",
-    "code": "BLG",
-    "wins": 0,
-    "outcome": null,
-    "league": "LPL",
-    "region": "中國"
-   },
-   {
-    "name": "Movistar KOI",
-    "code": "MKOI",
-    "wins": 0,
-    "outcome": null,
-    "league": "LEC",
-    "region": "歐洲、中東與非洲"
    }
   ]
  },
