@@ -81,7 +81,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-10-21",
+  lastUpdated: "2026-10-22",
 
   games: [
     {
@@ -99,7 +99,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-21" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-22" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -129,7 +129,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-21" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-22" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -153,6 +153,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-10-22",
+      gameId: "funnelrunners",
+      title: "「新品推薦」新增《Funnel Runners》（多人生存）：最多 8 人合作龍捲風逃脫，EA 特別好評 84%，NT$ 210",
+      body: "多人生存類新增 Supernova Studios 的合作生存遊戲《Funnel Runners》：最多 8 人同場協作修復廂型車並在龍捲風摧毀環境前逃脫，2026 年 7 月 16 日搶先體驗上線。EA 約三個月累積 3,356+ 則評論、特別好評 84%（Very Positive）；Steam 台灣區現售 NT$ 210，史低 NT$ 147（-30%，2026 年 10 月 Steam 秋季特賣）。另提醒：《Chained Beasts》首發 -35%（NT$ 245）與《迷霧封境》-10%（NT$ 701）均於 10 月 29 日截止；《Mycopunk》首發 -50%（NT$ 134）截止至 11 月 3 日。"
+    },
     {
       date: "2026-10-21",
       gameId: "mycopunk",
@@ -901,7 +907,7 @@ window.GAMES_DATA = {
       developer: "Pigeons at Play（發行：Devolver Digital）",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 4 人線上合作",
-      price: { current: "NT$ 134", original: "NT$ 268", discount: "-50%", note: "", asOf: "2026-10-21", low: "", lowCut: "", lowDate: "" },
+      price: { current: "NT$ 134", original: "NT$ 268", discount: "-50%", note: "", asOf: "2026-10-22", low: "", lowCut: "", lowDate: "" },
       released: "2025年7月10日 搶先體驗；2026年10月20日 1.0 正式版",
       sort: "2026-10-20",
       added: "2026-10-21",
@@ -918,7 +924,7 @@ window.GAMES_DATA = {
       developer: "Featherweight Games",
       platforms: ["PC", "PS5", "Xbox Series", "Switch"],
       playerCount: "1~4 人線上合作（支援跨平台、分割螢幕與遠端遊玩）",
-      price: { current: "NT$ 245", original: "NT$ 377", discount: "-35%", note: "", asOf: "2026-10-21", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
+      price: { current: "NT$ 245", original: "NT$ 377", discount: "-35%", note: "", asOf: "2026-10-22", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
       released: "2026年10月15日（1.0 正式版）",
       sort: "2026-10-15",
       added: "2026-10-16",
@@ -935,7 +941,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-21", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       added: "2026-08-21",
@@ -952,7 +958,7 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-21", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       added: "2026-07-15",
@@ -969,7 +975,7 @@ window.GAMES_DATA = {
       developer: "Axolot Games",
       platforms: ["PC"],
       playerCount: "單人 / 多人合作",
-      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-10-21", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
+      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
       released: "2026年7月25日（1.0 正式版）",
       sort: "2026-07-25",
       added: "2026-08-13",
@@ -986,7 +992,7 @@ window.GAMES_DATA = {
       developer: "Beck & Branch Games（發行：Neem）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-10-21", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
+      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
       released: "2026年8月7日",
       sort: "2026-08-07",
       added: "2026-08-14",
@@ -1003,7 +1009,7 @@ window.GAMES_DATA = {
       developer: "Evil Raptor（發行：Fireshine Games）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 358", original: "", discount: "", note: "", asOf: "2026-10-21", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
+      price: { current: "NT$ 358", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       added: "2026-08-19",
@@ -1020,7 +1026,7 @@ window.GAMES_DATA = {
       developer: "Banana Tiger Studio",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-21", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
       released: "2026年8月11日 搶先體驗",
       sort: "2026-08-11",
       added: "2026-08-24",
@@ -1037,7 +1043,7 @@ window.GAMES_DATA = {
       developer: "Resummon Studios",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-21", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
+      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
       released: "2026年9月10日",
       sort: "2026-09-10",
       added: "2026-09-14",
@@ -1054,7 +1060,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-21", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       added: "2026-09-07",
@@ -1071,7 +1077,7 @@ window.GAMES_DATA = {
       developer: "Iron Gate（發行：Coffee Stain Publishing）",
       platforms: ["PC", "Xbox Series", "Xbox One", "PS5", "Switch 2"],
       playerCount: "單人 / 最多 10 人合作",
-      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-10-21", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
+      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
       released: "2026年9月9日（1.0 正式版）",
       sort: "2026-09-09",
       added: "2026-09-14",
@@ -1088,13 +1094,30 @@ window.GAMES_DATA = {
       developer: "Keen Games",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 16 人合作",
-      price: { current: "NT$ 701", original: "NT$ 779", discount: "-10%", note: "", asOf: "2026-10-21", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
+      price: { current: "NT$ 701", original: "NT$ 779", discount: "-10%", note: "", asOf: "2026-10-22", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
       released: "2024年1月24日 搶先體驗；2026年10月15日 1.0 正式版",
       sort: "2026-10-15",
       added: "2026-09-28",
       rating: "特別好評 87%（49,891 英語則）；近 30 天 85%（1,580 則）",
       reason: "廣受好評的合作生存動作 RPG：玩家在被迷霧侵蝕的奇幻世界中採集資源、建造要塞、深入地牢並挑戰強大 Boss，技能樹提供豐富的職業與 Build 彈性。最多 16 人合作共建一個世界，無 PvP；自 2024 年 1 月搶先體驗以來 EA 期間超過 500 萬玩家遊玩。**1.0 正式版已於 2026 年 10 月 15 日正式上線（PC + PS5/PS5 Pro 同步登陸）**：新增 9 款全新咒術（暴風雪、球狀閃電、三屬性圖騰＋虛空骷髏召喚型）、Fell Dragon Youngling 降至地面（近戰不需震暈即可攻擊）、釣魚系統全面重做（魚餌以生態區為主要來源）、新生態區與敵人種類、新裝甲套裝，及中低階電腦效能優化；Xbox Series X|S 版目標 2027 年春季推出。Steam 整體好評率 87%（49,891 英語則），近 30 天 85%（特別好評）；現售 NT$ 701（-10% 上市折扣，截止 10/29，原價 NT$ 779），是 2026 年秋季多人生存類最受矚目的里程碑。",
       links: { steam: "https://store.steampowered.com/app/1203620/Enshrouded/", official: "" }
+    },
+    {
+      id: "funnelrunners",
+      name: "Funnel Runners",
+      nameEn: "Funnel Runners",
+      interest: "多人生存",
+      genre: "合作生存 / 龍捲風逃脫",
+      developer: "Supernova Studios",
+      platforms: ["PC"],
+      playerCount: "單人 / 最多 8 人合作",
+      price: { current: "NT$ 210", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 147", lowCut: "-30%", lowDate: "2026-10-01" },
+      released: "2026年7月16日 搶先體驗",
+      sort: "2026-07-16",
+      added: "2026-10-22",
+      rating: "特別好評 84%（3,356+ 則）",
+      reason: "最多 8 人合作的末日龍捲風逃脫生存遊戲：玩家在被龍捲風摧毀的街道中蒐集零件修復破損廂型車，並在風暴摧毀一切前驚險撤離。2026 年 7 月 16 日搶先體驗上線，最多支援 8 人同場合作，也可單人挑戰；玩法以動態環境破壞與時間壓力為核心，合作分工製造緊張刺激的逃脫體驗。EA 約三個月累積 3,356+ 則評論、特別好評 84%（Very Positive）；開發商 Supernova Studios 計劃約一年 EA 持續擴充內容（新生態區、新機制）。Steam 台灣區現售 NT$ 210，史低 NT$ 147（-30%，2026 年 10 月 Steam 秋季特賣）。",
+      links: { steam: "https://store.steampowered.com/app/3712080/Funnel_Runners/", official: "" }
     },
   ]
 };
