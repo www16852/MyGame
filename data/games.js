@@ -81,7 +81,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-10-22",
+  lastUpdated: "2026-10-23",
 
   games: [
     {
@@ -99,7 +99,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-22" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-23" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -110,7 +110,7 @@ window.GAMES_DATA = {
         { type: "beta", date: "2026年8月（週末試玩，開放申請中）", sort: "2026-08-03", note: "配合亮相 ChinaJoy 2026 Steam 展示，開發商透過 Steam 發布公告「現可申請測試！亮相2026東方遊戲文化週」，宣布開放新一輪週末試玩（Weekend Playtest）報名；距首輪技術測試（5/30~6/2）約兩個月，開發商表示仍在積極開發新內容並準備下一個試玩版本；具體測試時程待官方後續公告" },
         { type: "announcement", date: "2026年9月上旬", sort: "2026-09-05", note: "發布全新遊玩預告片（New Gameplay Trailer），進一步展示第二區域「狂風高地（Windhowl Plateau）」的更多場景與玩法：Grand Arena 競技場、火山坑地帶、雪山礦坑，以及神殿建造系統大幅擴充（多主題裝飾與新設施、可規劃房間配置並設置防禦以抵禦入侵者）；再次確認 Steam Next Fest 10月展 Demo（10/20 台灣時間）將首次支援多人連線合作" },
         { type: "announcement", date: "2026年9月22日", sort: "2026-09-22", note: "加入「2026 多人遊戲節（2026 Multiplayer Games Fest）」Steam 展示：開發商 Geo Seed Games 正式揭露多人連線規劃——上市後支援 P2P 連線（適合小型私人冒險，可自訂規則）與正式伺服器（Dedicated Servers，可容納更多玩家、支援公會 Clan 與領地 Territory 系統）兩種模式；即將開放的 10 月 Demo（10/20 起）將首次支援 P2P 多人遊玩，玩家可邀請好友一同探索 Edda、合作或對抗；正式上市日期仍為 TBA" },
-        { type: "demo", date: "2026年10月14日（Steam Next Fest 10月展，提前開放）", sort: "2026-10-14", note: "Demo（Steam App ID: 3825370）已於 2026 年 10 月 14 日正式對外開放（較原定台灣時間 10/20 提前約一週），首次支援多人連線合作（Online Multiplayer Co-op）；可遊玩首個區域「翠綠谷（Verdant Valley）」；截至 2026 年 10 月 21 日 Steam 評論 77 則，好評率 85%（Very Positive，持續累積中）；Steam Next Fest October 2026（10/19~10/26 PDT；台灣時間 10/20 凌晨~10/27 凌晨）進行中，Demo 於 Next Fest 期間繼續免費開放體驗；正式上市日期仍為 TBA" },
+        { type: "demo", date: "2026年10月14日（Steam Next Fest 10月展，提前開放）", sort: "2026-10-14", note: "Demo（Steam App ID: 3825370）已於 2026 年 10 月 14 日正式對外開放（較原定台灣時間 10/20 提前約一週），首次支援多人連線合作（Online Multiplayer Co-op）；可遊玩首個區域「翠綠谷（Verdant Valley）」；Demo 版本 0.6.19 已推出更新（含崩潰問題修復）；截至 2026 年 10 月 22 日 Steam 評論 88 則，好評率 87%（Very Positive，持續累積中）；Steam Next Fest October 2026（10/19~10/26 PDT；台灣時間 10/20 凌晨~10/27 凌晨）進行中，Demo 於 Next Fest 期間繼續免費開放體驗；正式上市日期仍為 TBA" },
         { type: "release", date: "未定 (TBA)", sort: "9999-12-31", note: "正式上市日期仍未定，目前為 Coming Soon" }
       ]
     },
@@ -129,7 +129,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-22" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-23" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -147,12 +147,37 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年9月29日", sort: "2026-09-29", note: "Demo Patch 0.5.11 推送：效能大幅改善——「效果彈射物（effect projectiles）」的渲染效能顯著提升，對部分後期無盡組合的玩家影響最明顯；Bug 修復：修正遺物重複出現問題、修正裂縫封印（Rift Seal）更新的顯示異常；新增計時類狀態效果（Stealth、Stun、Damage Immunity 等）在血條上顯示剩餘時間；平衡微調：刺客（Assassin）Rush 技能現於戰鬥開始時獲得 5 秒潛行；完整版開發同步推進中——新陰影系統、森林生態區與新生態區美術優化、新英雄持續開發；Demo 繼續維護模式，正式版目標 2027 年" },
         { type: "announcement", date: "2026年10月6日", sort: "2026-10-06", note: "Demo Patch 0.5.12 推送：以社群回報的 Bug 修復與效能改善為主；完整版開發方面，開發商宣告「已朝開放 Beta 分支再踏出一步」，本週重點進行全新英雄的概念設計（Concept Work）與製作（Production），並表示將在近期公布更多 Beta 測試相關消息；Demo 繼續以維護模式運行" },
         { type: "announcement", date: "2026年10月13日", sort: "2026-10-13", note: "Demo Patch 0.5.13 推送：針對狀態效果組合（status-effect builds）進行效能改善；修正 Dominion Mandate 現已正確計算遺物所施加的減益效果；修正 UI 導航問題（玩家可跳過 Meta 進度面板導致獎勵未發放）；修正 Logan 的 Execution 技能說明文字異常；修正 Ming 的 The Tempered 最大 HP 數值顯示錯誤；開發商同步表示 Beta 分支開放準備持續推進，近期將帶來更多相關消息；Demo 繼續以維護模式運行" },
-        { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；完整版含雙人合作、更多英雄與地圖等大幅擴充內容；開發團隊已自 9 月起將重心轉向完整版開發，Demo 進入維護模式；10 月起積極準備開放 Beta 分支，近期將公布更多 Beta 相關消息，正式版上市前規劃封閉 Beta 測試" }
+        { type: "announcement", date: "2026年10月20日", sort: "2026-10-20", note: "Demo Patch 0.5.14 推送（Demo 最後一次常規更新）：排行榜由手動重置改為每週自動輪替（Weekly Leaderboard 自動重置）；含多項 Bug 修復。開發商正式宣告本次為 Demo 常規更新的終點，開發重心全面轉向完整版（1.0）開發；Demo 進入純維護模式；正式版上市前規劃封閉 Beta 測試，Beta 相關細節將優先在官方 Discord 公布" },
+        { type: "release", date: "2027 年（預計，官方 FAQ 目標，尚未定檔）", sort: "2027-07-01", note: "開發商 Leyline 官方 Steam FAQ 確認目標上市年份為 2027；完整版含雙人合作、更多英雄與地圖等大幅擴充內容；自 9 月起重心轉向完整版開發，Demo 於 10/20 Patch 0.5.14 後正式進入純維護模式；正式版上市前規劃封閉 Beta 測試，Beta 細節將優先於官方 Discord 公布" }
       ]
     }
   ],
 
   news: [
+    {
+      date: "2026-10-23",
+      gameId: "guildrun",
+      title: "《Guildrun》Demo Patch 0.5.14（10/20）：Demo 最後常規更新，排行榜自動週重置，開發重心全面轉向完整版",
+      body: "Leyline 於 10 月 20 日推出試玩版第十四次更新 Patch 0.5.14，並宣告這是 Demo 的最後一次常規更新：排行榜由手動重置改為每週自動輪替；含多項 Bug 修復。開發商確認開發重心已全面轉向完整版（1.0），Demo 正式進入純維護模式；正式版上市前規劃封閉 Beta 測試，Beta 細節將優先在官方 Discord 公布，正式版目標 2027 年。"
+    },
+    {
+      date: "2026-10-23",
+      gameId: "subnautica2",
+      title: "《深海迷航 2》Update 2.0 正式公布（10/15）：「最實質性更新」——新區域、新故事章節、Frog Chassis 新載具",
+      body: "Unknown Worlds 於 10 月 15 日正式公布《Subnautica 2》Update 2.0 詳細內容，稱為「迄今最實質性的更新」：帶來全新「收藏者利維坦（Collector Leviathan）」棲息地區域（含數個全新生態區）、全新故事章節、Collector Leviathan 全新行為機制，以及全新載具「青蛙底盤（Frog Chassis）」大幅擴充 Tadpole 能力；上線時程尚未確認，開發商表示將「未來數週至數月」逐步推進。"
+    },
+    {
+      date: "2026-10-23",
+      gameId: "farfarwest",
+      title: "《Far Far West》重回 -20% 特價（NT$ 286）；《Chained Beasts》-35% 與《迷霧封境》-10% 折扣截止 10/29",
+      body: "《Far Far West》Steam 台灣區重新展開 -20% 折扣特賣（NT$ 286，原價 NT$ 358），此前史低亦為 NT$ 286（2026-08-27 Frostburn 更新特賣時達成），本次折扣時程待確認，有意購入的玩家請把握機會。另：《Chained Beasts》首發 -35% 折扣（NT$ 245，原價 NT$ 377）與《迷霧封境 Enshrouded》上市 -10% 折扣（NT$ 701，原價 NT$ 779）均於 10 月 29 日截止。"
+    },
+    {
+      date: "2026-10-23",
+      gameId: "neverwither",
+      title: "《不朽之樹》Demo Next Fest 期間好評升至 87%（88 則）；Demo 0.6.19 版本推出崩潰修復",
+      body: "《不朽之樹》Demo（Steam App ID: 3825370）在 Steam Next Fest October 2026（10/19~10/26 PDT）期間好評率從 85%（77 則）上升至 87%（88 則）。Demo 版本 0.6.19 已推出更新，主要包含崩潰問題修復；多人連線合作功能持續開放，玩家可邀請好友共同探索「翠綠谷（Verdant Valley）」並設定 PvP 規則；Next Fest 截止至台灣時間 10/27 凌晨，正式上市日期仍為 TBA。"
+    },
     {
       date: "2026-10-22",
       gameId: "funnelrunners",
@@ -907,7 +932,7 @@ window.GAMES_DATA = {
       developer: "Pigeons at Play（發行：Devolver Digital）",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 4 人線上合作",
-      price: { current: "NT$ 134", original: "NT$ 268", discount: "-50%", note: "", asOf: "2026-10-22", low: "", lowCut: "", lowDate: "" },
+      price: { current: "NT$ 134", original: "NT$ 268", discount: "-50%", note: "", asOf: "2026-10-23", low: "", lowCut: "", lowDate: "" },
       released: "2025年7月10日 搶先體驗；2026年10月20日 1.0 正式版",
       sort: "2026-10-20",
       added: "2026-10-21",
@@ -924,7 +949,7 @@ window.GAMES_DATA = {
       developer: "Featherweight Games",
       platforms: ["PC", "PS5", "Xbox Series", "Switch"],
       playerCount: "1~4 人線上合作（支援跨平台、分割螢幕與遠端遊玩）",
-      price: { current: "NT$ 245", original: "NT$ 377", discount: "-35%", note: "", asOf: "2026-10-22", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
+      price: { current: "NT$ 245", original: "NT$ 377", discount: "-35%", note: "", asOf: "2026-10-23", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
       released: "2026年10月15日（1.0 正式版）",
       sort: "2026-10-15",
       added: "2026-10-16",
@@ -941,7 +966,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       added: "2026-08-21",
@@ -958,12 +983,12 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       added: "2026-07-15",
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
-      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日「1.1 Adaptive Measures」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；8 月 19 日「1.2 Buddy System」合作大更新：近距語音聊天（Proximity Chat，遠距切換為無線電）、玩家物品交易、死亡復活機制、角色表情、追蹤標籤、2 位新角色及更多潛水衣配色；9/1 Hotfix 1 修復 Axum Turbine 問題、Proximity Chat 改為 PTT。下一大版本 **Update 2.0** 已確認方向：以「收藏者利維坦（Collector Leviathan）」的巢穴作為全新探索區域，帶來全新生物種類、新資源，以及一款呼應社群期待的全新載具（Chassis）；預計 2026 年底前後推出。近 30 天評價維持 90%（特別好評），可加入 Xbox Game Pass 遊玩。",
+      reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日「1.1 Adaptive Measures」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；8 月 19 日「1.2 Buddy System」合作大更新：近距語音聊天（Proximity Chat，遠距切換為無線電）、玩家物品交易、死亡復活機制、角色表情、追蹤標籤、2 位新角色及更多潛水衣配色；9/1 Hotfix 1 修復 Axum Turbine 問題、Proximity Chat 改為 PTT。**2026/10/15 官方正式公布 Update 2.0 詳細內容**，稱為「迄今最實質性的更新」：全新「收藏者利維坦（Collector Leviathan）」棲息地區域（含數個全新生態區）、全新故事章節、Collector Leviathan 全新行為機制，以及全新載具「青蛙底盤（Frog Chassis）」大幅擴充 Tadpole 的能力；上線時程尚未確認，開發商表示「未來數週至數月」逐步推進。近 30 天評價維持 90%（特別好評），可加入 Xbox Game Pass 遊玩。",
       links: { steam: "https://store.steampowered.com/app/1962700/Subnautica_2/", official: "" }
     },
     {
@@ -975,7 +1000,7 @@ window.GAMES_DATA = {
       developer: "Axolot Games",
       platforms: ["PC"],
       playerCount: "單人 / 多人合作",
-      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
+      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
       released: "2026年7月25日（1.0 正式版）",
       sort: "2026-07-25",
       added: "2026-08-13",
@@ -992,7 +1017,7 @@ window.GAMES_DATA = {
       developer: "Beck & Branch Games（發行：Neem）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
+      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
       released: "2026年8月7日",
       sort: "2026-08-07",
       added: "2026-08-14",
@@ -1009,7 +1034,7 @@ window.GAMES_DATA = {
       developer: "Evil Raptor（發行：Fireshine Games）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 358", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
+      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-10-23", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       added: "2026-08-19",
@@ -1026,7 +1051,7 @@ window.GAMES_DATA = {
       developer: "Banana Tiger Studio",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
       released: "2026年8月11日 搶先體驗",
       sort: "2026-08-11",
       added: "2026-08-24",
@@ -1043,7 +1068,7 @@ window.GAMES_DATA = {
       developer: "Resummon Studios",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
+      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
       released: "2026年9月10日",
       sort: "2026-09-10",
       added: "2026-09-14",
@@ -1060,7 +1085,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       added: "2026-09-07",
@@ -1077,7 +1102,7 @@ window.GAMES_DATA = {
       developer: "Iron Gate（發行：Coffee Stain Publishing）",
       platforms: ["PC", "Xbox Series", "Xbox One", "PS5", "Switch 2"],
       playerCount: "單人 / 最多 10 人合作",
-      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
+      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
       released: "2026年9月9日（1.0 正式版）",
       sort: "2026-09-09",
       added: "2026-09-14",
@@ -1094,7 +1119,7 @@ window.GAMES_DATA = {
       developer: "Keen Games",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 16 人合作",
-      price: { current: "NT$ 701", original: "NT$ 779", discount: "-10%", note: "", asOf: "2026-10-22", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
+      price: { current: "NT$ 701", original: "NT$ 779", discount: "-10%", note: "", asOf: "2026-10-23", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
       released: "2024年1月24日 搶先體驗；2026年10月15日 1.0 正式版",
       sort: "2026-10-15",
       added: "2026-09-28",
@@ -1111,7 +1136,7 @@ window.GAMES_DATA = {
       developer: "Supernova Studios",
       platforms: ["PC"],
       playerCount: "單人 / 最多 8 人合作",
-      price: { current: "NT$ 210", original: "", discount: "", note: "", asOf: "2026-10-22", low: "NT$ 147", lowCut: "-30%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 210", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 147", lowCut: "-30%", lowDate: "2026-10-01" },
       released: "2026年7月16日 搶先體驗",
       sort: "2026-07-16",
       added: "2026-10-22",
