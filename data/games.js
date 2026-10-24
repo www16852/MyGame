@@ -81,7 +81,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-10-23",
+  lastUpdated: "2026-10-24",
 
   games: [
     {
@@ -99,7 +99,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-23" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-24" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -129,7 +129,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-23" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-24" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -154,6 +154,18 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-10-24",
+      gameId: "tearsofmetal",
+      title: "「新品推薦」新增《Tears of Metal》（多人RogueLike）；移出《Grain Rot》《Stonewards》《Forsworn》《Scrap Mechanic》以精簡推薦清單",
+      body: "多人RogueLike 新增《Tears of Metal》（Paper Cult 開發，2026 年 7 月 22 日搶先體驗上線；中世紀蘇格蘭戰場最多 4 人合作砍殺 Roguelite，玩法融合《無雙》大規模爽快感與《Hades》式 Roguelite 進度成長；首日衝進 Steam 熱賣前十名，目前整體特別好評 89%（2,343 則），NT$ 469）。同步精簡推薦清單至 10 款以維持目標規模：移出《GRAIN ROT》（88% 特別好評，1.1 Deep Layers 更新已上線）、《Stonewards》（93%，重大 9 月更新已上線）、《Forsworn》（90%，11~12 月新英雄開發中）、《Scrap Mechanic》（90%，1.0 已正式上線）——皆為口碑良好之作，因清單容量調整移出，並無品質問題。"
+    },
+    {
+      date: "2026-10-24",
+      gameId: "mycopunk",
+      title: "《Mycopunk》1.0 上市 4 天：整體評論達 4,800 則（88% 特別好評），同步加入 PlayStation Plus Game Catalog",
+      body: "Devolver Digital 旗下《Mycopunk》1.0 自 2026 年 10 月 20 日發售以來，整體評論已成長至約 4,800 則（好評率 88% 特別好評），較 EA 期間 91% 略降，屬 1.0 正式版上市初期正常波動。遊戲同步登陸 PS5，並於上市首日加入 PlayStation Plus Game Catalog（Extra/Premium 訂閱用戶可免費遊玩）；Steam 台灣區 -50% 首發折扣（NT$ 134，原價 NT$ 268）持續至 2026 年 11 月 3 日。另提醒：《Chained Beasts》首發 -35%（NT$ 245）與《迷霧封境 Enshrouded》上市 -10%（NT$ 701）均於 10 月 29 日截止。"
+    },
     {
       date: "2026-10-23",
       gameId: "guildrun",
@@ -932,12 +944,12 @@ window.GAMES_DATA = {
       developer: "Pigeons at Play（發行：Devolver Digital）",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 4 人線上合作",
-      price: { current: "NT$ 134", original: "NT$ 268", discount: "-50%", note: "", asOf: "2026-10-23", low: "", lowCut: "", lowDate: "" },
+      price: { current: "NT$ 134", original: "NT$ 268", discount: "-50%", note: "", asOf: "2026-10-24", low: "", lowCut: "", lowDate: "" },
       released: "2025年7月10日 搶先體驗；2026年10月20日 1.0 正式版",
       sort: "2026-10-20",
       added: "2026-10-21",
-      rating: "特別好評 91%（3,061 則）；近 30 天 76%（Mostly Positive，1.0 剛上市暫時波動）",
-      reason: "Devolver Digital 旗下科幻合作 FPS《Mycopunk》1.0 已於 2026 年 10 月 20 日正式上市（PC + PS5）。玩家組成最多 4 人機器人叛軍小隊對抗菌類外星人；核心特色是獨特格狀武器升級系統——從每次任務獲得的 Mod 可自由搭配出高度客製化武器 Build，敵人甚至可撿起被擊落道具形成動態戰場。EA（2025/7/10 起）累積 3,061 則評論、整體特別好評 91%。Steam 台灣區 1.0 上市首發 -50% 折扣（NT$ 134，原價 NT$ 268，截止 11/3）；注意近 30 天評分暫降至 76%（Mostly Positive），屬 1.0 剛上市的短暫波動，整體口碑仍達 91%。",
+      rating: "特別好評 88%（約 4,800 則）；近 30 天評分逐步回升中（1.0 上市初期暫時波動）",
+      reason: "Devolver Digital 旗下科幻合作 FPS《Mycopunk》1.0 已於 2026 年 10 月 20 日正式上市（PC + PS5）。玩家組成最多 4 人機器人叛軍小隊對抗菌類外星人；核心特色是獨特格狀武器升級系統——從每次任務獲得的 Mod 可自由搭配出高度客製化武器 Build，敵人甚至可撿起被擊落道具形成動態戰場。1.0 上市後評論成長至約 4,800 則、整體特別好評 88%；遊戲同步登陸 PS5 並加入 PlayStation Plus Game Catalog（Extra/Premium 訂閱用戶可免費遊玩）。Steam 台灣區 -50% 首發折扣（NT$ 134，原價 NT$ 268）截止 11/3。",
       links: { steam: "https://store.steampowered.com/app/3247750/Mycopunk/", official: "" }
     },
     {
@@ -949,11 +961,11 @@ window.GAMES_DATA = {
       developer: "Featherweight Games",
       platforms: ["PC", "PS5", "Xbox Series", "Switch"],
       playerCount: "1~4 人線上合作（支援跨平台、分割螢幕與遠端遊玩）",
-      price: { current: "NT$ 245", original: "NT$ 377", discount: "-35%", note: "", asOf: "2026-10-23", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
+      price: { current: "NT$ 245", original: "NT$ 377", discount: "-35%", note: "", asOf: "2026-10-24", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
       released: "2026年10月15日（1.0 正式版）",
       sort: "2026-10-15",
       added: "2026-10-16",
-      rating: "特別好評 88%（233 則）；試玩版壓倒性好評 97%（747 則）",
+      rating: "特別好評（388+ 則，好評率 82~88%；評論持續累積中）；試玩版壓倒性好評 97%（747 則）",
       reason: "澳洲獨立工作室 Featherweight Games 的首個大作。1~4 人合作格鬥士 Roguelite：玩家與隊友以實體鎖鏈相連，在競技場中對抗怪物與 Boss，鎖鏈既是武器也是制約，考驗隊伍協調力；含三章關卡（迦太基、日耳曼尼亞、羅馬）、多樣化 Build 系統與 Roguelite 輪迴元素。試玩版曾獲壓倒性好評 97%（747 則），被知名實況主 IronPineapple、VaatiVidya 盛讚為「史上最佳試玩版之一」；2026 年 10 月 15 日多平台正式上市（PC/PS5/Xbox Series/Switch），Day 1 登陸 Xbox Game Pass（PC/主機）。Steam 評論好評率 88%（Very Positive）。**10/12 官方路線圖公布**：v1.1 計畫 2026 年 12 月推出（新競技場、新 Boss、新武器、新敵人）；好友對戰 PvP 模式目標 2027 年 Q1 加入。首發 -35% 折扣（NT$ 245，原價 NT$ 377）截止 10/29，是 2026 年秋季多人 Roguelite 中最受矚目的新作。",
       links: { steam: "https://store.steampowered.com/app/3569420/Chained_Beasts/", official: "" }
     },
@@ -966,7 +978,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-10-24", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       added: "2026-08-21",
@@ -983,47 +995,13 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-10-24", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       added: "2026-07-15",
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
       reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日「1.1 Adaptive Measures」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；8 月 19 日「1.2 Buddy System」合作大更新：近距語音聊天（Proximity Chat，遠距切換為無線電）、玩家物品交易、死亡復活機制、角色表情、追蹤標籤、2 位新角色及更多潛水衣配色；9/1 Hotfix 1 修復 Axum Turbine 問題、Proximity Chat 改為 PTT。**2026/10/15 官方正式公布 Update 2.0 詳細內容**，稱為「迄今最實質性的更新」：全新「收藏者利維坦（Collector Leviathan）」棲息地區域（含數個全新生態區）、全新故事章節、Collector Leviathan 全新行為機制，以及全新載具「青蛙底盤（Frog Chassis）」大幅擴充 Tadpole 的能力；上線時程尚未確認，開發商表示「未來數週至數月」逐步推進。近 30 天評價維持 90%（特別好評），可加入 Xbox Game Pass 遊玩。",
       links: { steam: "https://store.steampowered.com/app/1962700/Subnautica_2/", official: "" }
-    },
-    {
-      id: "scrapmechanic",
-      name: "Scrap Mechanic",
-      nameEn: "Scrap Mechanic",
-      interest: "多人生存",
-      genre: "沙盒生存建造",
-      developer: "Axolot Games",
-      platforms: ["PC"],
-      playerCount: "單人 / 多人合作",
-      price: { current: "NT$ 561", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 253", lowCut: "-33%", lowDate: "2026-06-25" },
-      released: "2026年7月25日（1.0 正式版）",
-      sort: "2026-07-25",
-      added: "2026-08-13",
-      rating: "特別好評 90%（47,500+ 則）",
-      reason: "動態生成開放世界的沙盒生存建造：打造載具與基地、採集資源、對抗危險機器人。歷經 10 年搶先體驗後於 2026/7/25 推出 1.0（完整故事線＋「Drilling Thunder」第二章劇情），Steam 整體評價 90%（特別好評，47,500+ 則）；新增重製世界、新敵人、建造零件與外觀，為系列最完整版本。",
-      links: { steam: "https://store.steampowered.com/app/387990/Scrap_Mechanic/", official: "" }
-    },
-    {
-      id: "grainrot",
-      name: "Grain Rot",
-      nameEn: "GRAIN ROT",
-      interest: "多人RogueLike",
-      genre: "合作取材恐怖 Roguelite",
-      developer: "Beck & Branch Games（發行：Neem）",
-      platforms: ["PC"],
-      playerCount: "1~4 人合作",
-      price: { current: "NT$ 152", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 129", lowCut: "-15%", lowDate: "2026-09-21" },
-      released: "2026年8月7日",
-      sort: "2026-08-07",
-      added: "2026-08-14",
-      rating: "特別好評 88%（2,000+ 則）",
-      reason: "在焦土世界的程序生成廢墟遺址中，帶著最多 3 名隊友採集家具、搜刮資源，並在腐化生物包圍前撤離重建前哨站。玩法融合恐怖取材生存與 Roguelite 輪迴，2026 年 8 月 7 日上線首週即獲 89% 特別好評（994 則）；試玩版曾在 Steam Next Fest 登上前 15 名，累積逾 35 萬次下載。**首個重大內容更新「Deep Layers Update」已於 2026 年 9 月 24 日正式上線**（Patch 1.1）：新增「Expedition Mode（遠征模式）」與全新「Rainbow Ward 生態區」，為 EA 以來最大規模內容更新；Patch 1.11（9/28）加入新敵人「Corrupted Builder（腐化建造者）」、19 項穩定性修正（電梯機制優化、戰利品箱調整）；Patch 1.12（9/29）新增地下城跑分時間戳記與修正感染系統崩潰；Patch 1.13（9/30）修正手把操作、存檔刪除與船隻顏色顯示問題。萬聖節更新（Halloween Update）預計 10 月推出，將開放 Outpost 第三層與新任務線；Steam 秋季特賣（10/1~10/8）-15% 促銷中（NT$ 129）。",
-      links: { steam: "https://store.steampowered.com/app/4450620/GRAIN_ROT/", official: "" }
     },
     {
       id: "farfarwest",
@@ -1034,47 +1012,13 @@ window.GAMES_DATA = {
       developer: "Evil Raptor（發行：Fireshine Games）",
       platforms: ["PC"],
       playerCount: "1~4 人合作",
-      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-10-23", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
+      price: { current: "NT$ 286", original: "NT$ 358", discount: "-20%", note: "", asOf: "2026-10-24", low: "NT$ 286", lowCut: "-20%", lowDate: "2026-08-27" },
       released: "2026年4月28日 搶先體驗",
       sort: "2026-04-28",
       added: "2026-08-19",
       rating: "壓倒性好評 96%（36,035 則）；近 30 天特別好評 89%",
       reason: "西部奇幻風合作 Roguelite FPS：1~4 人隊伍在程序生成荒野中接取賞金獵人任務，融合《深岩銀河》式的任務框架與 Roguelite 輪迴進度。2026 年 4 月 28 日搶先體驗上線即獲壓倒性好評 96%（35,000+ 則），銷量突破 50 萬份，多家媒體譽為「2026 年最令人驚喜的合作 Roguelite」。EA 首個重大更新「Frostburn（冰霜燃燒）」已於 8 月 27 日正式上線（為 EA 上市以來最大規模更新）：全新科幻侵略派系「Zurkers」（新敵人陣營）、Redwood Forest 巨木森林新地圖（高聳巨木可攀爬、立體平台戰鬥）、Hellfire 荒地新地圖、近戰武器系統全面上線、盾牌防禦機制、全新探索點「燈塔（Lighthouse）」（攀爬後完成小遊戲解鎖全圖視野）、30+ 種全新 Joker 修改器及全新角色外觀，並對舊地圖進行內容擴充。",
       links: { steam: "https://store.steampowered.com/app/3124540/Far_Far_West/", official: "" }
-    },
-    {
-      id: "stonewards",
-      name: "Stonewards",
-      nameEn: "Stonewards",
-      interest: "多人RogueLike",
-      genre: "合作 Roguelite / 第一人稱矮人防守",
-      developer: "Banana Tiger Studio",
-      platforms: ["PC"],
-      playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 183", lowCut: "-15%", lowDate: "2026-10-01" },
-      released: "2026年8月11日 搶先體驗",
-      sort: "2026-08-11",
-      added: "2026-08-24",
-      rating: "特別好評 93%（890 則）；近 30 天 84%",
-      reason: "1~4 人合作的第一人稱 Roguelite 防守新作：程序生成礦坑採礦→鍛造升級→抵禦怪物波次的緊湊輪迴循環，每次遊玩路線皆不相同。2026 年 8 月 11 日 EA 上線（$9.99），首發即獲壓倒性好評 95%（527+ 則）；「重大 9 月更新」已正式上線：傭兵系統（Hub 可雇用 Mercenaries）、每週排行榜、多種新武器與戒指、升級書擴充；Hotfix 0.2.1（9/15）與 Hotfix 0.2.2（9/21）後續修正：黃金戒指倍率上限設為 200x、多人重加入局時戒指重擲次數/隊伍加成等數值正確還原。Steam 評論達 890 則（93% 特別好評），近 30 天好評率 84%（略有下降但仍在特別好評水準）；Steam 台灣區現售 NT$ 216 原價（歷史低點 NT$ 183 於 2026-10-01 時達成）。",
-      links: { steam: "https://store.steampowered.com/app/4502710/Stonewards/", official: "" }
-    },
-    {
-      id: "forsworn",
-      name: "Forsworn",
-      nameEn: "Forsworn",
-      interest: "多人RogueLike",
-      genre: "合作戰術 Roguelite RPG",
-      developer: "Resummon Studios",
-      platforms: ["PC"],
-      playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 320", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 256", lowCut: "-20%", lowDate: "2026-09-10" },
-      released: "2026年9月10日",
-      sort: "2026-09-10",
-      added: "2026-09-14",
-      rating: "特別好評 90%（403 則）；近 30 天 91%",
-      reason: "2026 年 9 月 10 日正式上市的回合制戰術 Roguelite RPG。玩家指揮一支被復活的勇士隊伍征戰神祇戰爭撕裂的世界：6 位英雄各有 3 個子職業（Subclass）、150+ 種道具與 200+ 種技能可搭配；每次通關死亡後以更強大的狀態重返，循環進化 Build。最多 4 人線上合作，評論已成長至 350 則（90% 特別好評），為 2026 年秋季合作 Roguelite 中最值得關注的新秀。開發商積極響應回饋：v1.0.12~v1.0.15（9/11~9/14）含 Gamepad 支援、永久血條、多人回合指示器與 Simmon 嚴重 Bug 修正；v1.0.16（9/15「Map Drawing Patch」）新增世界地圖手繪、無盡模式剩餘波次顯示；v1.0.17（9/18）新增「2 Hero Party」功能（可選 2 人或 3 人小隊起跑）；v1.0.18（9/21 QoL Patch）新增「更快玩家速度」選項；v1.0.20（9/29）新增 Artifact 自動記憶上次選擇（建立新隊伍時自動帶入配置）、無盡模式排行榜可於暫停選單中查閱，另含圖像優化與多項 Bug 修正。開發路線圖（9/24 公布）：2026 年 11~12 月推出首位免費新英雄並強化四人合作；2027 年 1 月加入第二位免費新英雄；2027 年 4~5 月推出付費資料片（全新地圖、敵人、Boss、道具、更高難度等）。上市首發 -20% 折扣已於 9/24 截止，目前回復原價 NT$ 320。",
-      links: { steam: "https://store.steampowered.com/app/3560360/Forsworn/", official: "" }
     },
     {
       id: "shiftatmidnight",
@@ -1085,7 +1029,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-10-24", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       added: "2026-09-07",
@@ -1102,7 +1046,7 @@ window.GAMES_DATA = {
       developer: "Iron Gate（發行：Coffee Stain Publishing）",
       platforms: ["PC", "Xbox Series", "Xbox One", "PS5", "Switch 2"],
       playerCount: "單人 / 最多 10 人合作",
-      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
+      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-10-24", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
       released: "2026年9月9日（1.0 正式版）",
       sort: "2026-09-09",
       added: "2026-09-14",
@@ -1119,7 +1063,7 @@ window.GAMES_DATA = {
       developer: "Keen Games",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 16 人合作",
-      price: { current: "NT$ 701", original: "NT$ 779", discount: "-10%", note: "", asOf: "2026-10-23", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
+      price: { current: "NT$ 701", original: "NT$ 779", discount: "-10%", note: "", asOf: "2026-10-24", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
       released: "2024年1月24日 搶先體驗；2026年10月15日 1.0 正式版",
       sort: "2026-10-15",
       added: "2026-09-28",
@@ -1136,13 +1080,30 @@ window.GAMES_DATA = {
       developer: "Supernova Studios",
       platforms: ["PC"],
       playerCount: "單人 / 最多 8 人合作",
-      price: { current: "NT$ 210", original: "", discount: "", note: "", asOf: "2026-10-23", low: "NT$ 147", lowCut: "-30%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 210", original: "", discount: "", note: "", asOf: "2026-10-24", low: "NT$ 147", lowCut: "-30%", lowDate: "2026-10-01" },
       released: "2026年7月16日 搶先體驗",
       sort: "2026-07-16",
       added: "2026-10-22",
       rating: "特別好評 84%（3,356+ 則）",
       reason: "最多 8 人合作的末日龍捲風逃脫生存遊戲：玩家在被龍捲風摧毀的街道中蒐集零件修復破損廂型車，並在風暴摧毀一切前驚險撤離。2026 年 7 月 16 日搶先體驗上線，最多支援 8 人同場合作，也可單人挑戰；玩法以動態環境破壞與時間壓力為核心，合作分工製造緊張刺激的逃脫體驗。EA 約三個月累積 3,356+ 則評論、特別好評 84%（Very Positive）；開發商 Supernova Studios 計劃約一年 EA 持續擴充內容（新生態區、新機制）。Steam 台灣區現售 NT$ 210，史低 NT$ 147（-30%，2026 年 10 月 Steam 秋季特賣）。",
       links: { steam: "https://store.steampowered.com/app/3712080/Funnel_Runners/", official: "" }
+    },
+    {
+      id: "tearsofmetal",
+      name: "Tears of Metal",
+      nameEn: "Tears of Metal",
+      interest: "多人RogueLike",
+      genre: "中世紀合作砍殺 Roguelite",
+      developer: "Paper Cult",
+      platforms: ["PC"],
+      playerCount: "單人 / 1~4 人線上合作",
+      price: { current: "NT$ 469", original: "", discount: "", note: "", asOf: "2026-10-24", low: "", lowCut: "", lowDate: "" },
+      released: "2026年7月22日 搶先體驗",
+      sort: "2026-07-22",
+      added: "2026-10-24",
+      rating: "特別好評 89%（2,343 則）",
+      reason: "中世紀蘇格蘭戰場的合作砍殺 Roguelite——最多 4 人組成蘇格蘭軍團衝鋒斬殺敵軍大軍，融合《無雙》式大規模爽快感與《Hades》式 Roguelite 進度成長；每次出擊解鎖新技能樹、遺物與裝備 Mod，跨場次強化軍隊實力。2026 年 7 月 22 日搶先體驗上線，首日衝進 Steam 熱賣前十名，Notebookcheck 報導稱上線初期即累積 300+ 則評論、好評率 92%；目前整體特別好評 89%（2,343 則），同步加入 Xbox Game Pass（PC）。已登上 Xbox Series X|S 平台，可與 PC 玩家跨平台同樂。",
+      links: { steam: "https://store.steampowered.com/app/1913120/Tears_of_Metal/", official: "" }
     },
   ]
 };
