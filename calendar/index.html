@@ -114,6 +114,12 @@
   .list .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; transform: translateY(-1px); }
   .list .d { color: var(--muted); font-variant-numeric: tabular-nums; min-width: 92px; flex: none; }
   .list .x { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .swiss { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; align-items: baseline; }
+  .swiss .r { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .swiss .r.up { color: var(--win); } .swiss .r.out { color: var(--dim); }
+  .swiss .ts { display: flex; flex-wrap: wrap; gap: 4px 10px; }
+  .swiss .ts .fav { color: var(--fav); font-weight: 700; }
+  .swiss .ts.out { color: var(--dim); }
   .record { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .legend { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); font-size: 12px; }
   .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
@@ -181,6 +187,10 @@
       <div class="card">
         <h2>接下來的比賽</h2>
         <ul class="list" id="upcoming"></ul>
+      </div>
+      <div class="card" id="swissCard" hidden>
+        <h2>世界賽 瑞士制戰績（3 勝晉級、3 敗淘汰）</h2>
+        <div class="swiss" id="swiss"></div>
       </div>
       <div class="card" id="recordCard">
         <h2>道奇 例行賽戰績</h2>
@@ -313,6 +323,16 @@ const mlbPostEvents = (window.MLB_POST_GAMES || []).map(g => {
 const STAGE_SHORT = { "瑞士制循環賽": "瑞士制", "準決賽": "四強", "八強賽": "八強" };
 const FAV_TEAMS = ["T1", "CFO"];
 const LOL_STATE = { unstarted: "尚未開打", inProgress: "進行中", completed: "已結束" };
+// 瑞士制戰績（大分）：照時間順序累計，每場記下「開打前」雙方的戰績
+const swissRec = {}, swissBefore = {};
+for (const m of (window.WORLDS_MATCHES || []).filter(m => m.stage.includes("瑞士")).sort((x, y) => x.utc.localeCompare(y.utc))) {
+  if (m.teams.some(t => t.code === "TBD")) continue;
+  for (const t of m.teams) swissRec[t.code] ||= { w: 0, l: 0 };
+  swissBefore[m.id] = m.teams.map(t => ({ ...swissRec[t.code] }));
+  if (m.state === "completed") for (const t of m.teams) swissRec[t.code][t.outcome === "win" ? "w" : "l"]++;
+}
+const recStr = r => `${r.w}-${r.l}`;
+
 const lolEvents = (window.WORLDS_MATCHES || []).map(m => {
   const [a, b] = m.teams;
   const known = a.code !== "TBD" || b.code !== "TBD";
@@ -321,18 +341,21 @@ const lolEvents = (window.WORLDS_MATCHES || []).map(m => {
   const winner = m.teams.find(t => t.outcome === "win");
   const fav = m.teams.some(t => FAV_TEAMS.includes(t.code));
   const region = t => t.league ? `${esc(t.league)} · ${esc(t.region)}` : t.code === "TBD" ? "待定" : "賽區不明";
+  // 瑞士制同戰績的隊伍才會碰頭，通常寫成「1-0 組」
+  const before = swissBefore[m.id];
+  const pool = before ? (recStr(before[0]) === recStr(before[1]) ? `${recStr(before[0])} 組` : before.map(recStr).join(" / ")) : "";
   return {
     id: "lol-" + m.id, raw: m, utc: m.utc, tbd: false, fav,
     layer: "lol", src: "英雄聯盟世界賽", color: fav ? "var(--fav)" : "var(--lol)", cls: fav ? "lol fav" : "lol",
     title: known ? `${a.code} vs ${b.code}` : `${STAGE_SHORT[m.stage] || m.stage} BO${m.bo}`,
-    tag: `${m.stage} · BO${m.bo}`, tagCls: "",
+    tag: `${m.stage} · BO${m.bo}${pool ? ` · ${pool}` : ""}`, tagCls: "", pool,
     done, maybe: false, cancel: false,
     resultHTML: done ? `<span class="res">${esc(winner?.code || "")} 勝 ${score}</span>` : null,
     detail() {
       return `<h3>${known ? `${esc(a.name)} vs ${esc(b.name)}` : "對戰組合待定"}</h3>
-        <div class="sub">英雄聯盟世界賽 · ${esc(m.stage)} · BO${m.bo}</div>
+        <div class="sub">英雄聯盟世界賽 · ${esc(m.stage)} · BO${m.bo}${pool ? ` · 開打前 ${pool}` : ""}</div>
         <div class="score">${m.teams.map(t => `
-          <span class="${t.outcome === "win" ? "winner" : ""}">${esc(t.code === "TBD" ? "待定" : t.name)}<span class="rg">${region(t)}</span></span>
+          <span class="${t.outcome === "win" ? "winner" : ""}">${esc(t.code === "TBD" ? "待定" : t.name)}<span class="rg">${region(t)}${swissRec[t.code] && before ? ` · 瑞士制目前 ${recStr(swissRec[t.code])}` : ""}</span></span>
           <span class="s">${done ? t.wins : ""}</span>`).join("")}</div>
         <dl><dt>台灣時間</dt><dd>${fmtDate(this)} ${fmtTime(this)}</dd>
           <dt>狀態</dt><dd>${LOL_STATE[m.state] || m.state}</dd></dl>`;
@@ -399,7 +422,7 @@ let viewY = nowTw.getUTCFullYear(), viewM = nowTw.getUTCMonth();
 // ───────── 月曆 ─────────
 const evClass = e => ["ev", e.cls, e.cancel && "cancel", e.maybe && "maybe"].filter(Boolean).join(" ");
 const evHTML = e => `<button class="${evClass(e)}" data-id="${e.id}">
-  <span class="ttl">${esc(e.title)}</span>${e.resultHTML || `<span class="t">${fmtTime(e)}</span>`}</button>`;
+  <span class="ttl">${esc(e.title)}</span>${e.resultHTML || `<span class="t">${fmtTime(e)}${e.pool ? ` · ${e.pool}` : ""}</span>`}</button>`;
 
 // 世界賽瑞士制一天七、八場，超過 2 場就收成一格，點開看當天清單
 function cellHTML(list, k) {
@@ -459,6 +482,17 @@ function renderSide() {
   document.getElementById("upcoming").innerHTML = upcoming.slice(0, 8).map(e =>
     `<li data-id="${e.id}" style="--c:${e.color}"><span class="dot"></span><span class="d">${fmtDate(e)} ${fmtTime(e)}</span><span class="x">${esc(e.title)}${e.maybe ? " *" : ""}</span></li>`
   ).join("") || `<li>—</li>`;
+
+  // 瑞士制戰績：同戰績的隊伍排一列，晉級／淘汰另外標色
+  const groups = {};
+  for (const [code, r] of Object.entries(swissRec)) (groups[recStr(r)] ||= { r, codes: [] }).codes.push(code);
+  const rows = Object.values(groups).sort((x, y) => (y.r.w - y.r.l) - (x.r.w - x.r.l) || y.r.w - x.r.w);
+  document.getElementById("swiss").innerHTML = rows.map(({ r, codes }) => {
+    const st = r.w >= 3 ? "up" : r.l >= 3 ? "out" : "";
+    return `<span class="r ${st}">${recStr(r)}${st === "up" ? " 晉級" : st === "out" ? " 淘汰" : ""}</span>
+      <span class="ts ${st}">${codes.sort().map(c => `<span class="${FAV_TEAMS.includes(c) ? "fav" : ""}">${esc(c)}</span>`).join("")}</span>`;
+  }).join("");
+  document.getElementById("swissCard").hidden = !layers.lol || !rows.length;
 
   const reg = mlbEvents.filter(e => e.raw.type === "R");
   const w = reg.filter(e => e.result === "W").length, l = reg.filter(e => e.result === "L").length;
