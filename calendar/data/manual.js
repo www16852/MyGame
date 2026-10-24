@@ -23,3 +23,14 @@ window.MANUAL_EVENTS = [
     stream: "Twitch：teamfighttactics_tw",
   })),
 ];
+
+// ── 英雄聯盟世界賽：各隊是賽區的第幾種子（API 沒有，手動整理）──
+// 來源：Liquipedia World Championship/2026 瑞士制第一輪抽籤分組、各隊晉級方式
+window.WORLDS_SEEDS = {
+  GEN: 1, HLE: 2, T1: 3, DK: 4,          // LCK
+  AL: 1, BLG: 2, TES: 3, IG: 4,          // LPL
+  TLAW: 1, LYON: 2, C9: 3,               // LCS
+  G2: 1, MKOI: 2, KC: 3,                 // LEC（KC 從入圍賽晉級）
+  TSW: 1, CFO: 2, MVK: 3,                // LCP
+  LOS: 1, FUR: 2,                        // CBLOL
+};

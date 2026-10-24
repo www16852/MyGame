@@ -119,6 +119,7 @@
   .swiss .r.up { color: var(--win); } .swiss .r.out { color: var(--dim); }
   .swiss .ts { display: flex; flex-wrap: wrap; gap: 4px 10px; }
   .swiss .ts .fav { color: var(--fav); font-weight: 700; }
+  .swiss .ts small { font-size: 10px; color: var(--muted); font-weight: 400; margin-left: 2px; }
   .swiss .ts.out { color: var(--dim); }
   .record { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .legend { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); font-size: 12px; }
@@ -332,6 +333,10 @@ for (const m of (window.WORLDS_MATCHES || []).filter(m => m.stage.includes("瑞�
   if (m.state === "completed") for (const t of m.teams) swissRec[t.code][t.outcome === "win" ? "w" : "l"]++;
 }
 const recStr = r => `${r.w}-${r.l}`;
+const SEEDS = window.WORLDS_SEEDS || {};
+const seedStr = code => SEEDS[code] ? `${SEEDS[code]} 號種子` : "";
+const LEAGUE_OF = {};
+for (const m of window.WORLDS_MATCHES || []) for (const t of m.teams) if (t.league) LEAGUE_OF[t.code] = t.league;
 
 const lolEvents = (window.WORLDS_MATCHES || []).map(m => {
   const [a, b] = m.teams;
@@ -340,7 +345,7 @@ const lolEvents = (window.WORLDS_MATCHES || []).map(m => {
   const score = done ? `${a.wins}:${b.wins}` : "";
   const winner = m.teams.find(t => t.outcome === "win");
   const fav = m.teams.some(t => FAV_TEAMS.includes(t.code));
-  const region = t => t.league ? `${esc(t.league)} · ${esc(t.region)}` : t.code === "TBD" ? "待定" : "賽區不明";
+  const region = t => t.league ? `${esc(t.league)} ${seedStr(t.code)} · ${esc(t.region)}` : t.code === "TBD" ? "待定" : "賽區不明";
   // 瑞士制同戰績的隊伍才會碰頭，通常寫成「1-0 組」
   const before = swissBefore[m.id];
   const pool = before ? (recStr(before[0]) === recStr(before[1]) ? `${recStr(before[0])} 組` : before.map(recStr).join(" / ")) : "";
@@ -490,7 +495,7 @@ function renderSide() {
   document.getElementById("swiss").innerHTML = rows.map(({ r, codes }) => {
     const st = r.w >= 3 ? "up" : r.l >= 3 ? "out" : "";
     return `<span class="r ${st}">${recStr(r)}${st === "up" ? " 晉級" : st === "out" ? " 淘汰" : ""}</span>
-      <span class="ts ${st}">${codes.sort().map(c => `<span class="${FAV_TEAMS.includes(c) ? "fav" : ""}">${esc(c)}</span>`).join("")}</span>`;
+      <span class="ts ${st}">${codes.sort().map(c => `<span class="${FAV_TEAMS.includes(c) ? "fav" : ""}">${esc(c)}<small>${esc(LEAGUE_OF[c] || "")}${SEEDS[c] || ""}</small></span>`).join("")}</span>`;
   }).join("");
   document.getElementById("swissCard").hidden = !layers.lol || !rows.length;
 
