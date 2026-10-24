@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-25 01:44
-window.UPDATED = "2026-10-25 01:44";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-25 01:49
+window.UPDATED = "2026-10-25 01:49";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -361,8 +361,8 @@ window.WORLDS_MATCHES = [
    {
     "name": "TOP ESPORTS",
     "code": "TES",
-    "wins": 0,
-    "outcome": null,
+    "wins": 1,
+    "outcome": "win",
     "league": "LPL",
     "region": "中國"
    },
@@ -370,7 +370,7 @@ window.WORLDS_MATCHES = [
     "name": "Anyone's Legend",
     "code": "AL",
     "wins": 0,
-    "outcome": null,
+    "outcome": "loss",
     "league": "LPL",
     "region": "中國"
    }
