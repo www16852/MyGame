@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-20 12:20
-window.UPDATED = "2026-10-20 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-24 12:20
+window.UPDATED = "2026-10-24 12:20";
 window.MLB_POST_GAMES = [
  {
   "id": 849820,
@@ -132,20 +132,20 @@ window.MLB_POST_GAMES = [
   "utc": "2026-10-24T00:00:00Z",
   "tbd": false,
   "type": "W",
-  "state": "Scheduled",
+  "state": "Final",
   "series": "World Series",
   "seriesGame": 1,
   "ifNec": false,
   "venue": "American Family Field",
   "away": {
    "name": "Tampa Bay Rays",
-   "score": null,
-   "win": null
+   "score": 2,
+   "win": false
   },
   "home": {
    "name": "Milwaukee Brewers",
-   "score": null,
-   "win": null
+   "score": 3,
+   "win": true
   }
  },
  {

@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-23 12:20
-window.UPDATED = "2026-10-23 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-24 12:20
+window.UPDATED = "2026-10-24 12:20";
 window.CPBL_GAMES = [
  {
   "id": "C1-2026-10-17",
@@ -80,6 +80,21 @@ window.CPBL_GAMES = [
   "id": "C5-2026-10-24",
   "tw": "2026-10-24T17:05",
   "game": 5,
+  "state": "postponed",
+  "venue": "大巨蛋",
+  "away": {
+   "name": "中信兄弟",
+   "score": null
+  },
+  "home": {
+   "name": "味全龍",
+   "score": null
+  }
+ },
+ {
+  "id": "C5-2026-10-25",
+  "tw": "2026-10-25T17:05",
+  "game": 5,
   "state": "scheduled",
   "venue": "大巨蛋",
   "away": {
@@ -92,8 +107,8 @@ window.CPBL_GAMES = [
   }
  },
  {
-  "id": "C6-2026-10-25",
-  "tw": "2026-10-25T17:05",
+  "id": "C6-2026-10-26",
+  "tw": "2026-10-26T15:05",
   "game": 6,
   "state": "scheduled",
   "venue": "大巨蛋",
@@ -107,11 +122,11 @@ window.CPBL_GAMES = [
   }
  },
  {
-  "id": "C7-2026-10-26",
-  "tw": "2026-10-26T15:05",
+  "id": "C7-2026-10-27",
+  "tw": "2026-10-27T18:35",
   "game": 7,
   "state": "scheduled",
-  "venue": "大巨蛋",
+  "venue": "場地未定",
   "away": {
    "name": "中信兄弟",
    "score": null
