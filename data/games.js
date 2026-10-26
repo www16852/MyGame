@@ -81,7 +81,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-10-25",
+  lastUpdated: "2026-10-26",
 
   games: [
     {
@@ -110,7 +110,7 @@ window.GAMES_DATA = {
         { type: "beta", date: "2026年8月（週末試玩，開放申請中）", sort: "2026-08-03", note: "配合亮相 ChinaJoy 2026 Steam 展示，開發商透過 Steam 發布公告「現可申請測試！亮相2026東方遊戲文化週」，宣布開放新一輪週末試玩（Weekend Playtest）報名；距首輪技術測試（5/30~6/2）約兩個月，開發商表示仍在積極開發新內容並準備下一個試玩版本；具體測試時程待官方後續公告" },
         { type: "announcement", date: "2026年9月上旬", sort: "2026-09-05", note: "發布全新遊玩預告片（New Gameplay Trailer），進一步展示第二區域「狂風高地（Windhowl Plateau）」的更多場景與玩法：Grand Arena 競技場、火山坑地帶、雪山礦坑，以及神殿建造系統大幅擴充（多主題裝飾與新設施、可規劃房間配置並設置防禦以抵禦入侵者）；再次確認 Steam Next Fest 10月展 Demo（10/20 台灣時間）將首次支援多人連線合作" },
         { type: "announcement", date: "2026年9月22日", sort: "2026-09-22", note: "加入「2026 多人遊戲節（2026 Multiplayer Games Fest）」Steam 展示：開發商 Geo Seed Games 正式揭露多人連線規劃——上市後支援 P2P 連線（適合小型私人冒險，可自訂規則）與正式伺服器（Dedicated Servers，可容納更多玩家、支援公會 Clan 與領地 Territory 系統）兩種模式；即將開放的 10 月 Demo（10/20 起）將首次支援 P2P 多人遊玩，玩家可邀請好友一同探索 Edda、合作或對抗；正式上市日期仍為 TBA" },
-        { type: "demo", date: "2026年10月14日（Steam Next Fest 10月展，提前開放）", sort: "2026-10-14", note: "Demo（Steam App ID: 3825370）已於 2026 年 10 月 14 日正式對外開放（較原定台灣時間 10/20 提前約一週），首次支援多人連線合作（Online Multiplayer Co-op）；可遊玩首個區域「翠綠谷（Verdant Valley）」；Demo 版本 0.6.19 已推出更新（含崩潰問題修復）；截至 2026 年 10 月 22 日 Steam 評論 88 則，好評率 87%（Very Positive，持續累積中）；Steam Next Fest October 2026（10/19~10/26 PDT；台灣時間 10/20 凌晨~10/27 凌晨）進行中，Demo 於 Next Fest 期間繼續免費開放體驗；正式上市日期仍為 TBA" },
+        { type: "demo", date: "2026年10月14日（Steam Next Fest 10月展，提前開放）", sort: "2026-10-14", note: "Demo（Steam App ID: 3825370）已於 2026 年 10 月 14 日正式對外開放（較原定台灣時間 10/20 提前約一週），首次支援多人連線合作（Online Multiplayer Co-op）；可遊玩首個區域「翠綠谷（Verdant Valley）」；Demo 版本 0.6.19 已推出更新（含崩潰問題修復）；截至 2026 年 10 月 22 日 Steam 評論 88 則，好評率 87%（Very Positive，持續累積中）；Steam Next Fest October 2026（10/19~10/26 PDT；台灣時間 10/20 凌晨~10/27 凌晨）已於 10/26 PDT 正式閉幕，Demo 於 Next Fest 結束後仍持續免費開放中（Demo 自 10/14 起即已對外開放，非僅限 Next Fest 期間）；正式上市日期仍為 TBA" },
         { type: "release", date: "未定 (TBA)", sort: "9999-12-31", note: "正式上市日期仍未定，目前為 Coming Soon" }
       ]
     },
@@ -154,6 +154,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-10-26",
+      gameId: "neverwither",
+      title: "Steam Next Fest October 2026 今日（PDT）閉幕；《不朽之樹》Demo 88 則評論（87% 好評），Next Fest 後仍持續開放",
+      body: "Steam Next Fest October 2026（10/19~10/26 PDT；台灣時間 10/20~10/27 凌晨）今日於 PDT 時間 10 AM 正式閉幕。《不朽之樹》（Never Wither）Demo（App ID: 3825370）在 Next Fest 期間免費開放多人合作，截至 10 月 23 日累積 88 則評論（87% 好評，Very Positive）；由於 Demo 自 10 月 14 日即已對外開放（早於 Next Fest），Next Fest 閉幕後 Demo 仍持續免費開放，玩家可繼續體驗「翠綠谷（Verdant Valley）」並邀友合作；正式上市日期仍為 TBA。另提醒：《Chained Beasts》首發 -35%（NT$ 245）與《迷霧封境 Enshrouded》-10%（NT$ 701）折扣均於 10 月 29 日截止；《Mycopunk》首發 -50%（NT$ 134）截止至 11 月 3 日。"
+    },
     {
       date: "2026-10-25",
       gameId: "neverwither",
