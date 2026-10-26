@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-25 12:20
-window.UPDATED = "2026-10-25 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-26 12:20
+window.UPDATED = "2026-10-26 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -554,40 +554,40 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095045",
   "utc": "2026-10-25T17:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "瑞士制循環賽",
   "bo": 1,
   "teams": [
    {
+    "name": "Invictus Gaming",
+    "code": "IG",
+    "wins": 1,
+    "outcome": "win",
+    "league": "LPL",
+    "region": "中國"
+   },
+   {
     "name": "Hanwha Life Esports",
     "code": "HLE",
     "wins": 0,
-    "outcome": null,
+    "outcome": "loss",
     "league": "LCK",
     "region": "韓國"
-   },
-   {
-    "name": "Invictus Gaming",
-    "code": "IG",
-    "wins": 0,
-    "outcome": null,
-    "league": "LPL",
-    "region": "中國"
    }
   ]
  },
  {
   "id": "115660540726095047",
   "utc": "2026-10-25T18:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "瑞士制循環賽",
   "bo": 1,
   "teams": [
    {
     "name": "TOP ESPORTS",
     "code": "TES",
-    "wins": 0,
-    "outcome": null,
+    "wins": 1,
+    "outcome": "win",
     "league": "LPL",
     "region": "中國"
    },
@@ -595,7 +595,7 @@ window.WORLDS_MATCHES = [
     "name": "G2 Esports",
     "code": "G2",
     "wins": 0,
-    "outcome": null,
+    "outcome": "loss",
     "league": "LEC",
     "region": "歐洲、中東與非洲"
    }
@@ -604,7 +604,7 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095037",
   "utc": "2026-10-25T19:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "瑞士制循環賽",
   "bo": 3,
   "teams": [
@@ -612,15 +612,15 @@ window.WORLDS_MATCHES = [
     "name": "Movistar KOI",
     "code": "MKOI",
     "wins": 0,
-    "outcome": null,
+    "outcome": "loss",
     "league": "LEC",
     "region": "歐洲、中東與非洲"
    },
    {
     "name": "Dplus KIA",
     "code": "DK",
-    "wins": 0,
-    "outcome": null,
+    "wins": 2,
+    "outcome": "win",
     "league": "LCK",
     "region": "韓國"
    }
@@ -629,25 +629,25 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095041",
   "utc": "2026-10-25T22:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "瑞士制循環賽",
   "bo": 3,
   "teams": [
    {
-    "name": "Gen.G Esports",
-    "code": "GEN",
-    "wins": 0,
-    "outcome": null,
-    "league": "LCK",
-    "region": "韓國"
-   },
-   {
     "name": "LYON",
     "code": "LYON",
-    "wins": 0,
-    "outcome": null,
+    "wins": 1,
+    "outcome": "loss",
     "league": "LCS",
     "region": "北美洲"
+   },
+   {
+    "name": "Gen.G Esports",
+    "code": "GEN",
+    "wins": 2,
+    "outcome": "win",
+    "league": "LCK",
+    "region": "韓國"
    }
   ]
  },
