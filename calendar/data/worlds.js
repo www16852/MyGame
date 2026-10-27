@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-26 12:20
-window.UPDATED = "2026-10-26 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-27 11:15
+window.UPDATED = "2026-10-27 11:15";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -654,17 +654,117 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095049",
   "utc": "2026-10-26T17:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "瑞士制循環賽",
   "bo": 1,
   "teams": [
    {
+    "name": "T1",
+    "code": "T1",
+    "wins": 1,
+    "outcome": "win",
+    "league": "LCK",
+    "region": "韓國"
+   },
+   {
     "name": "CTBC Flying Oyster",
     "code": "CFO",
     "wins": 0,
-    "outcome": null,
+    "outcome": "loss",
     "league": "LCP",
     "region": "太平洋"
+   }
+  ]
+ },
+ {
+  "id": "115660540726095051",
+  "utc": "2026-10-26T18:00:00Z",
+  "state": "completed",
+  "stage": "瑞士制循環賽",
+  "bo": 1,
+  "teams": [
+   {
+    "name": "BILIBILI GAMING",
+    "code": "BLG",
+    "wins": 1,
+    "outcome": "win",
+    "league": "LPL",
+    "region": "中國"
+   },
+   {
+    "name": "Karmine Corp",
+    "code": "KC",
+    "wins": 0,
+    "outcome": "loss",
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
+   }
+  ]
+ },
+ {
+  "id": "115660540726095053",
+  "utc": "2026-10-26T19:00:00Z",
+  "state": "completed",
+  "stage": "瑞士制循環賽",
+  "bo": 3,
+  "teams": [
+   {
+    "name": "Team Secret Whales",
+    "code": "TSW",
+    "wins": 0,
+    "outcome": "loss",
+    "league": "LCP",
+    "region": "太平洋"
+   },
+   {
+    "name": "LOS",
+    "code": "LOS",
+    "wins": 2,
+    "outcome": "win",
+    "league": "CBLOL",
+    "region": "巴西"
+   }
+  ]
+ },
+ {
+  "id": "115660540726095057",
+  "utc": "2026-10-26T22:00:00Z",
+  "state": "completed",
+  "stage": "瑞士制循環賽",
+  "bo": 3,
+  "teams": [
+   {
+    "name": "Anyone's Legend",
+    "code": "AL",
+    "wins": 0,
+    "outcome": "loss",
+    "league": "LPL",
+    "region": "中國"
+   },
+   {
+    "name": "Team Liquid Alienware",
+    "code": "TLAW",
+    "wins": 2,
+    "outcome": "win",
+    "league": "LCS",
+    "region": "北美洲"
+   }
+  ]
+ },
+ {
+  "id": "115660540726095061",
+  "utc": "2026-10-28T20:00:00Z",
+  "state": "unstarted",
+  "stage": "瑞士制循環賽",
+  "bo": 3,
+  "teams": [
+   {
+    "name": "Movistar KOI",
+    "code": "MKOI",
+    "wins": 0,
+    "outcome": null,
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
    },
    {
     "name": "T1",
@@ -677,19 +777,44 @@ window.WORLDS_MATCHES = [
   ]
  },
  {
-  "id": "115660540726095051",
-  "utc": "2026-10-26T18:00:00Z",
+  "id": "115660540726095065",
+  "utc": "2026-10-28T23:00:00Z",
   "state": "unstarted",
   "stage": "瑞士制循環賽",
-  "bo": 1,
+  "bo": 3,
   "teams": [
    {
-    "name": "BILIBILI GAMING",
-    "code": "BLG",
+    "name": "LYON",
+    "code": "LYON",
+    "wins": 0,
+    "outcome": null,
+    "league": "LCS",
+    "region": "北美洲"
+   },
+   {
+    "name": "Invictus Gaming",
+    "code": "IG",
     "wins": 0,
     "outcome": null,
     "league": "LPL",
     "region": "中國"
+   }
+  ]
+ },
+ {
+  "id": "115660540726095073",
+  "utc": "2026-10-29T20:00:00Z",
+  "state": "unstarted",
+  "stage": "瑞士制循環賽",
+  "bo": 3,
+  "teams": [
+   {
+    "name": "CTBC Flying Oyster",
+    "code": "CFO",
+    "wins": 0,
+    "outcome": null,
+    "league": "LCP",
+    "region": "太平洋"
    },
    {
     "name": "Karmine Corp",
@@ -702,33 +827,33 @@ window.WORLDS_MATCHES = [
   ]
  },
  {
-  "id": "115660540726095053",
-  "utc": "2026-10-26T19:00:00Z",
+  "id": "115660540726095069",
+  "utc": "2026-10-29T23:00:00Z",
   "state": "unstarted",
   "stage": "瑞士制循環賽",
   "bo": 3,
   "teams": [
    {
-    "name": "LOS",
-    "code": "LOS",
+    "name": "BILIBILI GAMING",
+    "code": "BLG",
     "wins": 0,
     "outcome": null,
-    "league": "CBLOL",
-    "region": "巴西"
+    "league": "LPL",
+    "region": "中國"
    },
    {
-    "name": "Team Secret Whales",
-    "code": "TSW",
+    "name": "TOP ESPORTS",
+    "code": "TES",
     "wins": 0,
     "outcome": null,
-    "league": "LCP",
-    "region": "太平洋"
+    "league": "LPL",
+    "region": "中國"
    }
   ]
  },
  {
-  "id": "115660540726095057",
-  "utc": "2026-10-26T22:00:00Z",
+  "id": "115660540726095077",
+  "utc": "2026-10-30T20:00:00Z",
   "state": "unstarted",
   "stage": "瑞士制循環賽",
   "bo": 3,
@@ -742,137 +867,12 @@ window.WORLDS_MATCHES = [
     "region": "北美洲"
    },
    {
-    "name": "Anyone's Legend",
-    "code": "AL",
+    "name": "LOS",
+    "code": "LOS",
     "wins": 0,
     "outcome": null,
-    "league": "LPL",
-    "region": "中國"
-   }
-  ]
- },
- {
-  "id": "115660540726095061",
-  "utc": "2026-10-28T20:00:00Z",
-  "state": "unstarted",
-  "stage": "瑞士制循環賽",
-  "bo": 3,
-  "teams": [
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   }
-  ]
- },
- {
-  "id": "115660540726095065",
-  "utc": "2026-10-28T23:00:00Z",
-  "state": "unstarted",
-  "stage": "瑞士制循環賽",
-  "bo": 3,
-  "teams": [
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   }
-  ]
- },
- {
-  "id": "115660540726095069",
-  "utc": "2026-10-29T20:00:00Z",
-  "state": "unstarted",
-  "stage": "瑞士制循環賽",
-  "bo": 3,
-  "teams": [
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   }
-  ]
- },
- {
-  "id": "115660540726095073",
-  "utc": "2026-10-29T23:00:00Z",
-  "state": "unstarted",
-  "stage": "瑞士制循環賽",
-  "bo": 3,
-  "teams": [
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   }
-  ]
- },
- {
-  "id": "115660540726095077",
-  "utc": "2026-10-30T20:00:00Z",
-  "state": "unstarted",
-  "stage": "瑞士制循環賽",
-  "bo": 3,
-  "teams": [
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
+    "league": "CBLOL",
+    "region": "巴西"
    }
   ]
  },
@@ -884,20 +884,20 @@ window.WORLDS_MATCHES = [
   "bo": 3,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "G2 Esports",
+    "code": "G2",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Hanwha Life Esports",
+    "code": "HLE",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCK",
+    "region": "韓國"
    }
   ]
  },
