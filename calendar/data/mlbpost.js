@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-27 11:15
-window.UPDATED = "2026-10-27 11:15";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-27 12:20
+window.UPDATED = "2026-10-27 12:20";
 window.MLB_POST_GAMES = [
  {
   "id": 849820,
@@ -174,7 +174,7 @@ window.MLB_POST_GAMES = [
   "utc": "2026-10-27T00:00:00Z",
   "tbd": false,
   "type": "W",
-  "state": "Game Over",
+  "state": "Final",
   "series": "World Series",
   "seriesGame": 3,
   "ifNec": false,
