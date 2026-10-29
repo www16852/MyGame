@@ -81,7 +81,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-10-28",
+  lastUpdated: "2026-10-29",
 
   games: [
     {
@@ -99,7 +99,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-28" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-10-29" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -129,7 +129,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-28" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-10-29" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -154,6 +154,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-10-29",
+      gameId: "",
+      title: "《Chained Beasts》首發 -35%（NT$ 245）與《迷霧封境》上市 -10%（NT$ 701）折扣今日（10/29）正式到期；《Mycopunk》-50%（NT$ 134）持續至 11/3",
+      body: "《Chained Beasts》首發 -35% 折扣（NT$ 245，原價 NT$ 377）與《迷霧封境 Enshrouded》上市 -10% 折扣（NT$ 701，原價 NT$ 779）均於今日（2026 年 10 月 29 日）正式截止，兩款遊戲即將回復原價。有意入手的玩家請把握今日最後機會。《Mycopunk》首發 -50%（NT$ 134，原價 NT$ 268）持續至 11 月 3 日；《Far Far West》-20%（NT$ 286）、《Funnel Runners》-20%（NT$ 168）、《Shift at Midnight》-10%（NT$ 194）折扣時程待確認。追蹤遊戲方面：《不朽之樹》Demo（Next Fest 後仍持續免費開放）與《Guildrun》Demo（純維護模式、完整版目標 2027 年）均無新公告。"
+    },
     {
       date: "2026-10-28",
       gameId: "",
@@ -1006,8 +1012,8 @@ window.GAMES_DATA = {
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       added: "2026-08-21",
-      rating: "壓倒性好評 96%（英語 2,731 則）；近 30 天 95%",
-      reason: "《Dungreed》主創 TEAM HORAY 的最新力作。俯視角動作 Roguelite，6 種武器各有 50+ 升級路線，搭配神器與石板打造千變萬化的 Build；最多 4 人線上合作，隊友間可交易道具並互相復活。2026 年 7 月 31 日 1.0 正式上線後峰值逾 24,000 人同時在線；英語評論壓倒性好評 96%（2,731 則，近 30 天 95%），是 2026 年合作 Roguelite 中口碑最突出的作品之一。注意：1.0 上線後售價已從 NT$ 268 調漲至 NT$ 343（約 28% 漲幅），欲購入的玩家請留意。持續推出月度更新完善遊戲體驗。",
+      rating: "壓倒性好評 96%（英語 3,084 則）；近 30 天 96%（643 則）",
+      reason: "《Dungreed》主創 TEAM HORAY 的最新力作。俯視角動作 Roguelite，6 種武器各有 50+ 升級路線，搭配神器與石板打造千變萬化的 Build；最多 4 人線上合作，隊友間可交易道具並互相復活。2026 年 7 月 31 日 1.0 正式上線後峰值逾 24,000 人同時在線；英語評論壓倒性好評 96%（3,084 則，近 30 天同樣 96%），是 2026 年合作 Roguelite 中口碑最突出的作品之一。注意：1.0 上線後售價已從 NT$ 268 調漲至 NT$ 343（約 28% 漲幅），欲購入的玩家請留意。持續推出月度更新完善遊戲體驗。",
       links: { steam: "https://store.steampowered.com/app/2436940/Sephiria/", official: "" }
     },
     {
