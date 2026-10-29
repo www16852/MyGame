@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-27 11:15
-window.UPDATED = "2026-10-27 11:15";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-29 12:20
+window.UPDATED = "2026-10-29 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -754,48 +754,48 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095061",
   "utc": "2026-10-28T20:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "瑞士制循環賽",
   "bo": 3,
   "teams": [
    {
+    "name": "T1",
+    "code": "T1",
+    "wins": 2,
+    "outcome": "win",
+    "league": "LCK",
+    "region": "韓國"
+   },
+   {
     "name": "Movistar KOI",
     "code": "MKOI",
     "wins": 0,
-    "outcome": null,
+    "outcome": "loss",
     "league": "LEC",
     "region": "歐洲、中東與非洲"
-   },
-   {
-    "name": "T1",
-    "code": "T1",
-    "wins": 0,
-    "outcome": null,
-    "league": "LCK",
-    "region": "韓國"
    }
   ]
  },
  {
   "id": "115660540726095065",
   "utc": "2026-10-28T23:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "瑞士制循環賽",
   "bo": 3,
   "teams": [
    {
     "name": "LYON",
     "code": "LYON",
-    "wins": 0,
-    "outcome": null,
+    "wins": 1,
+    "outcome": "loss",
     "league": "LCS",
     "region": "北美洲"
    },
    {
     "name": "Invictus Gaming",
     "code": "IG",
-    "wins": 0,
-    "outcome": null,
+    "wins": 2,
+    "outcome": "win",
     "league": "LPL",
     "region": "中國"
    }
