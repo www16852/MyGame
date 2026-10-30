@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-29 12:20
-window.UPDATED = "2026-10-29 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-10-30 12:20
+window.UPDATED = "2026-10-30 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -804,48 +804,48 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095073",
   "utc": "2026-10-29T20:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "瑞士制循環賽",
   "bo": 3,
   "teams": [
    {
+    "name": "Karmine Corp",
+    "code": "KC",
+    "wins": 2,
+    "outcome": "win",
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
+   },
+   {
     "name": "CTBC Flying Oyster",
     "code": "CFO",
     "wins": 0,
-    "outcome": null,
+    "outcome": "loss",
     "league": "LCP",
     "region": "太平洋"
-   },
-   {
-    "name": "Karmine Corp",
-    "code": "KC",
-    "wins": 0,
-    "outcome": null,
-    "league": "LEC",
-    "region": "歐洲、中東與非洲"
    }
   ]
  },
  {
   "id": "115660540726095069",
   "utc": "2026-10-29T23:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "瑞士制循環賽",
   "bo": 3,
   "teams": [
    {
     "name": "BILIBILI GAMING",
     "code": "BLG",
-    "wins": 0,
-    "outcome": null,
+    "wins": 1,
+    "outcome": "loss",
     "league": "LPL",
     "region": "中國"
    },
    {
     "name": "TOP ESPORTS",
     "code": "TES",
-    "wins": 0,
-    "outcome": null,
+    "wins": 2,
+    "outcome": "win",
     "league": "LPL",
     "region": "中國"
    }
