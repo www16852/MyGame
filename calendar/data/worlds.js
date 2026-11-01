@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-10-31 12:20
-window.UPDATED = "2026-10-31 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-11-01 12:20
+window.UPDATED = "2026-11-01 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -904,23 +904,23 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095085",
   "utc": "2026-10-31T17:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "瑞士制循環賽",
   "bo": 3,
   "teams": [
    {
-    "name": "Movistar KOI",
-    "code": "MKOI",
-    "wins": 0,
-    "outcome": null,
+    "name": "Karmine Corp",
+    "code": "KC",
+    "wins": 2,
+    "outcome": "win",
     "league": "LEC",
     "region": "歐洲、中東與非洲"
    },
    {
-    "name": "Karmine Corp",
-    "code": "KC",
+    "name": "Movistar KOI",
+    "code": "MKOI",
     "wins": 0,
-    "outcome": null,
+    "outcome": "loss",
     "league": "LEC",
     "region": "歐洲、中東與非洲"
    }
@@ -929,17 +929,92 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095089",
   "utc": "2026-10-31T20:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "瑞士制循環賽",
   "bo": 3,
   "teams": [
    {
+    "name": "LYON",
+    "code": "LYON",
+    "wins": 2,
+    "outcome": "win",
+    "league": "LCS",
+    "region": "北美洲"
+   },
+   {
     "name": "LOS",
     "code": "LOS",
-    "wins": 0,
-    "outcome": null,
+    "wins": 1,
+    "outcome": "loss",
     "league": "CBLOL",
     "region": "巴西"
+   }
+  ]
+ },
+ {
+  "id": "115660540726095093",
+  "utc": "2026-10-31T23:00:00Z",
+  "state": "completed",
+  "stage": "瑞士制循環賽",
+  "bo": 3,
+  "teams": [
+   {
+    "name": "BILIBILI GAMING",
+    "code": "BLG",
+    "wins": 2,
+    "outcome": "win",
+    "league": "LPL",
+    "region": "中國"
+   },
+   {
+    "name": "Hanwha Life Esports",
+    "code": "HLE",
+    "wins": 0,
+    "outcome": "loss",
+    "league": "LCK",
+    "region": "韓國"
+   }
+  ]
+ },
+ {
+  "id": "115660540726095109",
+  "utc": "2026-11-03T22:00:00Z",
+  "state": "unstarted",
+  "stage": "八強賽",
+  "bo": 5,
+  "teams": [
+   {
+    "name": "TOP ESPORTS",
+    "code": "TES",
+    "wins": 0,
+    "outcome": null,
+    "league": "LPL",
+    "region": "中國"
+   },
+   {
+    "name": "Invictus Gaming",
+    "code": "IG",
+    "wins": 0,
+    "outcome": null,
+    "league": "LPL",
+    "region": "中國"
+   }
+  ]
+ },
+ {
+  "id": "115660540726095115",
+  "utc": "2026-11-04T22:00:00Z",
+  "state": "unstarted",
+  "stage": "八強賽",
+  "bo": 5,
+  "teams": [
+   {
+    "name": "Gen.G Esports",
+    "code": "GEN",
+    "wins": 0,
+    "outcome": null,
+    "league": "LCK",
+    "region": "韓國"
    },
    {
     "name": "LYON",
@@ -952,15 +1027,15 @@ window.WORLDS_MATCHES = [
   ]
  },
  {
-  "id": "115660540726095093",
-  "utc": "2026-10-31T23:00:00Z",
+  "id": "115660540726095097",
+  "utc": "2026-11-05T22:00:00Z",
   "state": "unstarted",
-  "stage": "瑞士制循環賽",
-  "bo": 3,
+  "stage": "八強賽",
+  "bo": 5,
   "teams": [
    {
-    "name": "Hanwha Life Esports",
-    "code": "HLE",
+    "name": "Dplus KIA",
+    "code": "DK",
     "wins": 0,
     "outcome": null,
     "league": "LCK",
@@ -977,107 +1052,32 @@ window.WORLDS_MATCHES = [
   ]
  },
  {
-  "id": "115660540726095097",
-  "utc": "2026-11-03T22:00:00Z",
-  "state": "unstarted",
-  "stage": "八強賽",
-  "bo": 5,
-  "teams": [
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   }
-  ]
- },
- {
   "id": "115660540726095103",
-  "utc": "2026-11-04T22:00:00Z",
-  "state": "unstarted",
-  "stage": "八強賽",
-  "bo": 5,
-  "teams": [
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   }
-  ]
- },
- {
-  "id": "115660540726095109",
-  "utc": "2026-11-05T22:00:00Z",
-  "state": "unstarted",
-  "stage": "八強賽",
-  "bo": 5,
-  "teams": [
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   }
-  ]
- },
- {
-  "id": "115660540726095115",
   "utc": "2026-11-06T22:00:00Z",
   "state": "unstarted",
   "stage": "八強賽",
   "bo": 5,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "T1",
+    "code": "T1",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCK",
+    "region": "韓國"
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Karmine Corp",
+    "code": "KC",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LEC",
+    "region": "歐洲、中東與非洲"
    }
   ]
  },
  {
-  "id": "115660540726095121",
+  "id": "115660540726095127",
   "utc": "2026-11-07T22:00:00Z",
   "state": "unstarted",
   "stage": "準決賽",
@@ -1102,7 +1102,7 @@ window.WORLDS_MATCHES = [
   ]
  },
  {
-  "id": "115660540726095127",
+  "id": "115660540726095121",
   "utc": "2026-11-08T22:00:00Z",
   "state": "unstarted",
   "stage": "準決賽",
