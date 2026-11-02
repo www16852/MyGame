@@ -81,7 +81,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-11-01",
+  lastUpdated: "2026-11-02",
 
   games: [
     {
@@ -99,7 +99,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-11-01" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-11-02" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -111,6 +111,7 @@ window.GAMES_DATA = {
         { type: "announcement", date: "2026年9月上旬", sort: "2026-09-05", note: "發布全新遊玩預告片（New Gameplay Trailer），進一步展示第二區域「狂風高地（Windhowl Plateau）」的更多場景與玩法：Grand Arena 競技場、火山坑地帶、雪山礦坑，以及神殿建造系統大幅擴充（多主題裝飾與新設施、可規劃房間配置並設置防禦以抵禦入侵者）；再次確認 Steam Next Fest 10月展 Demo（10/20 台灣時間）將首次支援多人連線合作" },
         { type: "announcement", date: "2026年9月22日", sort: "2026-09-22", note: "加入「2026 多人遊戲節（2026 Multiplayer Games Fest）」Steam 展示：開發商 Geo Seed Games 正式揭露多人連線規劃——上市後支援 P2P 連線（適合小型私人冒險，可自訂規則）與正式伺服器（Dedicated Servers，可容納更多玩家、支援公會 Clan 與領地 Territory 系統）兩種模式；即將開放的 10 月 Demo（10/20 起）將首次支援 P2P 多人遊玩，玩家可邀請好友一同探索 Edda、合作或對抗；正式上市日期仍為 TBA" },
         { type: "demo", date: "2026年10月14日（Steam Next Fest 10月展，提前開放）", sort: "2026-10-14", note: "Demo（Steam App ID: 3825370）已於 2026 年 10 月 14 日正式對外開放（較原定台灣時間 10/20 提前約一週），首次支援多人連線合作（Online Multiplayer Co-op）；可遊玩首個區域「翠綠谷（Verdant Valley）」；Demo 版本 0.6.19 已推出更新（含崩潰問題修復）；截至 2026 年 10 月 22 日 Steam 評論 88 則，好評率 87%（Very Positive，持續累積中）；Steam Next Fest October 2026（10/19~10/26 PDT；台灣時間 10/20 凌晨~10/27 凌晨）已於 10/26 PDT 正式閉幕，Demo 於 Next Fest 結束後仍持續免費開放中（Demo 自 10/14 起即已對外開放，非僅限 Next Fest 期間）；正式上市日期仍為 TBA" },
+        { type: "announcement", date: "2026年10月21日", sort: "2026-10-21", note: "Steam 願望清單（Wishlists）突破 10 萬筆里程碑（官方 X 帳號 @PlayNeverWither 確認）；距首次技術測試（5/30～6/2）約 5 個月；Demo 持續免費開放中；正式上市日期仍為 TBA" },
         { type: "release", date: "未定 (TBA)", sort: "9999-12-31", note: "正式上市日期仍未定，目前為 Coming Soon" }
       ]
     },
@@ -129,7 +130,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-11-01" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-11-02" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -154,6 +155,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-11-02",
+      gameId: "neverwither",
+      title: "《不朽之樹》10/21 突破 Steam 10 萬願望清單；《Mycopunk》-50% 首發折扣明日（11/3）最後截止",
+      body: "《不朽之樹》（Never Wither）官方 X 帳號（@PlayNeverWither）於 10 月 21 日宣布遊戲 Steam 願望清單突破 10 萬筆里程碑，距首次技術測試（5/30～6/2）約 5 個月，顯示社群持續關注；Demo（App ID: 3825370）目前持續免費開放，正式上市日期仍為 TBA。另：《Mycopunk》Steam 台灣區 -50% 首發折扣（NT$ 134，原價 NT$ 268）明日（11/3）正式截止，有意購入的玩家請把握最後機會。追蹤遊戲方面，《Guildrun》Demo 繼續純維護模式（完整版目標 2027 年），無新公告；《深海迷航 2》Update 2.0 與《Windrose》Ashlands 更新均尚無確切上線時程。"
+    },
     {
       date: "2026-11-01",
       gameId: "mycopunk",
@@ -992,7 +999,7 @@ window.GAMES_DATA = {
       developer: "Pigeons at Play（發行：Devolver Digital）",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 4 人線上合作",
-      price: { current: "NT$ 134", original: "NT$ 268", discount: "-50%", note: "", asOf: "2026-11-01", low: "NT$ 134", lowCut: "-50%", lowDate: "2026-10-20" },
+      price: { current: "NT$ 134", original: "NT$ 268", discount: "-50%", note: "", asOf: "2026-11-02", low: "NT$ 134", lowCut: "-50%", lowDate: "2026-10-20" },
       released: "2025年7月10日 搶先體驗；2026年10月20日 1.0 正式版",
       sort: "2026-10-20",
       added: "2026-10-21",
@@ -1009,7 +1016,7 @@ window.GAMES_DATA = {
       developer: "Featherweight Games",
       platforms: ["PC", "PS5", "Xbox Series", "Switch"],
       playerCount: "1~4 人線上合作（支援跨平台、分割螢幕與遠端遊玩）",
-      price: { current: "NT$ 377", original: "", discount: "", note: "", asOf: "2026-11-01", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
+      price: { current: "NT$ 377", original: "", discount: "", note: "", asOf: "2026-11-02", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
       released: "2026年10月15日（1.0 正式版）",
       sort: "2026-10-15",
       added: "2026-10-16",
@@ -1026,7 +1033,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-11-01", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-11-02", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       added: "2026-08-21",
@@ -1043,7 +1050,7 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-11-01", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-11-02", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       added: "2026-07-15",
@@ -1060,7 +1067,7 @@ window.GAMES_DATA = {
       developer: "Ratata Arts（發行：Game Source Entertainment）",
       platforms: ["PC", "PS5", "Switch 2", "Xbox Series"],
       playerCount: "單人 / 最多 4 人線上合作",
-      price: { current: "NT$ 588", original: "", discount: "", note: "", asOf: "2026-11-01", low: "", lowCut: "", lowDate: "" },
+      price: { current: "NT$ 588", original: "", discount: "", note: "", asOf: "2026-11-02", low: "", lowCut: "", lowDate: "" },
       released: "2025年9月18日 搶先體驗；2026年10月15日 1.0 正式版",
       sort: "2026-10-15",
       added: "2026-10-31",
@@ -1077,7 +1084,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 194", original: "NT$ 216", discount: "-10%", note: "", asOf: "2026-11-01", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 194", original: "NT$ 216", discount: "-10%", note: "", asOf: "2026-11-02", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       added: "2026-09-07",
@@ -1094,7 +1101,7 @@ window.GAMES_DATA = {
       developer: "Iron Gate（發行：Coffee Stain Publishing）",
       platforms: ["PC", "Xbox Series", "Xbox One", "PS5", "Switch 2"],
       playerCount: "單人 / 最多 10 人合作",
-      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-11-01", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
+      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-11-02", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
       released: "2026年9月9日（1.0 正式版）",
       sort: "2026-09-09",
       added: "2026-09-14",
@@ -1111,7 +1118,7 @@ window.GAMES_DATA = {
       developer: "Keen Games",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 16 人合作",
-      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-11-01", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
+      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-11-02", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
       released: "2024年1月24日 搶先體驗；2026年10月15日 1.0 正式版",
       sort: "2026-10-15",
       added: "2026-09-28",
@@ -1128,7 +1135,7 @@ window.GAMES_DATA = {
       developer: "Supernova Studios",
       platforms: ["PC"],
       playerCount: "單人 / 最多 8 人合作",
-      price: { current: "NT$ 168", original: "NT$ 210", discount: "-20%", note: "", asOf: "2026-11-01", low: "NT$ 147", lowCut: "-30%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 168", original: "NT$ 210", discount: "-20%", note: "", asOf: "2026-11-02", low: "NT$ 147", lowCut: "-30%", lowDate: "2026-10-01" },
       released: "2026年7月16日 搶先體驗",
       sort: "2026-07-16",
       added: "2026-10-22",
@@ -1145,7 +1152,7 @@ window.GAMES_DATA = {
       developer: "Paper Cult",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 469", original: "", discount: "", note: "", asOf: "2026-11-01", low: "NT$ 375", lowCut: "-20%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 469", original: "", discount: "", note: "", asOf: "2026-11-02", low: "NT$ 375", lowCut: "-20%", lowDate: "2026-10-01" },
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
       added: "2026-10-24",
