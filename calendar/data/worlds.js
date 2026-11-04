@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-11-01 12:20
-window.UPDATED = "2026-11-01 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-11-04 12:20
+window.UPDATED = "2026-11-04 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -979,23 +979,23 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095109",
   "utc": "2026-11-03T22:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "八強賽",
   "bo": 5,
   "teams": [
    {
-    "name": "TOP ESPORTS",
-    "code": "TES",
-    "wins": 0,
-    "outcome": null,
+    "name": "Invictus Gaming",
+    "code": "IG",
+    "wins": 3,
+    "outcome": "win",
     "league": "LPL",
     "region": "中國"
    },
    {
-    "name": "Invictus Gaming",
-    "code": "IG",
-    "wins": 0,
-    "outcome": null,
+    "name": "TOP ESPORTS",
+    "code": "TES",
+    "wins": 1,
+    "outcome": "loss",
     "league": "LPL",
     "region": "中國"
    }
@@ -1092,12 +1092,12 @@ window.WORLDS_MATCHES = [
     "region": null
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "Invictus Gaming",
+    "code": "IG",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LPL",
+    "region": "中國"
    }
   ]
  },
