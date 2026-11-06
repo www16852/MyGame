@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-11-05 12:20
-window.UPDATED = "2026-11-05 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-11-06 12:20
+window.UPDATED = "2026-11-06 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -1029,25 +1029,25 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095097",
   "utc": "2026-11-05T22:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "八強賽",
   "bo": 5,
   "teams": [
    {
+    "name": "BILIBILI GAMING",
+    "code": "BLG",
+    "wins": 3,
+    "outcome": "win",
+    "league": "LPL",
+    "region": "中國"
+   },
+   {
     "name": "Dplus KIA",
     "code": "DK",
     "wins": 0,
-    "outcome": null,
+    "outcome": "loss",
     "league": "LCK",
     "region": "韓國"
-   },
-   {
-    "name": "BILIBILI GAMING",
-    "code": "BLG",
-    "wins": 0,
-    "outcome": null,
-    "league": "LPL",
-    "region": "中國"
    }
   ]
  },
@@ -1117,12 +1117,12 @@ window.WORLDS_MATCHES = [
     "region": null
    },
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "BILIBILI GAMING",
+    "code": "BLG",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LPL",
+    "region": "中國"
    }
   ]
  },
