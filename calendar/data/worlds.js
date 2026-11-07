@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-11-06 12:20
-window.UPDATED = "2026-11-06 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-11-07 12:20
+window.UPDATED = "2026-11-07 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -1054,23 +1054,23 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095103",
   "utc": "2026-11-06T22:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "八強賽",
   "bo": 5,
   "teams": [
    {
     "name": "T1",
     "code": "T1",
-    "wins": 0,
-    "outcome": null,
+    "wins": 3,
+    "outcome": "win",
     "league": "LCK",
     "region": "韓國"
    },
    {
     "name": "Karmine Corp",
     "code": "KC",
-    "wins": 0,
-    "outcome": null,
+    "wins": 1,
+    "outcome": "loss",
     "league": "LEC",
     "region": "歐洲、中東與非洲"
    }
@@ -1109,12 +1109,12 @@ window.WORLDS_MATCHES = [
   "bo": 5,
   "teams": [
    {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
+    "name": "T1",
+    "code": "T1",
+    "wins": 0,
     "outcome": null,
-    "league": null,
-    "region": null
+    "league": "LCK",
+    "region": "韓國"
    },
    {
     "name": "BILIBILI GAMING",
