@@ -1,5 +1,5 @@
-// 自動產生（update.py），請勿手改。更新時間：2026-11-08 12:20
-window.UPDATED = "2026-11-08 12:20";
+// 自動產生（update.py），請勿手改。更新時間：2026-11-09 12:20
+window.UPDATED = "2026-11-09 12:20";
 window.WORLDS_MATCHES = [
  {
   "id": "115660588583171786",
@@ -1104,13 +1104,38 @@ window.WORLDS_MATCHES = [
  {
   "id": "115660540726095121",
   "utc": "2026-11-08T22:00:00Z",
-  "state": "unstarted",
+  "state": "completed",
   "stage": "準決賽",
   "bo": 5,
   "teams": [
    {
+    "name": "BILIBILI GAMING",
+    "code": "BLG",
+    "wins": 3,
+    "outcome": "win",
+    "league": "LPL",
+    "region": "中國"
+   },
+   {
     "name": "T1",
     "code": "T1",
+    "wins": 1,
+    "outcome": "loss",
+    "league": "LCK",
+    "region": "韓國"
+   }
+  ]
+ },
+ {
+  "id": "115660540726095133",
+  "utc": "2026-11-14T19:00:00Z",
+  "state": "unstarted",
+  "stage": "決賽",
+  "bo": 5,
+  "teams": [
+   {
+    "name": "Gen.G Esports",
+    "code": "GEN",
     "wins": 0,
     "outcome": null,
     "league": "LCK",
@@ -1123,31 +1148,6 @@ window.WORLDS_MATCHES = [
     "outcome": null,
     "league": "LPL",
     "region": "中國"
-   }
-  ]
- },
- {
-  "id": "115660540726095133",
-  "utc": "2026-11-14T19:00:00Z",
-  "state": "unstarted",
-  "stage": "決賽",
-  "bo": 5,
-  "teams": [
-   {
-    "name": "TBD",
-    "code": "TBD",
-    "wins": null,
-    "outcome": null,
-    "league": null,
-    "region": null
-   },
-   {
-    "name": "Gen.G Esports",
-    "code": "GEN",
-    "wins": 0,
-    "outcome": null,
-    "league": "LCK",
-    "region": "韓國"
    }
   ]
  }
