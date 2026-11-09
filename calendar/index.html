@@ -25,6 +25,7 @@
     --fav: #ff4d6d;         /* 世界賽：T1、CFO 的比賽 */
     --cpbl: #f0883e;        /* 中華職棒台灣大賽 */
     --tft: #2fc6b4;         /* TFT Regional Finals */
+    --apbc: #f778ba;        /* 亞冠賽 */
     --mlbpost: #7ee787;     /* MLB 其他隊的聯盟冠軍賽、世界大賽 */
     --radius: 10px;
   }
@@ -90,6 +91,8 @@
   .ev.cpbl { --c: var(--cpbl); }
   .ev.tft { --c: var(--tft); }
   .ev.mlbpost { --c: var(--mlbpost); }
+  .ev.apbc { --c: var(--apbc); }
+  .ev.apbc.tw .ttl::before { content: "🇹🇼 "; }
   .ev .t { font-variant-numeric: tabular-nums; color: var(--muted); }
   .ev .ttl { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
   .ev .res { font-weight: 700; font-variant-numeric: tabular-nums; }
@@ -165,6 +168,7 @@
       <button class="chip" data-layer="mlb" style="--c:var(--mlb)"><i></i>道奇</button>
       <button class="chip" data-layer="lol" style="--c:var(--lol)"><i></i>英雄聯盟世界賽</button>
       <button class="chip" data-layer="mlbpost" style="--c:var(--mlbpost)"><i></i>美聯冠軍賽・世界大賽</button>
+      <button class="chip" data-layer="apbc" style="--c:var(--apbc)"><i></i>亞冠賽</button>
       <button class="chip" data-layer="cpbl" style="--c:var(--cpbl)"><i></i>台灣大賽</button>
       <button class="chip" data-layer="tft" style="--c:var(--tft)"><i></i>TFT Regional Finals</button>
       <button class="chip" data-layer="spring" style="--c:var(--spring)"><i></i>道奇春訓</button>
@@ -204,6 +208,7 @@
         <span><i style="background:var(--lol)"></i>世界賽</span>
         <span><i style="background:var(--fav)"></i>T1／CFO</span>
         <span><i style="background:var(--cpbl)"></i>台灣大賽</span>
+        <span><i style="background:var(--apbc)"></i>亞冠賽</span>
         <span><i style="background:var(--tft)"></i>TFT</span>
         <span>虛線＝必要時才打</span>
       </div>
@@ -381,22 +386,25 @@ const cpblAsManual = (window.CPBL_GAMES || []).map(g => ({
 }));
 
 // ───────── 手動維護的賽程（TFT）與台灣大賽 ─────────
-const MANUAL_SRC = { cpbl: "台灣大賽", tft: "TFT 亞太區 Regional Finals" };
+const MANUAL_SRC = { cpbl: "台灣大賽", tft: "TFT 亞太區 Regional Finals", apbc: "亞冠賽" };
 // data/manual.js 寫的是台灣時間；只有日期的視為當天 00:00
 const twToUtc = s => new Date((s.length === 10 ? s + "T00:00" : s) + ":00+08:00").toISOString();
 const manualEvents = [...cpblAsManual, ...(window.MANUAL_EVENTS || [])].map(m => {
   const done = Array.isArray(m.score);
   const [as, hs] = m.score || [];
-  const winner = done ? (as > hs ? m.away : hs > as ? m.home : null) : null;
+  // noSide 的場次沒有 away/home，比分照 title 的隊伍順序寫
+  const [ta, tb] = m.noSide ? m.title.split(" vs ") : [m.away, m.home];
+  const winner = done ? (as > hs ? ta : hs > as ? tb : null) : null;
   return {
     id: m.id, raw: m, utc: twToUtc(m.tw), tbd: !!m.tbd,
-    layer: m.layer, src: MANUAL_SRC[m.layer] || m.layer, color: `var(--${m.layer})`, cls: m.layer,
+    layer: m.layer, src: MANUAL_SRC[m.layer] || m.layer, color: `var(--${m.layer})`, cls: m.fav ? `${m.layer} tw` : m.layer,
     title: m.title || `${m.away} vs ${m.home}`,
     tag: `${m.tag}${m.ifNec ? "（必要時）" : ""}`, tagCls: "",
     done, maybe: m.ifNec && !done, cancel: !!m.cancel,
     resultHTML: done ? `<span class="res">${esc(winner || "和")}${winner ? " 勝" : ""} ${as}:${hs}</span>` : null,
     detail() {
-      const rows = m.home ? `<div class="score">
+      // noSide：還不知道誰先攻，就不標客／主
+      const rows = m.noSide && done ? `<div class="score"><span>${esc(m.title)}</span><span class="s">${as}:${hs}</span></div>` : m.home ? `<div class="score">
           <span class="${winner === m.away ? "winner" : ""}">${esc(m.away)}（客）</span><span class="s">${done ? as : ""}</span>
           <span class="${winner === m.home ? "winner" : ""}">${esc(m.home)}（主）</span><span class="s">${done ? hs : ""}</span></div>` : "";
       return `<h3>${esc(m.home ? `${m.away} vs ${m.home}` : m.tag)}</h3>
@@ -417,7 +425,7 @@ const all = [...mlbEvents, ...mlbPostEvents, ...lolEvents, ...manualEvents]
 const byId = Object.fromEntries(all.map(e => [e.id, e]));
 
 // ───────── 圖層開關（記在瀏覽器裡） ─────────
-const layers = { mlb: true, mlbpost: true, lol: true, cpbl: true, tft: true, spring: false };
+const layers = { mlb: true, mlbpost: true, apbc: true, lol: true, cpbl: true, tft: true, spring: false };
 try { Object.assign(layers, JSON.parse(localStorage.getItem("cal-layers") || "{}")); } catch {}
 const visible = () => all.filter(e => layers[e.layer]);
 
@@ -470,7 +478,7 @@ function renderSide() {
   const upcoming = visible().filter(e => !e.done && !e.cancel && new Date(e.utc).getTime() > now - (e.tbd ? 24 : 4) * 3600e3);
 
   // 每個開啟中的行事曆各列一個「下一場」
-  const nexts = ["mlb", "mlbpost", "lol", "cpbl", "tft"].filter(l => layers[l])
+  const nexts = ["mlb", "mlbpost", "apbc", "lol", "cpbl", "tft"].filter(l => layers[l])
     .map(l => upcoming.find(e => e.layer === l || (l === "mlb" && e.layer === "spring")))
     .filter(Boolean);
   const card = document.getElementById("nextCard");
@@ -504,7 +512,7 @@ function renderSide() {
   document.getElementById("record").textContent = `${w} 勝 ${l} 敗`;
   document.getElementById("recordCard").hidden = !layers.mlb;
   document.getElementById("foot").textContent =
-    `賽程資料：MLB Stats API（道奇、美聯冠軍賽、世界大賽）、LoL Esports、中職官網；TFT 為手動整理（data/manual.js）　最後更新：${window.UPDATED || "—"}　（執行 python3 update.py 可重新抓取）`;
+    `賽程資料：MLB Stats API（道奇、美聯冠軍賽、世界大賽）、LoL Esports、中職官網；TFT、亞冠賽為手動整理（data/manual.js）　最後更新：${window.UPDATED || "—"}　（執行 python3 update.py 可重新抓取）`;
 }
 
 function countdown(e, el) {
