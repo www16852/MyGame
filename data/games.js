@@ -81,7 +81,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-11-17",
+  lastUpdated: "2026-11-18",
 
   games: [
     {
@@ -99,7 +99,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-11-17" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-11-18" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -131,7 +131,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-11-17" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-11-18" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -156,6 +156,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-11-18",
+      gameId: "",
+      title: "追蹤遊戲《不朽之樹》《Guildrun》本週均無新公告；「新品推薦」多人RogueLike 精簡至 5 款；各遊戲 Steam 價格皆穩定，無折扣進行中",
+      body: "追蹤遊戲方面：《不朽之樹》Demo 自 11/3 關閉後無新動態（正式版 TBA）；《Guildrun》Demo 維持純維護模式，開發重心轉向完整版（1.0 目標 2027 年），均無新公告。「新品推薦」更新：多人RogueLike 類型由 7 款精簡至 5 款，移出《Mycopunk》（88%，已有《Chained Beasts》等更具代表性的同類）與《Ratatan》（86%，清單中評分最低），保留《Sephiria》（96%）、《Windblown》（92%）、《GRAVHOUNDS》（90%）、《Tears of Metal》（89%）、《Chained Beasts》（88%）；本次搜尋 2026 年 11 月最新合作 Roguelite 新作，《Deep Rock Galactic: Rogue Core》Steam 整體褒貶不一（Mixed）、《33 Immortals》普通好評（約 75-79%），均未達特別好評收錄門檻。《深海迷航 2》方面，PC Games 報導確認開發者影片再次表明 EA 2.0 目標 2026 年 12 月推出（原已於 11/10 確認，本次為開發者影片再確認，仍無具體上線日期）。各遊戲 Steam 台灣區價格本週均無折扣進行中，均維持原價。"
+    },
     {
       date: "2026-11-17",
       gameId: "gravhounds",
@@ -1089,25 +1095,8 @@ window.GAMES_DATA = {
       added: "2026-11-05",
       rating: "特別好評 90%（343+ 則）",
       reason: "人型犬傭兵小隊空降敵意外星行星：在資源有限的環境中即時建造防禦工事、採集物資，並以 Roguelike 升級系統強化能力抵禦外星蟲群浪潮；最多 4 人線上合作，合作分工操控防禦設施與火力輸出。EA 開局內容包含 5 名可玩 Gravhound 角色、7 個太陽系、25 顆行星、21 種防禦系統與 60 個可解鎖 Mod，以及 1~6 人特殊 Boss 戰「Juggernaut」。2026 年 11 月 2 日搶先體驗上線，首日即加入 Xbox Game Pass（PC/主機）；EA 上線兩週評論成長至 343+ 則、特別好評 90%，開發商預計 EA 約 6 個月後推出 1.0 正式版（正式版前預計漲價）；Steam 台灣區 -25% 首發折扣已於 11 月 16 日截止，現售原價 NT$ 349。",
-      price: { current: "NT$ 349", original: "", discount: "", note: "", asOf: "2026-11-17", low: "NT$ 261", lowCut: "-25%", lowDate: "2026-11-02" },
+      price: { current: "NT$ 349", original: "", discount: "", note: "", asOf: "2026-11-18", low: "NT$ 261", lowCut: "-25%", lowDate: "2026-11-02" },
       links: { steam: "https://store.steampowered.com/app/2440760/GRAVHOUNDS/", official: "" }
-    },
-    {
-      id: "mycopunk",
-      name: "Mycopunk",
-      nameEn: "Mycopunk",
-      interest: "多人RogueLike",
-      genre: "科幻合作 FPS / 武器養成 Roguelite",
-      developer: "Pigeons at Play（發行：Devolver Digital）",
-      platforms: ["PC", "PS5"],
-      playerCount: "單人 / 最多 4 人線上合作",
-      price: { current: "NT$ 268", original: "", discount: "", note: "", asOf: "2026-11-17", low: "NT$ 134", lowCut: "-50%", lowDate: "2026-10-20" },
-      released: "2025年7月10日 搶先體驗；2026年10月20日 1.0 正式版",
-      sort: "2026-10-20",
-      added: "2026-10-21",
-      rating: "特別好評 88%（約 4,800 則）；近 30 天評分逐步回升中（1.0 上市初期暫時波動）",
-      reason: "Devolver Digital 旗下科幻合作 FPS《Mycopunk》1.0 已於 2026 年 10 月 20 日正式上市（PC + PS5）。玩家組成最多 4 人機器人叛軍小隊對抗菌類外星人；核心特色是獨特格狀武器升級系統——從每次任務獲得的 Mod 可自由搭配出高度客製化武器 Build，敵人甚至可撿起被擊落道具形成動態戰場。1.0 上市後評論成長至約 4,800 則、整體特別好評 88%；遊戲同步登陸 PS5 並加入 PlayStation Plus Game Catalog（Extra/Premium 訂閱用戶可免費遊玩）。Steam 台灣區現售原價 NT$ 268，史低 NT$ 134（-50% 首發折扣，2026-10-20~11-03）。",
-      links: { steam: "https://store.steampowered.com/app/3247750/Mycopunk/", official: "" }
     },
     {
       id: "chainedbeasts",
@@ -1118,7 +1107,7 @@ window.GAMES_DATA = {
       developer: "Featherweight Games",
       platforms: ["PC", "PS5", "Xbox Series", "Switch"],
       playerCount: "1~4 人線上合作（支援跨平台、分割螢幕與遠端遊玩）",
-      price: { current: "NT$ 377", original: "", discount: "", note: "", asOf: "2026-11-17", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
+      price: { current: "NT$ 377", original: "", discount: "", note: "", asOf: "2026-11-18", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
       released: "2026年10月15日（1.0 正式版）",
       sort: "2026-10-15",
       added: "2026-10-16",
@@ -1135,7 +1124,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-11-17", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-11-18", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       added: "2026-08-21",
@@ -1152,30 +1141,13 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-11-17", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-11-18", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       added: "2026-07-15",
       rating: "特別好評 93%（英語 70,356 則，全語言 124,953 則）；近 30 天 90%",
       reason: "系列首度支援 4 人合作的外星海洋生存續作，新增 DNA 改造系統與全新生態海域。EA 上市不到兩個月突破 500 萬份銷量。7月8日「1.1 Adaptive Measures」新增 Coral Gardens 與 Axum Ruins 兩座 Biolab、Biomod 槽位從 4 擴充至 6；8 月 19 日「1.2 Buddy System」合作大更新：近距語音聊天（Proximity Chat，遠距切換為無線電）、玩家物品交易、死亡復活機制、角色表情、追蹤標籤、2 位新角色及更多潛水衣配色；9/1 Hotfix 1 修復 Axum Turbine 問題、Proximity Chat 改為 PTT。**2026/10/15 官方正式公布 Update 2.0（EA 2.0）詳細內容**，稱為「迄今最實質性的更新」：全新「收藏者利維坦（Collector Leviathan）」棲息地作為新探索大區（由五個全新生態區構成）、全新故事章節、Collector Leviathan 全新行為機制，以及全新載具「青蛙底盤（Seafrog Chassis）」大幅擴充 Tadpole 的能力；**2026/11/07 Kotaku 訪談**更多細節：創意總監稱此區域為「迄今最恐怖的區域之一」、Tadpole 底盤加裝手臂與腿、圓形房間（Round Room）基地模組回歸。**2026/11/10 官方路線圖確認：EA 2.0 定於 2026 年 12 月推出（無具體日期）**，另加入 Dash utility for Fins，敬請持續關注；EA 預計持續 2~3 年。近 30 天評價維持 90%（特別好評），可加入 Xbox Game Pass 遊玩。",
       links: { steam: "https://store.steampowered.com/app/1962700/Subnautica_2/", official: "" }
-    },
-    {
-      id: "ratatan",
-      name: "Ratatan",
-      nameEn: "Ratatan",
-      interest: "多人RogueLike",
-      genre: "節奏動作 Roguelite",
-      developer: "Ratata Arts（發行：Game Source Entertainment）",
-      platforms: ["PC", "PS5", "Switch 2", "Xbox Series"],
-      playerCount: "單人 / 最多 4 人線上合作",
-      price: { current: "NT$ 588", original: "", discount: "", note: "", asOf: "2026-11-17", low: "", lowCut: "", lowDate: "" },
-      released: "2025年9月18日 搶先體驗；2026年10月15日 1.0 正式版",
-      sort: "2026-10-15",
-      added: "2026-10-31",
-      rating: "特別好評 86%（3,000+ 則）",
-      reason: "《太鼓達人》精神父親 Hiroyuki Kotaki（Patapon 原作者）的節奏動作 Roguelite 新作——玩家以節奏指令指揮 Rata 角色衝鋒、防禦與施法，每次通關解鎖新角色、武器與 Build 升級路線，Build 多樣性豐富。支援最多 4 人線上合作共同出征，各角色技能可搭配組合出多樣戰術，是近年最具特色的合作 Roguelite 之一。歷經 2025 年 9 月 EA 上線並持續更新後，2026 年 10 月 15 日推出 1.0 完整版（PC/PS5/Switch 2/Xbox Series），整體特別好評 86%（3,000+ 則）。",
-      links: { steam: "https://store.steampowered.com/app/2949320/Ratatan/", official: "" }
     },
     {
       id: "shiftatmidnight",
@@ -1186,7 +1158,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-11-17", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-11-18", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       added: "2026-09-07",
@@ -1203,7 +1175,7 @@ window.GAMES_DATA = {
       developer: "Iron Gate（發行：Coffee Stain Publishing）",
       platforms: ["PC", "Xbox Series", "Xbox One", "PS5", "Switch 2"],
       playerCount: "單人 / 最多 10 人合作",
-      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-11-17", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
+      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-11-18", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
       released: "2026年9月9日（1.0 正式版）",
       sort: "2026-09-09",
       added: "2026-09-14",
@@ -1220,7 +1192,7 @@ window.GAMES_DATA = {
       developer: "Keen Games",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 16 人合作",
-      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-11-17", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
+      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-11-18", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
       released: "2024年1月24日 搶先體驗；2026年10月15日 1.0 正式版",
       sort: "2026-10-15",
       added: "2026-09-28",
@@ -1242,7 +1214,7 @@ window.GAMES_DATA = {
       added: "2026-11-17",
       rating: "特別好評 92%（4,985+ 則）",
       reason: "《Dead Cells》原班人馬 Motion Twin 打造的高速動作 Roguelite——以衝刺連段為核心的戰鬥系統，玩家操控特殊能力各異的「Altered」角色，在程序生成地圖中高速穿梭、連擊敵人並累積強大 Build；最多 3 人線上合作，共享武器強化路線並互相配合解開道具協同效果。Steam EA 開啟以來持續更新，累積超過 4,985 則評論、特別好評 92%；歷史低價 NT$ 307（-30%，2026 年 7 月）；1.0 完整版目標 2026 年推出，將帶來新遊戲+等重大擴充內容，是合作 Roguelite 中口碑最穩定的作品之一。",
-      price: { current: "NT$ 439", original: "", discount: "", note: "", asOf: "2026-11-17", low: "NT$ 307", lowCut: "-30%", lowDate: "2026-07-25" },
+      price: { current: "NT$ 439", original: "", discount: "", note: "", asOf: "2026-11-18", low: "NT$ 307", lowCut: "-30%", lowDate: "2026-07-25" },
       links: { steam: "https://store.steampowered.com/app/1911610/Windblown/", official: "" }
     },
     {
@@ -1254,7 +1226,7 @@ window.GAMES_DATA = {
       developer: "Paper Cult",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 469", original: "", discount: "", note: "", asOf: "2026-11-17", low: "NT$ 375", lowCut: "-20%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 469", original: "", discount: "", note: "", asOf: "2026-11-18", low: "NT$ 375", lowCut: "-20%", lowDate: "2026-10-01" },
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
       added: "2026-10-24",
@@ -1276,7 +1248,7 @@ window.GAMES_DATA = {
       added: "2026-11-17",
       rating: "特別好評 87%（49,000+ 則）",
       reason: "2026 年 Steam 生存類最熱門爆發新作之一：操控帆船在廣闊群島間航行探索、與最多 4 名好友合作採集資源、建造船艦與殖民地、對抗海盜並挑戰巨大海洋 Boss。自 2026 年 4 月 14 日搶先體驗上線後 48 小時內突破 50 萬份銷量、巔峰同時在線 113,930 人，累計超過 150 萬份銷量；Steam 評論達 49,000+ 則，特別好評 87%。首個重大更新「Ashlands（火山生態區）」亮相 Triple-i Initiative（10/8），帶來全新火山第四生態區、新 Boss、新船隻外觀系統大幅重做，發布時程確認為 2026～2027 冬季；遊戲不含 PvP，主打純粹合作體驗；史低 NT$ 439（-10%，2026-04-14）。",
-      price: { current: "NT$ 488", original: "", discount: "", note: "", asOf: "2026-11-17", low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
+      price: { current: "NT$ 488", original: "", discount: "", note: "", asOf: "2026-11-18", low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
       links: { steam: "https://store.steampowered.com/app/3041230/Windrose/", official: "" }
     },
   ]
