@@ -81,7 +81,7 @@
    ============================================================ */
 
 window.GAMES_DATA = {
-  lastUpdated: "2026-11-27",
+  lastUpdated: "2026-11-28",
 
   games: [
     {
@@ -99,7 +99,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人 / 線上合作 / PvP / 大型多人線上 (MMO)",
-      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-11-27" },
+      price: { current: "", original: "", discount: "", note: "尚未定價（Coming Soon）", asOf: "2026-11-28" },
       events: [
         { type: "beta", date: "2026年5月30日 ~ 6月2日", sort: "2026-05-30", note: "首次限時限量技術測試（小規模）已結束，開放首個區域「翠影谷地」，含 19 種可收集生物與 4 名頭目，約 3~5 小時內容；本次僅支援單人模式，多人功能仍在開發中" },
         { type: "announcement", date: "2026年7月6日", sort: "2026-07-06", note: "開啟社群「生物命名活動」，邀請玩家為兩種即將亮相的新生物投票命名（徵集期 7/6~7/19，社群投票期 7/23~7/29）；入選玩家名字將永久記錄於遊戲圖鑑" },
@@ -131,7 +131,7 @@ window.GAMES_DATA = {
         official: ""
       },
       playerCount: "單人（含全球排行榜無盡模式）",
-      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-11-27" },
+      price: { current: "", original: "", discount: "", note: "尚未定價；試玩版免費開放中（Coming Soon）", asOf: "2026-11-28" },
       events: [
         { type: "demo", date: "2026年7月16日起開放", sort: "2026-07-16", note: "Steam 免費試玩版上架；初上架特別好評 92%，截至 9 月 1 日評論數約 1,965 則、好評率 89%（特別好評）；峰值同時上線約 12,000 人，10 天內吸引逾 30 萬試玩玩家（GameDiscover.co 統計），兩週累積逾 20 萬玩家完成約 200 萬次通關；含 8 種難度、每週更新與社群活動；此前經歷 3,000+ 人封閉 Alpha 測試" },
         { type: "announcement", date: "2026年7月23日", sort: "2026-07-23", note: "試玩版首次平衡更新 Patch 0.5.1.718：針對社群回饋大幅擴充可行策略並加入 QoL 優化；截至上線一週試玩人數突破 20 萬；傳奇探索遺物（Legendary Quest Relics）商店費用由 30 降至 25" },
@@ -157,6 +157,12 @@ window.GAMES_DATA = {
   ],
 
   news: [
+    {
+      date: "2026-11-28",
+      gameId: "windblown",
+      title: "《Windblown》Steam 頁確認 1.0「即將到來，更多消息很快公布」，仍在 Early Access；近 30 天評論升至 92%；追蹤遊戲及各新品推薦均無新公告，各遊戲 Steam 定價無折扣",
+      body: "《Windblown》（Motion Twin）Steam 商店頁面確認：v0.9999999（2026 年 10 月 24 日）為最後一次 EA 大型更新，官方頁面現顯示「Next stop: 1.0, with more news very soon！」；1.0 正式版仍未上線，Steam 頁面仍標示 Early Access；整體評論維持特別好評 92%（5,003 則），近 30 天評論升至 92%（94 則，前次 88%、84 則）。追蹤遊戲《不朽之樹》Demo 自 11/3 關閉後持續無新動態（正式版 TBA）；《Guildrun》Demo 維持純維護模式（完整版目標 2027 年），均無新公告。本次搜尋 11 月新品：1~4 人合作 Roguelite 卡牌《Forsaken Lands》（NT$ 148，17 則普通好評 70%）與第一人稱合作恐怖 Roguelite《UnderMire》（尚無 Steam 評論）均未達特別好評門檻，暫不列入新品推薦。《Subnautica 2》EA 2.0 仍確認 2026 年 12 月推出（無具體日期）；《Chained Beasts》v1.1（新競技場、新 Boss、新武器）仍預計 2026 年 12 月推出（無具體日期）。各遊戲 Steam 台灣區定價本次更新均無折扣，所有定價維持不變。"
+    },
     {
       date: "2026-11-27",
       gameId: "stormforge",
@@ -1150,7 +1156,7 @@ window.GAMES_DATA = {
       added: "2026-11-05",
       rating: "特別好評 90%（343+ 則）",
       reason: "人型犬傭兵小隊空降敵意外星行星：在資源有限的環境中即時建造防禦工事、採集物資，並以 Roguelike 升級系統強化能力抵禦外星蟲群浪潮；最多 4 人線上合作，合作分工操控防禦設施與火力輸出。EA 開局內容包含 5 名可玩 Gravhound 角色、7 個太陽系、25 顆行星、21 種防禦系統與 60 個可解鎖 Mod，以及 1~6 人特殊 Boss 戰「Juggernaut」。2026 年 11 月 2 日搶先體驗上線，首日即加入 Xbox Game Pass（PC/主機）；EA 上線兩週評論成長至 343+ 則、特別好評 90%，開發商預計 EA 約 6 個月後推出 1.0 正式版（正式版前預計漲價）；Steam 台灣區 -25% 首發折扣已於 11 月 16 日截止，現售原價 NT$ 349。",
-      price: { current: "NT$ 349", original: "", discount: "", note: "", asOf: "2026-11-27", low: "NT$ 261", lowCut: "-25%", lowDate: "2026-11-02" },
+      price: { current: "NT$ 349", original: "", discount: "", note: "", asOf: "2026-11-28", low: "NT$ 261", lowCut: "-25%", lowDate: "2026-11-02" },
       links: { steam: "https://store.steampowered.com/app/2440760/GRAVHOUNDS/", official: "" }
     },
     {
@@ -1162,7 +1168,7 @@ window.GAMES_DATA = {
       developer: "Featherweight Games",
       platforms: ["PC", "PS5", "Xbox Series", "Switch"],
       playerCount: "1~4 人線上合作（支援跨平台、分割螢幕與遠端遊玩）",
-      price: { current: "NT$ 377", original: "", discount: "", note: "", asOf: "2026-11-27", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
+      price: { current: "NT$ 377", original: "", discount: "", note: "", asOf: "2026-11-28", low: "NT$ 245", lowCut: "-35%", lowDate: "2026-10-15" },
       released: "2026年10月15日（1.0 正式版）",
       sort: "2026-10-15",
       added: "2026-10-16",
@@ -1179,7 +1185,7 @@ window.GAMES_DATA = {
       developer: "TEAM HORAY",
       platforms: ["PC", "Mac"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-11-27", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
+      price: { current: "NT$ 343", original: "", discount: "", note: "", asOf: "2026-11-28", low: "NT$ 160", lowCut: "-40%", lowDate: "2026-07-31" },
       released: "2026年7月31日（1.0 正式版）",
       sort: "2026-07-31",
       added: "2026-08-21",
@@ -1196,7 +1202,7 @@ window.GAMES_DATA = {
       developer: "Unknown Worlds",
       platforms: ["PC", "Xbox Series"],
       playerCount: "單人 / 最多 4 人合作",
-      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-11-27", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
+      price: { current: "NT$ 699", original: "", discount: "", note: "", asOf: "2026-11-28", low: "NT$ 699", lowCut: "", lowDate: "2026-05-11" },
       released: "2026年5月14日 搶先體驗",
       sort: "2026-05-14",
       added: "2026-07-15",
@@ -1213,7 +1219,7 @@ window.GAMES_DATA = {
       developer: "",
       platforms: ["PC"],
       playerCount: "單人 / 1~3 人線上合作",
-      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-11-27", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
+      price: { current: "NT$ 216", original: "", discount: "", note: "", asOf: "2026-11-28", low: "NT$ 194", lowCut: "-10%", lowDate: "2026-07-22" },
       released: "2026年7月22日",
       sort: "2026-07-22",
       added: "2026-09-07",
@@ -1230,7 +1236,7 @@ window.GAMES_DATA = {
       developer: "Iron Gate（發行：Coffee Stain Publishing）",
       platforms: ["PC", "Xbox Series", "Xbox One", "PS5", "Switch 2"],
       playerCount: "單人 / 最多 10 人合作",
-      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-11-27", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
+      price: { current: "NT$ 648", original: "", discount: "", note: "", asOf: "2026-11-28", low: "NT$ 159", lowCut: "-50%", lowDate: "2024-12-13" },
       released: "2026年9月9日（1.0 正式版）",
       sort: "2026-09-09",
       added: "2026-09-14",
@@ -1247,7 +1253,7 @@ window.GAMES_DATA = {
       developer: "Keen Games",
       platforms: ["PC", "PS5"],
       playerCount: "單人 / 最多 16 人合作",
-      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-11-27", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
+      price: { current: "NT$ 779", original: "", discount: "", note: "", asOf: "2026-11-28", low: "NT$ 374", lowCut: "-25%", lowDate: "2026-08-31" },
       released: "2024年1月24日 搶先體驗；2026年10月15日 1.0 正式版",
       sort: "2026-10-15",
       added: "2026-09-28",
@@ -1267,9 +1273,9 @@ window.GAMES_DATA = {
       released: "2024年10月24日 搶先體驗（1.0 目標 2026 年）",
       sort: "2024-10-24",
       added: "2026-11-17",
-      rating: "特別好評 92%（5,000+ 則）；近 30 天 88%（84 則）",
+      rating: "特別好評 92%（5,003 則）；近 30 天 92%（94 則）",
       reason: "《Dead Cells》原班人馬 Motion Twin 打造的高速動作 Roguelite——以衝刺連段為核心的戰鬥系統，玩家操控特殊能力各異的「Altered」角色，在程序生成地圖中高速穿梭、連擊敵人並累積強大 Build；最多 3 人線上合作，共享武器強化路線並互相配合解開道具協同效果。Steam EA 開啟以來持續更新，累積超過 5,000 則評論、特別好評 92%（近 30 天 88%）；歷史低價 NT$ 307（-30%，2026 年 7 月）。**2026 年 11 月初，Motion Twin 推出最後一次 EA 大型更新「0.9999999 Update（v0.99）」**——帶來動態攻擊預警系統（全面提升戰鬥可讀性）、稀有度乘數機制、新獎勵與商店，官方確認此為 EA 第十次、也是最後一次重大內容 Patch；Steam 頁面確認仍在 Early Access 中，1.0 正式版時程尚未官方公布（目標 2026 年）。",
-      price: { current: "NT$ 439", original: "", discount: "", note: "", asOf: "2026-11-27", low: "NT$ 307", lowCut: "-30%", lowDate: "2026-07-25" },
+      price: { current: "NT$ 439", original: "", discount: "", note: "", asOf: "2026-11-28", low: "NT$ 307", lowCut: "-30%", lowDate: "2026-07-25" },
       links: { steam: "https://store.steampowered.com/app/1911610/Windblown/", official: "" }
     },
     {
@@ -1281,7 +1287,7 @@ window.GAMES_DATA = {
       developer: "Paper Cult",
       platforms: ["PC"],
       playerCount: "單人 / 1~4 人線上合作",
-      price: { current: "NT$ 469", original: "", discount: "", note: "", asOf: "2026-11-27", low: "NT$ 375", lowCut: "-20%", lowDate: "2026-10-01" },
+      price: { current: "NT$ 469", original: "", discount: "", note: "", asOf: "2026-11-28", low: "NT$ 375", lowCut: "-20%", lowDate: "2026-10-01" },
       released: "2026年7月22日 搶先體驗",
       sort: "2026-07-22",
       added: "2026-10-24",
@@ -1303,7 +1309,7 @@ window.GAMES_DATA = {
       added: "2026-11-17",
       rating: "特別好評 87%（49,000+ 則）",
       reason: "2026 年 Steam 生存類最熱門爆發新作之一：操控帆船在廣闊群島間航行探索、與最多 4 名好友合作採集資源、建造船艦與殖民地、對抗海盜並挑戰巨大海洋 Boss。自 2026 年 4 月 14 日搶先體驗上線後 48 小時內突破 50 萬份銷量、巔峰同時在線 113,930 人，累計超過 150 萬份銷量；Steam 評論達 49,000+ 則，特別好評 87%。首個重大更新「Ashlands（火山生態區）」亮相 Triple-i Initiative（10/8），帶來全新火山第四生態區、新 Boss、新船隻外觀系統大幅重做，發布時程確認為 2026～2027 冬季；遊戲不含 PvP，主打純粹合作體驗；史低 NT$ 439（-10%，2026-04-14）。",
-      price: { current: "NT$ 488", original: "", discount: "", note: "", asOf: "2026-11-27", low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
+      price: { current: "NT$ 488", original: "", discount: "", note: "", asOf: "2026-11-28", low: "NT$ 439", lowCut: "-10%", lowDate: "2026-04-14" },
       links: { steam: "https://store.steampowered.com/app/3041230/Windrose/", official: "" }
     },
     {
@@ -1320,7 +1326,7 @@ window.GAMES_DATA = {
       added: "2026-11-24",
       rating: "特別好評 84%（241 則，EA 兩週，持續累積中）",
       reason: "D&D 與布蘭登．山德森《風暴光》宇宙世界觀啟發的開放世界合作生存建造遊戲。最多 8 人組隊在程序生成的魔法大陸上採集資源、建造要塞，並在週期性爆發的「魔法風暴（Stormwave）」中扺禦怪物浪潮、探索廢墟與 Boss 地城；遊戲內建 Modding 工具，玩家可自製地圖、任務與模組，EA 存檔保證可移轉至 1.0。2026 年 11 月 10 日搶先體驗上線，Launch 包含三個生態區、三名 Boss，以及多人合作語音支援；上線兩週已累積 241 則 Steam 評論、特別好評 84%，Steam 台灣區現售 NT$ 348。**2026/11/5 官方路線圖**：2026 年 12 月推出修復補丁；2027 年春季新增「冰原峰脈（Ice Breaker Peaks）」生態區與德魯伊（Druid）職業（含寵物與農業系統）；2027 年夏季新增 NPC 任務系統、更深技能樹等；2027 年秋季目標推出 1.0 正式版（EA 預計約一年）。",
-      price: { current: "NT$ 348", original: "", discount: "", note: "", asOf: "2026-11-27", low: "NT$ 295", lowCut: "-15%", lowDate: "2026-11-10" },
+      price: { current: "NT$ 348", original: "", discount: "", note: "", asOf: "2026-11-28", low: "NT$ 295", lowCut: "-15%", lowDate: "2026-11-10" },
       links: { steam: "https://store.steampowered.com/app/2826790/Stormforge/", official: "" }
     },
   ]
